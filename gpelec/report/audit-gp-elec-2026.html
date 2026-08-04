@@ -1,0 +1,970 @@
+<meta charset="utf-8">
+<title>GP elec — Audit digital &amp; Google Ads 2026 — NMF — INTERNE</title>
+<link rel="stylesheet" href="assets/audit-design-lock.css">
+<style>
+  .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 7mm; }
+  .grid-2-wide { display: grid; grid-template-columns: 1.25fr 1fr; gap: 7mm; }
+  .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 5mm; }
+  .grid-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4mm; }
+  .mt-3 { margin-top: 3mm; } .mt-4 { margin-top: 4mm; } .mt-5 { margin-top: 5mm; }
+  .mt-6 { margin-top: 6mm; } .mt-8 { margin-top: 8mm; }
+  .body-copy { font-size: 8.4pt; line-height: 1.5; color: var(--nmf-navy-2); }
+  .body-copy + .body-copy { margin-top: 2.5mm; }
+  .box { padding: 4.5mm; border: .25mm solid var(--line); background: var(--white-76); }
+  .box-accent { padding: 4.5mm; border: .25mm solid var(--violet-border); background: var(--violet-soft-72); }
+  .stat { font-family: var(--font-mono); font-size: 17pt; line-height: 1; color: var(--nmf-blue); }
+  .stat-sm { font-family: var(--font-mono); font-size: 12pt; line-height: 1; color: var(--nmf-navy); }
+  .stat-label { margin-top: 2mm; font-size: 6.6pt; line-height: 1.3; color: var(--muted); }
+  .screen-frame img { display: block; width: 100%; height: auto; }
+  /* les deux captures de preuve n'ont pas le meme rapport : on les cadre a hauteur egale */
+  .shot-pair .screen-frame { height: 84mm; }
+  .shot-pair .screen-frame img { height: 100%; object-fit: cover; object-position: center top; }
+  .legend { display: flex; gap: 5mm; margin-top: 2.5mm; font-size: 6.4pt; color: var(--muted); }
+  .legend i { display: inline-block; width: 2.4mm; height: 2.4mm; margin-right: 1.4mm; vertical-align: -.2mm; }
+  .sw-blue { background: var(--nmf-blue); } .sw-violet { background: var(--nmf-violet-data); } .sw-teal { background: var(--technical-teal); }
+  .rule { height: .55mm; background: var(--nmf-navy); }
+  .cover-photo { height: 267mm; object-position: center top; }
+  /* fiche de constat */
+  .issue { padding: 3.4mm 0; border-top: .25mm solid var(--line); }
+  .issue-head { display: flex; align-items: baseline; gap: 3mm; }
+  .issue-head h4 { flex: 1; font-size: 8.4pt; }
+  .issue p { margin-top: 1.6mm; font-size: 7.3pt; line-height: 1.42; color: var(--muted); }
+  .issue p b { color: var(--nmf-navy-2); }
+  .issue .fix { color: var(--technical-teal); }
+  /* grille de score */
+  .axis-row { display: grid; grid-template-columns: 52mm 1fr 16mm; gap: 4mm; align-items: center; padding: 2.6mm 0; border-top: .25mm solid var(--line); }
+  .axis-row .name { font-size: 7.6pt; color: var(--nmf-navy); }
+  .axis-row .name span { display: block; margin-top: .8mm; font-size: 6.3pt; color: var(--muted); line-height: 1.3; }
+  .axis-row .val { font-family: var(--font-mono); font-size: 8pt; text-align: right; color: var(--nmf-navy); }
+  .score-big { font-family: var(--font-mono); font-size: 34pt; line-height: 1; color: var(--nmf-violet); }
+</style>
+
+<!-- ============================== 1. COUVERTURE ============================== -->
+<section class="page cover">
+  <img class="cover-photo" src="../shots/mobile-full.png" alt="Page d'accueil du site GP elec sur mobile">
+  <div class="cover-content">
+    <div class="cover-meta">
+      <img class="brand-logo cover-logo" src="../assets/nmf/logo-light-bg.png" alt="NMF">
+      <span>4 août 2026</span>
+    </div>
+    <div class="cover-copy">
+      <div class="kicker">Audit digital &amp; potentiel Google Ads — Document interne</div>
+      <h1>GP elec<br>Le marché est là.<br><span class="accent">Quatre points de conformité<br>bloquent le départ.</span></h1>
+      <p class="lede">Version technique complète : constats datés, priorités, score de préparation
+        et plan d'action. Contient l'analyse des défauts du site — ne pas envoyer au client en l'état.</p>
+    </div>
+    <div class="cover-ring">
+      <span class="territory-label">Zone</span>
+      <span class="territory-code">49</span>
+    </div>
+    <div class="cover-facts">
+      <span>Pierre Guille · GP elec</span>
+      <span>12 constats · 5 P0 · score 41/100</span>
+      <span>Interne NMF</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== 2. SYNTHÈSE ============================== -->
+<section class="page">
+  <div class="page-head">
+    <div>
+      <div class="kicker">Synthèse exécutive</div>
+      <h2>Un site techniquement sain, un marché réel — et quatre déclarations fausses servies en production.</h2>
+    </div>
+    <div class="head-status">No-go<br>avant corr.</div>
+  </div>
+
+  <p class="lead mt-6">Le site est rapide, bien référencé techniquement, et la fiche Google est notée
+    5,0 sur 5. Le marché publicitaire local existe et est mesuré. Mais quatre points de conformité
+    exposent Pierre personnellement, <strong>indépendamment de toute campagne</strong>, et doivent tomber
+    d'abord.</p>
+
+  <div class="metric-strip">
+    <div class="metric"><strong class="tabular">41/100</strong><span>score de préparation, grille en 6 axes publiée page 7</span></div>
+    <div class="metric"><strong class="tabular">5</strong><span>constats P0, dont 4 de conformité juridique</span></div>
+    <div class="metric"><strong class="tabular">2 420</strong><span>recherches mensuelles sur le marché local mesuré</span></div>
+  </div>
+
+  <div class="grid-2 mt-8">
+    <div>
+      <h3 class="section-title">Ce qui joue déjà</h3>
+      <div class="finding"><i></i><div><strong>Fiche Google Business en ligne, 5,0 ★ sur 9 avis</strong>,
+        catégorie Électricien, zone couvrant Angers. Actif solide, seul le volume d'avis est à épaissir.</div></div>
+      <div class="finding"><i></i><div><strong>Desktop irréprochable</strong> — 100 en performance,
+        LCP 0,5 s, CLS 0, TTFB 27 ms. SEO technique 100. L'optimisation de mai tient.</div></div>
+      <div class="finding"><i></i><div><strong>Le marché est plus accessible que prévu</strong> : 1,42 €
+        le clic en réel contre 4,20 € en estimation sectorielle, et une concurrence à 19/100 sur
+        « electricien ».</div></div>
+    </div>
+    <div>
+      <h3 class="section-title">Ce qui bloque</h3>
+      <div class="finding"><i></i><div><span class="priority p0">P0</span> <strong>La note affichée est fausse</strong> —
+        4,9 sur 84 avis dans le JSON-LD, contre 5,0 sur 9 en réalité. Et c'est notre livraison qui est en cause.</div></div>
+      <div class="finding"><i></i><div><span class="priority p0">P0</span> <strong>Qualifelec revendiquée sans preuve</strong>,
+        et deux <span class="tabular">[À COMPLÉTER]</span> encore servis dans les mentions légales.</div></div>
+      <div class="finding"><i></i><div><span class="priority p0">P0</span> <strong>GA4 se charge sans consentement</strong>,
+        sans bandeau ni politique de confidentialité.</div></div>
+      <div class="finding"><i></i><div><span class="priority p1">P1</span> <strong>Aucun événement de conversion</strong> —
+        prérequis bloquant avant d'acheter le moindre clic.</div></div>
+    </div>
+  </div>
+
+  <div class="decision-band mt-6">
+    <strong>Verdict — no-go avant corrections</strong>
+    <p>Ne pas ouvrir de campagne tant que les cinq P0 ne sont pas traités. Quatre d'entre eux sont
+      des points de conformité qui exposent le client, campagne ou pas ; le cinquième casse les aperçus
+      de lien sur WhatsApp, son canal d'entrée principal. Aucun ne coûte cher : les cinq P0 et les
+      quatre P1 tiennent en une à deux journées de travail. Le marché, lui, est validé et attend.</p>
+  </div>
+
+  <div class="footer">
+    <span><img class="mini-mark" src="../assets/nmf/logo-symbol.png" alt="">NMF · Audit GP elec — interne</span>
+    <span>2 / 15</span>
+  </div>
+</section>
+
+<!-- ============================== 3. ENTREPRISE ============================== -->
+<section class="page">
+  <div class="page-head">
+    <div>
+      <div class="kicker">Entreprise &amp; marché</div>
+      <h2>Quarante ans d'ancrage local, sur un territoire de 245 000 habitants.</h2>
+    </div>
+    <div class="head-status">Contexte</div>
+  </div>
+
+  <div class="grid-2-wide mt-6">
+    <div>
+      <p class="body-copy"><strong>GP elec</strong> est une entreprise familiale d'électricité installée
+        6 rue de l'Yser à Brissac Loire Aubance, dirigée par Pierre Guille. Quarante ans d'expérience,
+        deux générations, une gamme couvrant l'installation neuve, la rénovation et la mise aux normes
+        NF C 15-100, le dépannage d'urgence, la domotique et la climatisation réversible.</p>
+      <p class="body-copy">La zone retenue couvre les dix communes les plus peuplées dans un rayon de
+        trente kilomètres, soit environ <strong>245 000 habitants</strong>, agglomération d'Angers incluse.
+        L'API Google plafonnant à dix zones par requête, ce périmètre <strong>minore</strong> le marché
+        réel plutôt qu'il ne le surestime.</p>
+      <div class="box mt-5">
+        <div class="kicker">Positionnement</div>
+        <p class="body-copy mt-3">Ton d'expertise et de transmission, pas d'urgentiste. Cohérent avec
+          quarante ans d'ancienneté, et cohérent avec le choix de privilégier les requêtes de projet
+          plutôt que la seule urgence, où la pression publicitaire est la plus forte.</p>
+      </div>
+    </div>
+    <div>
+      <table>
+        <tr><th colspan="2">Fiche</th></tr>
+        <tr><td>Gérant</td><td>Pierre Guille</td></tr>
+        <tr><td>Ancienneté</td><td class="num">40 ans</td></tr>
+        <tr><td>Siège</td><td>Brissac Loire Aubance (49320)</td></tr>
+        <tr><td>SIRET</td><td class="tabular">990 872 129 00012</td></tr>
+        <tr><td>Site</td><td>gp-elec-49.com</td></tr>
+        <tr><td>Hébergement</td><td>Vercel, Nuxt 3 en SSG</td></tr>
+        <tr class="emphasis"><td>Zone analysée</td><td>Brissac + Angers, 30 km</td></tr>
+        <tr class="emphasis"><td>Population couverte</td><td class="num">≈ 245 000</td></tr>
+      </table>
+      <div class="box-accent mt-5">
+        <div class="kicker">Fiche Google Business</div>
+        <p class="body-copy mt-3"><strong>En ligne et validée</strong> — 5,0 ★ sur 9 avis, catégorie
+          Électricien, zone de service couvrant l'agglomération d'Angers. Vérifiée en vue publique sur
+          Maps le 31 juillet 2026.</p>
+        <p class="body-copy">Vérifier une fiche se fait sur Maps en vue publique, pas sur la SERP
+          en étant connecté au compte propriétaire — deux passes d'audit s'y sont trompées.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <span><img class="mini-mark" src="../assets/nmf/logo-symbol.png" alt="">NMF · Audit GP elec — interne</span>
+    <span>3 / 15</span>
+  </div>
+</section>
+
+<!-- ============================== 4. AUDIT VISUEL ============================== -->
+<section class="page">
+  <div class="page-head">
+    <div>
+      <div class="kicker">Audit visuel &amp; expérience</div>
+      <h2>Une direction artistique solide, tenue sur les deux tailles d'écran.</h2>
+    </div>
+    <div class="head-status">Observé<br>04/08</div>
+  </div>
+
+  <p class="lead mt-6">Captures réelles, navigateur Chrome, le 4 août 2026. Desktop 1440 × 900,
+    mobile 390 × 844 en émulation complète (agent utilisateur, densité de pixels, tactile).</p>
+
+  <div class="grid-2-wide mt-6 shot-pair">
+    <div>
+      <div class="screen-frame">
+        <span class="screen-label">Desktop 1440 × 900</span>
+        <img src="../shots/d-01.png" alt="Accueil desktop">
+      </div>
+      <p class="photo-caption">Hero plein écran, titre massif, téléphone en en-tête, double appel à
+        l'action et bandeau saisonnier climatisation.</p>
+    </div>
+    <div>
+      <div class="screen-frame">
+        <span class="screen-label">Mobile 390 × 844</span>
+        <img src="../shots/m-01.png" alt="Accueil mobile">
+      </div>
+      <p class="photo-caption">Même hiérarchie en mobile, avec un bouton d'appel flottant.</p>
+    </div>
+  </div>
+
+  <div class="grid-2 mt-6">
+    <div>
+      <h3 class="section-title">Ce qui fonctionne</h3>
+      <div class="finding"><i></i><div>Hiérarchie claire, une seule action dominante par section,
+        téléphone accessible partout — en en-tête, dans le hero et en bouton flottant sur mobile.</div></div>
+      <div class="finding"><i></i><div>La grille de services est lisible et le bandeau saisonnier
+        « climatisation réversible » exploite correctement le pic d'été.</div></div>
+      <div class="finding"><i></i><div>Aucun décalage de mise en page mesuré : <strong>CLS à 0</strong>
+        sur les deux tailles d'écran.</div></div>
+    </div>
+    <div>
+      <h3 class="section-title">À reprendre</h3>
+      <div class="finding"><i></i><div><span class="priority p2">P2</span> Le libellé « DÉCOUVRIR » du
+        repère de défilement passe sous les boutons d'appel à l'action en 1440 × 900.</div></div>
+      <div class="finding"><i></i><div><span class="priority p2">P2</span> La section « À propos de moi »
+        affiche les initiales « PG » — un portrait réel de Pierre servirait mieux l'argument familial.</div></div>
+      <div class="finding"><i></i><div><span class="priority p2">P2</span> Les photos de services sont
+        majoritairement issues de banques d'images. Seules les deux photos « combles » sont de vrais
+        chantiers.</div></div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <span><img class="mini-mark" src="../assets/nmf/logo-symbol.png" alt="">NMF · Audit GP elec — interne</span>
+    <span>4 / 15</span>
+  </div>
+</section>
+
+<!-- ============================== 5. CONFORMITÉ ============================== -->
+<section class="page">
+  <div class="page-head">
+    <div>
+      <div class="kicker">Conformité</div>
+      <h2>Quatre déclarations servies en production qui exposent le client.</h2>
+    </div>
+    <div class="head-status">4 × P0</div>
+  </div>
+
+  <p class="lead mt-6">Ces quatre points ne dépendent pas d'une campagne : ils sont en ligne aujourd'hui.
+    Trois d'entre eux proviennent de notre propre livraison, ce qui les rend prioritaires
+    indépendamment de tout budget publicitaire.</p>
+
+  <div class="mt-6">
+    <div class="issue">
+      <div class="issue-head"><span class="priority p0">P0 · 01</span><h4>La note d'avis affichée est fausse</h4></div>
+      <p><b>Constat.</b> Le JSON-LD déclare <span class="tabular">"ratingValue": 4.9</span> et
+        <span class="tabular">"reviewCount": 84</span>. Le compteur « 4.9 Google » est également affiché
+        en section À propos.</p>
+      <p><b>Réalité.</b> La fiche Google Business porte <strong>5,0 sur 9 avis</strong>, vérifiée en vue
+        publique sur Maps le 31 juillet 2026.</p>
+      <p><b>Impact.</b> Risque d'action manuelle Google sur les données structurées, et pratique
+        commerciale trompeuse au sens de l'article L121-2 du Code de la consommation. La note réelle
+        étant <em>meilleure</em> que celle affichée, il n'y a aucun bénéfice à conserver la fausse.</p>
+      <p class="fix"><b>Correction.</b> Aligner <span class="tabular">config.ts</span> et
+        <span class="tabular">AProposSection.vue</span> sur 5,0 / 9, puis tenir la valeur à jour.</p>
+    </div>
+
+    <div class="issue">
+      <div class="issue-head"><span class="priority p0">P0 · 02</span><h4>Qualification Qualifelec revendiquée sans preuve</h4></div>
+      <p><b>Constat.</b> Le bloc <span class="tabular">hasCredential</span> déclare Qualifelec, sans
+        numéro ni date de validité, alors que RGE et IRVE ont justement été retirés du site faute de
+        qualification.</p>
+      <p class="fix"><b>Correction.</b> Obtenir de Pierre une confirmation écrite avec numéro et date,
+        ou supprimer le bloc.</p>
+    </div>
+
+    <div class="issue">
+      <div class="issue-head"><span class="priority p0">P0 · 03</span><h4>Deux mentions [À COMPLÉTER] en production</h4></div>
+      <p><b>Constat.</b> Deux occurrences subsistent dans le HTML rendu de
+        <span class="tabular">/mentions-legales</span>.</p>
+      <p class="fix"><b>Correction.</b> Obtenir forme juridique, capital, RCS, TVA intracommunautaire et
+        numéro d'assurance décennale.</p>
+    </div>
+
+    <div class="issue">
+      <div class="issue-head"><span class="priority p0">P0 · 04</span><h4>Mesure d'audience sans consentement</h4></div>
+      <p><b>Constat.</b> <span class="tabular">gtag.js</span> (G-PEQRYZZM60) se charge dès la première
+        requête sur un profil vierge — trace réseau Lighthouse du 4 août 2026. Aucune occurrence de
+        bandeau, de consentement, de cookie ni de politique de confidentialité dans le HTML de l'accueil.</p>
+      <p><b>Impact.</b> Dépôt de traceurs de mesure d'audience sans recueil du consentement, contraire à
+        la doctrine CNIL, et aucune politique de confidentialité liée depuis la page.</p>
+      <p class="fix"><b>Correction.</b> Poser un bandeau conditionnant le chargement de GA4 et publier une
+        politique de confidentialité liée depuis le pied de page. Cette correction améliore aussi la
+        performance mobile — voir page 6.</p>
+    </div>
+  </div>
+
+  <div class="footer">
+    <span><img class="mini-mark" src="../assets/nmf/logo-symbol.png" alt="">NMF · Audit GP elec — interne</span>
+    <span>5 / 15</span>
+  </div>
+</section>
+
+<!-- ============================== 6. TECHNIQUE & CONVERSION ============================== -->
+<section class="page">
+  <div class="page-head">
+    <div>
+      <div class="kicker">Conversion · technique · SEO</div>
+      <h2>La mesure est le vrai chantier — et la chaîne canonique se contredit.</h2>
+    </div>
+    <div class="head-status">1 P0<br>4 P1</div>
+  </div>
+
+  <div class="mt-6">
+    <div class="issue">
+      <div class="issue-head"><span class="priority p0">P0 · 05</span><h4>Tout pointe sur www, qui redirige vers l'apex</h4></div>
+      <p><b>Constat.</b> <span class="tabular">canonical</span>, <span class="tabular">og:url</span>,
+        <span class="tabular">og:image</span>, <span class="tabular">twitter:image</span> et les deux
+        <span class="tabular">hreflang</span> sont tous en <span class="tabular">www.gp-elec-49.com</span>.
+        Or cette adresse répond <strong>307</strong> vers l'apex (mesuré le 4 août 2026).</p>
+      <p><b>Impact.</b> Signal d'indexation contradictoire, et aperçus de lien potentiellement cassés sur
+        WhatsApp — le canal par lequel Pierre reçoit ses contacts.</p>
+      <p class="fix"><b>Correction.</b> Aligner toute la chaîne sur l'apex, ou inverser la redirection
+        Vercel. Pas les deux.</p>
+    </div>
+
+    <div class="issue">
+      <div class="issue-head"><span class="priority p1">P1 · 06</span><h4>Aucun événement de conversion</h4></div>
+      <p><b>Constat.</b> GA4 est présent, mais aucun événement sur les liens <span class="tabular">tel:</span>,
+        aucun sur l'envoi du formulaire, aucun tag Google Ads.</p>
+      <p><b>Impact.</b> Une campagne mesurerait des visites, pas des demandes. C'est le prérequis
+        réellement bloquant.</p>
+      <p class="fix"><b>Correction.</b> Poser <span class="tabular">click_to_call</span> et
+        <span class="tabular">generate_lead</span>, puis les importer comme conversions dans Google Ads.</p>
+    </div>
+
+    <div class="issue">
+      <div class="issue-head"><span class="priority p1">P1 · 07</span><h4>Formulaire en mailto:, page /merci absente</h4></div>
+      <p><b>Constat.</b> Le formulaire ouvre le client mail du visiteur.
+        <span class="tabular">/merci</span> répond <strong>404</strong>.</p>
+      <p><b>Impact.</b> Échec silencieux sur un mobile sans client mail configuré, aucune confirmation
+        d'envoi, aucune mesure possible.</p>
+      <p class="fix"><b>Correction.</b> Router vers un backend réel et créer la page de confirmation.</p>
+    </div>
+
+    <div class="issue">
+      <div class="issue-head"><span class="priority p1">P1 · 08</span><h4>Performance mobile en régression</h4></div>
+      <p><b>Constat.</b> Lighthouse 12 du 4 août : mobile <strong>81</strong>, LCP <strong>4,5 s</strong>,
+        TBT 190 ms. Mesure du 31 juillet : 97 et 2,0 s. Le desktop reste à 100 et 0,5 s.</p>
+      <p><b>Cause.</b> La ressource la plus lourde de la page est <span class="tabular">gtag.js</span> à
+        <strong>185 Ko</strong>, dont 73 Ko inutilisés — devant le bundle applicatif transféré (68 Ko).
+        Les images totalisent 1,16 Mo, dont <span class="tabular">angers-pano.webp</span> à 282 Ko et
+        <span class="tabular">neuf.webp</span> à 241 Ko.</p>
+      <p class="fix"><b>Correction.</b> Différer <span class="tabular">gtag.js</span> après le consentement
+        — ce qui traite aussi le P0 · 04 — et recompresser les deux images les plus lourdes.</p>
+    </div>
+
+    <div class="issue">
+      <div class="issue-head"><span class="priority p1">P1 · 09</span><h4>Contraste du pied de page sous le seuil AA</h4></div>
+      <p><b>Constat.</b> Ratio mesuré <strong>3,8:1</strong> — #6b6f76 sur #080f1a, 11 px. Seul échec
+        d'accessibilité relevé par Lighthouse, qui note tout de même 96.</p>
+      <p class="fix"><b>Correction.</b> Remonter l'opacité du texte pour atteindre 4,5:1 et viser 100.</p>
+    </div>
+  </div>
+
+  <div class="footer">
+    <span><img class="mini-mark" src="../assets/nmf/logo-symbol.png" alt="">NMF · Audit GP elec — interne</span>
+    <span>6 / 15</span>
+  </div>
+</section>
+
+<!-- ============================== 7. SCORE ============================== -->
+<section class="page">
+  <div class="page-head">
+    <div>
+      <div class="kicker">Score de préparation</div>
+      <h2>41 sur 100 — plombé par la conformité et par l'absence de mesure.</h2>
+    </div>
+    <div class="head-status">Grille<br>publiée</div>
+  </div>
+
+  <p class="lead mt-6">Ce score mesure l'état de préparation à une campagne, <strong>pas une probabilité
+    de réussite</strong>. Sa grille et son calcul sont publiés ci-dessous pour être contestables.</p>
+
+  <div class="grid-2-wide mt-6">
+    <div>
+      <div class="axis-row" style="border-top:.55mm solid var(--nmf-navy)">
+        <div class="name"><strong>Axe</strong></div><div></div><div class="val"><strong>Note</strong></div>
+      </div>
+      <div class="axis-row">
+        <div class="name">Mesure des conversions<span>GA4 et Search Console en place, mais aucun événement ni tag Ads</span></div>
+        <div class="gauge-track"><i style="width:25%"></i></div><div class="val">5 / 20</div>
+      </div>
+      <div class="axis-row">
+        <div class="name">Réception et parcours de contact<span>Téléphone cliquable partout, mais mailto sans backend et page de confirmation absente</span></div>
+        <div class="gauge-track"><i style="width:45%"></i></div><div class="val">9 / 20</div>
+      </div>
+      <div class="axis-row">
+        <div class="name">Performance et rendu<span>Desktop excellent, mobile en retrait à 81 avec un LCP de 4,5 s</span></div>
+        <div class="gauge-track"><i style="width:67%"></i></div><div class="val">10 / 15</div>
+      </div>
+      <div class="axis-row">
+        <div class="name">SEO local et présence Google<span>SEO 100 et fiche 5,0/9, mais chaîne canonique incohérente et H1 sans ville</span></div>
+        <div class="gauge-track"><i style="width:67%"></i></div><div class="val">10 / 15</div>
+      </div>
+      <div class="axis-row">
+        <div class="name">Conformité et réassurance<span>Note fausse, qualification non sourcée, mentions incomplètes, mesure sans consentement</span></div>
+        <div class="gauge-track"><i style="width:15%"></i></div><div class="val">3 / 20</div>
+      </div>
+      <div class="axis-row">
+        <div class="name">Contenu et preuve métier<span>616 mots, photos de banque d'images, pas de portrait ni de page réalisations</span></div>
+        <div class="gauge-track"><i style="width:40%"></i></div><div class="val">4 / 10</div>
+      </div>
+      <div class="axis-row" style="border-bottom:.55mm solid var(--nmf-navy)">
+        <div class="name"><strong>Total</strong></div><div></div><div class="val"><strong>41 / 100</strong></div>
+      </div>
+    </div>
+
+    <div>
+      <div class="score-grid" style="padding:6mm">
+        <div class="kicker">Score</div>
+        <div class="score-big tabular mt-3">41</div>
+        <p class="body-copy mt-3">sur 100. Le seuil que nous retenons pour ouvrir une campagne est
+          <strong>70</strong>. Les cinq P0 et les quatre P1 suffisent à franchir ce seuil.</p>
+      </div>
+
+      <div class="box mt-5">
+        <div class="kicker">Comparaison avec juillet</div>
+        <p class="body-copy mt-3">La passe du 31 juillet annonçait <strong>61/100</strong>, sur une
+          grille dont le générateur n'est plus disponible sur la machine. Les deux scores ne sont
+          <strong>pas directement comparables</strong>.</p>
+        <p class="body-copy">Ce qui est comparable, en revanche : aucun des cinq P0 relevés en juillet
+          n'a été corrigé, et la performance mobile a reculé de 97 à 81.</p>
+      </div>
+
+      <div class="box-accent mt-5">
+        <div class="kicker">Ce que le score ne dit pas</div>
+        <p class="body-copy mt-3">Il ne mesure ni la qualité du travail de Pierre, ni la valeur du
+          marché. Le marché est validé et bon. Le score porte uniquement sur l'aptitude du dispositif
+          à transformer et à mesurer du trafic payant.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <span><img class="mini-mark" src="../assets/nmf/logo-symbol.png" alt="">NMF · Audit GP elec — interne</span>
+    <span>7 / 15</span>
+  </div>
+</section>
+
+<!-- ============================== 8. LE MARCHÉ ============================== -->
+<section class="page">
+  <div class="page-head">
+    <div>
+      <div class="kicker">Le marché de la recherche</div>
+      <h2>66 mots-clés soumis à Google, 62 lignes exploitables, 2 420 recherches par mois.</h2>
+    </div>
+    <div class="head-status">API v24</div>
+  </div>
+
+  <p class="lead mt-6">66 requêtes soumises à l'API pour la zone. Google en a fusionné quatre et en a
+    rendu neuf sans volume mesurable. Restent 62 lignes canoniques, totalisant 2 420 recherches mensuelles.</p>
+
+  <div class="grid-4 mt-6">
+    <div class="box"><div class="stat tabular">66</div><div class="stat-label">mots-clés soumis à l'API</div></div>
+    <div class="box"><div class="stat tabular">62</div><div class="stat-label">lignes canoniques exploitables</div></div>
+    <div class="box"><div class="stat tabular">20</div><div class="stat-label">exclusions motivées et documentées</div></div>
+    <div class="box"><div class="stat tabular">2 420</div><div class="stat-label">recherches mensuelles cumulées</div></div>
+  </div>
+
+  <h3 class="section-title mt-8">Répartition du volume par famille</h3>
+  <svg viewBox="0 0 640 210" style="width:100%;height:auto">
+    <line class="axis" x1="120" y1="12" x2="120" y2="180"></line>
+    <line class="gridline" x1="240" y1="12" x2="240" y2="180"></line>
+    <line class="gridline" x1="360" y1="12" x2="360" y2="180"></line>
+    <line class="gridline" x1="480" y1="12" x2="480" y2="180"></line>
+    <text class="axis-label" x="116" y="30"  text-anchor="end">electricien angers</text>
+    <rect x="120" y="20"  width="234" height="16" fill="var(--nmf-blue)"></rect>
+    <text class="point-label" x="362" y="32">390</text>
+    <text class="axis-label" x="116" y="60"  text-anchor="end">electricien</text>
+    <rect x="120" y="50"  width="192" height="16" fill="var(--nmf-blue)"></rect>
+    <text class="point-label" x="320" y="62">320</text>
+    <text class="axis-label" x="116" y="90"  text-anchor="end">climatisation maison</text>
+    <rect x="120" y="80"  width="126" height="16" fill="var(--nmf-violet-data)"></rect>
+    <text class="point-label" x="254" y="92">210</text>
+    <text class="axis-label" x="116" y="120" text-anchor="end">installateur climatisation</text>
+    <rect x="120" y="110" width="84"  height="16" fill="var(--nmf-violet-data)"></rect>
+    <text class="point-label" x="212" y="122">140</text>
+    <text class="axis-label" x="116" y="150" text-anchor="end">climatisation angers</text>
+    <rect x="120" y="140" width="84"  height="16" fill="var(--nmf-violet-data)"></rect>
+    <text class="point-label" x="212" y="152">140</text>
+    <text class="axis-label" x="116" y="180" text-anchor="end">domotique</text>
+    <rect x="120" y="170" width="84"  height="16" fill="var(--technical-teal)"></rect>
+    <text class="point-label" x="212" y="182">140</text>
+    <text class="axis-label" x="120" y="200">0</text>
+    <text class="axis-label" x="240" y="200">200</text>
+    <text class="axis-label" x="360" y="200">400</text>
+  </svg>
+  <div class="legend">
+    <span><i class="sw-blue"></i>Électricité générale</span>
+    <span><i class="sw-violet"></i>Climatisation</span>
+    <span><i class="sw-teal"></i>Domotique</span>
+  </div>
+  <p class="source mt-3">Volumes mensuels moyens rendus par <span class="geo-code">generate_keyword_ideas</span>,
+    Google Ads API v24, extraction du 31 juillet 2026, zone de 10 communes autour de Brissac Loire Aubance.</p>
+
+  <div class="box-accent mt-6">
+    <div class="kicker">Enseignement principal</div>
+    <p class="body-copy mt-3">La règle habituelle veut qu'on retire la ville des mots-clés pour la confier
+      au ciblage géographique. <strong>Ici, c'est faux.</strong> « electricien angers » est le premier
+      volume du portefeuille, devant « electricien » seul. La campagne devra conserver la ville dans
+      les mots-clés — et le module <span class="tabular">keywordIdeas.ts</span> doit être rejoué avant
+      d'appliquer la règle aveuglément.</p>
+  </div>
+
+  <div class="footer">
+    <span><img class="mini-mark" src="../assets/nmf/logo-symbol.png" alt="">NMF · Audit GP elec — interne</span>
+    <span>8 / 15</span>
+  </div>
+</section>
+
+<!-- ============================== 9. PORTEFEUILLE ============================== -->
+<section class="page">
+  <div class="page-head">
+    <div>
+      <div class="kicker">Portefeuille</div>
+      <h2>Les six requêtes qui portent le marché, avec concurrence et fourchette d'enchères.</h2>
+    </div>
+    <div class="head-status">Mesuré</div>
+  </div>
+
+  <p class="lead mt-6">L'indice de concurrence va de 0 à 100 et mesure la pression publicitaire, pas la
+    difficulté SEO. La fourchette est celle observée par Google pour apparaître en haut de page sur la zone.</p>
+
+  <table class="mt-6">
+    <tr><th>Mot-clé</th><th class="num">Recherches / mois</th><th>Concurrence</th><th class="num">Indice</th><th class="num">Enchère haut de page</th></tr>
+    <tr class="emphasis"><td><strong>electricien angers</strong></td><td class="num">390</td><td>moyenne</td><td class="num">54</td><td class="num">0,82 – 5,14 €</td></tr>
+    <tr><td>electricien</td><td class="num">320</td><td>faible</td><td class="num">19</td><td class="num">0,60 – 2,96 €</td></tr>
+    <tr><td>climatisation maison</td><td class="num">210</td><td>forte</td><td class="num">100</td><td class="num">0,06 – 1,28 €</td></tr>
+    <tr><td>installateur climatisation</td><td class="num">140</td><td>forte</td><td class="num">73</td><td class="num">0,46 – 2,43 €</td></tr>
+    <tr><td>climatisation angers</td><td class="num">140</td><td>forte</td><td class="num">92</td><td class="num">0,18 – 1,80 €</td></tr>
+    <tr><td>domotique</td><td class="num">140</td><td>moyenne</td><td class="num">36</td><td class="num">1,02 – 3,01 €</td></tr>
+  </table>
+  <p class="source mt-3">Six premières lignes par volume. Les 56 autres lignes canoniques complètent les
+    2 420 recherches mensuelles. Les mots-clés sont conservés sans accents : ce sont les requêtes exactes
+    soumises à Google.</p>
+
+  <div class="grid-2 mt-8">
+    <div class="box">
+      <div class="kicker">Terrain le plus accessible</div>
+      <p class="body-copy mt-3">« electricien » affiche un indice de concurrence de <strong>19 sur 100</strong>
+        et une enchère haute plafonnant à 2,96 €. Peu d'annonceurs occupent la requête générique sur la zone.</p>
+    </div>
+    <div class="box">
+      <div class="kicker">Terrain disputé</div>
+      <p class="body-copy mt-3">La climatisation affiche des indices de 73 à 100, disputée par les enseignes
+        nationales. Contrepartie : des enchères basses (0,06 à 1,80 €), donc un volume peu coûteux à
+        condition d'accepter une position moyenne.</p>
+    </div>
+  </div>
+
+  <div class="box-accent mt-6">
+    <div class="kicker">20 exclusions retenues</div>
+    <p class="body-copy mt-3">Emploi et formation (« salaire électricien », « CAP électricien »),
+      achat de matériel (« climatiseur », Leroy Merlin, Castorama, Leboncoin), tutoriels (« schéma »,
+      « tuto »). Elles génèrent des clics qui ne deviennent jamais des devis et sont chargées en négatifs
+      dès l'ouverture.</p>
+  </div>
+
+  <div class="footer">
+    <span><img class="mini-mark" src="../assets/nmf/logo-symbol.png" alt="">NMF · Audit GP elec — interne</span>
+    <span>9 / 15</span>
+  </div>
+</section>
+
+<!-- ============================== 10. COÛT DU CLIC ============================== -->
+<section class="page">
+  <div class="page-head">
+    <div>
+      <div class="kicker">Le coût réel</div>
+      <h2>1,42 € le clic. Trois fois moins qu'une estimation de secteur.</h2>
+    </div>
+    <div class="head-status">Écart<br>×2,5</div>
+  </div>
+
+  <p class="lead mt-6">C'est le point qui change la conclusion. Les fourchettes sectorielles du skill
+    <span class="tabular">google-ads-artisans</span> annonçaient 4,20 € par clic et se sont révélées
+    fausses d'un facteur 2 à 4 sur les volumes. Mesuré par l'API : <strong>1,42 €</strong>.</p>
+
+  <h3 class="section-title mt-8">Estimation sectorielle contre mesure réelle</h3>
+  <svg viewBox="0 0 640 170" style="width:100%;height:auto">
+    <line class="axis" x1="150" y1="10" x2="150" y2="130"></line>
+    <line class="gridline" x1="260" y1="10" x2="260" y2="130"></line>
+    <line class="gridline" x1="370" y1="10" x2="370" y2="130"></line>
+    <line class="gridline" x1="480" y1="10" x2="480" y2="130"></line>
+    <line class="gridline" x1="590" y1="10" x2="590" y2="130"></line>
+    <text class="axis-label" x="146" y="42" text-anchor="end">Estimation sectorielle</text>
+    <rect x="150" y="28" width="462" height="24" fill="var(--nmf-violet-data)"></rect>
+    <text class="point-label" x="600" y="45" text-anchor="end" style="fill:var(--white);font-weight:700">4,20 €</text>
+    <text class="axis-label" x="146" y="97" text-anchor="end">Mesure API — la zone</text>
+    <rect x="150" y="83" width="156" height="24" fill="var(--nmf-blue)"></rect>
+    <text class="point-label" x="316" y="100" style="font-weight:700">1,42 €</text>
+    <text class="axis-label" x="150" y="150">0 €</text>
+    <text class="axis-label" x="260" y="150">1 €</text>
+    <text class="axis-label" x="370" y="150">2 €</text>
+    <text class="axis-label" x="480" y="150">3 €</text>
+    <text class="axis-label" x="580" y="150">4 €</text>
+  </svg>
+
+  <div class="grid-3 mt-8">
+    <div class="box"><div class="stat-sm tabular">×2,5</div><div class="stat-label">écart entre CPC estimé et CPC réel sur la zone</div></div>
+    <div class="box"><div class="stat-sm tabular">×2 à ×4</div><div class="stat-label">écart constaté sur les volumes de recherche</div></div>
+    <div class="box"><div class="stat-sm tabular">1,63 €</div><div class="stat-label">CPC tenu en enchère plafonnée, quel que soit le budget</div></div>
+  </div>
+
+  <div class="decision-band mt-8">
+    <strong>Règle à retenir</strong>
+    <p>À 4,20 € le clic, 200 € par mois n'achètent que 48 visites — trop peu pour conclure.
+      À 1,63 €, les mêmes 200 € en achètent 121, soit assez pour mesurer un taux de transformation
+      en trois mois. Le même budget passe d'inutile à décisif selon la donnée utilisée : ne plus
+      livrer d'estimation sectorielle quand les credentials API sont disponibles.</p>
+  </div>
+
+  <div class="footer">
+    <span><img class="mini-mark" src="../assets/nmf/logo-symbol.png" alt="">NMF · Audit GP elec — interne</span>
+    <span>10 / 15</span>
+  </div>
+</section>
+
+<!-- ============================== 11. STRATÉGIES ============================== -->
+<section class="page">
+  <div class="page-head">
+    <div>
+      <div class="kicker">Stratégies d'enchères</div>
+      <h2>Trois façons d'acheter le même marché — une seule tient le coût.</h2>
+    </div>
+    <div class="head-status">30<br>prévisions</div>
+  </div>
+
+  <p class="lead mt-6">Dix paliers de budget, trois stratégies, trente prévisions, zéro erreur renvoyée
+    par l'API. Zone, langue, réseau, dates et portefeuille constants entre tous les appels.</p>
+
+  <div class="grid-3 mt-6">
+    <div class="box">
+      <div class="kicker">Présence</div>
+      <p class="body-copy mt-3">Maximisation des clics, sans plafond. Google dépense tout et achète le
+        maximum de visites, quitte à payer cher les dernières.</p>
+      <div class="rule mt-4" style="background:var(--nmf-blue)"></div>
+      <p class="body-copy mt-3"><strong>CPC à 200 € :</strong> 1,56 €<br><strong>CPC à 1 000 € :</strong> 4,04 €</p>
+    </div>
+    <div class="box" style="border-color:var(--violet-border-strong);background:var(--violet-soft-88)">
+      <div class="kicker">Haut de page — retenue</div>
+      <p class="body-copy mt-3">Enchère manuelle plafonnée à 2,06 €. On accepte de ne pas tout dépenser
+        pour garantir un coût par clic maîtrisé.</p>
+      <div class="rule mt-4" style="background:var(--nmf-violet)"></div>
+      <p class="body-copy mt-3"><strong>CPC à 200 € :</strong> 1,63 €<br><strong>CPC à 1 000 € :</strong> 1,63 €</p>
+    </div>
+    <div class="box">
+      <div class="kicker">Domination</div>
+      <p class="body-copy mt-3">Enchère plafonnée à 3,10 € pour viser les premières positions. Plus cher
+        au clic, moins de volume à budget égal.</p>
+      <div class="rule mt-4" style="background:var(--technical-teal)"></div>
+      <p class="body-copy mt-3"><strong>CPC à 200 € :</strong> 2,11 €<br><strong>CPC à 1 000 € :</strong> 2,11 €</p>
+    </div>
+  </div>
+
+  <h3 class="section-title mt-8">Dérive du coût par clic selon le budget engagé</h3>
+  <svg viewBox="0 0 640 200" style="width:100%;height:auto">
+    <line class="axis" x1="60" y1="10" x2="60" y2="160"></line>
+    <line class="axis" x1="60" y1="160" x2="620" y2="160"></line>
+    <line class="gridline" x1="60" y1="120" x2="620" y2="120"></line>
+    <line class="gridline" x1="60" y1="80"  x2="620" y2="80"></line>
+    <line class="gridline" x1="60" y1="40"  x2="620" y2="40"></line>
+    <text class="axis-label" x="54" y="163" text-anchor="end">0 €</text>
+    <text class="axis-label" x="54" y="123" text-anchor="end">1,50 €</text>
+    <text class="axis-label" x="54" y="83"  text-anchor="end">3,00 €</text>
+    <text class="axis-label" x="54" y="43"  text-anchor="end">4,50 €</text>
+    <polyline points="120,118 260,85 450,52 600,52" fill="none" stroke="var(--nmf-blue)" stroke-width="2.5"></polyline>
+    <circle class="point-intent" cx="120" cy="118" r="4"></circle>
+    <circle class="point-intent" cx="260" cy="85"  r="4"></circle>
+    <circle class="point-intent" cx="450" cy="52"  r="4"></circle>
+    <circle class="point-intent" cx="600" cy="52"  r="4"></circle>
+    <text class="point-label" x="600" y="44" text-anchor="end">4,04 €</text>
+    <polyline points="120,116 260,116 450,116 600,116" fill="none" stroke="var(--nmf-violet-data)" stroke-width="2.5"></polyline>
+    <circle class="point-generic" cx="120" cy="116" r="4"></circle>
+    <circle class="point-generic" cx="600" cy="116" r="4"></circle>
+    <text class="point-label" x="600" y="132" text-anchor="end">1,63 €</text>
+    <polyline points="120,104 260,104 450,104 600,104" fill="none" stroke="var(--technical-teal)" stroke-width="2.5" stroke-dasharray="5 3"></polyline>
+    <circle class="point-exclude" cx="120" cy="104" r="4"></circle>
+    <circle class="point-exclude" cx="600" cy="104" r="4"></circle>
+    <text class="point-label" x="600" y="98" text-anchor="end">2,11 €</text>
+    <text class="axis-label" x="120" y="178" text-anchor="middle">200 €</text>
+    <text class="axis-label" x="260" y="178" text-anchor="middle">500 €</text>
+    <text class="axis-label" x="450" y="178" text-anchor="middle">1 000 €</text>
+    <text class="axis-label" x="600" y="178" text-anchor="middle">2 000 €</text>
+  </svg>
+  <div class="legend">
+    <span><i class="sw-blue"></i>Présence</span>
+    <span><i class="sw-violet"></i>Haut de page — CPC manuel 2,06 €</span>
+    <span><i class="sw-teal"></i>Domination — CPC manuel 3,10 €</span>
+  </div>
+
+  <div class="box-accent mt-6">
+    <p class="body-copy"><strong>La maximisation des clics ne tient pas la distance.</strong> À 200 €,
+      elle achète six clics de plus que l'enchère plafonnée (127 contre 121) : négligeable. Mais dès
+      qu'on monte, son CPC dérive de 1,56 € à 4,04 €, quand l'enchère manuelle tient 1,63 € sans bouger.</p>
+  </div>
+
+  <div class="footer">
+    <span><img class="mini-mark" src="../assets/nmf/logo-symbol.png" alt="">NMF · Audit GP elec — interne</span>
+    <span>11 / 15</span>
+  </div>
+</section>
+
+<!-- ============================== 12. PROJECTION ============================== -->
+<section class="page">
+  <div class="page-head">
+    <div>
+      <div class="kicker">Projection retenue</div>
+      <h2>200 € par mois, 121 visites qualifiées, un coût au clic qui ne bouge pas.</h2>
+    </div>
+    <div class="head-status">Reco</div>
+  </div>
+
+  <div class="metric-strip">
+    <div class="metric"><strong class="tabular">197 €</strong><span>dépense mensuelle réelle attendue pour 200 € engagés</span></div>
+    <div class="metric"><strong class="tabular">121</strong><span>clics mensuels, environ 4 visites qualifiées par jour</span></div>
+    <div class="metric"><strong class="tabular">1,63 €</strong><span>coût par clic, tenu par l'enchère manuelle plafonnée</span></div>
+  </div>
+
+  <h3 class="section-title mt-8">Comparaison des quatre paliers</h3>
+  <table>
+    <tr>
+      <th>Budget demandé</th>
+      <th class="num">Présence · dépense</th><th class="num">clics</th><th class="num">CPC</th>
+      <th class="num">Haut de page · dépense</th><th class="num">clics</th><th class="num">CPC</th>
+    </tr>
+    <tr class="emphasis"><td><strong>200 €</strong></td>
+      <td class="num">197,40 €</td><td class="num">127</td><td class="num">1,56 €</td>
+      <td class="num">197,40 €</td><td class="num">121</td><td class="num">1,63 €</td></tr>
+    <tr><td>500 €</td>
+      <td class="num">493,50 €</td><td class="num">175</td><td class="num">2,82 €</td>
+      <td class="num">213,73 €</td><td class="num">131</td><td class="num">1,63 €</td></tr>
+    <tr><td>1 000 €</td>
+      <td class="num">754,34 €</td><td class="num">187</td><td class="num">4,04 €</td>
+      <td class="num">213,73 €</td><td class="num">131</td><td class="num">1,63 €</td></tr>
+    <tr><td>2 000 €</td>
+      <td class="num">754,34 €</td><td class="num">187</td><td class="num">4,04 €</td>
+      <td class="num">213,45 €</td><td class="num">131</td><td class="num">1,63 €</td></tr>
+  </table>
+  <p class="source mt-3">Extrait de la matrice complète : 10 paliers × 3 stratégies = 30 prévisions,
+    toutes rendues sans erreur par <span class="geo-code">generate_forecast_metrics</span>.</p>
+
+  <div class="grid-2 mt-8">
+    <div>
+      <h3 class="section-title">Pourquoi 200 € et pas 500 €</h3>
+      <p class="body-copy">Passer de 200 € à 500 € en enchère plafonnée fait gagner <strong>dix clics par
+        mois</strong> (121 → 131) pour <strong>16 € de dépense réelle en plus</strong>. Le rendement
+        marginal s'effondre : l'inventaire est déjà presque entièrement acheté à 200 €.</p>
+      <p class="body-copy">Le marché ne demande pas plus d'argent. Il demande de transformer correctement
+        les 121 visites que 200 € achètent déjà — ce qui renvoie aux P0 et P1 des pages 5 et 6.</p>
+    </div>
+    <div>
+      <h3 class="section-title">Ce que 121 visites représentent</h3>
+      <p class="body-copy">Quatre visiteurs par jour issus d'une recherche active du type
+        « electricien angers ». Sur trois mois, environ <strong>360 visites</strong> — l'échantillon
+        minimum pour établir un taux de transformation fiable.</p>
+      <p class="body-copy">Ce taux reste une <strong>hypothèse</strong> tant qu'aucun historique n'existe :
+        aucun nombre de leads, aucun CPL et aucun retour sur investissement ne doit être promis avant
+        cette mesure.</p>
+    </div>
+  </div>
+
+  <div class="footer">
+    <span><img class="mini-mark" src="../assets/nmf/logo-symbol.png" alt="">NMF · Audit GP elec — interne</span>
+    <span>12 / 15</span>
+  </div>
+</section>
+
+<!-- ============================== 13. PLAFOND ============================== -->
+<section class="page">
+  <div class="page-head">
+    <div>
+      <div class="kicker">Preuve budgétaire</div>
+      <h2>Au-delà de 754 €, Google encaisse la demande mais n'a plus rien à vendre.</h2>
+    </div>
+    <div class="head-status">Plafond<br>démontré</div>
+  </div>
+
+  <p class="lead mt-6">Budgets croissants soumis jusqu'à 2 000 € par mois. À partir de 1 000 € demandés,
+    <strong>la dépense se fige à 754,34 € et les clics à 187</strong> — strictement identiques à
+    1 000 €, 1 500 € et 2 000 €.</p>
+
+  <h3 class="section-title mt-8">Ce que le budget demandé achète réellement</h3>
+  <table>
+    <tr><th>Budget demandé</th><th class="num">Dépense réelle</th><th class="num">Clics</th><th class="num">Part utilisée</th><th>Lecture</th></tr>
+    <tr><td>200 €</td><td class="num">197,40 €</td><td class="num">127</td><td class="num">99 %</td><td>Chaque euro travaille</td></tr>
+    <tr><td>500 €</td><td class="num">493,50 €</td><td class="num">175</td><td class="num">99 %</td><td>Rendement décroissant</td></tr>
+    <tr class="emphasis"><td><strong>1 000 €</strong></td><td class="num">754,34 €</td><td class="num">187</td><td class="num">75 %</td><td><strong>Plafond atteint</strong></td></tr>
+    <tr><td>1 500 €</td><td class="num">754,34 €</td><td class="num">187</td><td class="num">50 %</td><td>Aucun gain</td></tr>
+    <tr><td>2 000 €</td><td class="num">754,34 €</td><td class="num">187</td><td class="num">38 %</td><td>Aucun gain</td></tr>
+  </table>
+
+  <div class="grid-2 mt-8">
+    <div>
+      <h3 class="section-title">Les trois conditions exigées</h3>
+      <div class="finding"><i></i><div>Dépense prévue inférieure à 90 % du budget demandé —
+        <strong>75 % à 1 000 €</strong>. ✓</div></div>
+      <div class="finding"><i></i><div>Deux paliers supérieurs supplémentaires testés —
+        <strong>1 500 € et 2 000 €</strong>. ✓</div></div>
+      <div class="finding"><i></i><div>Dépense et clics stables à ±5 % sur ces paliers —
+        <strong>identiques au centime</strong>. ✓</div></div>
+      <p class="body-copy mt-4">Les trois conditions du skill sont réunies : le plafond est
+        <strong>démontré</strong>, pas estimé.</p>
+    </div>
+    <div class="box-accent">
+      <div class="kicker">Usage commercial de cette preuve</div>
+      <p class="body-copy mt-3">Si un concurrent propose 1 500 € de budget mensuel sur cette zone,
+        il facturera une gestion sur 1 500 € alors que Google ne pourra en dépenser que 754 €, pour
+        exactement le résultat obtenu à 1 000 €.</p>
+      <p class="body-copy">C'est l'argument le plus fort du dossier, et il protège le client :
+        le plafond utile est connu avant d'avoir dépensé un euro.</p>
+    </div>
+  </div>
+
+  <div class="footer">
+    <span><img class="mini-mark" src="../assets/nmf/logo-symbol.png" alt="">NMF · Audit GP elec — interne</span>
+    <span>13 / 15</span>
+  </div>
+</section>
+
+<!-- ============================== 14. PLAN D'ACTION ============================== -->
+<section class="page">
+  <div class="page-head">
+    <div>
+      <div class="kicker">Plan d'action</div>
+      <h2>Trois lots, dans cet ordre. La conformité d'abord, le budget en dernier.</h2>
+    </div>
+    <div class="head-status">Priorisé</div>
+  </div>
+
+  <div class="roadmap mt-6">
+    <div class="road-row">
+      <div class="phase">Lot 1<br>Bloquants</div>
+      <div>
+        <h4 class="figure-title">Les cinq P0</h4>
+        <p class="body-copy mt-3">Aligner la note sur 5,0 / 9. Sourcer ou retirer Qualifelec. Compléter
+          les mentions légales. Poser le consentement et la politique de confidentialité. Aligner la
+          chaîne canonique sur l'apex.</p>
+      </div>
+      <div class="body-copy">Quatre de ces cinq points exposent Pierre juridiquement, campagne ou pas.
+        Trois viennent de notre livraison.</div>
+      <div class="tag">≈ 1 j</div>
+    </div>
+
+    <div class="road-row">
+      <div class="phase">Lot 2<br>Prérequis</div>
+      <div>
+        <h4 class="figure-title">Mesure et réception</h4>
+        <p class="body-copy mt-3">Événements <span class="tabular">click_to_call</span> et
+          <span class="tabular">generate_lead</span>, import en conversions, compte Ads sous le MCC,
+          formulaire vers un backend réel, page <span class="tabular">/merci</span>. Différer gtag.js,
+          recompresser les deux images lourdes, corriger le contraste du pied de page.</p>
+      </div>
+      <div class="body-copy">Sans le lot 2, la campagne mesure des visites et non des demandes :
+        les trois mois de test seraient ininterprétables.</div>
+      <div class="tag">≈ 1 j</div>
+    </div>
+
+    <div class="road-row">
+      <div class="phase">Lot 3<br>Qualité</div>
+      <div>
+        <h4 class="figure-title">Contenu, preuve et landing</h4>
+        <p class="body-copy mt-3">Portrait de Pierre, six à dix photos de chantiers, remplacement des
+          images de banque en priorité sur <span class="tabular">neuf.webp</span>. H1 géolocalisé,
+          title et description raccourcis. Landing <span class="tabular">/climatisation-angers</span>.
+          Photos et sollicitation d'avis sur la fiche Google.</p>
+      </div>
+      <div class="body-copy">Le lot 3 améliore le rendement de la campagne mais ne la bloque pas.
+        La sollicitation d'avis est l'action au meilleur rapport effort / effet.</div>
+      <div class="tag">continu</div>
+    </div>
+
+    <div class="road-row">
+      <div class="phase">Puis<br>Ouverture</div>
+      <div>
+        <h4 class="figure-title">Test encadré</h4>
+        <p class="body-copy mt-3">200 €/mois en CPC manuel plafonné à 1,63 €, exclusions chargées dès
+          le premier jour, trois mois, puis décision sur le coût réel par demande.</p>
+      </div>
+      <div class="body-copy">Plafond utile connu : 750 €/mois en pointe. Aucune montée au-delà
+        ne sera proposée.</div>
+      <div class="tag">200 €/mois</div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <span><img class="mini-mark" src="../assets/nmf/logo-symbol.png" alt="">NMF · Audit GP elec — interne</span>
+    <span>14 / 15</span>
+  </div>
+</section>
+
+<!-- ============================== 15. ANNEXE ============================== -->
+<section class="page">
+  <div class="page-head">
+    <div>
+      <div class="kicker">Annexe</div>
+      <h2>Méthode, sources et limites</h2>
+    </div>
+    <div class="head-status">Sources</div>
+  </div>
+
+  <div class="grid-2 mt-6">
+    <div>
+      <h3 class="section-title">Origine des données</h3>
+      <table>
+        <tr><th>Donnée</th><th>Source</th><th>Date</th></tr>
+        <tr><td>Volumes, concurrence, enchères</td><td><span class="geo-code">generate_keyword_ideas</span> — API v24</td><td>31/07/2026</td></tr>
+        <tr><td>Prévisions budgétaires</td><td><span class="geo-code">generate_forecast_metrics</span> — API v24</td><td>31/07/2026</td></tr>
+        <tr><td>Fiche Google Business</td><td>Google Maps, vue publique</td><td>31/07/2026</td></tr>
+        <tr class="emphasis"><td>Collecte HTTP et JSON-LD</td><td><span class="tabular">collect.mjs</span> + <span class="tabular">analyze.mjs</span></td><td>04/08/2026</td></tr>
+        <tr class="emphasis"><td>Performance et accessibilité</td><td>Lighthouse 12 local, Chrome</td><td>04/08/2026</td></tr>
+        <tr class="emphasis"><td>Captures desktop et mobile</td><td>Puppeteer, émulation complète</td><td>04/08/2026</td></tr>
+      </table>
+      <p class="source mt-3">MCC <span class="tabular">671-181-3801</span>. Zone : 10 communes les plus
+        peuplées dans un rayon de 30 km autour de Brissac Loire Aubance.</p>
+    </div>
+    <div>
+      <h3 class="section-title">Natures de données</h3>
+      <p class="body-copy"><strong>Preuve observée</strong> — tous les constats des pages 4 à 6 :
+        HTML rendu, en-têtes HTTP, trace réseau, captures. Chacun est daté et reproductible depuis
+        les scripts livrés.</p>
+      <p class="body-copy"><strong>Donnée Google Ads</strong> — volumes, concurrence, enchères et les
+        30 prévisions. Extraction du 31 juillet.</p>
+      <p class="body-copy"><strong>Hypothèse NMF</strong> — le taux de transformation des 121 visites
+        en demandes de devis. Aucun historique n'existe : c'est l'objet du test.</p>
+      <p class="body-copy"><strong>Estimation externe</strong> — les 4,20 € sectoriels, cités page 10
+        uniquement pour être écartés.</p>
+    </div>
+  </div>
+
+  <h3 class="section-title mt-8">Limites</h3>
+  <div class="finding"><i></i><div><strong>Les fichiers sources de l'extraction du 31 juillet ne sont plus
+    sur la machine.</strong> <span class="tabular">D:\projets\audit\gp-elec</span> et
+    <span class="tabular">D:\projets\scrapProsp</span> — qui portait les credentials — ont disparu.
+    Les valeurs Google Ads reprises ici sont celles consignées dans le vault. Aucune n'est estimée,
+    mais <strong>une nouvelle interrogation de l'API est nécessaire avant le lancement</strong>.</div></div>
+  <div class="finding"><i></i><div><strong>La liste complète des 66 mots-clés n'est pas jointe</strong>,
+    pour la même raison. Le skill l'exige : elle devra être régénérée et livrée avec la campagne.</div></div>
+  <div class="finding"><i></i><div><strong>Les volumes sont des moyennes sur douze mois</strong> et
+    lissent la saisonnalité. La climatisation se concentre sur juin, juillet et août : le volume réel
+    en pointe est supérieur à la moyenne affichée.</div></div>
+  <div class="finding"><i></i><div><strong>Le score de préparation n'est pas comparable à celui de
+    juillet</strong> (61/100), dont la grille n'est plus disponible. Ce qui est comparable : aucun des
+    cinq P0 n'a été corrigé et la performance mobile a reculé.</div></div>
+
+  <div class="cover-facts" style="position:absolute;right:15mm;bottom:26mm;left:15mm">
+    <span>NMF Agence — document interne</span>
+    <span>Audit GP elec — Pierre Guille</span>
+    <span>4 août 2026</span>
+  </div>
+
+  <div class="footer">
+    <span><img class="mini-mark" src="../assets/nmf/logo-symbol.png" alt="">NMF · Audit GP elec — interne</span>
+    <span>15 / 15</span>
+  </div>
+</section>

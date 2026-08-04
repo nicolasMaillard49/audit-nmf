@@ -1,0 +1,107 @@
+{
+  "provenance": {
+    "mesure": "2026-08-04",
+    "methode": "Collecte HTTP (collect.mjs), analyse HTML et JSON-LD (analyze.mjs), Lighthouse 12 local sur Chrome (lh.mjs), captures Puppeteer desktop 1440x900 et mobile 390x844 (capture2.mjs)",
+    "cible": "https://gp-elec-49.com"
+  },
+
+  "constats": [
+    { "id": 1, "priorite": "P0", "axe": "Conformite",
+      "titre": "aggregateRating 4,9 sur 84 avis declare dans le JSON-LD",
+      "preuve": "data/seo.json > jsonld.bloc0 — \"ratingValue\": 4.9, \"reviewCount\": 84. Le compteur « 4.9 Google » est aussi affiche en section A propos.",
+      "realite": "La fiche Google Business porte 5,0 sur 9 avis (verifiee en vue publique sur Maps le 31/07/2026).",
+      "impact": "Risque d'action manuelle Google sur les donnees structurees, et pratique commerciale trompeuse au sens de l'art. L121-2 du Code de la consommation. La note reelle etant meilleure, il n'y a aucun benefice a conserver la fausse.",
+      "correction": "Aligner config.ts et AProposSection.vue sur 5,0 / 9, puis tenir la valeur a jour." },
+
+    { "id": 2, "priorite": "P0", "axe": "Conformite",
+      "titre": "Qualification Qualifelec revendiquee sans preuve",
+      "preuve": "hasCredential dans le JSON-LD, sans numero ni date de validite.",
+      "realite": "RGE et IRVE ont ete retires du site faute de qualification. Qualifelec n'a jamais ete documentee.",
+      "impact": "Meme risque juridique que le point 1, sur une qualification professionnelle.",
+      "correction": "Obtenir une confirmation ecrite de Pierre avec numero et date, ou supprimer le bloc." },
+
+    { "id": 3, "priorite": "P0", "axe": "Conformite",
+      "titre": "Deux mentions [A COMPLETER] servies en production",
+      "preuve": "https://gp-elec-49.com/mentions-legales — 2 occurrences dans le HTML rendu.",
+      "impact": "Mentions legales incompletes sur un site commercial.",
+      "correction": "Obtenir forme juridique, capital, RCS, TVA intracommunautaire et numero d'assurance decennale." },
+
+    { "id": 4, "priorite": "P0", "axe": "Conformite",
+      "titre": "Google Analytics charge sans consentement",
+      "preuve": "gtag.js (G-PEQRYZZM60) charge des la premiere requete sur un profil vierge, trace reseau Lighthouse du 04/08/2026. Aucune occurrence de bandeau, consentement, cookie ou politique de confidentialite dans le HTML de la page d'accueil.",
+      "impact": "Depot de traceurs de mesure d'audience sans recueil du consentement, contraire a la doctrine CNIL. Aucune politique de confidentialite n'est liee depuis la page.",
+      "correction": "Poser un bandeau de consentement conditionnant le chargement de GA4, et publier une politique de confidentialite liee depuis le pied de page." },
+
+    { "id": 5, "priorite": "P0", "axe": "SEO technique",
+      "titre": "Chaine canonique incoherente — tout pointe sur www, qui redirige",
+      "preuve": "canonical, og:url, og:image, twitter:image et les 2 hreflang sont en https://www.gp-elec-49.com/ ; or https://www.gp-elec-49.com/ repond 307 vers https://gp-elec-49.com/ (mesure du 04/08/2026).",
+      "impact": "Signal d'indexation contradictoire, et apercus de lien potentiellement casses sur WhatsApp — canal d'entree principal du client.",
+      "correction": "Aligner toute la chaine sur l'apex, ou inverser la redirection Vercel. Pas les deux." },
+
+    { "id": 6, "priorite": "P1", "axe": "Mesure",
+      "titre": "Aucun evenement de conversion",
+      "preuve": "GA4 present, mais aucun evenement sur les liens tel:, aucun sur l'envoi du formulaire, aucun tag Google Ads.",
+      "impact": "Une campagne mesurerait des visites et non des demandes. Prerequis bloquant a tout achat de trafic.",
+      "correction": "Poser click_to_call sur tel: et generate_lead sur l'envoi, puis importer comme conversions dans Google Ads." },
+
+    { "id": 7, "priorite": "P1", "axe": "Conversion",
+      "titre": "Formulaire en mailto: et page /merci absente",
+      "preuve": "Le formulaire ouvre le client mail. https://gp-elec-49.com/merci repond 404.",
+      "impact": "Echec silencieux sur un mobile sans client mail configure, et aucune confirmation d'envoi ni mesure possible.",
+      "correction": "Router vers un backend reel (route Nitro, Formspree ou Resend) et creer la page de confirmation." },
+
+    { "id": 8, "priorite": "P1", "axe": "Performance",
+      "titre": "Performance mobile en regression — 81, LCP 4,5 s",
+      "preuve": "Lighthouse 12 du 04/08/2026 : mobile 81 / LCP 4,5 s / TBT 190 ms. Mesure du 31/07/2026 : 97 / LCP 2,0 s. Desktop reste a 100 / 0,5 s.",
+      "detail": "Ressource la plus lourde de la page : gtag.js a 185 Ko, dont 73 Ko inutilises — devant le bundle applicatif transfere (68 Ko). Images : 1,16 Mo au total, dont angers-pano.webp 282 Ko et neuf.webp 241 Ko.",
+      "correction": "Differer gtag.js apres le consentement (ce qui traite aussi le point 4), et recompresser les deux images les plus lourdes." },
+
+    { "id": 9, "priorite": "P1", "axe": "Accessibilite",
+      "titre": "Contraste du pied de page sous le seuil AA",
+      "preuve": "Ratio mesure 3,8:1 — #6b6f76 sur #080f1a, 11 px. Seul echec d'accessibilite releve par Lighthouse (score 96).",
+      "correction": "Remonter l'opacite du texte du pied de page pour atteindre 4,5:1." },
+
+    { "id": 10, "priorite": "P2", "axe": "SEO",
+      "titre": "H1 concatene sans espaces et sans ville",
+      "preuve": "H1 rendu : « GPelecPierre Guille Electricien ».",
+      "correction": "Separer les segments et geolocaliser : Brissac Loire Aubance et Angers." },
+
+    { "id": 11, "priorite": "P2", "axe": "SEO",
+      "titre": "Title et meta description trop longs",
+      "preuve": "title 83 caracteres, meta description 237 caracteres.",
+      "correction": "Ramener le title sous 60 caracteres et la description sous 155, sinon Google les tronque." },
+
+    { "id": 12, "priorite": "P2", "axe": "Qualite",
+      "titre": "Reliquats techniques",
+      "preuve": "meta keywords heritee (ignoree par Google), 2 liens href=\"#\", logo du JSON-LD pointant sur /favicon.ico au lieu du logo, favicon.png et apple-touch-icon.png a 47 Ko chacun.",
+      "correction": "Nettoyage sans risque." }
+  ],
+
+  "scorePreparation": {
+    "total": 41,
+    "sur": 100,
+    "grille": "Six axes, ponderes selon leur poids reel dans la reussite d'une campagne locale. Le score mesure l'etat de preparation, pas une probabilite de reussite.",
+    "note": "La passe du 31/07/2026 annoncait 61/100 sur une grille dont le generateur n'est plus disponible. Le present score utilise la grille publiee ci-dessous et n'est donc pas directement comparable.",
+    "axes": [
+      { "axe": "Mesure des conversions", "poids": 20, "note": 5,
+        "motif": "GA4 et Search Console en place, mais aucun evenement de conversion et aucun tag Ads." },
+      { "axe": "Reception et parcours de contact", "poids": 20, "note": 9,
+        "motif": "Telephone cliquable en en-tete et dans le hero, formulaire present, mais mailto sans backend et page de confirmation absente." },
+      { "axe": "Performance et rendu", "poids": 15, "note": 10,
+        "motif": "Desktop excellent (100, LCP 0,5 s, CLS 0, TTFB 27 ms), mobile en retrait a 81 avec un LCP de 4,5 s." },
+      { "axe": "SEO local et presence Google", "poids": 15, "note": 10,
+        "motif": "Lighthouse SEO 100, fiche Google 5,0/9 en ligne, sitemap et robots presents, JSON-LD riche — mais chaine canonique incoherente et H1 sans ville." },
+      { "axe": "Conformite et reassurance", "poids": 20, "note": 3,
+        "motif": "Note d'avis fausse, qualification non sourcee, mentions legales incompletes, mesure d'audience sans consentement." },
+      { "axe": "Contenu et preuve metier", "poids": 10, "note": 4,
+        "motif": "616 mots sur la page, photos majoritairement issues de banques d'images, pas de portrait du gerant, pas de page realisations." }
+    ]
+  },
+
+  "verdict": {
+    "code": "no-go avant corrections",
+    "libelle": "Ne pas ouvrir de campagne tant que les cinq points P0 ne sont pas traites.",
+    "motif": "Quatre des cinq P0 sont des points de conformite qui exposent le client personnellement, independamment de toute campagne. Le cinquieme casse les apercus de lien sur le canal d'entree principal. Aucun de ces points ne coute cher a corriger.",
+    "delai": "Les cinq P0 et les quatre P1 sont traitables en une a deux journees de travail."
+  }
+}

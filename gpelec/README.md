@@ -3,13 +3,32 @@
 Étude réalisée pour **GP elec (Pierre Guille)**, électricien à Brissac Loire Aubance (49320),
 zone Brissac + Angers. Site du client : [gp-elec-49.com](https://gp-elec-49.com).
 
-## Livrable
+## Les trois livrables
 
-`output/pdf/GP-elec-potentiel-google-ads.pdf` — 13 pages, **version envoyable au client**.
+| Fichier | Pages | Destinataire | Contenu |
+|---|---:|---|---|
+| `GP-elec-audit-digital-google-ads.pdf` | 15 | **Interne** | Tout : audit visuel, conformité, technique, 12 constats dont 5 P0, score de préparation 41/100, plan d'action. |
+| `GP-elec-potentiel-google-ads.pdf` | 13 | Client | Même marché, mêmes chiffres, **aucune analyse négative du site**. |
+| `Proposition-GP-elec-Campagne-Test.pdf` | 2 | Client | Le résumé d'envoi : trois chiffres, quatre étapes, la décision. |
 
-Ce document porte exclusivement sur le potentiel publicitaire du marché local. Il ne contient
-aucune analyse des défauts du site : les prérequis y sont formulés comme des étapes à mettre
-en place, et aucun score de préparation n'y figure.
+Tous dans `output/pdf/`. Les trois sont générés et vérifiés par `report/render-all.mjs`, qui
+échoue si une image ne charge pas, si une page déborde de la zone imprimable, si le nombre de
+pages attendu n'est pas atteint, si un chiffre partagé diverge entre variantes, ou si une
+formulation négative fuit dans une variante client.
+
+> **Ne pas envoyer la version technique au client.** Elle contient l'analyse des défauts,
+> dont trois points qui proviennent de notre propre livraison.
+
+## Les cinq points bloquants (version technique)
+
+1. `aggregateRating` **4,9 / 84 faux** dans le JSON-LD et affiché en page — la fiche porte **5,0 / 9**.
+2. Qualification **Qualifelec** revendiquée sans numéro ni date.
+3. Deux **`[À COMPLÉTER]`** servis en production dans `/mentions-legales`.
+4. **GA4 chargé sans consentement**, aucun bandeau, aucune politique de confidentialité liée.
+5. `canonical`, `og:*`, `twitter:image` et les deux `hreflang` pointent sur **www**, qui répond **307** vers l'apex.
+
+Aucun des cinq P0 relevés le 31/07 n'a été corrigé, et la performance mobile a reculé de
+**97 à 81** (LCP 2,0 s → 4,5 s). Détail dans `data/diagnostic.json`.
 
 ## Ce que dit l'étude
 
@@ -47,14 +66,17 @@ data/
   lighthouse.json          scores et metriques desktop + mobile
   pages/                   HTML brut des pages collectees
 shots/                     captures desktop (d-*) et mobile (m-*), sequentielles
+  diagnostic.json          les 12 constats dates, le score et le verdict
 report/
-  potentiel-gp-elec-2026.html   source du rapport
+  audit-gp-elec-2026.html       source de la version technique (15 p.)
+  potentiel-gp-elec-2026.html   source de la version commerciale (13 p.)
+  proposition-gp-elec.html      source du resume d'envoi (2 p.)
   assets/audit-design-lock.css  charte NMF verrouillee, version 1.1
-  render-pdf.mjs                rendu PDF + captures QA + controle de debordement
+  render-all.mjs                rend les 3 PDF, controle debordement + concordance + etancheite
   fix-typo.mjs                  espaces insecables (€, %, milliers, ponctuation double)
 output/
-  pdf/                     le livrable
-  qa/                      une capture par page, pour relecture
+  pdf/                     les trois livrables
+  qa/                      une capture par page : tech-*, page-*, resume-*
 collect.mjs                collecte HTTP
 analyze.mjs                analyse SEO / structure / JSON-LD
 lh.mjs                     Lighthouse local
@@ -70,8 +92,9 @@ npm install
 node collect.mjs && node analyze.mjs   # recollecte le site
 node lh.mjs                            # remesure Lighthouse
 node capture2.mjs                      # refait les captures
-node report/render-pdf.mjs             # regenere le PDF
+node report/render-all.mjs             # regenere les TROIS PDF et les verifie
 ```
 
-`render-pdf.mjs` échoue si une image ne charge pas et signale tout dépassement de la zone
-imprimable, page par page.
+`render-all.mjs` sort en code 1 au moindre défaut : image cassée, page qui déborde, nombre de
+pages inattendu, chiffre partagé divergent entre variantes, ou formulation négative ayant fuité
+dans la version commerciale ou le résumé.
