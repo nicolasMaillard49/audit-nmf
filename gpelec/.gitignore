@@ -1,0 +1,6 @@
+# Dependances Node reinstallables via `npm install` (package-lock.json est versionne).
+# Lighthouse pese a lui seul ~123 Mo pour 12 685 fichiers : hors du depot.
+node_modules/
+
+# Rapports Lighthouse bruts (plusieurs Mo chacun) — le resume data/lighthouse.json suffit.
+data/lh-raw-*.json

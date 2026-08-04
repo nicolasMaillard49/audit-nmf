@@ -1,0 +1,658 @@
+{
+  "pages": {
+    "home.html": {
+      "title": "Électricien Brissac Loire Aubance &amp; Angers — GP elec | 40 ans d&#x27;expérience",
+      "desc": "Électricien à Brissac Loire Aubance (49320) et Angers : installation, rénovation, mise aux normes NF C 15-100, dépannage urgence, climatisation réversible. GP elec, entreprise familiale Maine-et-Loire, 40 ans d'expérience. Devis gratuit.",
+      "canonical": "https://www.gp-elec-49.com/",
+      "ogUrl": "https://www.gp-elec-49.com/",
+      "ogImage": "https://www.gp-elec-49.com/og-image.jpg",
+      "twImage": "https://www.gp-elec-49.com/og-image.jpg",
+      "hreflang": [
+        "fr-FR -> https://www.gp-elec-49.com/",
+        "x-default -> https://www.gp-elec-49.com/"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "keywords": "électricien Brissac Loire Aubance, électricien Brissac, électricien 49320, dépannage électrique Brissac Loire Aubance, urgence électricien Brissac, rénovation électrique Brissac Loire Aubance, installation électrique Brissac, mise aux normes électricité Brissac, tableau électrique Brissac Loire Aubance, électricien Angers, électricien Angers pas cher, dépannage électrique Angers, urgence électricien Angers, rénovation électrique Angers, installation électrique Angers, mise aux normes Angers, tableau électrique Angers, électricien artisan Angers, électricien Maine-et-Loire, électricien 49, dépannage urgence électricien 49, entreprise électricité Maine-et-Loire, rénovation électrique 49, Qualifelec, Qualifelec Maine-et-Loire, Consuel, Consuel Angers, NF C 15-100, mise aux normes NF C 15-100, diagnostic électrique, garantie décennale électricité, aménagement cuisine électricité Angers, circuits dédiés cuisine, climatisation Angers, climatisation Brissac Loire Aubance, installation climatisation 49, clim réversible Angers, pompe à chaleur air air Angers, entretien climatisation Angers, dépannage climatisation Angers, domotique Angers, domotique Brissac, électricité maison neuve Angers, électricité rénovation maison ancienne, GP elec, Guille Pierre électricien, Pierre Guille électricien Angers, entreprise familiale électricité Angers",
+      "viewport": "width=device-width, initial-scale=1",
+      "lang": "fr-FR",
+      "h1": [
+        "GPelecPierre Guille Électricien"
+      ],
+      "h2": [
+        "Une entreprisefamiliale",
+        "Pierre Guille",
+        "Notre savoir-faire",
+        "Le contratde confiance",
+        "Parlons devotre projet"
+      ],
+      "h3": [
+        "Climatisation",
+        "Neuf",
+        "Rénovation",
+        "Dépannage Urgence",
+        "Domotique",
+        "Proximité",
+        "Transparence",
+        "Qualité",
+        "Sécurité",
+        "Plan du site",
+        "Contact"
+      ],
+      "imgTotal": 9,
+      "imgNoAlt": 0,
+      "imgEmptyAlt": 2,
+      "imgNoDims": 0,
+      "imgLazy": 7,
+      "words": 616,
+      "tel": [
+        "+33618965736"
+      ],
+      "mailto": [
+        "pierreguille011@gmail.com"
+      ],
+      "forms": 1,
+      "aPlaceholder": 2,
+      "gtag": "G-PEQRYZZM60",
+      "gsc": true,
+      "aComplete": 0
+    },
+    "index.html": {
+      "title": "Électricien Brissac Loire Aubance &amp; Angers — GP elec | 40 ans d&#x27;expérience",
+      "desc": "Électricien à Brissac Loire Aubance (49320) et Angers : installation, rénovation, mise aux normes NF C 15-100, dépannage urgence, climatisation réversible. GP elec, entreprise familiale Maine-et-Loire, 40 ans d'expérience. Devis gratuit.",
+      "canonical": "https://www.gp-elec-49.com/",
+      "ogUrl": "https://www.gp-elec-49.com/",
+      "ogImage": "https://www.gp-elec-49.com/og-image.jpg",
+      "twImage": "https://www.gp-elec-49.com/og-image.jpg",
+      "hreflang": [
+        "fr-FR -> https://www.gp-elec-49.com/",
+        "x-default -> https://www.gp-elec-49.com/"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "keywords": "électricien Brissac Loire Aubance, électricien Brissac, électricien 49320, dépannage électrique Brissac Loire Aubance, urgence électricien Brissac, rénovation électrique Brissac Loire Aubance, installation électrique Brissac, mise aux normes électricité Brissac, tableau électrique Brissac Loire Aubance, électricien Angers, électricien Angers pas cher, dépannage électrique Angers, urgence électricien Angers, rénovation électrique Angers, installation électrique Angers, mise aux normes Angers, tableau électrique Angers, électricien artisan Angers, électricien Maine-et-Loire, électricien 49, dépannage urgence électricien 49, entreprise électricité Maine-et-Loire, rénovation électrique 49, Qualifelec, Qualifelec Maine-et-Loire, Consuel, Consuel Angers, NF C 15-100, mise aux normes NF C 15-100, diagnostic électrique, garantie décennale électricité, aménagement cuisine électricité Angers, circuits dédiés cuisine, climatisation Angers, climatisation Brissac Loire Aubance, installation climatisation 49, clim réversible Angers, pompe à chaleur air air Angers, entretien climatisation Angers, dépannage climatisation Angers, domotique Angers, domotique Brissac, électricité maison neuve Angers, électricité rénovation maison ancienne, GP elec, Guille Pierre électricien, Pierre Guille électricien Angers, entreprise familiale électricité Angers",
+      "viewport": "width=device-width, initial-scale=1",
+      "lang": "fr-FR",
+      "h1": [
+        "GPelecPierre Guille Électricien"
+      ],
+      "h2": [
+        "Une entreprisefamiliale",
+        "Pierre Guille",
+        "Notre savoir-faire",
+        "Le contratde confiance",
+        "Parlons devotre projet"
+      ],
+      "h3": [
+        "Climatisation",
+        "Neuf",
+        "Rénovation",
+        "Dépannage Urgence",
+        "Domotique",
+        "Proximité",
+        "Transparence",
+        "Qualité",
+        "Sécurité",
+        "Plan du site",
+        "Contact"
+      ],
+      "imgTotal": 9,
+      "imgNoAlt": 0,
+      "imgEmptyAlt": 2,
+      "imgNoDims": 0,
+      "imgLazy": 7,
+      "words": 616,
+      "tel": [
+        "+33618965736"
+      ],
+      "mailto": [
+        "pierreguille011@gmail.com"
+      ],
+      "forms": 1,
+      "aPlaceholder": 2,
+      "gtag": "G-PEQRYZZM60",
+      "gsc": true,
+      "aComplete": 0
+    },
+    "mentions-legales.html": {
+      "title": "Mentions légales — GP elec",
+      "desc": "Électricien à Brissac Loire Aubance (49320) et Angers : installation, rénovation, mise aux normes NF C 15-100, dépannage urgence, climatisation réversible. GP elec, entreprise familiale Maine-et-Loire, 40 ans d'expérience. Devis gratuit.",
+      "canonical": "https://www.gp-elec-49.com/",
+      "ogUrl": "https://www.gp-elec-49.com/",
+      "ogImage": "https://www.gp-elec-49.com/og-image.jpg",
+      "twImage": "https://www.gp-elec-49.com/og-image.jpg",
+      "hreflang": [
+        "fr-FR -> https://www.gp-elec-49.com/",
+        "x-default -> https://www.gp-elec-49.com/"
+      ],
+      "robots": "noindex",
+      "keywords": "électricien Brissac Loire Aubance, électricien Brissac, électricien 49320, dépannage électrique Brissac Loire Aubance, urgence électricien Brissac, rénovation électrique Brissac Loire Aubance, installation électrique Brissac, mise aux normes électricité Brissac, tableau électrique Brissac Loire Aubance, électricien Angers, électricien Angers pas cher, dépannage électrique Angers, urgence électricien Angers, rénovation électrique Angers, installation électrique Angers, mise aux normes Angers, tableau électrique Angers, électricien artisan Angers, électricien Maine-et-Loire, électricien 49, dépannage urgence électricien 49, entreprise électricité Maine-et-Loire, rénovation électrique 49, Qualifelec, Qualifelec Maine-et-Loire, Consuel, Consuel Angers, NF C 15-100, mise aux normes NF C 15-100, diagnostic électrique, garantie décennale électricité, aménagement cuisine électricité Angers, circuits dédiés cuisine, climatisation Angers, climatisation Brissac Loire Aubance, installation climatisation 49, clim réversible Angers, pompe à chaleur air air Angers, entretien climatisation Angers, dépannage climatisation Angers, domotique Angers, domotique Brissac, électricité maison neuve Angers, électricité rénovation maison ancienne, GP elec, Guille Pierre électricien, Pierre Guille électricien Angers, entreprise familiale électricité Angers",
+      "viewport": "width=device-width, initial-scale=1",
+      "lang": "fr-FR",
+      "h1": [
+        "Mentions légales"
+      ],
+      "h2": [
+        "Éditeur du site",
+        "Hébergement",
+        "Activité professionnelle",
+        "Assurance professionnelle",
+        "Propriété intellectuelle",
+        "Protection des données (RGPD)",
+        "Médiation de la consommation"
+      ],
+      "h3": [
+        "Plan du site",
+        "Contact"
+      ],
+      "imgTotal": 2,
+      "imgNoAlt": 0,
+      "imgEmptyAlt": 0,
+      "imgNoDims": 0,
+      "imgLazy": 1,
+      "words": 320,
+      "tel": [
+        "+33618965736"
+      ],
+      "mailto": [
+        "pierreguille011@gmail.com"
+      ],
+      "forms": 0,
+      "aPlaceholder": 2,
+      "gtag": "G-PEQRYZZM60",
+      "gsc": true,
+      "aComplete": 2
+    },
+    "payload-json.html": {
+      "title": null,
+      "desc": null,
+      "canonical": null,
+      "ogUrl": null,
+      "ogImage": null,
+      "twImage": null,
+      "hreflang": [],
+      "robots": null,
+      "keywords": null,
+      "viewport": null,
+      "lang": null,
+      "h1": [],
+      "h2": [],
+      "h3": [],
+      "imgTotal": 0,
+      "imgNoAlt": 0,
+      "imgEmptyAlt": 0,
+      "imgNoDims": 0,
+      "imgLazy": 0,
+      "words": 1,
+      "tel": [],
+      "mailto": [],
+      "forms": 0,
+      "aPlaceholder": 0,
+      "gtag": null,
+      "gsc": false,
+      "aComplete": 0
+    }
+  },
+  "jsonld": {
+    "bloc0": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": [
+            "LocalBusiness",
+            "HomeAndConstructionBusiness",
+            "Electrician"
+          ],
+          "@id": "https://www.gp-elec-49.com/#business",
+          "name": "GP elec",
+          "legalName": "GP elec — Pierre Guille",
+          "alternateName": [
+            "GP elec Angers",
+            "GP elec Brissac Loire Aubance",
+            "Électricien GP elec",
+            "Pierre Guille Électricien"
+          ],
+          "description": "Fort de 40 ans d'expérience, GP elec est une entreprise familiale qui propose des services d'électricité allant du neuf à la rénovation : installation électrique complète, dépannage urgence, mises aux normes, aménagement de cuisine, climatisation réversible.",
+          "slogan": "40 ans d'expertise familiale au service de votre installation électrique",
+          "url": "https://www.gp-elec-49.com",
+          "telephone": "06 18 96 57 36",
+          "email": "pierreguille011@gmail.com",
+          "image": "https://www.gp-elec-49.com/og-image.jpg",
+          "logo": "https://www.gp-elec-49.com/favicon.ico",
+          "foundingDate": "1986",
+          "founder": {
+            "@type": "Person",
+            "name": "Pierre Guille"
+          },
+          "knowsLanguage": [
+            "fr-FR"
+          ],
+          "currenciesAccepted": "EUR",
+          "paymentAccepted": [
+            "Cash",
+            "Check",
+            "Bank transfer"
+          ],
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "6 rue de l'Yser",
+            "addressLocality": "Brissac Loire Aubance",
+            "postalCode": "49320",
+            "addressRegion": "Pays de la Loire",
+            "addressCountry": "FR"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 47.3522,
+            "longitude": -0.4444
+          },
+          "areaServed": [
+            {
+              "@type": "City",
+              "name": "Brissac Loire Aubance",
+              "@id": "https://www.wikidata.org/wiki/Q55670923"
+            },
+            {
+              "@type": "City",
+              "name": "Angers",
+              "@id": "https://www.wikidata.org/wiki/Q6486"
+            },
+            {
+              "@type": "AdministrativeArea",
+              "name": "Maine-et-Loire"
+            },
+            {
+              "@type": "AdministrativeArea",
+              "name": "Pays de la Loire"
+            }
+          ],
+          "serviceArea": {
+            "@type": "GeoCircle",
+            "geoMidpoint": {
+              "@type": "GeoCoordinates",
+              "latitude": 47.3522,
+              "longitude": -0.4444
+            },
+            "geoRadius": "30000"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.9,
+            "reviewCount": 84,
+            "bestRating": 5,
+            "worstRating": 1
+          },
+          "hasCredential": [
+            {
+              "@type": "EducationalOccupationalCredential",
+              "name": "Qualifelec",
+              "description": "Qualification professionnelle de référence pour les électriciens. Atteste de notre maîtrise technique, de notre conformité aux normes NF C 15-100 et de notre engagement qualité. Renouvelée tous les 4 ans après audit."
+            }
+          ],
+          "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Services électricien — Brissac Loire Aubance & Angers",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Climatisation & clim réversible",
+                  "description": "Installation de climatisations réversibles et pompes à chaleur air/air : étude de votre logement, dimensionnement, pose mono-split, multi-split ou gainable, circuit électrique dédié aux normes NF C 15-100 et mise en service. Entretien et dépannage toutes marques. Et l'hiver, la clim réversible devient un chauffage économique.",
+                  "serviceType": "Climatisation & clim réversible",
+                  "areaServed": [
+                    {
+                      "@type": "City",
+                      "name": "Brissac Loire Aubance"
+                    },
+                    {
+                      "@type": "City",
+                      "name": "Angers"
+                    }
+                  ],
+                  "provider": {
+                    "@id": "https://www.gp-elec-49.com/#business"
+                  }
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Installation électrique complète",
+                  "description": "Réalisation d'installations électriques complètes en construction neuve ou en extension. Étude de charge, dimensionnement des circuits, tableau électrique, câblage, prises, éclairage. Conformité totale à la norme NF C 15-100 et certificat Consuel délivré à la livraison.",
+                  "serviceType": "Installation électrique complète",
+                  "areaServed": [
+                    {
+                      "@type": "City",
+                      "name": "Brissac Loire Aubance"
+                    },
+                    {
+                      "@type": "City",
+                      "name": "Angers"
+                    }
+                  ],
+                  "provider": {
+                    "@id": "https://www.gp-elec-49.com/#business"
+                  }
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Rénovation & mise aux normes",
+                  "description": "Rénovation totale ou partielle de votre installation électrique vétuste. Diagnostic, dépose de l'ancien, pose neuf aux normes, attestation Consuel. Indispensable pour vendre, louer ou simplement sécuriser un logement de plus de 15 ans.",
+                  "serviceType": "Rénovation & mise aux normes",
+                  "areaServed": [
+                    {
+                      "@type": "City",
+                      "name": "Brissac Loire Aubance"
+                    },
+                    {
+                      "@type": "City",
+                      "name": "Angers"
+                    }
+                  ],
+                  "provider": {
+                    "@id": "https://www.gp-elec-49.com/#business"
+                  }
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Aménagement cuisine",
+                  "description": "Conception et installation électrique adaptée aux besoins spécifiques d'une cuisine moderne : circuits dédiés (plaque, four, lave-vaisselle), prises plan de travail conformes, éclairage sous meubles, alimentation hotte. Coordination avec votre cuisiniste si besoin.",
+                  "serviceType": "Aménagement cuisine",
+                  "areaServed": [
+                    {
+                      "@type": "City",
+                      "name": "Brissac Loire Aubance"
+                    },
+                    {
+                      "@type": "City",
+                      "name": "Angers"
+                    }
+                  ],
+                  "provider": {
+                    "@id": "https://www.gp-elec-49.com/#business"
+                  }
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Dépannage électrique",
+                  "description": "Diagnostic et résolution rapide de pannes électriques : disjoncteur qui saute, prise hors service, court-circuit, panne partielle. Intervention sur rendez-vous selon urgence — devis avant intervention pour les remises en état importantes.",
+                  "serviceType": "Dépannage électrique",
+                  "areaServed": [
+                    {
+                      "@type": "City",
+                      "name": "Brissac Loire Aubance"
+                    },
+                    {
+                      "@type": "City",
+                      "name": "Angers"
+                    }
+                  ],
+                  "provider": {
+                    "@id": "https://www.gp-elec-49.com/#business"
+                  }
+                }
+              }
+            ]
+          },
+          "makesOffer": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Climatisation & clim réversible"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Installation électrique complète"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Rénovation & mise aux normes"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Aménagement cuisine"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Dépannage électrique"
+              }
+            }
+          ],
+          "priceRange": "€€",
+          "openingHoursSpecification": [
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday"
+              ],
+              "opens": "08:00",
+              "closes": "12:00"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday"
+              ],
+              "opens": "13:00",
+              "closes": "17:00"
+            }
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.gp-elec-49.com/#website",
+          "url": "https://www.gp-elec-49.com",
+          "name": "GP elec",
+          "description": "Électricien à Brissac Loire Aubance (49320) et Angers : installation, rénovation, mise aux normes NF C 15-100, dépannage urgence, climatisation réversible. GP elec, entreprise familiale Maine-et-Loire, 40 ans d'expérience. Devis gratuit.",
+          "inLanguage": "fr-FR",
+          "publisher": {
+            "@id": "https://www.gp-elec-49.com/#business"
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://www.gp-elec-49.com/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Installez-vous des climatisations ?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Oui, nous installons des climatisations réversibles et pompes à chaleur air/air : mono-split, multi-split ou gainable, avec circuit électrique dédié aux normes NF C 15-100, mise en service, entretien et dépannage. En été elle rafraîchit, en hiver elle devient un chauffage économique. Devis gratuit — anticipez les fortes chaleurs."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Êtes-vous certifié Qualifelec ?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Oui, GP elec est certifié Qualifelec. Cette qualification professionnelle atteste de notre maîtrise technique et de notre conformité aux normes NF C 15-100. Elle est renouvelée tous les 4 ans après audit."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Mon installation a 30 ans, dois-je tout refaire ?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Pas forcément. Une installation ancienne n'est pas systématiquement à refaire intégralement, mais elle doit respecter 6 points clés (mise à la terre, disjoncteur différentiel, protection adaptée des circuits, etc.). Nous proposons un diagnostic gratuit pour identifier précisément ce qui doit être mis aux normes — souvent une rénovation partielle suffit."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Intervenez-vous en urgence en cas de panne ?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Oui, nous intervenons rapidement en cas de panne électrique : disjoncteur qui saute, court-circuit, panne totale ou partielle, prise hors service. Appelez le 06 18 96 57 36 pour décrire le problème — nous évaluons l'urgence et organisons l'intervention au plus vite, avec un devis transparent avant remise en état importante."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Délivrez-vous le Consuel à la livraison ?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Oui, pour toute installation neuve ou rénovation totale, nous délivrons l'attestation Consuel obligatoire pour la mise sous tension Enedis. Pour les rénovations partielles, nous fournissons une attestation de conformité de notre intervention."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Quelle est votre zone d'intervention ?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Nous intervenons sur tout le secteur de Brissac Loire Aubance et d'Angers. Nous nous déplaçons gratuitement pour le devis dans cette zone."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Quelle est la garantie sur vos installations ?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Toutes nos installations bénéficient de la garantie décennale obligatoire. Le matériel posé est couvert par la garantie fabricant (2 à 5 ans selon les marques). Nous travaillons exclusivement avec des marques premium françaises et européennes (Legrand, Schneider Electric, Hager) pour vous garantir des pièces disponibles à long terme."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "checks": [
+    {
+      "sev": "P0",
+      "axe": "SEO technique",
+      "titre": "Canonical vers www alors que www redirige vers l'apex",
+      "detail": "canonical = https://www.gp-elec-49.com/ ; or https://www.gp-elec-49.com/ repond 307 -> https://gp-elec-49.com/"
+    },
+    {
+      "sev": "P0",
+      "axe": "SEO technique",
+      "titre": "og:url pointe sur www (redirige en 307)",
+      "detail": "https://www.gp-elec-49.com/"
+    },
+    {
+      "sev": "P0",
+      "axe": "SEO technique",
+      "titre": "og:image pointe sur www (redirige en 307)",
+      "detail": "https://www.gp-elec-49.com/og-image.jpg"
+    },
+    {
+      "sev": "P0",
+      "axe": "SEO technique",
+      "titre": "twitter:image pointe sur www (redirige en 307)",
+      "detail": "https://www.gp-elec-49.com/og-image.jpg"
+    },
+    {
+      "sev": "P1",
+      "axe": "SEO technique",
+      "titre": "hreflang pointe sur www",
+      "detail": "fr-FR -> https://www.gp-elec-49.com/"
+    },
+    {
+      "sev": "P1",
+      "axe": "SEO technique",
+      "titre": "hreflang pointe sur www",
+      "detail": "x-default -> https://www.gp-elec-49.com/"
+    },
+    {
+      "sev": "P0",
+      "axe": "Conformite",
+      "titre": "aggregateRating declare dans le JSON-LD",
+      "detail": "valeurs trouvees : \"ratingValue\":4.9,\"reviewCount\":84"
+    },
+    {
+      "sev": "P0",
+      "axe": "Conformite",
+      "titre": "Qualifelec revendique",
+      "detail": "presence du terme dans la page / le JSON-LD"
+    },
+    {
+      "sev": "P0",
+      "axe": "Conformite",
+      "titre": "2 mention(s) [À COMPLÉTER] servies en production",
+      "detail": "page /mentions-legales"
+    },
+    {
+      "sev": "P1",
+      "axe": "Conversion",
+      "titre": "Page /merci absente (404)",
+      "detail": "aucune page de confirmation apres envoi du formulaire"
+    },
+    {
+      "sev": "P2",
+      "axe": "SEO",
+      "titre": "meta keywords encore presente (ignoree par Google)",
+      "detail": "électricien Brissac Loire Aubance, électricien Brissac, électricien 49320, dépan"
+    },
+    {
+      "sev": "P2",
+      "axe": "Qualite",
+      "titre": "2 lien(s) href=\"#\"",
+      "detail": "liens sans destination"
+    },
+    {
+      "sev": "P2",
+      "axe": "Securite",
+      "titre": "En-tete x-frame-options absent",
+      "detail": ""
+    },
+    {
+      "sev": "P2",
+      "axe": "Securite",
+      "titre": "En-tete x-content-type-options absent",
+      "detail": ""
+    },
+    {
+      "sev": "P2",
+      "axe": "Securite",
+      "titre": "En-tete referrer-policy absent",
+      "detail": ""
+    },
+    {
+      "sev": "P2",
+      "axe": "Securite",
+      "titre": "En-tete permissions-policy absent",
+      "detail": ""
+    },
+    {
+      "sev": "P2",
+      "axe": "Securite",
+      "titre": "En-tete content-security-policy absent",
+      "detail": ""
+    }
+  ],
+  "poids": {
+    "htmlBytes": 115706,
+    "jsBytes": 234149,
+    "imgBytes": 1189196,
+    "fontBytes": 87282,
+    "totalBytes": 1626333
+  }
+}

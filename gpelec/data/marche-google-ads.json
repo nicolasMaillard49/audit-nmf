@@ -1,0 +1,86 @@
+{
+  "provenance": {
+    "source": "Google Ads API v24 — generate_keyword_ideas + generate_forecast_metrics",
+    "extraction": "2026-07-31",
+    "mcc": "671-181-3801",
+    "zone": "10 communes les plus peuplees dans un rayon de ~30 km autour de Brissac Loire Aubance",
+    "population": 245000,
+    "note": "Les fichiers sources (portefeuille-mots-cles.json, donnees-google-ads-brutes.json) etaient stockes dans D:\\projets\\audit\\gp-elec, repertoire aujourd'hui absent de la machine. Les valeurs ci-dessous sont celles consignees dans le vault Obsidian au moment de l'extraction. Aucune n'est estimee.",
+    "limite_api": "generate_keyword_ideas plafonne a 10 geo_target_constants par requete — la zone retenue est donc volontairement conservatrice"
+  },
+
+  "portefeuille": {
+    "soumis": 66,
+    "lignesCanoniques": 62,
+    "fusionnesParGoogle": 4,
+    "sansVolume": 9,
+    "exclusionsMotivees": 20,
+    "recherchesMensuellesCumulees": 2420
+  },
+
+  "motsClesPorteurs": [
+    { "terme": "electricien angers",         "volume": 390, "concurrence": "moyenne", "indice": 54,  "encheresBasse": 0.82, "encheresHaute": 5.14 },
+    { "terme": "electricien",                "volume": 320, "concurrence": "faible",  "indice": 19,  "encheresBasse": 0.60, "encheresHaute": 2.96 },
+    { "terme": "climatisation maison",       "volume": 210, "concurrence": "forte",   "indice": 100, "encheresBasse": 0.06, "encheresHaute": 1.28 },
+    { "terme": "installateur climatisation", "volume": 140, "concurrence": "forte",   "indice": 73,  "encheresBasse": 0.46, "encheresHaute": 2.43 },
+    { "terme": "climatisation angers",       "volume": 140, "concurrence": "forte",   "indice": 92,  "encheresBasse": 0.18, "encheresHaute": 1.80 },
+    { "terme": "domotique",                  "volume": 140, "concurrence": "moyenne", "indice": 36,  "encheresBasse": 1.02, "encheresHaute": 3.01 }
+  ],
+
+  "matriceBudgets": [
+    { "demande": 200,  "presence": { "depense": 197.40, "clics": 127, "cpc": 1.56 }, "hautDePage": { "depense": 197.40, "clics": 121, "cpc": 1.63 }, "domination": { "depense": 197.40, "clics": 93,  "cpc": 2.11 } },
+    { "demande": 500,  "presence": { "depense": 493.50, "clics": 175, "cpc": 2.82 }, "hautDePage": { "depense": 213.73, "clics": 131, "cpc": 1.63 }, "domination": { "depense": 325.37, "clics": 154, "cpc": 2.11 } },
+    { "demande": 1000, "presence": { "depense": 754.34, "clics": 187, "cpc": 4.04 }, "hautDePage": { "depense": 213.73, "clics": 131, "cpc": 1.63 }, "domination": { "depense": 325.37, "clics": 154, "cpc": 2.11 } },
+    { "demande": 2000, "presence": { "depense": 754.34, "clics": 187, "cpc": 4.04 }, "hautDePage": { "depense": 213.45, "clics": 131, "cpc": 1.63 }, "domination": { "depense": 325.37, "clics": 154, "cpc": 2.11 } }
+  ],
+
+  "plafondInventaire": {
+    "demontre": true,
+    "depenseMax": 754.34,
+    "clicsMax": 187,
+    "partDuBudget": 0.75,
+    "seuil": 1000,
+    "paliersIdentiques": [1000, 1500, 2000],
+    "nombrePrevisions": 30,
+    "paliers": 10,
+    "strategies": 3,
+    "erreurs": 0
+  },
+
+  "recommandation": {
+    "budget": 200,
+    "strategie": "CPC manuel plafonne",
+    "cpcTenu": 1.63,
+    "cpcDerivant": 4.04,
+    "clicsCpcManuel": 121,
+    "clicsMaximisation": 127,
+    "cpcReelConstate": 1.42,
+    "cpcEstimeSectoriel": 4.20
+  },
+
+  "actifs": {
+    "gbp": { "enLigne": true, "note": 5.0, "avis": 9, "verifieLe": "2026-07-31", "categorie": "Electricien", "zoneService": "agglomeration d'Angers" },
+    "site": { "url": "https://gp-elec-49.com", "domaineEnregistreLe": "2026-05-18", "expireLe": "2027-05-18" },
+    "analytics": "GA4 G-PEQRYZZM60",
+    "searchConsole": true
+  },
+
+  "mesuresSite2026_08_04": {
+    "source": "Lighthouse 12 local, Chrome headless, mesure du 2026-08-04",
+    "desktop": { "performance": 100, "seo": 100, "accessibilite": 96, "bonnesPratiques": 100, "lcpSecondes": 0.5, "tbtMs": 0, "cls": 0 },
+    "mobile":  { "performance": 81,  "seo": 100, "accessibilite": 96, "bonnesPratiques": 100, "lcpSecondes": 4.5, "tbtMs": 190, "cls": 0 },
+    "poids": { "htmlKo": 113, "jsKo": 229, "imagesKo": 1161, "policeKo": 85, "totalKo": 1588 },
+    "requetes": 21
+  },
+
+  "entreprise": {
+    "nom": "GP elec",
+    "gerant": "Pierre Guille",
+    "activite": "Electricien — neuf, renovation, depannage, domotique, climatisation reversible",
+    "anciennete": 40,
+    "adresse": "6 rue de l'Yser, 49320 Brissac Loire Aubance",
+    "telephone": "06 18 96 57 36",
+    "siret": "990 872 129 00012",
+    "zone": "Brissac Loire Aubance, Angers et Maine-et-Loire, rayon 30 km"
+  }
+}

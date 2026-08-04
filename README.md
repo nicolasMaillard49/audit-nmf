@@ -11,6 +11,7 @@ captures d'écran et les scripts de génération.
 | [Totowood](#totowood) | juillet 2026 | `totowood/output/pdf/Audit-Totowood-NMF-2026-Client.pdf` |
 | [RH Patrimoine](#rh-patrimoine) | juillet 2026 | `rh-patrimoine/codex audit/output/pdf/audit-rh-patrimoine-nmf.pdf` |
 | [La Rencontre](#la-rencontre) | août 2026 | `la-rencontre/output/pdf/Audit-La-Rencontre-NMF-2026.pdf` |
+| [GP elec](#gp-elec) | août 2026 | `gpelec/output/pdf/GP-elec-potentiel-google-ads.pdf` |
 
 ---
 
@@ -80,6 +81,27 @@ Audit accompagné d'une proposition de campagne test.
 - `capture.mjs` — capture automatisée des écrans
 - `report/build-report.mjs`, `render-pdf.mjs`, `render-proposition.mjs`,
   `contact-sheet.mjs` — génération du rapport et des PDF
+
+## GP elec
+
+Électricien à Brissac Loire Aubance (49), zone Brissac + Angers. Étude du **potentiel
+Google Ads** du marché local — version envoyable au client, sans analyse des défauts du site.
+
+**PDF livré** (`gpelec/output/pdf/`)
+
+- `GP-elec-potentiel-google-ads.pdf` — 13 pages
+
+**Sources**
+
+- `data/marche-google-ads.json` — valeurs de l'étude et provenance de chaque bloc
+- `data/site.json`, `data/seo.json`, `data/lighthouse.json` — collecte et mesures du site
+- `shots/` — captures desktop et mobile, séquentielles
+- `report/potentiel-gp-elec-2026.html` — source du rapport
+- `report/render-pdf.mjs` — rendu PDF, captures QA et contrôle de débordement page par page
+- `collect.mjs`, `analyze.mjs`, `lh.mjs`, `capture2.mjs` — chaîne de collecte
+
+Détail et limites dans `gpelec/README.md`. À la différence des trois autres dossiers,
+les `node_modules` y sont exclus du dépôt (`package-lock.json` versionné).
 
 ---
 

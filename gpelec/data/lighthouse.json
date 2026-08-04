@@ -1,0 +1,224 @@
+{
+  "accueil-mobile": {
+    "url": "https://gp-elec-49.com/",
+    "strategy": "mobile",
+    "scores": {
+      "performance": 81,
+      "seo": 100,
+      "accessibility": 96,
+      "bestPractices": 100
+    },
+    "metrics": {
+      "FCP": "1.4 s",
+      "FCPms": 1404,
+      "LCP": "4.5 s",
+      "LCPms": 4511,
+      "TBT": "190 ms",
+      "TBTms": 185,
+      "CLS": "0",
+      "CLSval": 0,
+      "SI": "2.4 s",
+      "SIms": 2365,
+      "TTFBms": 27
+    },
+    "opportunities": [
+      {
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript",
+        "savingsMs": 630,
+        "displayValue": "Est savings of 100 KiB"
+      },
+      {
+        "id": "server-response-time",
+        "title": "Initial server response time was short",
+        "savingsMs": 27,
+        "displayValue": "Root document took 30 ms"
+      }
+    ],
+    "failed": [
+      {
+        "id": "color-contrast",
+        "title": "Background and foreground colors do not have a sufficient contrast ratio."
+      },
+      {
+        "id": "bf-cache",
+        "title": "Page prevented back/forward cache restoration",
+        "displayValue": "1 failure reason"
+      }
+    ],
+    "diagnostics": {
+      "totalBytes": 934384,
+      "requests": 21,
+      "domSize": null,
+      "unusedCssMs": 0,
+      "unusedJsMs": 630,
+      "renderBlockingMs": null,
+      "modernImagesMs": null
+    }
+  },
+  "accueil-desktop": {
+    "url": "https://gp-elec-49.com/",
+    "strategy": "desktop",
+    "scores": {
+      "performance": 100,
+      "seo": 100,
+      "accessibility": 96,
+      "bestPractices": 100
+    },
+    "metrics": {
+      "FCP": "0.4 s",
+      "FCPms": 363,
+      "LCP": "0.5 s",
+      "LCPms": 523,
+      "TBT": "0 ms",
+      "TBTms": 0,
+      "CLS": "0",
+      "CLSval": 0,
+      "SI": "0.4 s",
+      "SIms": 363,
+      "TTFBms": 26
+    },
+    "opportunities": [
+      {
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript",
+        "savingsMs": 40,
+        "displayValue": "Est savings of 79 KiB"
+      },
+      {
+        "id": "server-response-time",
+        "title": "Initial server response time was short",
+        "savingsMs": 26,
+        "displayValue": "Root document took 30 ms"
+      }
+    ],
+    "failed": [
+      {
+        "id": "color-contrast",
+        "title": "Background and foreground colors do not have a sufficient contrast ratio."
+      },
+      {
+        "id": "bf-cache",
+        "title": "Page prevented back/forward cache restoration",
+        "displayValue": "1 failure reason"
+      }
+    ],
+    "diagnostics": {
+      "totalBytes": 958212,
+      "requests": 19,
+      "domSize": null,
+      "unusedCssMs": 0,
+      "unusedJsMs": 40,
+      "renderBlockingMs": null,
+      "modernImagesMs": null
+    }
+  },
+  "mentions-legales-mobile": {
+    "url": "https://gp-elec-49.com/mentions-legales",
+    "strategy": "mobile",
+    "scores": {
+      "performance": 100,
+      "seo": 100,
+      "accessibility": 95,
+      "bestPractices": 100
+    },
+    "metrics": {
+      "FCP": "1.2 s",
+      "FCPms": 1242,
+      "LCP": "1.7 s",
+      "LCPms": 1692,
+      "TBT": "60 ms",
+      "TBTms": 62,
+      "CLS": "0",
+      "CLSval": 0,
+      "SI": "1.2 s",
+      "SIms": 1242,
+      "TTFBms": 21
+    },
+    "opportunities": [
+      {
+        "id": "server-response-time",
+        "title": "Initial server response time was short",
+        "savingsMs": 21,
+        "displayValue": "Root document took 20 ms"
+      }
+    ],
+    "failed": [
+      {
+        "id": "color-contrast",
+        "title": "Background and foreground colors do not have a sufficient contrast ratio."
+      },
+      {
+        "id": "bf-cache",
+        "title": "Page prevented back/forward cache restoration",
+        "displayValue": "1 failure reason"
+      }
+    ],
+    "diagnostics": {
+      "totalBytes": 389104,
+      "requests": 11,
+      "domSize": null,
+      "unusedCssMs": 0,
+      "unusedJsMs": 0,
+      "renderBlockingMs": null,
+      "modernImagesMs": null
+    }
+  },
+  "mentions-legales-desktop": {
+    "url": "https://gp-elec-49.com/mentions-legales",
+    "strategy": "desktop",
+    "scores": {
+      "performance": 100,
+      "seo": 100,
+      "accessibility": 95,
+      "bestPractices": 100
+    },
+    "metrics": {
+      "FCP": "0.4 s",
+      "FCPms": 360,
+      "LCP": "0.7 s",
+      "LCPms": 738,
+      "TBT": "0 ms",
+      "TBTms": 0,
+      "CLS": "0",
+      "CLSval": 0,
+      "SI": "0.4 s",
+      "SIms": 360,
+      "TTFBms": 23
+    },
+    "opportunities": [
+      {
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript",
+        "savingsMs": 80,
+        "displayValue": "Est savings of 71 KiB"
+      },
+      {
+        "id": "server-response-time",
+        "title": "Initial server response time was short",
+        "savingsMs": 23,
+        "displayValue": "Root document took 20 ms"
+      }
+    ],
+    "failed": [
+      {
+        "id": "color-contrast",
+        "title": "Background and foreground colors do not have a sufficient contrast ratio."
+      },
+      {
+        "id": "bf-cache",
+        "title": "Page prevented back/forward cache restoration",
+        "displayValue": "1 failure reason"
+      }
+    ],
+    "diagnostics": {
+      "totalBytes": 389019,
+      "requests": 11,
+      "domSize": null,
+      "unusedCssMs": 0,
+      "unusedJsMs": 80,
+      "renderBlockingMs": null,
+      "modernImagesMs": null
+    }
+  }
+}

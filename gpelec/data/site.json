@@ -1,0 +1,234 @@
+{
+  "origin": "https://gp-elec-49.com",
+  "collectedAt": "2026-08-04T12:16:59.662Z",
+  "variants": {
+    "http://gp-elec-49.com/": {
+      "status": 308,
+      "location": "https://gp-elec-49.com/"
+    },
+    "https://gp-elec-49.com/": {
+      "status": 200,
+      "location": null
+    },
+    "http://www.gp-elec-49.com/": {
+      "status": 308,
+      "location": "https://www.gp-elec-49.com/"
+    },
+    "https://www.gp-elec-49.com/": {
+      "status": 307,
+      "location": "https://gp-elec-49.com/"
+    }
+  },
+  "roots": {
+    "/robots.txt": {
+      "status": 200,
+      "bytes": 72,
+      "ct": "text/plain; charset=utf-8",
+      "body": null
+    },
+    "/sitemap.xml": {
+      "status": 200,
+      "bytes": 377,
+      "ct": "application/xml",
+      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <url>\n    <loc>https://www.gp-elec-49.com/</loc>\n    <changefreq>monthly</changefreq>\n    <priority>1.0</priority>\n  </url>\n  <url>\n    <loc>https://www.gp-elec-49.com/mentions-legales</loc>\n    <changefreq>yearly</changefreq>\n    <priority>0.3</priority>\n  </url>\n</urlset>\n"
+    },
+    "/favicon.ico": {
+      "status": 200,
+      "bytes": 24622,
+      "ct": "image/vnd.microsoft.icon",
+      "body": null
+    },
+    "/og-image.jpg": {
+      "status": 200,
+      "bytes": 100730,
+      "ct": "image/jpeg",
+      "body": null
+    },
+    "/mentions-legales": {
+      "status": 200,
+      "bytes": 80665,
+      "ct": "text/html; charset=utf-8",
+      "body": null
+    },
+    "/merci": {
+      "status": 404,
+      "bytes": 71035,
+      "ct": "text/html; charset=utf-8",
+      "body": null
+    },
+    "/introuvable-xyz": {
+      "status": 404,
+      "bytes": 71035,
+      "ct": "text/html; charset=utf-8",
+      "body": null
+    }
+  },
+  "home": {
+    "status": 200,
+    "ms": 71,
+    "bytes": 115706,
+    "headers": {
+      "access-control-allow-origin": "*",
+      "age": "31",
+      "cache-control": "public, max-age=0, must-revalidate",
+      "content-disposition": "inline",
+      "content-encoding": "br",
+      "content-type": "text/html; charset=utf-8",
+      "date": "Tue, 04 Aug 2026 12:16:57 GMT",
+      "etag": "W/\"1812ebcded8b5959aafd1c301b9b67fc\"",
+      "last-modified": "Tue, 04 Aug 2026 12:16:25 GMT",
+      "server": "Vercel",
+      "strict-transport-security": "max-age=63072000",
+      "transfer-encoding": "chunked",
+      "x-vercel-cache": "HIT",
+      "x-vercel-id": "cdg1::knbgg-1785845817443-ad45775f4f6e"
+    }
+  },
+  "pages": [
+    {
+      "url": "https://gp-elec-49.com/",
+      "status": 200,
+      "ms": 71,
+      "bytes": 115706
+    },
+    {
+      "url": "https://gp-elec-49.com/_payload.json?89e6cd75-56d0-4f3d-85a0-3572ffc6c7c1",
+      "status": 200,
+      "ms": 210,
+      "bytes": 69
+    },
+    {
+      "url": "https://www.gp-elec-49.com/",
+      "status": 200,
+      "ms": 118,
+      "bytes": 115706
+    },
+    {
+      "url": "https://gp-elec-49.com/mentions-legales",
+      "status": 200,
+      "ms": 44,
+      "bytes": 80665
+    }
+  ],
+  "assets": [
+    {
+      "url": "https://gp-elec-49.com/_nuxt/index.D1hXFUVo.css",
+      "status": 200,
+      "bytes": 784,
+      "ct": "text/css; charset=utf-8",
+      "cache": "public, max-age=31536000, immutable"
+    },
+    {
+      "url": "https://gp-elec-49.com/fonts/inter-var.woff2",
+      "status": 200,
+      "bytes": 87282,
+      "ct": "font/woff2",
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "url": "https://gp-elec-49.com/_nuxt/BaKb0w7j.js",
+      "status": 200,
+      "bytes": 179150,
+      "ct": "application/javascript; charset=utf-8",
+      "cache": "public, max-age=31536000, immutable"
+    },
+    {
+      "url": "https://gp-elec-49.com/_nuxt/CHEAw3wT.js",
+      "status": 200,
+      "bytes": 33620,
+      "ct": "application/javascript; charset=utf-8",
+      "cache": "public, max-age=31536000, immutable"
+    },
+    {
+      "url": "https://gp-elec-49.com/_nuxt/BCglKBGf.js",
+      "status": 200,
+      "bytes": 21131,
+      "ct": "application/javascript; charset=utf-8",
+      "cache": "public, max-age=31536000, immutable"
+    },
+    {
+      "url": "https://gp-elec-49.com/_nuxt/soSy9sGg.js",
+      "status": 200,
+      "bytes": 248,
+      "ct": "application/javascript; charset=utf-8",
+      "cache": "public, max-age=31536000, immutable"
+    },
+    {
+      "url": "https://gp-elec-49.com/favicon.png",
+      "status": 200,
+      "bytes": 47442,
+      "ct": "image/png",
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "url": "https://gp-elec-49.com/favicon.ico",
+      "status": 200,
+      "bytes": 24622,
+      "ct": "image/vnd.microsoft.icon",
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "url": "https://gp-elec-49.com/apple-touch-icon.png",
+      "status": 200,
+      "bytes": 47442,
+      "ct": "image/png",
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "url": "https://gp-elec-49.com/images/logo-gp-elec.webp",
+      "status": 200,
+      "bytes": 96445,
+      "ct": "image/webp",
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "url": "https://gp-elec-49.com/images/hero/hero.webp",
+      "status": 200,
+      "bytes": 106144,
+      "ct": "image/webp",
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "url": "https://gp-elec-49.com/images/villes/angers-pano.webp",
+      "status": 200,
+      "bytes": 282046,
+      "ct": "image/webp",
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "url": "https://gp-elec-49.com/images/services/climatisation.webp",
+      "status": 200,
+      "bytes": 81008,
+      "ct": "image/webp",
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "url": "https://gp-elec-49.com/images/services/neuf.webp",
+      "status": 200,
+      "bytes": 240910,
+      "ct": "image/webp",
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "url": "https://gp-elec-49.com/images/services/renovation.webp",
+      "status": 200,
+      "bytes": 156515,
+      "ct": "image/webp",
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "url": "https://gp-elec-49.com/images/services/depannage.jpg",
+      "status": 200,
+      "bytes": 85664,
+      "ct": "image/jpeg",
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "url": "https://gp-elec-49.com/images/services/domotique.webp",
+      "status": 200,
+      "bytes": 45580,
+      "ct": "image/webp",
+      "cache": "public, max-age=0, must-revalidate"
+    }
+  ]
+}
