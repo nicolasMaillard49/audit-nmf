@@ -1,0 +1,2727 @@
+{
+  "zone": "Seine-et-Marne",
+  "geoTargetConstant": "geoTargetConstants/9040885",
+  "seeds": [
+    "menuisier"
+  ],
+  "totaux": {
+    "brut": 637,
+    "avecVolume": 438,
+    "requetesDistinctes": 323
+  },
+  "buckets": {
+    "intention": [
+      {
+        "text": "menuisier réparation porte",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 1.057773,
+        "highTopOfPageBid": 5.212135,
+        "competitionIndex": 82,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "devis menuisier",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 3.969064,
+        "highTopOfPageBid": 14.636001,
+        "competitionIndex": 89
+      },
+      {
+        "text": "la boutique du menuisier tarif",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.445223,
+        "highTopOfPageBid": 1.241552,
+        "competitionIndex": 36,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "menuisier urgence",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.797226,
+        "highTopOfPageBid": 2.282254,
+        "competitionIndex": 86,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "devis menuiserie bois",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 1.041567,
+        "highTopOfPageBid": 5.46739,
+        "competitionIndex": 61,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "pose de menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 2.31796,
+        "highTopOfPageBid": 6.029644,
+        "competitionIndex": 43,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "renovation menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 2.083225,
+        "highTopOfPageBid": 6.33332,
+        "competitionIndex": 17,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "la boutique du menuisier prix porte d entrée",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.479378,
+        "highTopOfPageBid": 1.375287,
+        "competitionIndex": 94,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "menuisier rénovation escalier",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 1.484825,
+        "highTopOfPageBid": 4.284857,
+        "competitionIndex": 71,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "prix cuisine sur mesure menuisier",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.564774,
+        "highTopOfPageBid": 1.74467,
+        "competitionIndex": 76,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "tarif menuiserie bois sur mesure",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.737344,
+        "highTopOfPageBid": 2.624564,
+        "competitionIndex": 81,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "menuisier reparation",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 1.279744,
+        "highTopOfPageBid": 3.827667,
+        "competitionIndex": 98,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "prix pose menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 2.295922,
+        "highTopOfPageBid": 5.044737,
+        "competitionIndex": 32,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "cuisine menuisier prix",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 1.032288,
+        "highTopOfPageBid": 2.76267,
+        "competitionIndex": 100,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "pose menuiserie extérieure",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 1.657738,
+        "highTopOfPageBid": 4.957978,
+        "competitionIndex": 33,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "tarif menuisier",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.84728,
+        "highTopOfPageBid": 2.80047,
+        "competitionIndex": 64,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "prix menuisier",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.871674,
+        "highTopOfPageBid": 2.716874,
+        "competitionIndex": 66,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "entreprise pose menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 1.401033,
+        "highTopOfPageBid": 4.373969,
+        "competitionIndex": 56,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "tarif pose menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 1.072535,
+        "highTopOfPageBid": 2.190371,
+        "competitionIndex": 24,
+        "cpcNiveau": "France"
+      }
+    ],
+    "generique": [
+      {
+        "text": "menuisier",
+        "avgMonthlySearches": 590,
+        "lowTopOfPageBid": 1.015056,
+        "highTopOfPageBid": 4.02546,
+        "competitionIndex": 24
+      },
+      {
+        "text": "menuiserie à proximité",
+        "avgMonthlySearches": 210,
+        "lowTopOfPageBid": 1.106799,
+        "highTopOfPageBid": 6.343028,
+        "competitionIndex": 52,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "menuisier autour de moi",
+        "avgMonthlySearches": 170,
+        "lowTopOfPageBid": 0.803716,
+        "highTopOfPageBid": 4.686841,
+        "competitionIndex": 66
+      },
+      {
+        "text": "atelier menuisier",
+        "avgMonthlySearches": 90,
+        "lowTopOfPageBid": 0.507706,
+        "highTopOfPageBid": 1.458967,
+        "competitionIndex": 9
+      },
+      {
+        "text": "menuiserie extérieure",
+        "avgMonthlySearches": 50,
+        "lowTopOfPageBid": 1.906174,
+        "highTopOfPageBid": 7.179793,
+        "competitionIndex": 44
+      },
+      {
+        "text": "menuisier sur mesure",
+        "avgMonthlySearches": 40,
+        "lowTopOfPageBid": 1.500487,
+        "highTopOfPageBid": 5.272648,
+        "competitionIndex": 57
+      },
+      {
+        "text": "artisan menuisier",
+        "avgMonthlySearches": 40,
+        "lowTopOfPageBid": 1.037728,
+        "highTopOfPageBid": 3.126778,
+        "competitionIndex": 60
+      },
+      {
+        "text": "entreprise menuiserie",
+        "avgMonthlySearches": 40,
+        "lowTopOfPageBid": 1.089074,
+        "highTopOfPageBid": 3.107615,
+        "competitionIndex": 62
+      },
+      {
+        "text": "menuisier ebeniste",
+        "avgMonthlySearches": 30,
+        "lowTopOfPageBid": 0.506711,
+        "highTopOfPageBid": 2.749233,
+        "competitionIndex": 30
+      },
+      {
+        "text": "menuiserie intérieure",
+        "avgMonthlySearches": 30,
+        "lowTopOfPageBid": 1.069001,
+        "highTopOfPageBid": 3.057251,
+        "competitionIndex": 10,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "menuisier agenceur",
+        "avgMonthlySearches": 30,
+        "lowTopOfPageBid": 1.00826,
+        "highTopOfPageBid": 2.590807,
+        "competitionIndex": 45
+      },
+      {
+        "text": "laboutiquedumenuisier",
+        "avgMonthlySearches": 30,
+        "lowTopOfPageBid": 0.55204,
+        "highTopOfPageBid": 1.123195,
+        "competitionIndex": 28
+      },
+      {
+        "text": "artisan menuisier autour de moi",
+        "avgMonthlySearches": 20,
+        "lowTopOfPageBid": 0.783424,
+        "highTopOfPageBid": 2.992834,
+        "competitionIndex": 68
+      },
+      {
+        "text": "entreprise de menuiserie autour de moi",
+        "avgMonthlySearches": 20,
+        "lowTopOfPageBid": 1.464401,
+        "highTopOfPageBid": 2.912054,
+        "competitionIndex": 82
+      },
+      {
+        "text": "menuisier fenêtre",
+        "avgMonthlySearches": 20,
+        "lowTopOfPageBid": 2.67346,
+        "highTopOfPageBid": 9.244373,
+        "competitionIndex": 57,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "menuisier escalier",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.966256,
+        "highTopOfPageBid": 4.31365,
+        "competitionIndex": 69
+      },
+      {
+        "text": "menuisier bois",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.80196,
+        "highTopOfPageBid": 1.755406,
+        "competitionIndex": 51
+      },
+      {
+        "text": "menuisier porte interieur",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 1.081753,
+        "highTopOfPageBid": 4.095614,
+        "competitionIndex": 79,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "fabricant menuiserie bois",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 1.626246,
+        "highTopOfPageBid": 7.71726,
+        "competitionIndex": 95,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "menuisier porte",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.86089,
+        "highTopOfPageBid": 4.083096,
+        "competitionIndex": 75
+      },
+      {
+        "text": "menuiserie bois à proximité",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.591985,
+        "highTopOfPageBid": 2.513724,
+        "competitionIndex": 43,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "menuisier placard sur mesure",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.834352,
+        "highTopOfPageBid": 2.568233,
+        "competitionIndex": 43,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "menuisier pas cher",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.968641,
+        "highTopOfPageBid": 4.172771,
+        "competitionIndex": 76,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "menuisier rge",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 1.699445,
+        "highTopOfPageBid": 5.371014,
+        "competitionIndex": 100,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "menuisier rge autour de moi",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 2.4682,
+        "highTopOfPageBid": 7.661943,
+        "competitionIndex": 86,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "fabricant menuiserie bois pour professionnel",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 1.738634,
+        "highTopOfPageBid": 7.422576,
+        "competitionIndex": 93,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "la maison du menuisier",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 1.00108,
+        "highTopOfPageBid": 4.207584,
+        "competitionIndex": 83
+      },
+      {
+        "text": "trouver un menuisier",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 3.522781,
+        "highTopOfPageBid": 9.861562,
+        "competitionIndex": 90
+      },
+      {
+        "text": "décennale menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 4.885726,
+        "highTopOfPageBid": 8.022142,
+        "competitionIndex": 82,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "menuisier bibliothèque sur mesure",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.806177,
+        "highTopOfPageBid": 3.160159,
+        "competitionIndex": 91,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "leroy merlin menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.331957,
+        "highTopOfPageBid": 1.948463,
+        "competitionIndex": 100,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "menuisier bois autour de moi",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.770741,
+        "highTopOfPageBid": 2.798198,
+        "competitionIndex": 74,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "menuisier cuisiniste",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 1.172386,
+        "highTopOfPageBid": 3.68332,
+        "competitionIndex": 86,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "artisan menuisier bois",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.719304,
+        "highTopOfPageBid": 2.412262,
+        "competitionIndex": 100,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "menuisier ébéniste autour de moi",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.492677,
+        "highTopOfPageBid": 1.563554,
+        "competitionIndex": 49,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "menuiserie escalier bois",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 1.080812,
+        "highTopOfPageBid": 3.530097,
+        "competitionIndex": 63,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "entreprise menuiserie bois",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.956475,
+        "highTopOfPageBid": 2.735515,
+        "competitionIndex": 50,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "menuisier à domicile",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.623449,
+        "highTopOfPageBid": 2.356779,
+        "competitionIndex": 88,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "menuisier réparation porte bois",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.603128,
+        "highTopOfPageBid": 0.973047,
+        "competitionIndex": 63
+      },
+      {
+        "text": "menuiserie porte intérieure sur mesure",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 1.759768,
+        "highTopOfPageBid": 8.772388,
+        "competitionIndex": 93,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "menuisier terrasse bois",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 1.025385,
+        "highTopOfPageBid": 1.4079,
+        "competitionIndex": 71,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "fabricant menuiserie bois sur mesure",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 1.087007,
+        "highTopOfPageBid": 3.504498,
+        "competitionIndex": 95,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "recherche artisan menuisier",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.356134,
+        "highTopOfPageBid": 0.956903,
+        "competitionIndex": 63,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "menuisier volet bois",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 1.14435,
+        "highTopOfPageBid": 6.406534,
+        "competitionIndex": 57,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "menuisier particulier",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.858139,
+        "highTopOfPageBid": 3.490806,
+        "competitionIndex": 87,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "trouver un menuisier pas cher",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.66289,
+        "highTopOfPageBid": 2.92524,
+        "competitionIndex": 93,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "cherche menuisier pas cher",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.640848,
+        "highTopOfPageBid": 1.963595,
+        "competitionIndex": 43,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "sam menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 1.03188,
+        "highTopOfPageBid": 4.108323,
+        "competitionIndex": 14,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "menuisier porte sur mesure",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 1.301707,
+        "highTopOfPageBid": 8.191276,
+        "competitionIndex": 77,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "menuisier escalier sur mesure",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 1.112379,
+        "highTopOfPageBid": 2.400587,
+        "competitionIndex": 86,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "artisan menuisier cuisine sur mesure",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.693618,
+        "highTopOfPageBid": 1.553596,
+        "competitionIndex": 79,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "menuiserie du lauragais",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.573664,
+        "highTopOfPageBid": 3.934483,
+        "competitionIndex": 31,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "menuisier dressing",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 2.073139,
+        "highTopOfPageBid": 3.912234,
+        "competitionIndex": 43,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "petit artisan menuisier",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.442386,
+        "highTopOfPageBid": 1.846422,
+        "competitionIndex": 68,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "menuisier parquet",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 1.487683,
+        "highTopOfPageBid": 6.127133,
+        "competitionIndex": 76,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "entreprise de menuiserie aluminium",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 2.038956,
+        "highTopOfPageBid": 5.110815,
+        "competitionIndex": 81,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "menuisier chassis",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": 0
+      },
+      {
+        "text": "poseur menuiserie indépendant",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.759673,
+        "highTopOfPageBid": 1.697158,
+        "competitionIndex": 45,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "l expert menuisier",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 2.142061,
+        "highTopOfPageBid": 11.812157,
+        "competitionIndex": 29,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "trouver un artisan menuisier",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": 64
+      },
+      {
+        "text": "menuiserie saintes",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 1.365927,
+        "highTopOfPageBid": 3.38197,
+        "competitionIndex": 86,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "poseur menuiserie aluminium",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.110058,
+        "highTopOfPageBid": 6.3464,
+        "competitionIndex": 78
+      },
+      {
+        "text": "menuisier noisy le grand",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.885144,
+        "highTopOfPageBid": 3.342798,
+        "competitionIndex": 93,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "artisan menuisier ébéniste",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.607046,
+        "highTopOfPageBid": 2.007489,
+        "competitionIndex": 30,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "entreprise menuiserie pvc",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 1.452859,
+        "highTopOfPageBid": 3.823628,
+        "competitionIndex": 73,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "dressing sur mesure menuisier",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.81881,
+        "highTopOfPageBid": 3.811266,
+        "competitionIndex": 96,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "je cherche un menuisier",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.601058,
+        "highTopOfPageBid": 4.351746,
+        "competitionIndex": 76,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "auto entrepreneur menuisier",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.838097,
+        "highTopOfPageBid": 2.441293,
+        "competitionIndex": 86,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "menuisier salle de bain",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 1.257913,
+        "highTopOfPageBid": 4.897875,
+        "competitionIndex": 86,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "menuisier haute savoie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.856135,
+        "highTopOfPageBid": 1.691134,
+        "competitionIndex": 100,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "menuisier fabricant",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.625121,
+        "highTopOfPageBid": 2.463876,
+        "competitionIndex": 26,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "particulier cherche menuisier",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.372127,
+        "highTopOfPageBid": 1.571679,
+        "competitionIndex": 57,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "artisan menuisier aluminium",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 1.797367,
+        "highTopOfPageBid": 4.996875,
+        "competitionIndex": 86,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "menuisier escalier bois sur mesure",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.809451,
+        "highTopOfPageBid": 2.777198,
+        "competitionIndex": 89,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "artisan menuisier pvc",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 1.213349,
+        "highTopOfPageBid": 3.837611,
+        "competitionIndex": 57,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "artisan menuisier cuisine",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "recherche menuisier auto entrepreneur",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.606903,
+        "highTopOfPageBid": 2.296663,
+        "competitionIndex": 76,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "menuisier pvc alu",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 1.08049,
+        "highTopOfPageBid": 2.90729,
+        "competitionIndex": 99,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "entreprise menuiserie agencement",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.808253,
+        "highTopOfPageBid": 2.465762,
+        "competitionIndex": 30,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "poseur de menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 2.350486,
+        "highTopOfPageBid": 4.079566,
+        "competitionIndex": 86,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "agenceur",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 1.03578,
+        "highTopOfPageBid": 3.978511,
+        "competitionIndex": 10,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "entreprise menuiserie extérieure",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 1.500816,
+        "highTopOfPageBid": 2.862966,
+        "competitionIndex": 71,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "menuiserie digne les bains",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 1.007102,
+        "highTopOfPageBid": 3.578684,
+        "competitionIndex": 34,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "atelier de menuiserie bois",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.471339,
+        "highTopOfPageBid": 1.762139,
+        "competitionIndex": 86,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "menuisier meubles sur mesure",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 1.408117,
+        "highTopOfPageBid": 4.288295,
+        "competitionIndex": 91,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "menuisier professionnel",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 1.209436,
+        "highTopOfPageBid": 4.019175,
+        "competitionIndex": 39,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "menuisier près de chez moi",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.887154,
+        "highTopOfPageBid": 2.813523,
+        "competitionIndex": 67,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "menuisier installateur",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 1.006356,
+        "highTopOfPageBid": 3.033466,
+        "competitionIndex": 11,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "menuisier vitré",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 1.829972,
+        "highTopOfPageBid": 4.162911,
+        "competitionIndex": 37,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "menuisier agencement intérieur",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 1.038411,
+        "highTopOfPageBid": 3.052226,
+        "competitionIndex": 47,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "menuiserie bas rhin",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.645726,
+        "highTopOfPageBid": 2.367326,
+        "competitionIndex": 27,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "menuisier haut rhin",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.643254,
+        "highTopOfPageBid": 2.644878,
+        "competitionIndex": 46,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "prix escalier sur mesure menuisier",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "menuisier loir et cher",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.929713,
+        "highTopOfPageBid": 3.05603,
+        "competitionIndex": 29,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "menuisier crepy en valois",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 1.236203,
+        "highTopOfPageBid": 2.572876,
+        "competitionIndex": 52,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "alu menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.901314,
+        "highTopOfPageBid": 2.70851,
+        "competitionIndex": 34,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "menuisier sainte maxime",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 1.295481,
+        "highTopOfPageBid": 2.989265,
+        "competitionIndex": 61,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "blavait menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 1.032205,
+        "highTopOfPageBid": 3.311528,
+        "competitionIndex": 0,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "menuisier proche de moi",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.764141,
+        "highTopOfPageBid": 3.426108,
+        "competitionIndex": 49,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "alpes menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 1.091781,
+        "highTopOfPageBid": 4.329537,
+        "competitionIndex": 13,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "ribeaud menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.933303,
+        "highTopOfPageBid": 2.015985,
+        "competitionIndex": 13,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "vervier menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.729712,
+        "highTopOfPageBid": 2.630978,
+        "competitionIndex": 15,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "auto entrepreneur menuisier poseur",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "menuisier charente maritime",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 1.108012,
+        "highTopOfPageBid": 3.974282,
+        "competitionIndex": 32,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "menuiserie decoupe bois",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.447763,
+        "highTopOfPageBid": 1.495218,
+        "competitionIndex": 38,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "entreprise de menuiserie fabrication bois",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 1.173413,
+        "highTopOfPageBid": 2.943015,
+        "competitionIndex": 59,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "menuiserie bois porte",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.893643,
+        "highTopOfPageBid": 3.006959,
+        "competitionIndex": 89,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "menuisier le plus proche",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "menuisier métallique",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.743002,
+        "highTopOfPageBid": 2.67488,
+        "competitionIndex": 24,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "menuiserie saint aubin",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.576808,
+        "highTopOfPageBid": 2.388372,
+        "competitionIndex": 22,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "poseur menuiserie extérieure",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 1.657738,
+        "highTopOfPageBid": 4.957978,
+        "competitionIndex": 33,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "janneau menuisier createur",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.437397,
+        "highTopOfPageBid": 2.194015,
+        "competitionIndex": 14,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "agencement atelier menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 1.99875,
+        "highTopOfPageBid": 7.155626,
+        "competitionIndex": 90,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "au coin du menuisier",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "bibliothèque menuisier",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 1.142341,
+        "highTopOfPageBid": 2.664225,
+        "competitionIndex": 100,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "canet menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.882542,
+        "highTopOfPageBid": 3.596396,
+        "competitionIndex": 8,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "cofim menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.681782,
+        "highTopOfPageBid": 2.174722,
+        "competitionIndex": 6,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "colotti menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 1.144987,
+        "highTopOfPageBid": 2.279613,
+        "competitionIndex": 7,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "compagnons du devoir menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.219226,
+        "highTopOfPageBid": 3.069144,
+        "competitionIndex": 15,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "compagnons menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.68949,
+        "highTopOfPageBid": 2.57329,
+        "competitionIndex": 0,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "comptoir des menuisiers",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.689495,
+        "highTopOfPageBid": 1.554483,
+        "competitionIndex": 0,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "delcroix menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.726565,
+        "highTopOfPageBid": 2.151491,
+        "competitionIndex": 10,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "dutour menuisier et agenceur",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "entreprise gregoire menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": 43
+      },
+      {
+        "text": "entreprise menuiserie intérieure",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 1.228492,
+        "highTopOfPageBid": 4.722473,
+        "competitionIndex": 100,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "entreprise moreau menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 1.356885,
+        "highTopOfPageBid": 2.858482,
+        "competitionIndex": 43,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "fontaine menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.766197,
+        "highTopOfPageBid": 2.076499,
+        "competitionIndex": 14,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "grégoire menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.745015,
+        "highTopOfPageBid": 1.781112,
+        "competitionIndex": 42,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "homnia cognac",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 1.435253,
+        "highTopOfPageBid": 3.09995,
+        "competitionIndex": 3,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "isaac menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.795695,
+        "highTopOfPageBid": 2.13174,
+        "competitionIndex": 24,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "la toile du menuisier",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "le menuisier alpin",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "le petit menuisier",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": 0
+      },
+      {
+        "text": "le sens du menuisier",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "les menuisiers de capeyron",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.83502,
+        "highTopOfPageBid": 2.833992,
+        "competitionIndex": 14,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "les menuisiers des occitans",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.365138,
+        "highTopOfPageBid": 2.080647,
+        "competitionIndex": 3,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "lofoten menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.701767,
+        "highTopOfPageBid": 2.570227,
+        "competitionIndex": 8,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "martin menuisier",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.886928,
+        "highTopOfPageBid": 1.607066,
+        "competitionIndex": 0,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "menuiserie aigues mortes",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.456708,
+        "highTopOfPageBid": 2.36478,
+        "competitionIndex": 30,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "menuiserie ameublement",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.601745,
+        "highTopOfPageBid": 2.152958,
+        "competitionIndex": 86,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "menuiserie aménagement intérieur",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.772974,
+        "highTopOfPageBid": 3.827529,
+        "competitionIndex": 86,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "menuiserie ancienne",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.282618,
+        "highTopOfPageBid": 2.192419,
+        "competitionIndex": 14,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "menuiserie bordeau",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 1.028464,
+        "highTopOfPageBid": 2.95252,
+        "competitionIndex": 100,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "menuiserie bouze",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 1.008738,
+        "highTopOfPageBid": 4.549031,
+        "competitionIndex": 0,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "menuiserie clermont",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.651871,
+        "highTopOfPageBid": 3.815386,
+        "competitionIndex": 9,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "menuiserie creuse",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.686084,
+        "highTopOfPageBid": 3.247543,
+        "competitionIndex": 17,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "menuiserie de la roche",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.601733,
+        "highTopOfPageBid": 5.947384,
+        "competitionIndex": 9,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "menuiserie devaux",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.710338,
+        "highTopOfPageBid": 2.494947,
+        "competitionIndex": 3,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "menuiserie doué la fontaine",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.870799,
+        "highTopOfPageBid": 2.521365,
+        "competitionIndex": 25,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "menuiserie du mans",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.790311,
+        "highTopOfPageBid": 2.48431,
+        "competitionIndex": 7,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "menuiserie françois",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.682177,
+        "highTopOfPageBid": 4.645424,
+        "competitionIndex": 23,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "menuiserie haute saone",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.67052,
+        "highTopOfPageBid": 3.013085,
+        "competitionIndex": 25,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "menuiserie kawneer",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 1.415714,
+        "highTopOfPageBid": 2.997784,
+        "competitionIndex": 18,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "menuiserie landais",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.861939,
+        "highTopOfPageBid": 8.607154,
+        "competitionIndex": 14,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "menuiserie marly",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 1.068973,
+        "highTopOfPageBid": 2.8175,
+        "competitionIndex": 0,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "menuiserie mende",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.861205,
+        "highTopOfPageBid": 2.675273,
+        "competitionIndex": 0,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "menuiserie montpellieraine",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 1.286289,
+        "highTopOfPageBid": 3.645987,
+        "competitionIndex": 49,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "menuiserie oloron sainte marie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.919377,
+        "highTopOfPageBid": 2.606721,
+        "competitionIndex": 33,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "menuiserie orly",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.665734,
+        "highTopOfPageBid": 2.307821,
+        "competitionIndex": 22,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "menuiserie paray le monial",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.662448,
+        "highTopOfPageBid": 2.432013,
+        "competitionIndex": 21,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "menuiserie parisot",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": 29
+      },
+      {
+        "text": "menuiserie pays basque",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.792127,
+        "highTopOfPageBid": 2.912765,
+        "competitionIndex": 52,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "menuiserie pocinho",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.796333,
+        "highTopOfPageBid": 3.525472,
+        "competitionIndex": 4,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "menuiserie potherat",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.852405,
+        "highTopOfPageBid": 4.609966,
+        "competitionIndex": 6,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "menuiserie saint gilles",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.549464,
+        "highTopOfPageBid": 2.575682,
+        "competitionIndex": 24,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "menuiserie st gilles",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.549464,
+        "highTopOfPageBid": 2.575682,
+        "competitionIndex": 24,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "menuiserie zehnacker",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.570776,
+        "highTopOfPageBid": 2.518284,
+        "competitionIndex": 7,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "menuisier belle ile en mer",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.49632,
+        "highTopOfPageBid": 1.237554,
+        "competitionIndex": 14,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "menuisier decorateur",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 1.179262,
+        "highTopOfPageBid": 2.540888,
+        "competitionIndex": 38,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "menuisier designer",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "menuisier fabricant de menuiserie mobilier et agencement",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "menuisier fustier",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "menuisier haut de gamme",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.828683,
+        "highTopOfPageBid": 1.208623,
+        "competitionIndex": 68
+      },
+      {
+        "text": "menuisier onisep",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "menuisier pvc aluminium",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 1.08049,
+        "highTopOfPageBid": 2.90729,
+        "competitionIndex": 99,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "menuisier traditionnel",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.645726,
+        "highTopOfPageBid": 1.943947,
+        "competitionIndex": 0,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "mjm menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.69627,
+        "highTopOfPageBid": 2.713653,
+        "competitionIndex": 0,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "normand menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.923809,
+        "highTopOfPageBid": 3.14846,
+        "competitionIndex": 19,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "perret menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.500625,
+        "highTopOfPageBid": 2.637812,
+        "competitionIndex": 8,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "plaziat menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.597384,
+        "highTopOfPageBid": 2.268408,
+        "competitionIndex": 0,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "poseur aluminium",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 1.087749,
+        "highTopOfPageBid": 3.227866,
+        "competitionIndex": 16,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "pyrenee menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.913818,
+        "highTopOfPageBid": 2.351841,
+        "competitionIndex": 24,
+        "cpcNiveau": "Ile-de-France"
+      },
+      {
+        "text": "ribeiro menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.842537,
+        "highTopOfPageBid": 3.775187,
+        "competitionIndex": 11,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "rodriguez menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.212482,
+        "highTopOfPageBid": 4.322738,
+        "competitionIndex": 10,
+        "cpcNiveau": "France"
+      }
+    ],
+    "marque": [
+      {
+        "text": "menuiserie chaumontaise",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "menuiserie bois en ligne",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.686492,
+        "highTopOfPageBid": 1.632115,
+        "competitionIndex": 0,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "menuiserie générale",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": 0
+      },
+      {
+        "text": "ubm menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "abt menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "ac menuiseries fermetures",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "afp menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": 14
+      },
+      {
+        "text": "agencement bois menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "alpes concept menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "anzalone menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": 0
+      },
+      {
+        "text": "arti mob menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "asselineau menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": 14
+      },
+      {
+        "text": "axe menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": 3
+      },
+      {
+        "text": "barbette menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "baron menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "barre menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "bartois menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "benoit menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "bois rouge menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": 0
+      },
+      {
+        "text": "boisset menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "cfp menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "combe menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "cvi menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "d hervé menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.649601,
+        "highTopOfPageBid": 1.210776,
+        "competitionIndex": 9,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "dam menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": 0
+      },
+      {
+        "text": "delepierre menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "denis menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "dumas menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.798501,
+        "highTopOfPageBid": 1.571984,
+        "competitionIndex": 0,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "dumay menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": 0
+      },
+      {
+        "text": "dutour menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "emc menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "falher menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.649,
+        "highTopOfPageBid": 1.632007,
+        "competitionIndex": 7,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "gabarroca menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": 0
+      },
+      {
+        "text": "gaspar menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": 0
+      },
+      {
+        "text": "guerin menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "guillas menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "houssard menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.588564,
+        "highTopOfPageBid": 1.787455,
+        "competitionIndex": 12,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "hunsinger menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.640947,
+        "highTopOfPageBid": 1.409639,
+        "competitionIndex": 9,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "jamin menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": 0
+      },
+      {
+        "text": "jlp menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "julian menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "julien menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "juste menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "la menuiserie de champagne",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": 0
+      },
+      {
+        "text": "lcm menuiseries",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "lefetz menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "leleux menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "lemaire menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "leon menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "lepretre menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "les compagnons de france menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "levieux menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": 0
+      },
+      {
+        "text": "mab menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": 0
+      },
+      {
+        "text": "mandonnaud menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "mbf menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": 0
+      },
+      {
+        "text": "menuiserie alain",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "menuiserie bacle",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": 0
+      },
+      {
+        "text": "menuiserie barse",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "menuiserie boyer",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "menuiserie briton",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "menuiserie brunet",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "menuiserie capdouze",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "menuiserie de la loire",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "menuiserie de la sainte baume",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "menuiserie de la vallée",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": 0
+      },
+      {
+        "text": "menuiserie debuck",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "menuiserie delahaye",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "menuiserie demange",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "menuiserie douay",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "menuiserie du chalonnais",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "menuiserie du marais",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "menuiserie du rhin",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "menuiserie ebenisterie nouvelle",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "menuiserie etienne",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "menuiserie fresard",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "menuiserie genevrier",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "menuiserie germain",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "menuiserie gilet",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": 0
+      },
+      {
+        "text": "menuiserie guichard",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "menuiserie jacob",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "menuiserie ksio",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "menuiserie lefer",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "menuiserie lenoir",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "menuiserie lequeux",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "menuiserie loubet",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "menuiserie maignan",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": 0
+      },
+      {
+        "text": "menuiserie marc blanc",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "menuiserie michel dupont",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "menuiserie naslin",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "menuiserie ormeo",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "menuiserie perros",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "menuiserie petit bois",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "menuiserie pfirsch",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "menuiserie pichot",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "menuiserie pin",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "menuiserie pynthe",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "menuiserie reimel",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": 0
+      },
+      {
+        "text": "menuiserie richard",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "menuiserie rioux",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "menuiserie robert",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "menuiserie robic",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "menuiserie rossignol",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "menuiserie saint germain",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "menuiserie saint joseph",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "menuiserie saint sauveur",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "menuiserie thierry",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "menuiserie tiquet",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": 0
+      },
+      {
+        "text": "menuiserie toiture",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "menuiserie visine",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "menuiseries castes",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.477814,
+        "highTopOfPageBid": 1.875449,
+        "competitionIndex": 9,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "menuiseries rennaises",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "othon menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "pellan menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0.760377,
+        "highTopOfPageBid": 1.624847,
+        "competitionIndex": 10,
+        "cpcNiveau": "France"
+      },
+      {
+        "text": "pinson menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "plaisance menuiserie agencement",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "quentin menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "saint cyr menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "simard menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "steiner menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      },
+      {
+        "text": "sud menuiserie",
+        "avgMonthlySearches": 10,
+        "lowTopOfPageBid": 0,
+        "highTopOfPageBid": 0,
+        "competitionIndex": null
+      }
+    ]
+  },
+  "projection": {
+    "volumeIntentionMensuel": 190,
+    "cpcMoyenHautDePage": 4.21,
+    "motsClesSimules": 19,
+    "previsionsGoogle": [
+      {
+        "scenario": "Présence",
+        "strategie": "maximiser les clics",
+        "budgetDemandeMensuel": 50,
+        "budgetMensuel": 25,
+        "clics": 4,
+        "cpcMoyen": 5.63,
+        "coutParClic": 6.25,
+        "partVolume": 2.1,
+        "sousDepense": true,
+        "plafonneParInventaire": true,
+        "plafondVerifie": true,
+        "paliersConfirmation": [
+          50,
+          100,
+          150
+        ]
+      },
+      {
+        "scenario": "Haut de page",
+        "strategie": "enchère fixe 4.21 €",
+        "budgetDemandeMensuel": 50,
+        "budgetMensuel": 6,
+        "clics": 2,
+        "cpcMoyen": 2.61,
+        "coutParClic": 3,
+        "partVolume": 1.1,
+        "sousDepense": true,
+        "plafonneParInventaire": true,
+        "plafondVerifie": true,
+        "paliersConfirmation": [
+          50,
+          100,
+          150
+        ]
+      },
+      {
+        "scenario": "Domination",
+        "strategie": "enchère fixe 6.31 €",
+        "budgetDemandeMensuel": 50,
+        "budgetMensuel": 13,
+        "clics": 3,
+        "cpcMoyen": 3.69,
+        "coutParClic": 4.33,
+        "partVolume": 1.6,
+        "sousDepense": true,
+        "plafonneParInventaire": true,
+        "plafondVerifie": true,
+        "paliersConfirmation": [
+          50,
+          100,
+          150
+        ]
+      }
+    ],
+    "courbeBudgetsGoogle": [
+      {
+        "scenario": "Présence",
+        "strategie": "maximiser les clics",
+        "budgetDemandeMensuel": 50,
+        "budgetMensuel": 25,
+        "clics": 4,
+        "cpcMoyen": 5.63,
+        "coutParClic": 6.25,
+        "partVolume": 2.1,
+        "sousDepense": true
+      },
+      {
+        "scenario": "Présence",
+        "strategie": "maximiser les clics",
+        "budgetDemandeMensuel": 100,
+        "budgetMensuel": 25,
+        "clics": 4,
+        "cpcMoyen": 5.63,
+        "coutParClic": 6.25,
+        "partVolume": 2.1,
+        "sousDepense": true
+      },
+      {
+        "scenario": "Présence",
+        "strategie": "maximiser les clics",
+        "budgetDemandeMensuel": 150,
+        "budgetMensuel": 25,
+        "clics": 4,
+        "cpcMoyen": 5.63,
+        "coutParClic": 6.25,
+        "partVolume": 2.1,
+        "sousDepense": true
+      },
+      {
+        "scenario": "Présence",
+        "strategie": "maximiser les clics",
+        "budgetDemandeMensuel": 200,
+        "budgetMensuel": 25,
+        "clics": 4,
+        "cpcMoyen": 5.63,
+        "coutParClic": 6.25,
+        "partVolume": 2.1,
+        "sousDepense": true
+      },
+      {
+        "scenario": "Présence",
+        "strategie": "maximiser les clics",
+        "budgetDemandeMensuel": 300,
+        "budgetMensuel": 25,
+        "clics": 4,
+        "cpcMoyen": 5.63,
+        "coutParClic": 6.25,
+        "partVolume": 2.1,
+        "sousDepense": true
+      },
+      {
+        "scenario": "Présence",
+        "strategie": "maximiser les clics",
+        "budgetDemandeMensuel": 500,
+        "budgetMensuel": 25,
+        "clics": 4,
+        "cpcMoyen": 5.63,
+        "coutParClic": 6.25,
+        "partVolume": 2.1,
+        "sousDepense": true
+      },
+      {
+        "scenario": "Haut de page",
+        "strategie": "enchère fixe 4.21 €",
+        "budgetDemandeMensuel": 50,
+        "budgetMensuel": 6,
+        "clics": 2,
+        "cpcMoyen": 2.61,
+        "coutParClic": 3,
+        "partVolume": 1.1,
+        "sousDepense": true
+      },
+      {
+        "scenario": "Haut de page",
+        "strategie": "enchère fixe 4.21 €",
+        "budgetDemandeMensuel": 100,
+        "budgetMensuel": 6,
+        "clics": 2,
+        "cpcMoyen": 2.61,
+        "coutParClic": 3,
+        "partVolume": 1.1,
+        "sousDepense": true
+      },
+      {
+        "scenario": "Haut de page",
+        "strategie": "enchère fixe 4.21 €",
+        "budgetDemandeMensuel": 150,
+        "budgetMensuel": 6,
+        "clics": 2,
+        "cpcMoyen": 2.61,
+        "coutParClic": 3,
+        "partVolume": 1.1,
+        "sousDepense": true
+      },
+      {
+        "scenario": "Haut de page",
+        "strategie": "enchère fixe 4.21 €",
+        "budgetDemandeMensuel": 200,
+        "budgetMensuel": 6,
+        "clics": 2,
+        "cpcMoyen": 2.61,
+        "coutParClic": 3,
+        "partVolume": 1.1,
+        "sousDepense": true
+      },
+      {
+        "scenario": "Haut de page",
+        "strategie": "enchère fixe 4.21 €",
+        "budgetDemandeMensuel": 300,
+        "budgetMensuel": 6,
+        "clics": 2,
+        "cpcMoyen": 2.61,
+        "coutParClic": 3,
+        "partVolume": 1.1,
+        "sousDepense": true
+      },
+      {
+        "scenario": "Haut de page",
+        "strategie": "enchère fixe 4.21 €",
+        "budgetDemandeMensuel": 500,
+        "budgetMensuel": 6,
+        "clics": 2,
+        "cpcMoyen": 2.61,
+        "coutParClic": 3,
+        "partVolume": 1.1,
+        "sousDepense": true
+      },
+      {
+        "scenario": "Domination",
+        "strategie": "enchère fixe 6.31 €",
+        "budgetDemandeMensuel": 50,
+        "budgetMensuel": 13,
+        "clics": 3,
+        "cpcMoyen": 3.69,
+        "coutParClic": 4.33,
+        "partVolume": 1.6,
+        "sousDepense": true
+      },
+      {
+        "scenario": "Domination",
+        "strategie": "enchère fixe 6.31 €",
+        "budgetDemandeMensuel": 100,
+        "budgetMensuel": 13,
+        "clics": 3,
+        "cpcMoyen": 3.69,
+        "coutParClic": 4.33,
+        "partVolume": 1.6,
+        "sousDepense": true
+      },
+      {
+        "scenario": "Domination",
+        "strategie": "enchère fixe 6.31 €",
+        "budgetDemandeMensuel": 150,
+        "budgetMensuel": 13,
+        "clics": 3,
+        "cpcMoyen": 3.69,
+        "coutParClic": 4.33,
+        "partVolume": 1.6,
+        "sousDepense": true
+      },
+      {
+        "scenario": "Domination",
+        "strategie": "enchère fixe 6.31 €",
+        "budgetDemandeMensuel": 200,
+        "budgetMensuel": 13,
+        "clics": 3,
+        "cpcMoyen": 3.69,
+        "coutParClic": 4.33,
+        "partVolume": 1.6,
+        "sousDepense": true
+      },
+      {
+        "scenario": "Domination",
+        "strategie": "enchère fixe 6.31 €",
+        "budgetDemandeMensuel": 300,
+        "budgetMensuel": 13,
+        "clics": 3,
+        "cpcMoyen": 3.69,
+        "coutParClic": 4.33,
+        "partVolume": 1.6,
+        "sousDepense": true
+      },
+      {
+        "scenario": "Domination",
+        "strategie": "enchère fixe 6.31 €",
+        "budgetDemandeMensuel": 500,
+        "budgetMensuel": 13,
+        "clics": 3,
+        "cpcMoyen": 3.69,
+        "coutParClic": 4.33,
+        "partVolume": 1.6,
+        "sousDepense": true
+      }
+    ],
+    "paliersBudgetsMensuels": [
+      50,
+      100,
+      150,
+      200,
+      300,
+      500,
+      750,
+      1000,
+      1500,
+      2000
+    ],
+    "note": "Chaque palier budgétaire est simulé séparément par Google ; un plafond exige deux paliers supérieurs stables."
+  }
+}

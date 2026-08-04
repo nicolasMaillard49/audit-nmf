@@ -1,0 +1,6211 @@
+{
+  "source": "Google Ads generateKeywordHistoricalMetrics",
+  "extractedAt": "2026-07-28",
+  "volumeGeo": {
+    "label": "Seine-et-Marne",
+    "resource": "geoTargetConstants/9040885"
+  },
+  "cpcFallbackOrder": [
+    {
+      "label": "Seine-et-Marne",
+      "resource": "geoTargetConstants/9040885"
+    },
+    {
+      "label": "Île-de-France",
+      "resource": "geoTargetConstants/20321"
+    },
+    {
+      "label": "France",
+      "resource": "geoTargetConstants/2250"
+    }
+  ],
+  "language": "languageConstants/1002",
+  "network": "GOOGLE_SEARCH",
+  "requestedKeywords": 90,
+  "returnedCanonicalRowsByGeo": {
+    "Seine-et-Marne": 89,
+    "Île-de-France": 89,
+    "France": 89
+  },
+  "keywordStats": [
+    {
+      "order": 1,
+      "keyword": "menuisier sur mesure",
+      "googleCanonicalKeyword": "menuisier sur mesure",
+      "closeVariants": [],
+      "avgMonthlySearches": 40,
+      "monthlySearchVolumes": [
+        {
+          "year": 2025,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "AUGUST",
+          "searches": 20
+        },
+        {
+          "year": 2025,
+          "month": "SEPTEMBER",
+          "searches": 210
+        },
+        {
+          "year": 2025,
+          "month": "OCTOBER",
+          "searches": 20
+        },
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 40
+        }
+      ],
+      "competition": "moyenne",
+      "competitionIndex": 57,
+      "lowTopOfPageBid": 1.498184,
+      "highTopOfPageBid": 5.264556,
+      "averageCpc": 5.854848,
+      "cpcGeoLevel": "Seine-et-Marne",
+      "localMetricsReturned": true
+    },
+    {
+      "order": 2,
+      "keyword": "menuisier meuble sur mesure",
+      "googleCanonicalKeyword": "menuisier meuble sur mesure",
+      "closeVariants": [],
+      "avgMonthlySearches": 10,
+      "monthlySearchVolumes": [
+        {
+          "year": 2025,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "AUGUST",
+          "searches": 20
+        },
+        {
+          "year": 2025,
+          "month": "SEPTEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2025,
+          "month": "OCTOBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        }
+      ],
+      "competition": "forte",
+      "competitionIndex": 83,
+      "lowTopOfPageBid": 0.604439,
+      "highTopOfPageBid": 3.371257,
+      "averageCpc": 1.279931,
+      "cpcGeoLevel": "Seine-et-Marne",
+      "localMetricsReturned": true
+    },
+    {
+      "order": 3,
+      "keyword": "menuisier agenceur",
+      "googleCanonicalKeyword": "menuisier agenceur",
+      "closeVariants": [],
+      "avgMonthlySearches": 30,
+      "monthlySearchVolumes": [
+        {
+          "year": 2025,
+          "month": "JULY",
+          "searches": 30
+        },
+        {
+          "year": 2025,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "SEPTEMBER",
+          "searches": 40
+        },
+        {
+          "year": 2025,
+          "month": "OCTOBER",
+          "searches": 30
+        },
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        }
+      ],
+      "competition": "moyenne",
+      "competitionIndex": 45,
+      "lowTopOfPageBid": 1.006713,
+      "highTopOfPageBid": 2.586831,
+      "averageCpc": 2.271768,
+      "cpcGeoLevel": "Seine-et-Marne",
+      "localMetricsReturned": true
+    },
+    {
+      "order": 4,
+      "keyword": "menuisier agencement intérieur",
+      "googleCanonicalKeyword": "menuisier agencement intérieur",
+      "closeVariants": [],
+      "avgMonthlySearches": 10,
+      "monthlySearchVolumes": [
+        {
+          "year": 2025,
+          "month": "JULY",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "OCTOBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 0
+        }
+      ],
+      "competition": "non précisée",
+      "competitionIndex": null,
+      "lowTopOfPageBid": 1.036817,
+      "highTopOfPageBid": 3.047541,
+      "averageCpc": 2.547823,
+      "cpcGeoLevel": "France",
+      "localMetricsReturned": true
+    },
+    {
+      "order": 5,
+      "keyword": "menuisier intérieur",
+      "googleCanonicalKeyword": "menuisier intérieur",
+      "closeVariants": [],
+      "avgMonthlySearches": 30,
+      "monthlySearchVolumes": [
+        {
+          "year": 2025,
+          "month": "JULY",
+          "searches": 20
+        },
+        {
+          "year": 2025,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "OCTOBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 110
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 30
+        }
+      ],
+      "competition": "faible",
+      "competitionIndex": 10,
+      "lowTopOfPageBid": 1.06736,
+      "highTopOfPageBid": 3.052559,
+      "averageCpc": 4.918425,
+      "cpcGeoLevel": "Île-de-France",
+      "localMetricsReturned": true
+    },
+    {
+      "order": 6,
+      "keyword": "menuisier Seine et Marne",
+      "googleCanonicalKeyword": "menuisier seine et marne",
+      "closeVariants": [
+        "menuisier Seine et Marne"
+      ],
+      "avgMonthlySearches": 50,
+      "monthlySearchVolumes": [
+        {
+          "year": 2025,
+          "month": "JULY",
+          "searches": 50
+        },
+        {
+          "year": 2025,
+          "month": "AUGUST",
+          "searches": 140
+        },
+        {
+          "year": 2025,
+          "month": "SEPTEMBER",
+          "searches": 40
+        },
+        {
+          "year": 2025,
+          "month": "OCTOBER",
+          "searches": 40
+        },
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 30
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 90
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 70
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 30
+        }
+      ],
+      "competition": "moyenne",
+      "competitionIndex": 47,
+      "lowTopOfPageBid": 0.611985,
+      "highTopOfPageBid": 1.682933,
+      "averageCpc": 1.686553,
+      "cpcGeoLevel": "Seine-et-Marne",
+      "localMetricsReturned": true
+    },
+    {
+      "order": 7,
+      "keyword": "menuiserie sur mesure",
+      "googleCanonicalKeyword": "menuiserie sur mesure",
+      "closeVariants": [],
+      "avgMonthlySearches": 40,
+      "monthlySearchVolumes": [
+        {
+          "year": 2025,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "AUGUST",
+          "searches": 20
+        },
+        {
+          "year": 2025,
+          "month": "SEPTEMBER",
+          "searches": 210
+        },
+        {
+          "year": 2025,
+          "month": "OCTOBER",
+          "searches": 20
+        },
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 40
+        }
+      ],
+      "competition": "moyenne",
+      "competitionIndex": 57,
+      "lowTopOfPageBid": 1.498184,
+      "highTopOfPageBid": 5.264556,
+      "averageCpc": 5.854848,
+      "cpcGeoLevel": "Seine-et-Marne",
+      "localMetricsReturned": true
+    },
+    {
+      "order": 8,
+      "keyword": "menuiserie intérieure sur mesure",
+      "googleCanonicalKeyword": "menuiserie intérieure sur mesure",
+      "closeVariants": [],
+      "avgMonthlySearches": 10,
+      "monthlySearchVolumes": [
+        {
+          "year": 2025,
+          "month": "JULY",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "AUGUST",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "SEPTEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "OCTOBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 0
+        }
+      ],
+      "competition": "non précisée",
+      "competitionIndex": null,
+      "lowTopOfPageBid": 1.161572,
+      "highTopOfPageBid": 2.576774,
+      "averageCpc": 3.255812,
+      "cpcGeoLevel": "Île-de-France",
+      "localMetricsReturned": true
+    },
+    {
+      "order": 9,
+      "keyword": "agenceur intérieur",
+      "googleCanonicalKeyword": "agenceur intérieur",
+      "closeVariants": [],
+      "avgMonthlySearches": 10,
+      "monthlySearchVolumes": [
+        {
+          "year": 2025,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "OCTOBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        }
+      ],
+      "competition": "faible",
+      "competitionIndex": 31,
+      "lowTopOfPageBid": 1.387295,
+      "highTopOfPageBid": 5.546406,
+      "averageCpc": 6.347249,
+      "cpcGeoLevel": "Île-de-France",
+      "localMetricsReturned": true
+    },
+    {
+      "order": 10,
+      "keyword": "agenceur sur mesure",
+      "googleCanonicalKeyword": "agenceur sur mesure",
+      "closeVariants": [],
+      "avgMonthlySearches": 10,
+      "monthlySearchVolumes": [
+        {
+          "year": 2025,
+          "month": "JULY",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "AUGUST",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "SEPTEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "OCTOBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 0
+        }
+      ],
+      "competition": "non précisée",
+      "competitionIndex": null,
+      "lowTopOfPageBid": 0.750835,
+      "highTopOfPageBid": 2.396125,
+      "averageCpc": 2.908845,
+      "cpcGeoLevel": "France",
+      "localMetricsReturned": true
+    },
+    {
+      "order": 11,
+      "keyword": "agenceur Seine et Marne",
+      "googleCanonicalKeyword": "agenceur seine et marne",
+      "closeVariants": [
+        "agenceur Seine et Marne"
+      ],
+      "avgMonthlySearches": 0,
+      "monthlySearchVolumes": [],
+      "competition": "non disponible",
+      "competitionIndex": null,
+      "lowTopOfPageBid": null,
+      "highTopOfPageBid": null,
+      "averageCpc": null,
+      "cpcGeoLevel": null,
+      "localMetricsReturned": true
+    },
+    {
+      "order": 12,
+      "keyword": "agencement intérieur",
+      "googleCanonicalKeyword": "agencement intérieur",
+      "closeVariants": [],
+      "avgMonthlySearches": 20,
+      "monthlySearchVolumes": [
+        {
+          "year": 2025,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "AUGUST",
+          "searches": 30
+        },
+        {
+          "year": 2025,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "OCTOBER",
+          "searches": 30
+        },
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        }
+      ],
+      "competition": "moyenne",
+      "competitionIndex": 34,
+      "lowTopOfPageBid": 1.14632,
+      "highTopOfPageBid": 4.440697,
+      "averageCpc": 3.767257,
+      "cpcGeoLevel": "Île-de-France",
+      "localMetricsReturned": true
+    },
+    {
+      "order": 13,
+      "keyword": "agencement intérieur sur mesure",
+      "googleCanonicalKeyword": "agencement intérieur sur mesure",
+      "closeVariants": [],
+      "avgMonthlySearches": 10,
+      "monthlySearchVolumes": [
+        {
+          "year": 2025,
+          "month": "JULY",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "AUGUST",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "SEPTEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "OCTOBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 0
+        }
+      ],
+      "competition": "non précisée",
+      "competitionIndex": null,
+      "lowTopOfPageBid": null,
+      "highTopOfPageBid": null,
+      "averageCpc": null,
+      "cpcGeoLevel": null,
+      "localMetricsReturned": true
+    },
+    {
+      "order": 14,
+      "keyword": "aménagement intérieur",
+      "googleCanonicalKeyword": "aménagement intérieur",
+      "closeVariants": [],
+      "avgMonthlySearches": 50,
+      "monthlySearchVolumes": [
+        {
+          "year": 2025,
+          "month": "JULY",
+          "searches": 90
+        },
+        {
+          "year": 2025,
+          "month": "AUGUST",
+          "searches": 40
+        },
+        {
+          "year": 2025,
+          "month": "SEPTEMBER",
+          "searches": 50
+        },
+        {
+          "year": 2025,
+          "month": "OCTOBER",
+          "searches": 50
+        },
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 70
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 70
+        }
+      ],
+      "competition": "forte",
+      "competitionIndex": 83,
+      "lowTopOfPageBid": 0.751986,
+      "highTopOfPageBid": 2.873918,
+      "averageCpc": 3.518145,
+      "cpcGeoLevel": "Seine-et-Marne",
+      "localMetricsReturned": true
+    },
+    {
+      "order": 15,
+      "keyword": "aménagement intérieur sur mesure",
+      "googleCanonicalKeyword": "aménagement intérieur sur mesure",
+      "closeVariants": [],
+      "avgMonthlySearches": 10,
+      "monthlySearchVolumes": [
+        {
+          "year": 2025,
+          "month": "JULY",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "AUGUST",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "SEPTEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "OCTOBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        }
+      ],
+      "competition": "forte",
+      "competitionIndex": 81,
+      "lowTopOfPageBid": 0.905568,
+      "highTopOfPageBid": 3.967132,
+      "averageCpc": 4.080211,
+      "cpcGeoLevel": "Île-de-France",
+      "localMetricsReturned": true
+    },
+    {
+      "order": 16,
+      "keyword": "mobilier sur mesure",
+      "googleCanonicalKeyword": "mobilier sur mesure",
+      "closeVariants": [],
+      "avgMonthlySearches": 10,
+      "monthlySearchVolumes": [
+        {
+          "year": 2025,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "AUGUST",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "OCTOBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        }
+      ],
+      "competition": "faible",
+      "competitionIndex": 0,
+      "lowTopOfPageBid": 1.108873,
+      "highTopOfPageBid": 3.522864,
+      "averageCpc": 2.772067,
+      "cpcGeoLevel": "Île-de-France",
+      "localMetricsReturned": true
+    },
+    {
+      "order": 17,
+      "keyword": "fabrication mobilier sur mesure",
+      "googleCanonicalKeyword": "fabrication mobilier sur mesure",
+      "closeVariants": [],
+      "avgMonthlySearches": 10,
+      "monthlySearchVolumes": [
+        {
+          "year": 2025,
+          "month": "JULY",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "AUGUST",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "OCTOBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 0
+        }
+      ],
+      "competition": "non précisée",
+      "competitionIndex": null,
+      "lowTopOfPageBid": null,
+      "highTopOfPageBid": null,
+      "averageCpc": 4.124148,
+      "cpcGeoLevel": "France",
+      "localMetricsReturned": true
+    },
+    {
+      "order": 18,
+      "keyword": "fabrication meuble sur mesure",
+      "googleCanonicalKeyword": "fabrication meuble sur mesure",
+      "closeVariants": [
+        "fabricant meuble sur mesure"
+      ],
+      "avgMonthlySearches": 10,
+      "monthlySearchVolumes": [
+        {
+          "year": 2025,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "OCTOBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        }
+      ],
+      "competition": "forte",
+      "competitionIndex": 100,
+      "lowTopOfPageBid": 0.745374,
+      "highTopOfPageBid": 1.749747,
+      "averageCpc": 0.68124,
+      "cpcGeoLevel": "Seine-et-Marne",
+      "localMetricsReturned": true
+    },
+    {
+      "order": 19,
+      "keyword": "création meuble sur mesure",
+      "googleCanonicalKeyword": "création meuble sur mesure",
+      "closeVariants": [],
+      "avgMonthlySearches": 10,
+      "monthlySearchVolumes": [
+        {
+          "year": 2025,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "AUGUST",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "OCTOBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 0
+        }
+      ],
+      "competition": "non précisée",
+      "competitionIndex": null,
+      "lowTopOfPageBid": 1.07065,
+      "highTopOfPageBid": 2.776471,
+      "averageCpc": 2.928489,
+      "cpcGeoLevel": "Île-de-France",
+      "localMetricsReturned": true
+    },
+    {
+      "order": 20,
+      "keyword": "conception meuble sur mesure",
+      "googleCanonicalKeyword": "conception meuble sur mesure",
+      "closeVariants": [],
+      "avgMonthlySearches": 10,
+      "monthlySearchVolumes": [
+        {
+          "year": 2025,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "OCTOBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        }
+      ],
+      "competition": "forte",
+      "competitionIndex": 100,
+      "lowTopOfPageBid": 1.006533,
+      "highTopOfPageBid": 2.588721,
+      "averageCpc": 2.815402,
+      "cpcGeoLevel": "Île-de-France",
+      "localMetricsReturned": true
+    },
+    {
+      "order": 21,
+      "keyword": "meuble sur mesure",
+      "googleCanonicalKeyword": "meuble sur mesure",
+      "closeVariants": [],
+      "avgMonthlySearches": 170,
+      "monthlySearchVolumes": [
+        {
+          "year": 2025,
+          "month": "JULY",
+          "searches": 110
+        },
+        {
+          "year": 2025,
+          "month": "AUGUST",
+          "searches": 170
+        },
+        {
+          "year": 2025,
+          "month": "SEPTEMBER",
+          "searches": 140
+        },
+        {
+          "year": 2025,
+          "month": "OCTOBER",
+          "searches": 170
+        },
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 210
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 210
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 210
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 140
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 110
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 140
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 170
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 90
+        }
+      ],
+      "competition": "forte",
+      "competitionIndex": 100,
+      "lowTopOfPageBid": 0.598215,
+      "highTopOfPageBid": 2.415467,
+      "averageCpc": 2.103366,
+      "cpcGeoLevel": "Seine-et-Marne",
+      "localMetricsReturned": true
+    },
+    {
+      "order": 22,
+      "keyword": "meuble bois sur mesure",
+      "googleCanonicalKeyword": "meuble bois sur mesure",
+      "closeVariants": [],
+      "avgMonthlySearches": 10,
+      "monthlySearchVolumes": [
+        {
+          "year": 2025,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "OCTOBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        }
+      ],
+      "competition": "forte",
+      "competitionIndex": 71,
+      "lowTopOfPageBid": 1.202416,
+      "highTopOfPageBid": 1.89918,
+      "averageCpc": 2.09116,
+      "cpcGeoLevel": "Seine-et-Marne",
+      "localMetricsReturned": true
+    },
+    {
+      "order": 23,
+      "keyword": "meuble rangement sur mesure",
+      "googleCanonicalKeyword": "meuble rangement sur mesure",
+      "closeVariants": [],
+      "avgMonthlySearches": 10,
+      "monthlySearchVolumes": [
+        {
+          "year": 2025,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "OCTOBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 0
+        }
+      ],
+      "competition": "non précisée",
+      "competitionIndex": null,
+      "lowTopOfPageBid": 0.712926,
+      "highTopOfPageBid": 3.08313,
+      "averageCpc": 3.354796,
+      "cpcGeoLevel": "Île-de-France",
+      "localMetricsReturned": true
+    },
+    {
+      "order": 24,
+      "keyword": "meuble entrée sur mesure",
+      "googleCanonicalKeyword": "meuble entrée sur mesure",
+      "closeVariants": [],
+      "avgMonthlySearches": 10,
+      "monthlySearchVolumes": [
+        {
+          "year": 2025,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "OCTOBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        }
+      ],
+      "competition": "forte",
+      "competitionIndex": 100,
+      "lowTopOfPageBid": 0.69723,
+      "highTopOfPageBid": 2.052985,
+      "averageCpc": 1.331822,
+      "cpcGeoLevel": "Île-de-France",
+      "localMetricsReturned": true
+    },
+    {
+      "order": 25,
+      "keyword": "meuble salon sur mesure",
+      "googleCanonicalKeyword": "meuble salon sur mesure",
+      "closeVariants": [],
+      "avgMonthlySearches": 10,
+      "monthlySearchVolumes": [
+        {
+          "year": 2025,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "OCTOBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        }
+      ],
+      "competition": "forte",
+      "competitionIndex": 100,
+      "lowTopOfPageBid": 1.464826,
+      "highTopOfPageBid": 2.110477,
+      "averageCpc": 0.386538,
+      "cpcGeoLevel": "Seine-et-Marne",
+      "localMetricsReturned": true
+    },
+    {
+      "order": 26,
+      "keyword": "meuble TV sur mesure",
+      "googleCanonicalKeyword": "meuble tv sur mesure",
+      "closeVariants": [
+        "meuble TV sur mesure"
+      ],
+      "avgMonthlySearches": 50,
+      "monthlySearchVolumes": [
+        {
+          "year": 2025,
+          "month": "JULY",
+          "searches": 30
+        },
+        {
+          "year": 2025,
+          "month": "AUGUST",
+          "searches": 30
+        },
+        {
+          "year": 2025,
+          "month": "SEPTEMBER",
+          "searches": 50
+        },
+        {
+          "year": 2025,
+          "month": "OCTOBER",
+          "searches": 50
+        },
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 70
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 110
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 20
+        }
+      ],
+      "competition": "forte",
+      "competitionIndex": 100,
+      "lowTopOfPageBid": 0.584817,
+      "highTopOfPageBid": 1.958079,
+      "averageCpc": 2.283421,
+      "cpcGeoLevel": "Seine-et-Marne",
+      "localMetricsReturned": true
+    },
+    {
+      "order": 27,
+      "keyword": "meuble bibliothèque sur mesure",
+      "googleCanonicalKeyword": "meuble bibliothèque sur mesure",
+      "closeVariants": [],
+      "avgMonthlySearches": 10,
+      "monthlySearchVolumes": [
+        {
+          "year": 2025,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "OCTOBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        }
+      ],
+      "competition": "forte",
+      "competitionIndex": 100,
+      "lowTopOfPageBid": 0.757068,
+      "highTopOfPageBid": 3.569504,
+      "averageCpc": 2.570718,
+      "cpcGeoLevel": "Île-de-France",
+      "localMetricsReturned": true
+    },
+    {
+      "order": 28,
+      "keyword": "bibliothèque sur mesure",
+      "googleCanonicalKeyword": "bibliothèque sur mesure",
+      "closeVariants": [],
+      "avgMonthlySearches": 90,
+      "monthlySearchVolumes": [
+        {
+          "year": 2025,
+          "month": "JULY",
+          "searches": 90
+        },
+        {
+          "year": 2025,
+          "month": "AUGUST",
+          "searches": 90
+        },
+        {
+          "year": 2025,
+          "month": "SEPTEMBER",
+          "searches": 90
+        },
+        {
+          "year": 2025,
+          "month": "OCTOBER",
+          "searches": 110
+        },
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 110
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 90
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 110
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 90
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 90
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 70
+        }
+      ],
+      "competition": "forte",
+      "competitionIndex": 100,
+      "lowTopOfPageBid": 0.955983,
+      "highTopOfPageBid": 3.512398,
+      "averageCpc": 3.756204,
+      "cpcGeoLevel": "Seine-et-Marne",
+      "localMetricsReturned": true
+    },
+    {
+      "order": 29,
+      "keyword": "bibliothèque murale sur mesure",
+      "googleCanonicalKeyword": "bibliothèque murale sur mesure",
+      "closeVariants": [],
+      "avgMonthlySearches": 10,
+      "monthlySearchVolumes": [
+        {
+          "year": 2025,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "OCTOBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        }
+      ],
+      "competition": "forte",
+      "competitionIndex": 100,
+      "lowTopOfPageBid": 0.748662,
+      "highTopOfPageBid": 2.42735,
+      "averageCpc": 1.949986,
+      "cpcGeoLevel": "Île-de-France",
+      "localMetricsReturned": true
+    },
+    {
+      "order": 30,
+      "keyword": "bibliothèque bois sur mesure",
+      "googleCanonicalKeyword": "bibliothèque bois sur mesure",
+      "closeVariants": [],
+      "avgMonthlySearches": 10,
+      "monthlySearchVolumes": [
+        {
+          "year": 2025,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "OCTOBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        }
+      ],
+      "competition": "forte",
+      "competitionIndex": 100,
+      "lowTopOfPageBid": 0.796733,
+      "highTopOfPageBid": 1.006533,
+      "averageCpc": 1.259245,
+      "cpcGeoLevel": "Seine-et-Marne",
+      "localMetricsReturned": true
+    },
+    {
+      "order": 31,
+      "keyword": "dressing sur mesure",
+      "googleCanonicalKeyword": "dressing sur mesure",
+      "closeVariants": [],
+      "avgMonthlySearches": 320,
+      "monthlySearchVolumes": [
+        {
+          "year": 2025,
+          "month": "JULY",
+          "searches": 260
+        },
+        {
+          "year": 2025,
+          "month": "AUGUST",
+          "searches": 390
+        },
+        {
+          "year": 2025,
+          "month": "SEPTEMBER",
+          "searches": 320
+        },
+        {
+          "year": 2025,
+          "month": "OCTOBER",
+          "searches": 390
+        },
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 320
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 260
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 390
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 260
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 320
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 260
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 260
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 260
+        }
+      ],
+      "competition": "forte",
+      "competitionIndex": 100,
+      "lowTopOfPageBid": 0.737284,
+      "highTopOfPageBid": 2.146764,
+      "averageCpc": 1.819645,
+      "cpcGeoLevel": "Seine-et-Marne",
+      "localMetricsReturned": true
+    },
+    {
+      "order": 32,
+      "keyword": "dressing personnalisé",
+      "googleCanonicalKeyword": "dressing personnalisé",
+      "closeVariants": [],
+      "avgMonthlySearches": 10,
+      "monthlySearchVolumes": [
+        {
+          "year": 2025,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "OCTOBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        }
+      ],
+      "competition": "forte",
+      "competitionIndex": 100,
+      "lowTopOfPageBid": 0.545435,
+      "highTopOfPageBid": 1.490034,
+      "averageCpc": 0.810964,
+      "cpcGeoLevel": "Île-de-France",
+      "localMetricsReturned": true
+    },
+    {
+      "order": 33,
+      "keyword": "création dressing",
+      "googleCanonicalKeyword": "création dressing",
+      "closeVariants": [],
+      "avgMonthlySearches": 10,
+      "monthlySearchVolumes": [
+        {
+          "year": 2025,
+          "month": "JULY",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "OCTOBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 0
+        }
+      ],
+      "competition": "non précisée",
+      "competitionIndex": null,
+      "lowTopOfPageBid": 0.351047,
+      "highTopOfPageBid": 1.400284,
+      "averageCpc": 1.419838,
+      "cpcGeoLevel": "France",
+      "localMetricsReturned": true
+    },
+    {
+      "order": 34,
+      "keyword": "conception dressing",
+      "googleCanonicalKeyword": "conception dressing",
+      "closeVariants": [],
+      "avgMonthlySearches": 10,
+      "monthlySearchVolumes": [
+        {
+          "year": 2025,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "OCTOBER",
+          "searches": 20
+        },
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        }
+      ],
+      "competition": "forte",
+      "competitionIndex": 100,
+      "lowTopOfPageBid": 0.694368,
+      "highTopOfPageBid": 1.676645,
+      "averageCpc": 1.404392,
+      "cpcGeoLevel": "Seine-et-Marne",
+      "localMetricsReturned": true
+    },
+    {
+      "order": 35,
+      "keyword": "aménagement dressing",
+      "googleCanonicalKeyword": "aménagement dressing",
+      "closeVariants": [],
+      "avgMonthlySearches": 40,
+      "monthlySearchVolumes": [
+        {
+          "year": 2025,
+          "month": "JULY",
+          "searches": 30
+        },
+        {
+          "year": 2025,
+          "month": "AUGUST",
+          "searches": 50
+        },
+        {
+          "year": 2025,
+          "month": "SEPTEMBER",
+          "searches": 50
+        },
+        {
+          "year": 2025,
+          "month": "OCTOBER",
+          "searches": 30
+        },
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 30
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 30
+        }
+      ],
+      "competition": "forte",
+      "competitionIndex": 100,
+      "lowTopOfPageBid": 0.414866,
+      "highTopOfPageBid": 1.361494,
+      "averageCpc": 0.376104,
+      "cpcGeoLevel": "Seine-et-Marne",
+      "localMetricsReturned": true
+    },
+    {
+      "order": 36,
+      "keyword": "dressing sous pente",
+      "googleCanonicalKeyword": "dressing sous pente",
+      "closeVariants": [],
+      "avgMonthlySearches": 170,
+      "monthlySearchVolumes": [
+        {
+          "year": 2025,
+          "month": "JULY",
+          "searches": 140
+        },
+        {
+          "year": 2025,
+          "month": "AUGUST",
+          "searches": 210
+        },
+        {
+          "year": 2025,
+          "month": "SEPTEMBER",
+          "searches": 210
+        },
+        {
+          "year": 2025,
+          "month": "OCTOBER",
+          "searches": 170
+        },
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 140
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 110
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 210
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 140
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 110
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 140
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 170
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 110
+        }
+      ],
+      "competition": "forte",
+      "competitionIndex": 100,
+      "lowTopOfPageBid": 0.278095,
+      "highTopOfPageBid": 1.408606,
+      "averageCpc": 0.381052,
+      "cpcGeoLevel": "Seine-et-Marne",
+      "localMetricsReturned": true
+    },
+    {
+      "order": 37,
+      "keyword": "dressing d angle sur mesure",
+      "googleCanonicalKeyword": "dressing d angle sur mesure",
+      "closeVariants": [],
+      "avgMonthlySearches": 10,
+      "monthlySearchVolumes": [
+        {
+          "year": 2025,
+          "month": "JULY",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "OCTOBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        }
+      ],
+      "competition": "forte",
+      "competitionIndex": 100,
+      "lowTopOfPageBid": 0.211784,
+      "highTopOfPageBid": 1.470768,
+      "averageCpc": 1.034536,
+      "cpcGeoLevel": "Île-de-France",
+      "localMetricsReturned": true
+    },
+    {
+      "order": 38,
+      "keyword": "placard sur mesure",
+      "googleCanonicalKeyword": "placard sur mesure",
+      "closeVariants": [],
+      "avgMonthlySearches": 90,
+      "monthlySearchVolumes": [
+        {
+          "year": 2025,
+          "month": "JULY",
+          "searches": 90
+        },
+        {
+          "year": 2025,
+          "month": "AUGUST",
+          "searches": 90
+        },
+        {
+          "year": 2025,
+          "month": "SEPTEMBER",
+          "searches": 90
+        },
+        {
+          "year": 2025,
+          "month": "OCTOBER",
+          "searches": 70
+        },
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 90
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 90
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 140
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 90
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 110
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 90
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 90
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 90
+        }
+      ],
+      "competition": "forte",
+      "competitionIndex": 100,
+      "lowTopOfPageBid": 0.826923,
+      "highTopOfPageBid": 2.269779,
+      "averageCpc": 1.724572,
+      "cpcGeoLevel": "Seine-et-Marne",
+      "localMetricsReturned": true
+    },
+    {
+      "order": 39,
+      "keyword": "placard coulissant sur mesure",
+      "googleCanonicalKeyword": "placard coulissant sur mesure",
+      "closeVariants": [],
+      "avgMonthlySearches": 10,
+      "monthlySearchVolumes": [
+        {
+          "year": 2025,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "OCTOBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        }
+      ],
+      "competition": "forte",
+      "competitionIndex": 100,
+      "lowTopOfPageBid": 0.860209,
+      "highTopOfPageBid": 3.255219,
+      "averageCpc": 2.746009,
+      "cpcGeoLevel": "Île-de-France",
+      "localMetricsReturned": true
+    },
+    {
+      "order": 40,
+      "keyword": "placard sous pente",
+      "googleCanonicalKeyword": "placard sous pente",
+      "closeVariants": [],
+      "avgMonthlySearches": 90,
+      "monthlySearchVolumes": [
+        {
+          "year": 2025,
+          "month": "JULY",
+          "searches": 110
+        },
+        {
+          "year": 2025,
+          "month": "AUGUST",
+          "searches": 90
+        },
+        {
+          "year": 2025,
+          "month": "SEPTEMBER",
+          "searches": 110
+        },
+        {
+          "year": 2025,
+          "month": "OCTOBER",
+          "searches": 110
+        },
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 110
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 110
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 90
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 90
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 70
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 50
+        }
+      ],
+      "competition": "forte",
+      "competitionIndex": 100,
+      "lowTopOfPageBid": 0.133794,
+      "highTopOfPageBid": 1.159833,
+      "averageCpc": 0.40409,
+      "cpcGeoLevel": "Seine-et-Marne",
+      "localMetricsReturned": true
+    },
+    {
+      "order": 41,
+      "keyword": "placard sous escalier sur mesure",
+      "googleCanonicalKeyword": "placard sous escalier sur mesure",
+      "closeVariants": [],
+      "avgMonthlySearches": 10,
+      "monthlySearchVolumes": [
+        {
+          "year": 2025,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "OCTOBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        }
+      ],
+      "competition": "forte",
+      "competitionIndex": 81,
+      "lowTopOfPageBid": 1.460277,
+      "highTopOfPageBid": 4.44241,
+      "averageCpc": 3.368291,
+      "cpcGeoLevel": "Seine-et-Marne",
+      "localMetricsReturned": true
+    },
+    {
+      "order": 42,
+      "keyword": "aménagement placard sur mesure",
+      "googleCanonicalKeyword": "aménagement placard sur mesure",
+      "closeVariants": [],
+      "avgMonthlySearches": 10,
+      "monthlySearchVolumes": [
+        {
+          "year": 2025,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "OCTOBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        }
+      ],
+      "competition": "forte",
+      "competitionIndex": 100,
+      "lowTopOfPageBid": 0.684658,
+      "highTopOfPageBid": 2.79338,
+      "averageCpc": 1.875767,
+      "cpcGeoLevel": "Île-de-France",
+      "localMetricsReturned": true
+    },
+    {
+      "order": 43,
+      "keyword": "rangement sur mesure",
+      "googleCanonicalKeyword": "rangement sur mesure",
+      "closeVariants": [],
+      "avgMonthlySearches": 10,
+      "monthlySearchVolumes": [
+        {
+          "year": 2025,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "OCTOBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        }
+      ],
+      "competition": "moyenne",
+      "competitionIndex": 61,
+      "lowTopOfPageBid": 1.116104,
+      "highTopOfPageBid": 3.211806,
+      "averageCpc": null,
+      "cpcGeoLevel": "Seine-et-Marne",
+      "localMetricsReturned": true
+    },
+    {
+      "order": 44,
+      "keyword": "rangement sous pente",
+      "googleCanonicalKeyword": "rangement sous pente",
+      "closeVariants": [],
+      "avgMonthlySearches": 50,
+      "monthlySearchVolumes": [
+        {
+          "year": 2025,
+          "month": "JULY",
+          "searches": 50
+        },
+        {
+          "year": 2025,
+          "month": "AUGUST",
+          "searches": 70
+        },
+        {
+          "year": 2025,
+          "month": "SEPTEMBER",
+          "searches": 40
+        },
+        {
+          "year": 2025,
+          "month": "OCTOBER",
+          "searches": 50
+        },
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 70
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 20
+        }
+      ],
+      "competition": "forte",
+      "competitionIndex": 100,
+      "lowTopOfPageBid": 0.379592,
+      "highTopOfPageBid": 1.078369,
+      "averageCpc": 0.209024,
+      "cpcGeoLevel": "Seine-et-Marne",
+      "localMetricsReturned": true
+    },
+    {
+      "order": 45,
+      "keyword": "meuble sous pente sur mesure",
+      "googleCanonicalKeyword": "meuble sous pente sur mesure",
+      "closeVariants": [],
+      "avgMonthlySearches": 20,
+      "monthlySearchVolumes": [
+        {
+          "year": 2025,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "AUGUST",
+          "searches": 20
+        },
+        {
+          "year": 2025,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "OCTOBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 70
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        }
+      ],
+      "competition": "forte",
+      "competitionIndex": 100,
+      "lowTopOfPageBid": 0.741653,
+      "highTopOfPageBid": 1.749434,
+      "averageCpc": 1.521093,
+      "cpcGeoLevel": "Seine-et-Marne",
+      "localMetricsReturned": true
+    },
+    {
+      "order": 46,
+      "keyword": "meuble sous escalier sur mesure",
+      "googleCanonicalKeyword": "meuble sous escalier sur mesure",
+      "closeVariants": [],
+      "avgMonthlySearches": 30,
+      "monthlySearchVolumes": [
+        {
+          "year": 2025,
+          "month": "JULY",
+          "searches": 30
+        },
+        {
+          "year": 2025,
+          "month": "AUGUST",
+          "searches": 30
+        },
+        {
+          "year": 2025,
+          "month": "SEPTEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2025,
+          "month": "OCTOBER",
+          "searches": 30
+        },
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 30
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 20
+        }
+      ],
+      "competition": "forte",
+      "competitionIndex": 100,
+      "lowTopOfPageBid": 0.807275,
+      "highTopOfPageBid": 2.189607,
+      "averageCpc": 1.469263,
+      "cpcGeoLevel": "Seine-et-Marne",
+      "localMetricsReturned": true
+    },
+    {
+      "order": 47,
+      "keyword": "cuisine sur mesure",
+      "googleCanonicalKeyword": "cuisine sur mesure",
+      "closeVariants": [],
+      "avgMonthlySearches": 110,
+      "monthlySearchVolumes": [
+        {
+          "year": 2025,
+          "month": "JULY",
+          "searches": 140
+        },
+        {
+          "year": 2025,
+          "month": "AUGUST",
+          "searches": 90
+        },
+        {
+          "year": 2025,
+          "month": "SEPTEMBER",
+          "searches": 140
+        },
+        {
+          "year": 2025,
+          "month": "OCTOBER",
+          "searches": 140
+        },
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 110
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 110
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 110
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 110
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 90
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 90
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 70
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 70
+        }
+      ],
+      "competition": "forte",
+      "competitionIndex": 88,
+      "lowTopOfPageBid": 1.73215,
+      "highTopOfPageBid": 4.794845,
+      "averageCpc": 4.295423,
+      "cpcGeoLevel": "Seine-et-Marne",
+      "localMetricsReturned": true
+    },
+    {
+      "order": 48,
+      "keyword": "cuisine équipée sur mesure",
+      "googleCanonicalKeyword": "cuisine équipée sur mesure",
+      "closeVariants": [],
+      "avgMonthlySearches": 10,
+      "monthlySearchVolumes": [
+        {
+          "year": 2025,
+          "month": "JULY",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "OCTOBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        }
+      ],
+      "competition": "forte",
+      "competitionIndex": 84,
+      "lowTopOfPageBid": 1.526531,
+      "highTopOfPageBid": 2.789431,
+      "averageCpc": 1.566914,
+      "cpcGeoLevel": "Seine-et-Marne",
+      "localMetricsReturned": true
+    },
+    {
+      "order": 49,
+      "keyword": "meuble cuisine sur mesure",
+      "googleCanonicalKeyword": "meuble cuisine sur mesure",
+      "closeVariants": [],
+      "avgMonthlySearches": 10,
+      "monthlySearchVolumes": [
+        {
+          "year": 2025,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "OCTOBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        }
+      ],
+      "competition": "forte",
+      "competitionIndex": 100,
+      "lowTopOfPageBid": 0.506751,
+      "highTopOfPageBid": 2.402725,
+      "averageCpc": 1.07464,
+      "cpcGeoLevel": "Seine-et-Marne",
+      "localMetricsReturned": true
+    },
+    {
+      "order": 50,
+      "keyword": "îlot cuisine sur mesure",
+      "googleCanonicalKeyword": "îlot cuisine sur mesure",
+      "closeVariants": [],
+      "avgMonthlySearches": 0,
+      "monthlySearchVolumes": [],
+      "competition": "non disponible",
+      "competitionIndex": null,
+      "lowTopOfPageBid": null,
+      "highTopOfPageBid": null,
+      "averageCpc": null,
+      "cpcGeoLevel": null,
+      "localMetricsReturned": true
+    },
+    {
+      "order": 51,
+      "keyword": "bureau sur mesure",
+      "googleCanonicalKeyword": "bureau sur mesure",
+      "closeVariants": [],
+      "avgMonthlySearches": 40,
+      "monthlySearchVolumes": [
+        {
+          "year": 2025,
+          "month": "JULY",
+          "searches": 50
+        },
+        {
+          "year": 2025,
+          "month": "AUGUST",
+          "searches": 40
+        },
+        {
+          "year": 2025,
+          "month": "SEPTEMBER",
+          "searches": 50
+        },
+        {
+          "year": 2025,
+          "month": "OCTOBER",
+          "searches": 40
+        },
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 40
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 90
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 20
+        }
+      ],
+      "competition": "forte",
+      "competitionIndex": 96,
+      "lowTopOfPageBid": 0.202642,
+      "highTopOfPageBid": 1.636876,
+      "averageCpc": 1.801851,
+      "cpcGeoLevel": "Seine-et-Marne",
+      "localMetricsReturned": true
+    },
+    {
+      "order": 52,
+      "keyword": "aménagement bureau sur mesure",
+      "googleCanonicalKeyword": "aménagement bureau sur mesure",
+      "closeVariants": [],
+      "avgMonthlySearches": 10,
+      "monthlySearchVolumes": [
+        {
+          "year": 2025,
+          "month": "JULY",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "AUGUST",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "SEPTEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "OCTOBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 0
+        }
+      ],
+      "competition": "non précisée",
+      "competitionIndex": null,
+      "lowTopOfPageBid": 1.614312,
+      "highTopOfPageBid": 12.592486,
+      "averageCpc": 13.437596,
+      "cpcGeoLevel": "Île-de-France",
+      "localMetricsReturned": true
+    },
+    {
+      "order": 53,
+      "keyword": "table sur mesure",
+      "googleCanonicalKeyword": "table sur mesure",
+      "closeVariants": [],
+      "avgMonthlySearches": 10,
+      "monthlySearchVolumes": [
+        {
+          "year": 2025,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "SEPTEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2025,
+          "month": "OCTOBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        }
+      ],
+      "competition": "forte",
+      "competitionIndex": 94,
+      "lowTopOfPageBid": 0.566264,
+      "highTopOfPageBid": 1.832331,
+      "averageCpc": 1.409363,
+      "cpcGeoLevel": "Île-de-France",
+      "localMetricsReturned": true
+    },
+    {
+      "order": 54,
+      "keyword": "table bois sur mesure",
+      "googleCanonicalKeyword": "table bois sur mesure",
+      "closeVariants": [],
+      "avgMonthlySearches": 10,
+      "monthlySearchVolumes": [
+        {
+          "year": 2025,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "OCTOBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        }
+      ],
+      "competition": "forte",
+      "competitionIndex": 100,
+      "lowTopOfPageBid": 0.463119,
+      "highTopOfPageBid": 1.949466,
+      "averageCpc": 1.536785,
+      "cpcGeoLevel": "Île-de-France",
+      "localMetricsReturned": true
+    },
+    {
+      "order": 55,
+      "keyword": "table à manger sur mesure",
+      "googleCanonicalKeyword": "table à manger sur mesure",
+      "closeVariants": [],
+      "avgMonthlySearches": 10,
+      "monthlySearchVolumes": [
+        {
+          "year": 2025,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "OCTOBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 0
+        }
+      ],
+      "competition": "non précisée",
+      "competitionIndex": null,
+      "lowTopOfPageBid": 0.746671,
+      "highTopOfPageBid": 1.393934,
+      "averageCpc": 0.566783,
+      "cpcGeoLevel": "Île-de-France",
+      "localMetricsReturned": true
+    },
+    {
+      "order": 56,
+      "keyword": "claustra bois sur mesure",
+      "googleCanonicalKeyword": "claustra bois sur mesure",
+      "closeVariants": [],
+      "avgMonthlySearches": 10,
+      "monthlySearchVolumes": [
+        {
+          "year": 2025,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "OCTOBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        }
+      ],
+      "competition": "forte",
+      "competitionIndex": 100,
+      "lowTopOfPageBid": 0.546241,
+      "highTopOfPageBid": 1.00741,
+      "averageCpc": 0.930709,
+      "cpcGeoLevel": "Seine-et-Marne",
+      "localMetricsReturned": true
+    },
+    {
+      "order": 57,
+      "keyword": "claustra sur mesure",
+      "googleCanonicalKeyword": "claustra sur mesure",
+      "closeVariants": [],
+      "avgMonthlySearches": 20,
+      "monthlySearchVolumes": [
+        {
+          "year": 2025,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "SEPTEMBER",
+          "searches": 30
+        },
+        {
+          "year": 2025,
+          "month": "OCTOBER",
+          "searches": 30
+        },
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 30
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        }
+      ],
+      "competition": "forte",
+      "competitionIndex": 100,
+      "lowTopOfPageBid": 0.452388,
+      "highTopOfPageBid": 1.477244,
+      "averageCpc": 0.779222,
+      "cpcGeoLevel": "Seine-et-Marne",
+      "localMetricsReturned": true
+    },
+    {
+      "order": 58,
+      "keyword": "agencement escalier",
+      "googleCanonicalKeyword": "agencement escalier",
+      "closeVariants": [],
+      "avgMonthlySearches": 10,
+      "monthlySearchVolumes": [
+        {
+          "year": 2025,
+          "month": "JULY",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "AUGUST",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "SEPTEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "OCTOBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 0
+        }
+      ],
+      "competition": "non précisée",
+      "competitionIndex": null,
+      "lowTopOfPageBid": null,
+      "highTopOfPageBid": null,
+      "averageCpc": 1.816313,
+      "cpcGeoLevel": "France",
+      "localMetricsReturned": true
+    },
+    {
+      "order": 59,
+      "keyword": "rangement sous escalier",
+      "googleCanonicalKeyword": "rangement sous escalier",
+      "closeVariants": [],
+      "avgMonthlySearches": 110,
+      "monthlySearchVolumes": [
+        {
+          "year": 2025,
+          "month": "JULY",
+          "searches": 70
+        },
+        {
+          "year": 2025,
+          "month": "AUGUST",
+          "searches": 110
+        },
+        {
+          "year": 2025,
+          "month": "SEPTEMBER",
+          "searches": 110
+        },
+        {
+          "year": 2025,
+          "month": "OCTOBER",
+          "searches": 90
+        },
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 170
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 90
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 110
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 110
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 110
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 90
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 90
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 70
+        }
+      ],
+      "competition": "forte",
+      "competitionIndex": 99,
+      "lowTopOfPageBid": 0.096601,
+      "highTopOfPageBid": 0.929735,
+      "averageCpc": 0.111457,
+      "cpcGeoLevel": "Seine-et-Marne",
+      "localMetricsReturned": true
+    },
+    {
+      "order": 60,
+      "keyword": "devis menuisier sur mesure",
+      "googleCanonicalKeyword": "devis menuisier sur mesure",
+      "closeVariants": [],
+      "avgMonthlySearches": 0,
+      "monthlySearchVolumes": [],
+      "competition": "non disponible",
+      "competitionIndex": null,
+      "lowTopOfPageBid": null,
+      "highTopOfPageBid": null,
+      "averageCpc": null,
+      "cpcGeoLevel": null,
+      "localMetricsReturned": true
+    },
+    {
+      "order": 61,
+      "keyword": "devis agencement intérieur",
+      "googleCanonicalKeyword": "devis agencement intérieur",
+      "closeVariants": [],
+      "avgMonthlySearches": 0,
+      "monthlySearchVolumes": [],
+      "competition": "non disponible",
+      "competitionIndex": null,
+      "lowTopOfPageBid": null,
+      "highTopOfPageBid": null,
+      "averageCpc": null,
+      "cpcGeoLevel": null,
+      "localMetricsReturned": true
+    },
+    {
+      "order": 62,
+      "keyword": "devis meuble sur mesure",
+      "googleCanonicalKeyword": "devis meuble sur mesure",
+      "closeVariants": [],
+      "avgMonthlySearches": 10,
+      "monthlySearchVolumes": [
+        {
+          "year": 2025,
+          "month": "JULY",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "SEPTEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "OCTOBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 0
+        }
+      ],
+      "competition": "non précisée",
+      "competitionIndex": null,
+      "lowTopOfPageBid": 3.006452,
+      "highTopOfPageBid": 6.873699,
+      "averageCpc": 6.081556,
+      "cpcGeoLevel": "Île-de-France",
+      "localMetricsReturned": true
+    },
+    {
+      "order": 63,
+      "keyword": "devis dressing sur mesure",
+      "googleCanonicalKeyword": "devis dressing sur mesure",
+      "closeVariants": [],
+      "avgMonthlySearches": 10,
+      "monthlySearchVolumes": [
+        {
+          "year": 2025,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "OCTOBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 0
+        }
+      ],
+      "competition": "non précisée",
+      "competitionIndex": null,
+      "lowTopOfPageBid": 1.547578,
+      "highTopOfPageBid": 4.815692,
+      "averageCpc": 3.468088,
+      "cpcGeoLevel": "Île-de-France",
+      "localMetricsReturned": true
+    },
+    {
+      "order": 64,
+      "keyword": "devis bibliothèque sur mesure",
+      "googleCanonicalKeyword": "devis bibliothèque sur mesure",
+      "closeVariants": [],
+      "avgMonthlySearches": 0,
+      "monthlySearchVolumes": [],
+      "competition": "non disponible",
+      "competitionIndex": null,
+      "lowTopOfPageBid": null,
+      "highTopOfPageBid": null,
+      "averageCpc": null,
+      "cpcGeoLevel": null,
+      "localMetricsReturned": true
+    },
+    {
+      "order": 65,
+      "keyword": "devis placard sur mesure",
+      "googleCanonicalKeyword": "devis placard sur mesure",
+      "closeVariants": [],
+      "avgMonthlySearches": 10,
+      "monthlySearchVolumes": [
+        {
+          "year": 2025,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "AUGUST",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "SEPTEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "OCTOBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        }
+      ],
+      "competition": "forte",
+      "competitionIndex": 90,
+      "lowTopOfPageBid": 1.018812,
+      "highTopOfPageBid": 2.456321,
+      "averageCpc": 0.972602,
+      "cpcGeoLevel": "Seine-et-Marne",
+      "localMetricsReturned": true
+    },
+    {
+      "order": 66,
+      "keyword": "devis cuisine sur mesure",
+      "googleCanonicalKeyword": "devis cuisine sur mesure",
+      "closeVariants": [],
+      "avgMonthlySearches": 10,
+      "monthlySearchVolumes": [
+        {
+          "year": 2025,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "AUGUST",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "SEPTEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "OCTOBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        }
+      ],
+      "competition": "forte",
+      "competitionIndex": 71,
+      "lowTopOfPageBid": 2.283279,
+      "highTopOfPageBid": 10.124933,
+      "averageCpc": null,
+      "cpcGeoLevel": "Île-de-France",
+      "localMetricsReturned": true
+    },
+    {
+      "order": 67,
+      "keyword": "devis bureau sur mesure",
+      "googleCanonicalKeyword": "devis bureau sur mesure",
+      "closeVariants": [],
+      "avgMonthlySearches": 0,
+      "monthlySearchVolumes": [],
+      "competition": "non disponible",
+      "competitionIndex": null,
+      "lowTopOfPageBid": null,
+      "highTopOfPageBid": null,
+      "averageCpc": null,
+      "cpcGeoLevel": null,
+      "localMetricsReturned": true
+    },
+    {
+      "order": 68,
+      "keyword": "prix meuble sur mesure",
+      "googleCanonicalKeyword": "prix meuble sur mesure",
+      "closeVariants": [],
+      "avgMonthlySearches": 10,
+      "monthlySearchVolumes": [
+        {
+          "year": 2025,
+          "month": "JULY",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "OCTOBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        }
+      ],
+      "competition": "forte",
+      "competitionIndex": 100,
+      "lowTopOfPageBid": 0.544267,
+      "highTopOfPageBid": 2.669674,
+      "averageCpc": 2.346701,
+      "cpcGeoLevel": "Île-de-France",
+      "localMetricsReturned": true
+    },
+    {
+      "order": 69,
+      "keyword": "prix dressing sur mesure",
+      "googleCanonicalKeyword": "prix dressing sur mesure",
+      "closeVariants": [],
+      "avgMonthlySearches": 10,
+      "monthlySearchVolumes": [
+        {
+          "year": 2025,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "SEPTEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2025,
+          "month": "OCTOBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        }
+      ],
+      "competition": "forte",
+      "competitionIndex": 100,
+      "lowTopOfPageBid": 0.33716,
+      "highTopOfPageBid": 2.737585,
+      "averageCpc": 3.425457,
+      "cpcGeoLevel": "Seine-et-Marne",
+      "localMetricsReturned": true
+    },
+    {
+      "order": 70,
+      "keyword": "prix bibliothèque sur mesure",
+      "googleCanonicalKeyword": "prix bibliothèque sur mesure",
+      "closeVariants": [],
+      "avgMonthlySearches": 10,
+      "monthlySearchVolumes": [
+        {
+          "year": 2025,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "AUGUST",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "OCTOBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        }
+      ],
+      "competition": "forte",
+      "competitionIndex": 100,
+      "lowTopOfPageBid": 0.648596,
+      "highTopOfPageBid": 2.566547,
+      "averageCpc": 2.31476,
+      "cpcGeoLevel": "Île-de-France",
+      "localMetricsReturned": true
+    },
+    {
+      "order": 71,
+      "keyword": "prix placard sur mesure",
+      "googleCanonicalKeyword": "prix placard sur mesure",
+      "closeVariants": [],
+      "avgMonthlySearches": 10,
+      "monthlySearchVolumes": [
+        {
+          "year": 2025,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "OCTOBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        }
+      ],
+      "competition": "forte",
+      "competitionIndex": 94,
+      "lowTopOfPageBid": 0.599555,
+      "highTopOfPageBid": 0.997779,
+      "averageCpc": 0.365844,
+      "cpcGeoLevel": "Seine-et-Marne",
+      "localMetricsReturned": true
+    },
+    {
+      "order": 72,
+      "keyword": "prix cuisine sur mesure",
+      "googleCanonicalKeyword": "prix cuisine sur mesure",
+      "closeVariants": [],
+      "avgMonthlySearches": 10,
+      "monthlySearchVolumes": [
+        {
+          "year": 2025,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "OCTOBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        }
+      ],
+      "competition": "forte",
+      "competitionIndex": 93,
+      "lowTopOfPageBid": 0.585944,
+      "highTopOfPageBid": 2.223468,
+      "averageCpc": 2.424851,
+      "cpcGeoLevel": "Île-de-France",
+      "localMetricsReturned": true
+    },
+    {
+      "order": 73,
+      "keyword": "prix bureau sur mesure",
+      "googleCanonicalKeyword": "prix bureau sur mesure",
+      "closeVariants": [],
+      "avgMonthlySearches": 10,
+      "monthlySearchVolumes": [
+        {
+          "year": 2025,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "AUGUST",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "SEPTEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "OCTOBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 0
+        }
+      ],
+      "competition": "non précisée",
+      "competitionIndex": null,
+      "lowTopOfPageBid": 0.967102,
+      "highTopOfPageBid": 3.04156,
+      "averageCpc": 1.709491,
+      "cpcGeoLevel": "France",
+      "localMetricsReturned": true
+    },
+    {
+      "order": 74,
+      "keyword": "tarif menuisier sur mesure",
+      "googleCanonicalKeyword": "tarif menuisier sur mesure",
+      "closeVariants": [],
+      "avgMonthlySearches": 0,
+      "monthlySearchVolumes": [],
+      "competition": "non disponible",
+      "competitionIndex": null,
+      "lowTopOfPageBid": null,
+      "highTopOfPageBid": null,
+      "averageCpc": null,
+      "cpcGeoLevel": null,
+      "localMetricsReturned": true
+    },
+    {
+      "order": 75,
+      "keyword": "fabricant meuble sur mesure",
+      "googleCanonicalKeyword": "fabrication meuble sur mesure",
+      "closeVariants": [
+        "fabricant meuble sur mesure"
+      ],
+      "avgMonthlySearches": 10,
+      "monthlySearchVolumes": [
+        {
+          "year": 2025,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "OCTOBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        }
+      ],
+      "competition": "forte",
+      "competitionIndex": 100,
+      "lowTopOfPageBid": 0.745374,
+      "highTopOfPageBid": 1.749747,
+      "averageCpc": 0.68124,
+      "cpcGeoLevel": "Seine-et-Marne",
+      "localMetricsReturned": true
+    },
+    {
+      "order": 76,
+      "keyword": "artisan meuble sur mesure",
+      "googleCanonicalKeyword": "artisan meuble sur mesure",
+      "closeVariants": [],
+      "avgMonthlySearches": 10,
+      "monthlySearchVolumes": [
+        {
+          "year": 2025,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "AUGUST",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "OCTOBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        }
+      ],
+      "competition": "forte",
+      "competitionIndex": 90,
+      "lowTopOfPageBid": 0.769084,
+      "highTopOfPageBid": 2.575432,
+      "averageCpc": 2.057439,
+      "cpcGeoLevel": "Île-de-France",
+      "localMetricsReturned": true
+    },
+    {
+      "order": 77,
+      "keyword": "artisan menuisier sur mesure",
+      "googleCanonicalKeyword": "artisan menuisier sur mesure",
+      "closeVariants": [],
+      "avgMonthlySearches": 0,
+      "monthlySearchVolumes": [],
+      "competition": "non disponible",
+      "competitionIndex": null,
+      "lowTopOfPageBid": null,
+      "highTopOfPageBid": null,
+      "averageCpc": null,
+      "cpcGeoLevel": null,
+      "localMetricsReturned": true
+    },
+    {
+      "order": 78,
+      "keyword": "ébéniste meuble sur mesure",
+      "googleCanonicalKeyword": "ébéniste meuble sur mesure",
+      "closeVariants": [],
+      "avgMonthlySearches": 10,
+      "monthlySearchVolumes": [
+        {
+          "year": 2025,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "AUGUST",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "SEPTEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "OCTOBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 0
+        }
+      ],
+      "competition": "non précisée",
+      "competitionIndex": null,
+      "lowTopOfPageBid": 1.11779,
+      "highTopOfPageBid": 3.046806,
+      "averageCpc": 1.715945,
+      "cpcGeoLevel": "Île-de-France",
+      "localMetricsReturned": true
+    },
+    {
+      "order": 79,
+      "keyword": "ébéniste sur mesure",
+      "googleCanonicalKeyword": "ébéniste sur mesure",
+      "closeVariants": [],
+      "avgMonthlySearches": 10,
+      "monthlySearchVolumes": [
+        {
+          "year": 2025,
+          "month": "JULY",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "AUGUST",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "SEPTEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "OCTOBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        }
+      ],
+      "competition": "moyenne",
+      "competitionIndex": 57,
+      "lowTopOfPageBid": 0.689495,
+      "highTopOfPageBid": 2.185634,
+      "averageCpc": 2.617087,
+      "cpcGeoLevel": "Île-de-France",
+      "localMetricsReturned": true
+    },
+    {
+      "order": 80,
+      "keyword": "fabricant dressing sur mesure",
+      "googleCanonicalKeyword": "fabricant dressing sur mesure",
+      "closeVariants": [],
+      "avgMonthlySearches": 10,
+      "monthlySearchVolumes": [
+        {
+          "year": 2025,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "OCTOBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 0
+        }
+      ],
+      "competition": "non précisée",
+      "competitionIndex": null,
+      "lowTopOfPageBid": 0.609196,
+      "highTopOfPageBid": 2.419054,
+      "averageCpc": 2.754804,
+      "cpcGeoLevel": "Île-de-France",
+      "localMetricsReturned": true
+    },
+    {
+      "order": 81,
+      "keyword": "fabricant placard sur mesure",
+      "googleCanonicalKeyword": "fabricant placard sur mesure",
+      "closeVariants": [],
+      "avgMonthlySearches": 10,
+      "monthlySearchVolumes": [
+        {
+          "year": 2025,
+          "month": "JULY",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "OCTOBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 0
+        }
+      ],
+      "competition": "non précisée",
+      "competitionIndex": null,
+      "lowTopOfPageBid": 0.647064,
+      "highTopOfPageBid": 1.83999,
+      "averageCpc": 1.66936,
+      "cpcGeoLevel": "Île-de-France",
+      "localMetricsReturned": true
+    },
+    {
+      "order": 82,
+      "keyword": "fabricant bibliothèque sur mesure",
+      "googleCanonicalKeyword": "fabricant bibliothèque sur mesure",
+      "closeVariants": [],
+      "avgMonthlySearches": 10,
+      "monthlySearchVolumes": [
+        {
+          "year": 2025,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "OCTOBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        }
+      ],
+      "competition": "forte",
+      "competitionIndex": 100,
+      "lowTopOfPageBid": 0.550074,
+      "highTopOfPageBid": 2.464634,
+      "averageCpc": 1.898314,
+      "cpcGeoLevel": "Île-de-France",
+      "localMetricsReturned": true
+    },
+    {
+      "order": 83,
+      "keyword": "menuisier dressing",
+      "googleCanonicalKeyword": "menuisier dressing",
+      "closeVariants": [],
+      "avgMonthlySearches": 10,
+      "monthlySearchVolumes": [
+        {
+          "year": 2025,
+          "month": "JULY",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "OCTOBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 0
+        }
+      ],
+      "competition": "non précisée",
+      "competitionIndex": null,
+      "lowTopOfPageBid": 2.069957,
+      "highTopOfPageBid": 3.90623,
+      "averageCpc": 4.436936,
+      "cpcGeoLevel": "Île-de-France",
+      "localMetricsReturned": true
+    },
+    {
+      "order": 84,
+      "keyword": "menuisier placard",
+      "googleCanonicalKeyword": "menuisier placard",
+      "closeVariants": [],
+      "avgMonthlySearches": 10,
+      "monthlySearchVolumes": [
+        {
+          "year": 2025,
+          "month": "JULY",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "OCTOBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        }
+      ],
+      "competition": "forte",
+      "competitionIndex": 86,
+      "lowTopOfPageBid": 1.131913,
+      "highTopOfPageBid": 2.036259,
+      "averageCpc": 1.616697,
+      "cpcGeoLevel": "Île-de-France",
+      "localMetricsReturned": true
+    },
+    {
+      "order": 85,
+      "keyword": "menuisier bibliothèque",
+      "googleCanonicalKeyword": "menuisier bibliothèque",
+      "closeVariants": [],
+      "avgMonthlySearches": 10,
+      "monthlySearchVolumes": [
+        {
+          "year": 2025,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "SEPTEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "OCTOBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 0
+        }
+      ],
+      "competition": "non précisée",
+      "competitionIndex": null,
+      "lowTopOfPageBid": 1.140588,
+      "highTopOfPageBid": 2.660136,
+      "averageCpc": 3.189162,
+      "cpcGeoLevel": "Île-de-France",
+      "localMetricsReturned": true
+    },
+    {
+      "order": 86,
+      "keyword": "menuisier cuisine sur mesure",
+      "googleCanonicalKeyword": "menuisier cuisine sur mesure",
+      "closeVariants": [],
+      "avgMonthlySearches": 10,
+      "monthlySearchVolumes": [
+        {
+          "year": 2025,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "AUGUST",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "OCTOBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        }
+      ],
+      "competition": "forte",
+      "competitionIndex": 68,
+      "lowTopOfPageBid": 0.979607,
+      "highTopOfPageBid": 2.026973,
+      "averageCpc": 2.932513,
+      "cpcGeoLevel": "Seine-et-Marne",
+      "localMetricsReturned": true
+    },
+    {
+      "order": 87,
+      "keyword": "artisan agencement intérieur",
+      "googleCanonicalKeyword": "artisan agencement intérieur",
+      "closeVariants": [],
+      "avgMonthlySearches": 0,
+      "monthlySearchVolumes": [],
+      "competition": "non disponible",
+      "competitionIndex": null,
+      "lowTopOfPageBid": null,
+      "highTopOfPageBid": null,
+      "averageCpc": null,
+      "cpcGeoLevel": null,
+      "localMetricsReturned": true
+    },
+    {
+      "order": 88,
+      "keyword": "aménagement sur mesure",
+      "googleCanonicalKeyword": "aménagement sur mesure",
+      "closeVariants": [],
+      "avgMonthlySearches": 10,
+      "monthlySearchVolumes": [
+        {
+          "year": 2025,
+          "month": "JULY",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "OCTOBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        }
+      ],
+      "competition": "faible",
+      "competitionIndex": 25,
+      "lowTopOfPageBid": 1.534543,
+      "highTopOfPageBid": 3.224877,
+      "averageCpc": 3.475986,
+      "cpcGeoLevel": "Seine-et-Marne",
+      "localMetricsReturned": true
+    },
+    {
+      "order": 89,
+      "keyword": "meuble intégré sur mesure",
+      "googleCanonicalKeyword": "meuble intégré sur mesure",
+      "closeVariants": [],
+      "avgMonthlySearches": 0,
+      "monthlySearchVolumes": [],
+      "competition": "non disponible",
+      "competitionIndex": null,
+      "lowTopOfPageBid": null,
+      "highTopOfPageBid": null,
+      "averageCpc": null,
+      "cpcGeoLevel": null,
+      "localMetricsReturned": true
+    },
+    {
+      "order": 90,
+      "keyword": "mobilier intégré sur mesure",
+      "googleCanonicalKeyword": "mobilier intégré sur mesure",
+      "closeVariants": [],
+      "avgMonthlySearches": 0,
+      "monthlySearchVolumes": [],
+      "competition": "non disponible",
+      "competitionIndex": null,
+      "lowTopOfPageBid": null,
+      "highTopOfPageBid": null,
+      "averageCpc": null,
+      "cpcGeoLevel": null,
+      "localMetricsReturned": true
+    }
+  ]
+}

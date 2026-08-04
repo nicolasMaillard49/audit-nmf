@@ -1,0 +1,412 @@
+{
+  "source": "Google Ads Keyword Planner et generateKeywordForecastMetrics",
+  "extractedAt": "2026-07-28",
+  "zone": "Ile-de-France",
+  "geoTargetConstant": "geoTargetConstants/20321",
+  "seeds": [
+    "menuisier sur mesure",
+    "menuisier agenceur",
+    "dressing sur mesure",
+    "bibliothèque sur mesure",
+    "meuble sur mesure",
+    "cuisine sur mesure"
+  ],
+  "totals": {
+    "rawIdeas": 2111,
+    "ideasWithVolume": 2077,
+    "distinctQueries": 1187,
+    "monthlyCommercialIntentVolume": 1370,
+    "averageTopOfPageCpc": 3.14,
+    "forecastedKeywords": 50
+  },
+  "forecast": [
+    {
+      "scenario": "Présence",
+      "strategy": "maximiser les clics",
+      "monthlyBudget": 418,
+      "clicks": 100,
+      "averageCpc": 4.16,
+      "costPerClick": 4.18,
+      "capturedVolumePercent": 7.3,
+      "inventoryCapped": true,
+      "verifiedCap": true,
+      "capProofBudgets": [
+        500,
+        750,
+        1000
+      ],
+      "budgetTestsComplete": true
+    },
+    {
+      "scenario": "Haut de page",
+      "strategy": "enchère fixe 3.25 €",
+      "monthlyBudget": 140,
+      "clicks": 72,
+      "averageCpc": 1.94,
+      "costPerClick": 1.94,
+      "capturedVolumePercent": 5.3,
+      "inventoryCapped": true,
+      "verifiedCap": true,
+      "capProofBudgets": [
+        200,
+        300,
+        500
+      ],
+      "budgetTestsComplete": true
+    },
+    {
+      "scenario": "Domination",
+      "strategy": "enchère fixe 4.88 €",
+      "monthlyBudget": 215,
+      "clicks": 85,
+      "averageCpc": 2.52,
+      "costPerClick": 2.53,
+      "capturedVolumePercent": 6.2,
+      "inventoryCapped": true,
+      "verifiedCap": true,
+      "capProofBudgets": [
+        300,
+        500,
+        750
+      ],
+      "budgetTestsComplete": true
+    }
+  ],
+  "budgetTests": {
+    "requiredMonthlyBudgets": [
+      50,
+      100,
+      150,
+      200,
+      300,
+      500,
+      750,
+      1000,
+      1500,
+      2000
+    ],
+    "separateApiCalls": 30,
+    "complete": true,
+    "apiErrors": [],
+    "results": [
+      {
+        "scenario": "Présence",
+        "requestedBudget": 50,
+        "forecastSpend": 52,
+        "clicks": 44,
+        "averageCpc": 1.19
+      },
+      {
+        "scenario": "Présence",
+        "requestedBudget": 100,
+        "forecastSpend": 103,
+        "clicks": 62,
+        "averageCpc": 1.66
+      },
+      {
+        "scenario": "Présence",
+        "requestedBudget": 150,
+        "forecastSpend": 155,
+        "clicks": 75,
+        "averageCpc": 2.06
+      },
+      {
+        "scenario": "Présence",
+        "requestedBudget": 200,
+        "forecastSpend": 207,
+        "clicks": 84,
+        "averageCpc": 2.47
+      },
+      {
+        "scenario": "Présence",
+        "requestedBudget": 300,
+        "forecastSpend": 310,
+        "clicks": 95,
+        "averageCpc": 3.26
+      },
+      {
+        "scenario": "Présence",
+        "requestedBudget": 500,
+        "forecastSpend": 418,
+        "clicks": 100,
+        "averageCpc": 4.16
+      },
+      {
+        "scenario": "Présence",
+        "requestedBudget": 750,
+        "forecastSpend": 418,
+        "clicks": 100,
+        "averageCpc": 4.16
+      },
+      {
+        "scenario": "Présence",
+        "requestedBudget": 1000,
+        "forecastSpend": 418,
+        "clicks": 100,
+        "averageCpc": 4.16
+      },
+      {
+        "scenario": "Présence",
+        "requestedBudget": 1500,
+        "forecastSpend": 418,
+        "clicks": 100,
+        "averageCpc": 4.16
+      },
+      {
+        "scenario": "Présence",
+        "requestedBudget": 2000,
+        "forecastSpend": 418,
+        "clicks": 100,
+        "averageCpc": 4.16
+      },
+      {
+        "scenario": "Haut de page",
+        "requestedBudget": 50,
+        "forecastSpend": 52,
+        "clicks": 27,
+        "averageCpc": 1.94
+      },
+      {
+        "scenario": "Haut de page",
+        "requestedBudget": 100,
+        "forecastSpend": 103,
+        "clicks": 53,
+        "averageCpc": 1.94
+      },
+      {
+        "scenario": "Haut de page",
+        "requestedBudget": 150,
+        "forecastSpend": 140,
+        "clicks": 72,
+        "averageCpc": 1.94
+      },
+      {
+        "scenario": "Haut de page",
+        "requestedBudget": 200,
+        "forecastSpend": 140,
+        "clicks": 72,
+        "averageCpc": 1.94
+      },
+      {
+        "scenario": "Haut de page",
+        "requestedBudget": 300,
+        "forecastSpend": 140,
+        "clicks": 72,
+        "averageCpc": 1.94
+      },
+      {
+        "scenario": "Haut de page",
+        "requestedBudget": 500,
+        "forecastSpend": 140,
+        "clicks": 72,
+        "averageCpc": 1.94
+      },
+      {
+        "scenario": "Haut de page",
+        "requestedBudget": 750,
+        "forecastSpend": 140,
+        "clicks": 72,
+        "averageCpc": 1.94
+      },
+      {
+        "scenario": "Haut de page",
+        "requestedBudget": 1000,
+        "forecastSpend": 140,
+        "clicks": 72,
+        "averageCpc": 1.94
+      },
+      {
+        "scenario": "Haut de page",
+        "requestedBudget": 1500,
+        "forecastSpend": 140,
+        "clicks": 72,
+        "averageCpc": 1.94
+      },
+      {
+        "scenario": "Haut de page",
+        "requestedBudget": 2000,
+        "forecastSpend": 140,
+        "clicks": 72,
+        "averageCpc": 1.94
+      },
+      {
+        "scenario": "Domination",
+        "requestedBudget": 50,
+        "forecastSpend": 52,
+        "clicks": 21,
+        "averageCpc": 2.52
+      },
+      {
+        "scenario": "Domination",
+        "requestedBudget": 100,
+        "forecastSpend": 103,
+        "clicks": 41,
+        "averageCpc": 2.52
+      },
+      {
+        "scenario": "Domination",
+        "requestedBudget": 150,
+        "forecastSpend": 155,
+        "clicks": 62,
+        "averageCpc": 2.52
+      },
+      {
+        "scenario": "Domination",
+        "requestedBudget": 200,
+        "forecastSpend": 207,
+        "clicks": 82,
+        "averageCpc": 2.52
+      },
+      {
+        "scenario": "Domination",
+        "requestedBudget": 300,
+        "forecastSpend": 215,
+        "clicks": 85,
+        "averageCpc": 2.52
+      },
+      {
+        "scenario": "Domination",
+        "requestedBudget": 500,
+        "forecastSpend": 215,
+        "clicks": 85,
+        "averageCpc": 2.52
+      },
+      {
+        "scenario": "Domination",
+        "requestedBudget": 750,
+        "forecastSpend": 215,
+        "clicks": 85,
+        "averageCpc": 2.52
+      },
+      {
+        "scenario": "Domination",
+        "requestedBudget": 1000,
+        "forecastSpend": 215,
+        "clicks": 85,
+        "averageCpc": 2.52
+      },
+      {
+        "scenario": "Domination",
+        "requestedBudget": 1500,
+        "forecastSpend": 215,
+        "clicks": 85,
+        "averageCpc": 2.52
+      },
+      {
+        "scenario": "Domination",
+        "requestedBudget": 2000,
+        "forecastSpend": 215,
+        "clicks": 85,
+        "averageCpc": 2.52
+      }
+    ]
+  },
+  "comparisonBaseline": {
+    "zone": "Seine-et-Marne",
+    "monthlyCommercialIntentVolume": 520,
+    "presenceSpend": 106,
+    "presenceClicks": 23
+  },
+  "selectedKeywords": [
+    {
+      "keyword": "dressing sur mesure",
+      "segment": "générique qualifié",
+      "monthlyVolume": 3600,
+      "lowTopOfPageBid": 0.726524,
+      "highTopOfPageBid": 2.352653,
+      "competitionIndex": 100,
+      "cpcLevel": "Ile-de-France"
+    },
+    {
+      "keyword": "meuble sur mesure",
+      "segment": "générique qualifié",
+      "monthlyVolume": 2400,
+      "lowTopOfPageBid": 0.783012,
+      "highTopOfPageBid": 2.730573,
+      "competitionIndex": 100,
+      "cpcLevel": "Ile-de-France"
+    },
+    {
+      "keyword": "cuisine sur mesure",
+      "segment": "générique qualifié",
+      "monthlyVolume": 1600,
+      "lowTopOfPageBid": 1.042889,
+      "highTopOfPageBid": 4.03049,
+      "competitionIndex": 100,
+      "cpcLevel": "Ile-de-France"
+    },
+    {
+      "keyword": "bibliothèque sur mesure",
+      "segment": "générique qualifié",
+      "monthlyVolume": 1900,
+      "lowTopOfPageBid": 1.072688,
+      "highTopOfPageBid": 3.683033,
+      "competitionIndex": 100,
+      "cpcLevel": "Ile-de-France"
+    },
+    {
+      "keyword": "placard sur mesure",
+      "segment": "générique qualifié",
+      "monthlyVolume": 1300,
+      "lowTopOfPageBid": 0.954811,
+      "highTopOfPageBid": 3.118751,
+      "competitionIndex": 100,
+      "cpcLevel": "Ile-de-France"
+    },
+    {
+      "keyword": "prix dressing sur mesure",
+      "segment": "intention commerciale",
+      "monthlyVolume": 170,
+      "lowTopOfPageBid": 0.598919,
+      "highTopOfPageBid": 1.86493,
+      "competitionIndex": 100,
+      "cpcLevel": "Ile-de-France"
+    },
+    {
+      "keyword": "devis cuisine sur mesure",
+      "segment": "intention commerciale",
+      "monthlyVolume": 10,
+      "lowTopOfPageBid": 2.286919,
+      "highTopOfPageBid": 10.141074,
+      "competitionIndex": 78,
+      "cpcLevel": "Ile-de-France"
+    },
+    {
+      "keyword": "devis dressing sur mesure",
+      "segment": "intention commerciale",
+      "monthlyVolume": 20,
+      "lowTopOfPageBid": 1.550046,
+      "highTopOfPageBid": 4.823369,
+      "competitionIndex": 89,
+      "cpcLevel": "Ile-de-France"
+    },
+    {
+      "keyword": "prix bibliothèque sur mesure",
+      "segment": "intention commerciale",
+      "monthlyVolume": 90,
+      "lowTopOfPageBid": 0.64963,
+      "highTopOfPageBid": 2.570638,
+      "competitionIndex": 100,
+      "cpcLevel": "Ile-de-France"
+    },
+    {
+      "keyword": "devis placard sur mesure",
+      "segment": "intention commerciale",
+      "monthlyVolume": 10,
+      "lowTopOfPageBid": 1.725536,
+      "highTopOfPageBid": 8.355921,
+      "competitionIndex": 82,
+      "cpcLevel": "Ile-de-France"
+    }
+  ],
+  "methodNotes": [
+    "Les volumes et les prévisions sont ciblés sur l'Île-de-France.",
+    "Le ciblage régional est une hypothèse commerciale demandée ; le site ne publie pas de rayon d'intervention complet.",
+    "Lorsqu'un CPC régional est indisponible, le script remonte au niveau France et trace ce niveau.",
+    "Chaque stratégie a été testée par dix appels API séparés, aux budgets mensuels de 50, 100, 150, 200, 300, 500, 750, 1 000, 1 500 et 2 000 €.",
+    "À 2 000 € demandés, Google stabilise toujours la dépense à 418 € pour Présence, 140 € pour Haut de page et 215 € pour Domination.",
+    "Le palier conseillé pour un premier test est 300 € demandés : Google prévoit 310 € de dépense et 95 clics, soit presque tout le volume du scénario Présence.",
+    "Les trois plafonds sont vérifiés par au moins deux paliers supérieurs stables ; le score de réussite ne peut donc pas dépasser 50 % selon le workflow audit-prospect.",
+    "Le taux de conversion clic vers lead reste la seule hypothèse NMF."
+  ]
+}

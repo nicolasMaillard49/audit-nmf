@@ -1,0 +1,4958 @@
+{
+ "meta": {
+  "client": "Restaurant La Rencontre",
+  "extraction": "2026-08-02T22:32:40.075Z",
+  "mcc": "6711813801",
+  "api": "google-ads-api / KeywordPlanIdeaService",
+  "langue": "languageConstants/1002",
+  "langue_libelle": "Francais",
+  "reseau": "GOOGLE_SEARCH",
+  "devise": "EUR",
+  "periode_forecast": {
+   "start_date": "2026-09-01",
+   "end_date": "2026-09-30"
+  },
+  "communes": [
+   "Bordeaux",
+   "Merignac",
+   "Pessac",
+   "Talence",
+   "Begles",
+   "Le Bouscat",
+   "Bruges",
+   "Villenave-d'Ornon",
+   "Cenon",
+   "Floirac"
+  ],
+  "budgets": [
+   50,
+   100,
+   150,
+   200,
+   300,
+   500,
+   750,
+   1000,
+   1500,
+   2000
+  ],
+  "nb_mots_cles": 77,
+  "enchere_reference": {
+   "mediane_high_top_of_page": 0.671621,
+   "bid_haut_de_page": 0.67,
+   "bid_domination": 1.01,
+   "echantillon": 21
+  }
+ },
+ "geo": [
+  {
+   "commune": "Bordeaux",
+   "geo": "geoTargetConstants/1005811",
+   "nom_google": "Bordeaux",
+   "type": "City",
+   "statut": "ENABLED"
+  },
+  {
+   "commune": "Merignac",
+   "geo": "geoTargetConstants/1005823",
+   "nom_google": "Mérignac",
+   "type": "City",
+   "statut": "ENABLED"
+  },
+  {
+   "commune": "Pessac",
+   "geo": "geoTargetConstants/9049991",
+   "nom_google": "Pessac",
+   "type": "City",
+   "statut": "ENABLED"
+  },
+  {
+   "commune": "Talence",
+   "geo": "geoTargetConstants/1005831",
+   "nom_google": "Talence",
+   "type": "City",
+   "statut": "ENABLED"
+  },
+  {
+   "commune": "Begles",
+   "geo": "geoTargetConstants/9049331",
+   "nom_google": "Bègles",
+   "type": "City",
+   "statut": "ENABLED"
+  },
+  {
+   "commune": "Le Bouscat",
+   "geo": "geoTargetConstants/9055302",
+   "nom_google": "33520",
+   "type": "Postal Code",
+   "statut": "ENABLED"
+  },
+  {
+   "commune": "Bruges",
+   "geo": "geoTargetConstants/1005812",
+   "nom_google": "Bruges",
+   "type": "City",
+   "statut": "ENABLED"
+  },
+  {
+   "commune": "Villenave-d'Ornon",
+   "geo": "geoTargetConstants/9050320",
+   "nom_google": "Villenave-d'Ornon",
+   "type": "City",
+   "statut": "ENABLED"
+  },
+  {
+   "commune": "Cenon",
+   "geo": "geoTargetConstants/9181165",
+   "nom_google": "Cenon",
+   "type": "City",
+   "statut": "ENABLED"
+  },
+  {
+   "commune": "Floirac",
+   "geo": "geoTargetConstants/9049580",
+   "nom_google": "Floirac",
+   "type": "City",
+   "statut": "ENABLED"
+  }
+ ],
+ "historical": [
+  {
+   "text": "restaurant gastronomique bordeaux",
+   "closeVariants": [
+    "restaurant gastro bordeaux"
+   ],
+   "vol": 1900,
+   "comp": "faible",
+   "compIndex": 28,
+   "bidLow": 0.149884,
+   "bidHigh": 1.104333,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 1900
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 1900
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 1900
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 2400
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 2400
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 2900
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 2400
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 2400
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 1900
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 1300
+    },
+    {
+     "m": "2026-MAY",
+     "v": 1600
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 1300
+    }
+   ]
+  },
+  {
+   "text": "restaurant gastronomique bordeaux centre",
+   "closeVariants": [],
+   "vol": 30,
+   "comp": "moyenne",
+   "compIndex": 37,
+   "bidLow": 0.154436,
+   "bidHigh": 0.678623,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 30
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 30
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 30
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 20
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 30
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 40
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 30
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 20
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 40
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 20
+    },
+    {
+     "m": "2026-MAY",
+     "v": 20
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 20
+    }
+   ]
+  },
+  {
+   "text": "bistronomie bordeaux",
+   "closeVariants": [],
+   "vol": 40,
+   "comp": "moyenne",
+   "compIndex": 35,
+   "bidLow": 0.0982,
+   "bidHigh": 0.312758,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 30
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 20
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 40
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 70
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 50
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 40
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 30
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 40
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 90
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 30
+    },
+    {
+     "m": "2026-MAY",
+     "v": 40
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 30
+    }
+   ]
+  },
+  {
+   "text": "restaurant bistronomique bordeaux",
+   "closeVariants": [],
+   "vol": 880,
+   "comp": "faible",
+   "compIndex": 33,
+   "bidLow": 0.138499,
+   "bidHigh": 0.671621,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 720
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 720
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 880
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 880
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 1000
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 1000
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 1000
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 1000
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 1300
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 480
+    },
+    {
+     "m": "2026-MAY",
+     "v": 590
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 480
+    }
+   ]
+  },
+  {
+   "text": "restaurant haut de gamme bordeaux",
+   "closeVariants": [],
+   "vol": 30,
+   "comp": "faible",
+   "compIndex": 26,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 30
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 30
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 50
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 40
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 50
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 40
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 40
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 40
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 40
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 20
+    },
+    {
+     "m": "2026-MAY",
+     "v": 10
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 20
+    }
+   ]
+  },
+  {
+   "text": "restaurant raffiné bordeaux",
+   "closeVariants": [],
+   "vol": 10,
+   "comp": "faible",
+   "compIndex": 21,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 10
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 10
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 10
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 10
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 10
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 10
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 10
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 10
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 10
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 10
+    },
+    {
+     "m": "2026-MAY",
+     "v": 10
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 10
+    }
+   ]
+  },
+  {
+   "text": "restaurant chic bordeaux",
+   "closeVariants": [],
+   "vol": 210,
+   "comp": "faible",
+   "compIndex": 30,
+   "bidLow": 0.149288,
+   "bidHigh": 0.800408,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 140
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 170
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 140
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 170
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 260
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 210
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 210
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 390
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 210
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 140
+    },
+    {
+     "m": "2026-MAY",
+     "v": 140
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 90
+    }
+   ]
+  },
+  {
+   "text": "restaurant semi gastronomique bordeaux",
+   "closeVariants": [],
+   "vol": 90,
+   "comp": "moyenne",
+   "compIndex": 38,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 110
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 90
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 140
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 140
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 140
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 140
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 70
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 70
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 140
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 30
+    },
+    {
+     "m": "2026-MAY",
+     "v": 30
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 20
+    }
+   ]
+  },
+  {
+   "text": "restaurant italien bordeaux",
+   "closeVariants": [],
+   "vol": 3600,
+   "comp": "faible",
+   "compIndex": 16,
+   "bidLow": 0.173744,
+   "bidHigh": 0.526987,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 3600
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 3600
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 3600
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 4400
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 4400
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 3600
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 3600
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 4400
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 4400
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 2900
+    },
+    {
+     "m": "2026-MAY",
+     "v": 2900
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 1900
+    }
+   ]
+  },
+  {
+   "text": "restaurant italien bordeaux centre",
+   "closeVariants": [],
+   "vol": 70,
+   "comp": "faible",
+   "compIndex": 16,
+   "bidLow": 0.158603,
+   "bidHigh": 0.348721,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 70
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 50
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 50
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 70
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 110
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 90
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 70
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 50
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 70
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 70
+    },
+    {
+     "m": "2026-MAY",
+     "v": 50
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 50
+    }
+   ]
+  },
+  {
+   "text": "restaurant italien bordeaux centre ville",
+   "closeVariants": [],
+   "vol": 110,
+   "comp": "faible",
+   "compIndex": 16,
+   "bidLow": 0.144313,
+   "bidHigh": 0.605074,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 110
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 140
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 110
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 140
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 90
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 50
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 110
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 140
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 170
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 110
+    },
+    {
+     "m": "2026-MAY",
+     "v": 50
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 70
+    }
+   ]
+  },
+  {
+   "text": "meilleur restaurant italien bordeaux",
+   "closeVariants": [],
+   "vol": 170,
+   "comp": "faible",
+   "compIndex": 20,
+   "bidLow": 0.124524,
+   "bidHigh": 0.299723,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 170
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 170
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 170
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 170
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 210
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 140
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 170
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 170
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 210
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 140
+    },
+    {
+     "m": "2026-MAY",
+     "v": 140
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 90
+    }
+   ]
+  },
+  {
+   "text": "cuisine italienne bordeaux",
+   "closeVariants": [],
+   "vol": 10,
+   "comp": "faible",
+   "compIndex": 29,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 10
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 10
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 10
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 10
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 10
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 10
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 10
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 10
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 0
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 10
+    },
+    {
+     "m": "2026-MAY",
+     "v": 10
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 10
+    }
+   ]
+  },
+  {
+   "text": "restaurant italien gastronomique bordeaux",
+   "closeVariants": [],
+   "vol": 30,
+   "comp": "faible",
+   "compIndex": 24,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 40
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 40
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 30
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 50
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 30
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 50
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 30
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 30
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 40
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 10
+    },
+    {
+     "m": "2026-MAY",
+     "v": 30
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 10
+    }
+   ]
+  },
+  {
+   "text": "trattoria bordeaux",
+   "closeVariants": [],
+   "vol": 170,
+   "comp": "faible",
+   "compIndex": 5,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 170
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 140
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 140
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 170
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 210
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 170
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 170
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 170
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 210
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 140
+    },
+    {
+     "m": "2026-MAY",
+     "v": 110
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 110
+    }
+   ]
+  },
+  {
+   "text": "osteria bordeaux",
+   "closeVariants": [],
+   "vol": 70,
+   "comp": "faible",
+   "compIndex": 13,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 70
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 90
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 70
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 90
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 110
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 70
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 90
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 70
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 70
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 50
+    },
+    {
+     "m": "2026-MAY",
+     "v": 90
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 50
+    }
+   ]
+  },
+  {
+   "text": "ou manger ce soir bordeaux",
+   "closeVariants": [],
+   "vol": 10,
+   "comp": "moyenne",
+   "compIndex": 57,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 0
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 10
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 10
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 0
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 10
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 10
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 10
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 0
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 10
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 0
+    },
+    {
+     "m": "2026-MAY",
+     "v": 0
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 10
+    }
+   ]
+  },
+  {
+   "text": "restaurant ouvert ce soir bordeaux",
+   "closeVariants": [],
+   "vol": 10,
+   "comp": "faible",
+   "compIndex": 29,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 10
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 10
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 0
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 10
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 10
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 20
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 10
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 10
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 20
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 40
+    },
+    {
+     "m": "2026-MAY",
+     "v": 10
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 10
+    }
+   ]
+  },
+  {
+   "text": "diner bordeaux",
+   "closeVariants": [],
+   "vol": 20,
+   "comp": "faible",
+   "compIndex": 32,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 20
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 20
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 20
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 30
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 20
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 20
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 20
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 50
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 20
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 20
+    },
+    {
+     "m": "2026-MAY",
+     "v": 20
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 20
+    }
+   ]
+  },
+  {
+   "text": "ou diner a bordeaux",
+   "closeVariants": [],
+   "vol": 30,
+   "comp": "faible",
+   "compIndex": 22,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 20
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 30
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 30
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 40
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 40
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 40
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 20
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 10
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 20
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 20
+    },
+    {
+     "m": "2026-MAY",
+     "v": 30
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 10
+    }
+   ]
+  },
+  {
+   "text": "reserver restaurant bordeaux",
+   "closeVariants": [],
+   "vol": 10,
+   "comp": "moyenne",
+   "compIndex": 41,
+   "bidLow": 0.761946,
+   "bidHigh": 1.237847,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 0
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 10
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 10
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 10
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 10
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 20
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 10
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 30
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 10
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 10
+    },
+    {
+     "m": "2026-MAY",
+     "v": 10
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 10
+    }
+   ]
+  },
+  {
+   "text": "reservation restaurant bordeaux",
+   "closeVariants": [],
+   "vol": 10,
+   "comp": null,
+   "compIndex": null,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 10
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 10
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 10
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 10
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 10
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 20
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 10
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 20
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 10
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 10
+    },
+    {
+     "m": "2026-MAY",
+     "v": 10
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 0
+    }
+   ]
+  },
+  {
+   "text": "restaurant romantique bordeaux",
+   "closeVariants": [],
+   "vol": 320,
+   "comp": "faible",
+   "compIndex": 33,
+   "bidLow": 0.128616,
+   "bidHigh": 0.952636,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 260
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 260
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 390
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 320
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 320
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 260
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 320
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 720
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 260
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 260
+    },
+    {
+     "m": "2026-MAY",
+     "v": 210
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 210
+    }
+   ]
+  },
+  {
+   "text": "diner en amoureux bordeaux",
+   "closeVariants": [],
+   "vol": 10,
+   "comp": "faible",
+   "compIndex": 29,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 10
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 10
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 10
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 0
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 10
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 10
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 10
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 0
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 10
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 10
+    },
+    {
+     "m": "2026-MAY",
+     "v": 0
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 10
+    }
+   ]
+  },
+  {
+   "text": "restaurant en amoureux bordeaux",
+   "closeVariants": [],
+   "vol": 90,
+   "comp": "moyenne",
+   "compIndex": 39,
+   "bidLow": 0.198312,
+   "bidHigh": 0.773151,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 110
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 70
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 90
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 140
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 90
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 90
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 140
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 110
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 50
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 70
+    },
+    {
+     "m": "2026-MAY",
+     "v": 90
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 50
+    }
+   ]
+  },
+  {
+   "text": "restaurant anniversaire bordeaux",
+   "closeVariants": [],
+   "vol": 90,
+   "comp": "faible",
+   "compIndex": 30,
+   "bidLow": 0.152097,
+   "bidHigh": 0.811117,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 70
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 90
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 90
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 140
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 110
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 90
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 110
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 70
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 90
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 70
+    },
+    {
+     "m": "2026-MAY",
+     "v": 70
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 50
+    }
+   ]
+  },
+  {
+   "text": "restaurant pour anniversaire bordeaux",
+   "closeVariants": [],
+   "vol": 90,
+   "comp": "faible",
+   "compIndex": 30,
+   "bidLow": 0.152097,
+   "bidHigh": 0.811117,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 70
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 90
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 90
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 140
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 110
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 90
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 110
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 70
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 90
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 70
+    },
+    {
+     "m": "2026-MAY",
+     "v": 70
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 50
+    }
+   ]
+  },
+  {
+   "text": "restaurant intimiste bordeaux",
+   "closeVariants": [],
+   "vol": 70,
+   "comp": "faible",
+   "compIndex": 19,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 50
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 40
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 90
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 90
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 70
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 110
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 90
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 90
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 70
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 30
+    },
+    {
+     "m": "2026-MAY",
+     "v": 50
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 30
+    }
+   ]
+  },
+  {
+   "text": "restaurant saint valentin bordeaux",
+   "closeVariants": [],
+   "vol": 110,
+   "comp": null,
+   "compIndex": null,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 0
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 10
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 10
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 10
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 10
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 10
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 390
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 1000
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 10
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 10
+    },
+    {
+     "m": "2026-MAY",
+     "v": 0
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 0
+    }
+   ]
+  },
+  {
+   "text": "bon restaurant bordeaux",
+   "closeVariants": [],
+   "vol": 480,
+   "comp": "moyenne",
+   "compIndex": 42,
+   "bidLow": 0.106882,
+   "bidHigh": 0.589066,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 390
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 390
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 480
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 480
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 480
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 480
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 480
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 480
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 480
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 320
+    },
+    {
+     "m": "2026-MAY",
+     "v": 320
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 320
+    }
+   ]
+  },
+  {
+   "text": "meilleur restaurant bordeaux",
+   "closeVariants": [],
+   "vol": 1600,
+   "comp": "moyenne",
+   "compIndex": 34,
+   "bidLow": 0.117265,
+   "bidHigh": 0.697575,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 1600
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 1900
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 1600
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 1900
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 1900
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 1600
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 1600
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 1900
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 1600
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 1300
+    },
+    {
+     "m": "2026-MAY",
+     "v": 1300
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 880
+    }
+   ]
+  },
+  {
+   "text": "bon restaurant bordeaux centre",
+   "closeVariants": [],
+   "vol": 10,
+   "comp": "moyenne",
+   "compIndex": 55,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 10
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 10
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 10
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 10
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 20
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 10
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 10
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 10
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 30
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 10
+    },
+    {
+     "m": "2026-MAY",
+     "v": 10
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 10
+    }
+   ]
+  },
+  {
+   "text": "ou manger a bordeaux",
+   "closeVariants": [],
+   "vol": 320,
+   "comp": "faible",
+   "compIndex": 29,
+   "bidLow": 0.058144,
+   "bidHigh": 0.908531,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 320
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 480
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 320
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 480
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 390
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 320
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 260
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 320
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 390
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 260
+    },
+    {
+     "m": "2026-MAY",
+     "v": 390
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 210
+    }
+   ]
+  },
+  {
+   "text": "restaurant bordeaux centre ville",
+   "closeVariants": [],
+   "vol": 260,
+   "comp": "moyenne",
+   "compIndex": 34,
+   "bidLow": 0.145104,
+   "bidHigh": 0.648897,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 260
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 320
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 210
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 210
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 320
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 260
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 210
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 260
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 210
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 260
+    },
+    {
+     "m": "2026-MAY",
+     "v": 260
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 170
+    }
+   ]
+  },
+  {
+   "text": "restaurant bordeaux hotel de ville",
+   "closeVariants": [],
+   "vol": 10,
+   "comp": "faible",
+   "compIndex": 20,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 10
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 10
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 10
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 10
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 10
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 10
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 20
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 20
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 10
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 20
+    },
+    {
+     "m": "2026-MAY",
+     "v": 10
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 10
+    }
+   ]
+  },
+  {
+   "text": "restaurant quartier saint pierre bordeaux",
+   "closeVariants": [],
+   "vol": 90,
+   "comp": "faible",
+   "compIndex": 25,
+   "bidLow": 0.197075,
+   "bidHigh": 0.645243,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 110
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 110
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 50
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 110
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 90
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 70
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 90
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 50
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 90
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 70
+    },
+    {
+     "m": "2026-MAY",
+     "v": 70
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 50
+    }
+   ]
+  },
+  {
+   "text": "restaurant original bordeaux",
+   "closeVariants": [],
+   "vol": 320,
+   "comp": "moyenne",
+   "compIndex": 35,
+   "bidLow": 0.020032,
+   "bidHigh": 0.621077,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 390
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 320
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 320
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 390
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 390
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 390
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 320
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 320
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 320
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 210
+    },
+    {
+     "m": "2026-MAY",
+     "v": 210
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 140
+    }
+   ]
+  },
+  {
+   "text": "nouveau restaurant bordeaux",
+   "closeVariants": [],
+   "vol": 320,
+   "comp": "faible",
+   "compIndex": 14,
+   "bidLow": 0.099469,
+   "bidHigh": 0.624245,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 260
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 260
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 390
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 480
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 480
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 320
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 480
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 320
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 390
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 260
+    },
+    {
+     "m": "2026-MAY",
+     "v": 170
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 140
+    }
+   ]
+  },
+  {
+   "text": "menu degustation bordeaux",
+   "closeVariants": [],
+   "vol": 10,
+   "comp": "faible",
+   "compIndex": 18,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 10
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 10
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 10
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 10
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 10
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 10
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 10
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 10
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 10
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 10
+    },
+    {
+     "m": "2026-MAY",
+     "v": 10
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 10
+    }
+   ]
+  },
+  {
+   "text": "restaurant produits frais bordeaux",
+   "closeVariants": [],
+   "vol": 10,
+   "comp": "faible",
+   "compIndex": 14,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 10
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 10
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 0
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 10
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 10
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 10
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 10
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 10
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 10
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 10
+    },
+    {
+     "m": "2026-MAY",
+     "v": 10
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 10
+    }
+   ]
+  },
+  {
+   "text": "restaurant fait maison bordeaux",
+   "closeVariants": [],
+   "vol": 20,
+   "comp": "moyenne",
+   "compIndex": 48,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 10
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 20
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 20
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 10
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 20
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 30
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 40
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 10
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 30
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 20
+    },
+    {
+     "m": "2026-MAY",
+     "v": 10
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 10
+    }
+   ]
+  },
+  {
+   "text": "la rencontre restaurant",
+   "closeVariants": [],
+   "vol": 2400,
+   "comp": "faible",
+   "compIndex": 2,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 2400
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 2900
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 4400
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 2900
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 2900
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 2400
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 1900
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 1900
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 1900
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 2400
+    },
+    {
+     "m": "2026-MAY",
+     "v": 1900
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 1600
+    }
+   ]
+  },
+  {
+   "text": "table gastronomique bordeaux",
+   "closeVariants": [],
+   "vol": null,
+   "comp": null,
+   "compIndex": null,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": []
+  },
+  {
+   "text": "cuisine gastronomique bordeaux",
+   "closeVariants": [],
+   "vol": null,
+   "comp": null,
+   "compIndex": null,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": []
+  },
+  {
+   "text": "diner gastronomique bordeaux",
+   "closeVariants": [],
+   "vol": null,
+   "comp": null,
+   "compIndex": null,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": []
+  },
+  {
+   "text": "restaurant franco italien bordeaux",
+   "closeVariants": [],
+   "vol": null,
+   "comp": null,
+   "compIndex": null,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": []
+  },
+  {
+   "text": "restaurant italien raffiné bordeaux",
+   "closeVariants": [],
+   "vol": null,
+   "comp": null,
+   "compIndex": null,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": []
+  },
+  {
+   "text": "restaurant italien sainte catherine bordeaux",
+   "closeVariants": [],
+   "vol": null,
+   "comp": null,
+   "compIndex": null,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": []
+  },
+  {
+   "text": "restaurant bordeaux ce soir",
+   "closeVariants": [],
+   "vol": null,
+   "comp": null,
+   "compIndex": null,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": []
+  },
+  {
+   "text": "diner bordeaux centre",
+   "closeVariants": [],
+   "vol": null,
+   "comp": null,
+   "compIndex": null,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": []
+  },
+  {
+   "text": "restaurant le soir bordeaux",
+   "closeVariants": [],
+   "vol": null,
+   "comp": null,
+   "compIndex": null,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": []
+  },
+  {
+   "text": "sortir diner bordeaux",
+   "closeVariants": [],
+   "vol": null,
+   "comp": null,
+   "compIndex": null,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": []
+  },
+  {
+   "text": "restaurant bordeaux samedi soir",
+   "closeVariants": [],
+   "vol": null,
+   "comp": null,
+   "compIndex": null,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": []
+  },
+  {
+   "text": "restaurant bordeaux vendredi soir",
+   "closeVariants": [],
+   "vol": null,
+   "comp": null,
+   "compIndex": null,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": []
+  },
+  {
+   "text": "diner en ville bordeaux",
+   "closeVariants": [],
+   "vol": null,
+   "comp": null,
+   "compIndex": null,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": []
+  },
+  {
+   "text": "reserver une table bordeaux",
+   "closeVariants": [],
+   "vol": null,
+   "comp": null,
+   "compIndex": null,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": []
+  },
+  {
+   "text": "reserver table restaurant bordeaux",
+   "closeVariants": [],
+   "vol": null,
+   "comp": null,
+   "compIndex": null,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": []
+  },
+  {
+   "text": "reserver restaurant bordeaux ce soir",
+   "closeVariants": [],
+   "vol": null,
+   "comp": null,
+   "compIndex": null,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": []
+  },
+  {
+   "text": "reservation restaurant gastronomique bordeaux",
+   "closeVariants": [],
+   "vol": null,
+   "comp": null,
+   "compIndex": null,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": []
+  },
+  {
+   "text": "booking restaurant bordeaux",
+   "closeVariants": [],
+   "vol": null,
+   "comp": null,
+   "compIndex": null,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": []
+  },
+  {
+   "text": "reserver table bordeaux centre",
+   "closeVariants": [],
+   "vol": null,
+   "comp": null,
+   "compIndex": null,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": []
+  },
+  {
+   "text": "diner d affaires bordeaux",
+   "closeVariants": [],
+   "vol": null,
+   "comp": null,
+   "compIndex": null,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": []
+  },
+  {
+   "text": "restaurant repas de famille bordeaux",
+   "closeVariants": [],
+   "vol": null,
+   "comp": null,
+   "compIndex": null,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": []
+  },
+  {
+   "text": "ou manger bordeaux centre ville",
+   "closeVariants": [],
+   "vol": 10,
+   "comp": "moyenne",
+   "compIndex": 36,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 0
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 10
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 10
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 10
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 10
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 10
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 20
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 10
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 10
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 20
+    },
+    {
+     "m": "2026-MAY",
+     "v": 10
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 10
+    }
+   ]
+  },
+  {
+   "text": "restaurant place de la republique bordeaux",
+   "closeVariants": [],
+   "vol": null,
+   "comp": null,
+   "compIndex": null,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": []
+  },
+  {
+   "text": "restaurant rue marechal joffre bordeaux",
+   "closeVariants": [],
+   "vol": null,
+   "comp": null,
+   "compIndex": null,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": []
+  },
+  {
+   "text": "restaurant bien note bordeaux",
+   "closeVariants": [],
+   "vol": null,
+   "comp": null,
+   "compIndex": null,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": []
+  },
+  {
+   "text": "restaurant menu degustation bordeaux",
+   "closeVariants": [],
+   "vol": null,
+   "comp": null,
+   "compIndex": null,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": []
+  },
+  {
+   "text": "restaurant accord mets vins bordeaux",
+   "closeVariants": [],
+   "vol": null,
+   "comp": null,
+   "compIndex": null,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": []
+  },
+  {
+   "text": "restaurant carte des vins bordeaux",
+   "closeVariants": [],
+   "vol": null,
+   "comp": null,
+   "compIndex": null,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": []
+  },
+  {
+   "text": "restaurant cave a vin bordeaux",
+   "closeVariants": [],
+   "vol": null,
+   "comp": null,
+   "compIndex": null,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": []
+  },
+  {
+   "text": "restaurant cuisine du marche bordeaux",
+   "closeVariants": [],
+   "vol": null,
+   "comp": null,
+   "compIndex": null,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": []
+  },
+  {
+   "text": "restaurant la rencontre bordeaux",
+   "closeVariants": [],
+   "vol": 140,
+   "comp": "faible",
+   "compIndex": 1,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 90
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 170
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 390
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 260
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 170
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 140
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 140
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 110
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 90
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 90
+    },
+    {
+     "m": "2026-MAY",
+     "v": 110
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 90
+    }
+   ]
+  },
+  {
+   "text": "la rencontre bordeaux",
+   "closeVariants": [],
+   "vol": 390,
+   "comp": "faible",
+   "compIndex": 0,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 110
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 590
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 720
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 590
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 480
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 390
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 320
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 390
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 260
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 170
+    },
+    {
+     "m": "2026-MAY",
+     "v": 260
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 210
+    }
+   ]
+  },
+  {
+   "text": "rosie maillard",
+   "closeVariants": [],
+   "vol": null,
+   "comp": null,
+   "compIndex": null,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": []
+  },
+  {
+   "text": "francesco vastola",
+   "closeVariants": [],
+   "vol": 10,
+   "comp": null,
+   "compIndex": null,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 0
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 0
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 10
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 10
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 0
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 0
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 0
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 0
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 0
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 0
+    },
+    {
+     "m": "2026-MAY",
+     "v": 0
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 0
+    }
+   ]
+  }
+ ],
+ "matrix": [
+  {
+   "strategy": "Presence (maximisation des clics)",
+   "budget_mensuel": 50,
+   "budget_journalier": 1.64,
+   "ok": true,
+   "impressions": null,
+   "clicks": 100.53438568115234,
+   "cost": 49.2,
+   "cpc": 0.489385,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Presence (maximisation des clics)",
+   "budget_mensuel": 100,
+   "budget_journalier": 3.29,
+   "ok": true,
+   "impressions": null,
+   "clicks": 133.61495971679688,
+   "cost": 98.70003,
+   "cpc": 0.73869,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Presence (maximisation des clics)",
+   "budget_mensuel": 150,
+   "budget_journalier": 4.93,
+   "ok": true,
+   "impressions": null,
+   "clicks": 155.9361572265625,
+   "cost": 147.90003,
+   "cpc": 0.948465,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Presence (maximisation des clics)",
+   "budget_mensuel": 200,
+   "budget_journalier": 6.58,
+   "ok": true,
+   "impressions": null,
+   "clicks": 170.28445434570312,
+   "cost": 197.40003,
+   "cpc": 1.159237,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Presence (maximisation des clics)",
+   "budget_mensuel": 300,
+   "budget_journalier": 9.87,
+   "ok": true,
+   "impressions": null,
+   "clicks": 187.23573303222656,
+   "cost": 296.1,
+   "cpc": 1.581429,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Presence (maximisation des clics)",
+   "budget_mensuel": 500,
+   "budget_journalier": 16.45,
+   "ok": true,
+   "impressions": null,
+   "clicks": 189.3690185546875,
+   "cost": 358.79712,
+   "cpc": 1.894698,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Presence (maximisation des clics)",
+   "budget_mensuel": 750,
+   "budget_journalier": 24.67,
+   "ok": true,
+   "impressions": null,
+   "clicks": 189.3690185546875,
+   "cost": 358.79709,
+   "cpc": 1.894698,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Presence (maximisation des clics)",
+   "budget_mensuel": 1000,
+   "budget_journalier": 32.89,
+   "ok": true,
+   "impressions": null,
+   "clicks": 189.3690185546875,
+   "cost": 358.79709,
+   "cpc": 1.894698,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Presence (maximisation des clics)",
+   "budget_mensuel": 1500,
+   "budget_journalier": 49.34,
+   "ok": true,
+   "impressions": null,
+   "clicks": 189.3690185546875,
+   "cost": 358.79709,
+   "cpc": 1.894698,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Presence (maximisation des clics)",
+   "budget_mensuel": 2000,
+   "budget_journalier": 65.79,
+   "ok": true,
+   "impressions": null,
+   "clicks": 189.3690185546875,
+   "cost": 358.79712,
+   "cpc": 1.894698,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Haut de page (CPC manuel)",
+   "budget_mensuel": 50,
+   "budget_journalier": 1.64,
+   "ok": true,
+   "impressions": null,
+   "clicks": 93.87736511230469,
+   "cost": 43.13124,
+   "cpc": 0.459442,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Haut de page (CPC manuel)",
+   "budget_mensuel": 100,
+   "budget_journalier": 3.29,
+   "ok": true,
+   "impressions": null,
+   "clicks": 93.87736511230469,
+   "cost": 43.13124,
+   "cpc": 0.459442,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Haut de page (CPC manuel)",
+   "budget_mensuel": 150,
+   "budget_journalier": 4.93,
+   "ok": true,
+   "impressions": null,
+   "clicks": 93.87736511230469,
+   "cost": 43.13124,
+   "cpc": 0.459442,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Haut de page (CPC manuel)",
+   "budget_mensuel": 200,
+   "budget_journalier": 6.58,
+   "ok": true,
+   "impressions": null,
+   "clicks": 93.87736511230469,
+   "cost": 43.13124,
+   "cpc": 0.459442,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Haut de page (CPC manuel)",
+   "budget_mensuel": 300,
+   "budget_journalier": 9.87,
+   "ok": true,
+   "impressions": null,
+   "clicks": 93.87736511230469,
+   "cost": 43.13124,
+   "cpc": 0.459442,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Haut de page (CPC manuel)",
+   "budget_mensuel": 500,
+   "budget_journalier": 16.45,
+   "ok": true,
+   "impressions": null,
+   "clicks": 93.87736511230469,
+   "cost": 43.13124,
+   "cpc": 0.459442,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Haut de page (CPC manuel)",
+   "budget_mensuel": 750,
+   "budget_journalier": 24.67,
+   "ok": true,
+   "impressions": null,
+   "clicks": 93.87736511230469,
+   "cost": 43.13124,
+   "cpc": 0.459442,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Haut de page (CPC manuel)",
+   "budget_mensuel": 1000,
+   "budget_journalier": 32.89,
+   "ok": true,
+   "impressions": null,
+   "clicks": 93.87736511230469,
+   "cost": 43.13124,
+   "cpc": 0.459442,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Haut de page (CPC manuel)",
+   "budget_mensuel": 1500,
+   "budget_journalier": 49.34,
+   "ok": true,
+   "impressions": null,
+   "clicks": 93.87736511230469,
+   "cost": 43.13124,
+   "cpc": 0.459442,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Haut de page (CPC manuel)",
+   "budget_mensuel": 2000,
+   "budget_journalier": 65.79,
+   "ok": true,
+   "impressions": null,
+   "clicks": 93.87736511230469,
+   "cost": 43.13124,
+   "cpc": 0.459442,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Domination (CPC manuel majore)",
+   "budget_mensuel": 50,
+   "budget_journalier": 1.64,
+   "ok": true,
+   "impressions": null,
+   "clicks": 79.8464126586914,
+   "cost": 49.2,
+   "cpc": 0.616183,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Domination (CPC manuel majore)",
+   "budget_mensuel": 100,
+   "budget_journalier": 3.29,
+   "ok": true,
+   "impressions": null,
+   "clicks": 117.80603790283203,
+   "cost": 72.59007,
+   "cpc": 0.616183,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Domination (CPC manuel majore)",
+   "budget_mensuel": 150,
+   "budget_journalier": 4.93,
+   "ok": true,
+   "impressions": null,
+   "clicks": 117.80603790283203,
+   "cost": 72.59007,
+   "cpc": 0.616183,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Domination (CPC manuel majore)",
+   "budget_mensuel": 200,
+   "budget_journalier": 6.58,
+   "ok": true,
+   "impressions": null,
+   "clicks": 117.80603790283203,
+   "cost": 72.59007,
+   "cpc": 0.616183,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Domination (CPC manuel majore)",
+   "budget_mensuel": 300,
+   "budget_journalier": 9.87,
+   "ok": true,
+   "impressions": null,
+   "clicks": 117.80603790283203,
+   "cost": 72.59007,
+   "cpc": 0.616183,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Domination (CPC manuel majore)",
+   "budget_mensuel": 500,
+   "budget_journalier": 16.45,
+   "ok": true,
+   "impressions": null,
+   "clicks": 117.80603790283203,
+   "cost": 72.59007,
+   "cpc": 0.616183,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Domination (CPC manuel majore)",
+   "budget_mensuel": 750,
+   "budget_journalier": 24.67,
+   "ok": true,
+   "impressions": null,
+   "clicks": 117.80603790283203,
+   "cost": 72.59007,
+   "cpc": 0.616183,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Domination (CPC manuel majore)",
+   "budget_mensuel": 1000,
+   "budget_journalier": 32.89,
+   "ok": true,
+   "impressions": null,
+   "clicks": 117.80603790283203,
+   "cost": 72.59007,
+   "cpc": 0.616183,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Domination (CPC manuel majore)",
+   "budget_mensuel": 1500,
+   "budget_journalier": 49.34,
+   "ok": true,
+   "impressions": null,
+   "clicks": 117.80603790283203,
+   "cost": 72.59007,
+   "cpc": 0.616183,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Domination (CPC manuel majore)",
+   "budget_mensuel": 2000,
+   "budget_journalier": 65.79,
+   "ok": true,
+   "impressions": null,
+   "clicks": 117.80603790283203,
+   "cost": 72.59007,
+   "cpc": 0.616183,
+   "ctr": null,
+   "attempts": 1
+  }
+ ],
+ "ideas": [
+  {
+   "text": "restaurant italien bordeaux",
+   "vol": 3600,
+   "comp": "faible",
+   "bidLow": 0.173744,
+   "bidHigh": 0.526987
+  },
+  {
+   "text": "bordeaux restaurant italien",
+   "vol": 3600,
+   "comp": "faible",
+   "bidLow": 0.173744,
+   "bidHigh": 0.526987
+  },
+  {
+   "text": "restaurant italien sur bordeaux",
+   "vol": 3600,
+   "comp": "faible",
+   "bidLow": 0.173744,
+   "bidHigh": 0.526987
+  },
+  {
+   "text": "restaurant italien à bordeaux",
+   "vol": 3600,
+   "comp": "faible",
+   "bidLow": 0.173744,
+   "bidHigh": 0.526987
+  },
+  {
+   "text": "restaurant italie bordeaux",
+   "vol": 3600,
+   "comp": "faible",
+   "bidLow": 0.173744,
+   "bidHigh": 0.526987
+  },
+  {
+   "text": "restaurant gastronomique bordeaux",
+   "vol": 1900,
+   "comp": "faible",
+   "bidLow": 0.149884,
+   "bidHigh": 1.104333
+  },
+  {
+   "text": "restaurant bordeaux gastronomique",
+   "vol": 1900,
+   "comp": "faible",
+   "bidLow": 0.149884,
+   "bidHigh": 1.104333
+  },
+  {
+   "text": "bordeaux restaurant gastronomique",
+   "vol": 1900,
+   "comp": "faible",
+   "bidLow": 0.149884,
+   "bidHigh": 1.104333
+  },
+  {
+   "text": "restaurant gastronomique à bordeaux",
+   "vol": 1900,
+   "comp": "faible",
+   "bidLow": 0.149884,
+   "bidHigh": 1.104333
+  },
+  {
+   "text": "bordeaux restaurants gastronomiques",
+   "vol": 1900,
+   "comp": "faible",
+   "bidLow": 0.149884,
+   "bidHigh": 1.104333
+  },
+  {
+   "text": "meilleur restaurant bordeaux",
+   "vol": 1600,
+   "comp": "moyenne",
+   "bidLow": 0.117265,
+   "bidHigh": 0.697575
+  },
+  {
+   "text": "bordeaux meilleur restaurant",
+   "vol": 1600,
+   "comp": "moyenne",
+   "bidLow": 0.117265,
+   "bidHigh": 0.697575
+  },
+  {
+   "text": "meilleur restaurant sur bordeaux",
+   "vol": 1600,
+   "comp": "moyenne",
+   "bidLow": 0.117265,
+   "bidHigh": 0.697575
+  },
+  {
+   "text": "meilleur restaurant à bordeaux",
+   "vol": 1600,
+   "comp": "moyenne",
+   "bidLow": 0.117265,
+   "bidHigh": 0.697575
+  },
+  {
+   "text": "meilleures restaurant bordeaux",
+   "vol": 1600,
+   "comp": "moyenne",
+   "bidLow": 0.117265,
+   "bidHigh": 0.697575
+  },
+  {
+   "text": "restaurant bordeaux meilleur",
+   "vol": 1600,
+   "comp": "moyenne",
+   "bidLow": 0.117265,
+   "bidHigh": 0.697575
+  },
+  {
+   "text": "restaurant étoilé bordeaux",
+   "vol": 1000,
+   "comp": "faible",
+   "bidLow": 0.113344,
+   "bidHigh": 0.639046
+  },
+  {
+   "text": "restaurant etoiles bordeaux",
+   "vol": 1000,
+   "comp": "faible",
+   "bidLow": 0.113344,
+   "bidHigh": 0.639046
+  },
+  {
+   "text": "restaurant etoile bordeaux",
+   "vol": 1000,
+   "comp": "faible",
+   "bidLow": 0.113344,
+   "bidHigh": 0.639046
+  },
+  {
+   "text": "italiens bordeaux",
+   "vol": 880,
+   "comp": "faible",
+   "bidLow": 0.173228,
+   "bidHigh": 0.57187
+  },
+  {
+   "text": "top restaurant bordeaux",
+   "vol": 880,
+   "comp": "moyenne",
+   "bidLow": 0.142554,
+   "bidHigh": 0.845659
+  },
+  {
+   "text": "bon restaurant bordeaux",
+   "vol": 480,
+   "comp": "moyenne",
+   "bidLow": 0.106882,
+   "bidHigh": 0.589066
+  },
+  {
+   "text": "resto italien bordeaux",
+   "vol": 480,
+   "comp": "faible",
+   "bidLow": 0.152568,
+   "bidHigh": 1.008128
+  },
+  {
+   "text": "bordeaux restauration",
+   "vol": 480,
+   "comp": "moyenne",
+   "bidLow": 0.16574,
+   "bidHigh": 0.930321
+  },
+  {
+   "text": "bon restaurant sur bordeaux",
+   "vol": 480,
+   "comp": "moyenne",
+   "bidLow": 0.106882,
+   "bidHigh": 0.589066
+  },
+  {
+   "text": "bordeaux bon restaurant",
+   "vol": 480,
+   "comp": "moyenne",
+   "bidLow": 0.106882,
+   "bidHigh": 0.589066
+  },
+  {
+   "text": "bon restaurant à bordeaux",
+   "vol": 480,
+   "comp": "moyenne",
+   "bidLow": 0.106882,
+   "bidHigh": 0.589066
+  },
+  {
+   "text": "bons restaurants à bordeaux",
+   "vol": 480,
+   "comp": "moyenne",
+   "bidLow": 0.106882,
+   "bidHigh": 0.589066
+  },
+  {
+   "text": "restaurant bordeaux italien",
+   "vol": 390,
+   "comp": "faible",
+   "bidLow": 0.181893,
+   "bidHigh": 0.853028
+  },
+  {
+   "text": "restaurants italiens bordeaux",
+   "vol": 390,
+   "comp": "faible",
+   "bidLow": 0.181893,
+   "bidHigh": 0.853028
+  },
+  {
+   "text": "restaurant romantique bordeaux",
+   "vol": 320,
+   "comp": "faible",
+   "bidLow": 0.128616,
+   "bidHigh": 0.952636
+  },
+  {
+   "text": "restaurant bordeaux romantique",
+   "vol": 320,
+   "comp": "faible",
+   "bidLow": 0.128616,
+   "bidHigh": 0.952636
+  },
+  {
+   "text": "restaurant romantique à bordeaux",
+   "vol": 320,
+   "comp": "faible",
+   "bidLow": 0.128616,
+   "bidHigh": 0.952636
+  },
+  {
+   "text": "bordeaux restaurant romantique",
+   "vol": 320,
+   "comp": "faible",
+   "bidLow": 0.128616,
+   "bidHigh": 0.952636
+  },
+  {
+   "text": "restaurant sympa bordeaux",
+   "vol": 320,
+   "comp": "moyenne",
+   "bidLow": 0.078133,
+   "bidHigh": 0.591363
+  },
+  {
+   "text": "restaurant bordeaux sympa",
+   "vol": 320,
+   "comp": "moyenne",
+   "bidLow": 0.078133,
+   "bidHigh": 0.591363
+  },
+  {
+   "text": "restaurant romantique sur bordeaux",
+   "vol": 320,
+   "comp": "faible",
+   "bidLow": 0.128616,
+   "bidHigh": 0.952636
+  },
+  {
+   "text": "restaurant sympa sur bordeaux",
+   "vol": 320,
+   "comp": "moyenne",
+   "bidLow": 0.078133,
+   "bidHigh": 0.591363
+  },
+  {
+   "text": "restaurant sympa à bordeaux",
+   "vol": 320,
+   "comp": "moyenne",
+   "bidLow": 0.078133,
+   "bidHigh": 0.591363
+  },
+  {
+   "text": "restaurant chic bordeaux",
+   "vol": 210,
+   "comp": "faible",
+   "bidLow": 0.149288,
+   "bidHigh": 0.800408
+  },
+  {
+   "text": "restaurant italian bordeaux",
+   "vol": 210,
+   "comp": "faible",
+   "bidLow": 0.149516,
+   "bidHigh": 0.746141
+  },
+  {
+   "text": "meilleur restaurant italien bordeaux",
+   "vol": 170,
+   "comp": "faible",
+   "bidLow": 0.124524,
+   "bidHigh": 0.299723
+  },
+  {
+   "text": "resto gastro bordeaux",
+   "vol": 140,
+   "comp": "faible",
+   "bidLow": 0.09782,
+   "bidHigh": 0.964147
+  },
+  {
+   "text": "restaurant étoilé à bordeaux",
+   "vol": 140,
+   "comp": "faible",
+   "bidLow": 0.090269,
+   "bidHigh": 1.514746
+  },
+  {
+   "text": "bordeaux restaurant etoile",
+   "vol": 140,
+   "comp": "faible",
+   "bidLow": 0.090269,
+   "bidHigh": 1.514746
+  },
+  {
+   "text": "restaurant bordeaux étoilé",
+   "vol": 140,
+   "comp": "faible",
+   "bidLow": 0.090269,
+   "bidHigh": 1.514746
+  },
+  {
+   "text": "restaurants étoilés à bordeaux",
+   "vol": 140,
+   "comp": "faible",
+   "bidLow": 0.090269,
+   "bidHigh": 1.514746
+  },
+  {
+   "text": "restaurant gastronomique bordeaux et alentours",
+   "vol": 110,
+   "comp": "faible",
+   "bidLow": 0.302298,
+   "bidHigh": 0.838974
+  },
+  {
+   "text": "gastronomique bordeaux",
+   "vol": 110,
+   "comp": "faible",
+   "bidLow": 0.18803,
+   "bidHigh": 0.880423
+  },
+  {
+   "text": "restaurant italien bordeaux centre ville",
+   "vol": 110,
+   "comp": "faible",
+   "bidLow": 0.144313,
+   "bidHigh": 0.605074
+  },
+  {
+   "text": "restaurant pâtes bordeaux",
+   "vol": 110,
+   "comp": "faible",
+   "bidLow": 0.170609,
+   "bidHigh": 0.893877
+  },
+  {
+   "text": "meilleur restaurant de bordeaux",
+   "vol": 110,
+   "comp": "faible",
+   "bidLow": 0.103262,
+   "bidHigh": 0.764888
+  },
+  {
+   "text": "restaurant pate bordeaux",
+   "vol": 110,
+   "comp": "faible",
+   "bidLow": 0.170609,
+   "bidHigh": 0.893877
+  },
+  {
+   "text": "restaurant pates bordeaux",
+   "vol": 110,
+   "comp": "faible",
+   "bidLow": 0.170609,
+   "bidHigh": 0.893877
+  },
+  {
+   "text": "restaurant en amoureux bordeaux",
+   "vol": 90,
+   "comp": "moyenne",
+   "bidLow": 0.198312,
+   "bidHigh": 0.773151
+  },
+  {
+   "text": "restaurant gastronomiques bordeaux",
+   "vol": 90,
+   "comp": "faible",
+   "bidLow": 0.115092,
+   "bidHigh": 0.808737
+  },
+  {
+   "text": "restaurant amoureux bordeaux",
+   "vol": 90,
+   "comp": "moyenne",
+   "bidLow": 0.198312,
+   "bidHigh": 0.773151
+  },
+  {
+   "text": "restaurant semi gastro bordeaux",
+   "vol": 90,
+   "comp": "moyenne",
+   "bidLow": 0.285915,
+   "bidHigh": 1.041017
+  },
+  {
+   "text": "restaurant semi gastronomique bordeaux",
+   "vol": 90,
+   "comp": "moyenne",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "restaurant pour amoureux bordeaux",
+   "vol": 90,
+   "comp": "moyenne",
+   "bidLow": 0.198312,
+   "bidHigh": 0.773151
+  },
+  {
+   "text": "restaurant ouvert bordeaux",
+   "vol": 90,
+   "comp": "faible",
+   "bidLow": 0.504599,
+   "bidHigh": 1.623645
+  },
+  {
+   "text": "les meilleurs restaurants de bordeaux",
+   "vol": 90,
+   "comp": "faible",
+   "bidLow": 0.129394,
+   "bidHigh": 0.495673
+  },
+  {
+   "text": "restaurant 1 etoile bordeaux",
+   "vol": 90,
+   "comp": "faible",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "meilleur italien bordeaux",
+   "vol": 90,
+   "comp": "faible",
+   "bidLow": 0.123216,
+   "bidHigh": 0.388446
+  },
+  {
+   "text": "meilleur restaurant gastronomique bordeaux",
+   "vol": 70,
+   "comp": "faible",
+   "bidLow": 0.148688,
+   "bidHigh": 0.766844
+  },
+  {
+   "text": "restaurant intime bordeaux",
+   "vol": 70,
+   "comp": "faible",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "restaurant italien bordeaux centre",
+   "vol": 70,
+   "comp": "faible",
+   "bidLow": 0.158603,
+   "bidHigh": 0.348721
+  },
+  {
+   "text": "restaurants étoilés bordeaux",
+   "vol": 70,
+   "comp": "faible",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "restaurant bordeaux couple",
+   "vol": 50,
+   "comp": "faible",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "restaurant couple bordeaux",
+   "vol": 50,
+   "comp": "faible",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "très bon restaurant bordeaux",
+   "vol": 50,
+   "comp": "moyenne",
+   "bidLow": 0.037057,
+   "bidHigh": 0.650153
+  },
+  {
+   "text": "restaurant pour couple bordeaux",
+   "vol": 50,
+   "comp": "faible",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "resto etoile bordeaux",
+   "vol": 50,
+   "comp": "faible",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "tres bon restaurant bordeaux",
+   "vol": 50,
+   "comp": "moyenne",
+   "bidLow": 0.037057,
+   "bidHigh": 0.650153
+  },
+  {
+   "text": "restaurant luxe bordeaux",
+   "vol": 40,
+   "comp": "moyenne",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "semi gastro bordeaux",
+   "vol": 40,
+   "comp": "moyenne",
+   "bidLow": 0.147069,
+   "bidHigh": 0.908531
+  },
+  {
+   "text": "restaurant bordeaux ouvert",
+   "vol": 40,
+   "comp": "faible",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "italien restaurant bordeaux",
+   "vol": 40,
+   "comp": "faible",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "restaurant gastronomique japonais bordeaux",
+   "vol": 40,
+   "comp": "faible",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "italien bordeaux centre",
+   "vol": 40,
+   "comp": "faible",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "restaurant haut de gamme bordeaux",
+   "vol": 30,
+   "comp": "faible",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "restaurant bordeaux centre gastronomique",
+   "vol": 30,
+   "comp": "moyenne",
+   "bidLow": 0.154436,
+   "bidHigh": 0.678623
+  },
+  {
+   "text": "restaurant gastronomique bordeaux centre",
+   "vol": 30,
+   "comp": "moyenne",
+   "bidLow": 0.154436,
+   "bidHigh": 0.678623
+  },
+  {
+   "text": "restaurant gastro bordeaux centre",
+   "vol": 30,
+   "comp": "moyenne",
+   "bidLow": 0.154436,
+   "bidHigh": 0.678623
+  },
+  {
+   "text": "restaurant a faire a bordeaux",
+   "vol": 30,
+   "comp": "faible",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "idée restaurant bordeaux",
+   "vol": 30,
+   "comp": "faible",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "restaurant italien gastronomique bordeaux",
+   "vol": 30,
+   "comp": "faible",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "restaurant bordeaux et alentours",
+   "vol": 30,
+   "comp": "moyenne",
+   "bidLow": 0.210001,
+   "bidHigh": 0.426996
+  },
+  {
+   "text": "restaurant chinois gastronomique bordeaux",
+   "vol": 30,
+   "comp": "faible",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "meilleur resto italien bordeaux",
+   "vol": 30,
+   "comp": "faible",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "restaurant japonais bordeaux gastronomique",
+   "vol": 30,
+   "comp": "faible",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "restaurant classe bordeaux",
+   "vol": 30,
+   "comp": "moyenne",
+   "bidLow": 0.210054,
+   "bidHigh": 1.240603
+  },
+  {
+   "text": "restaurant etoile michelin bordeaux",
+   "vol": 30,
+   "comp": "faible",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "meilleur restaurant a bordeaux",
+   "vol": 30,
+   "comp": "moyenne",
+   "bidLow": 0.153488,
+   "bidHigh": 0.572982
+  },
+  {
+   "text": "meilleurs restaurants a bordeaux",
+   "vol": 30,
+   "comp": "moyenne",
+   "bidLow": 0.153488,
+   "bidHigh": 0.572982
+  },
+  {
+   "text": "restaurant de pates bordeaux",
+   "vol": 30,
+   "comp": "faible",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "diner bordeaux",
+   "vol": 20,
+   "comp": "faible",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "gastro bordeaux restaurant",
+   "vol": 20,
+   "comp": "faible",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "resto gastronomique bordeaux",
+   "vol": 20,
+   "comp": "moyenne",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "restaurant bordeaux gastro",
+   "vol": 20,
+   "comp": "faible",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "restaurant bordeaux semi gastro",
+   "vol": 20,
+   "comp": "moyenne",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "resto chic bordeaux",
+   "vol": 20,
+   "comp": "moyenne",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "bon restaurant a bordeaux",
+   "vol": 20,
+   "comp": "moyenne",
+   "bidLow": 0.020122,
+   "bidHigh": 0.37152
+  },
+  {
+   "text": "restaurant bien noté bordeaux",
+   "vol": 20,
+   "comp": "moyenne",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "restaurant bordeaux a faire",
+   "vol": 20,
+   "comp": "faible",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "restaurant a faire bordeaux",
+   "vol": 20,
+   "comp": "moyenne",
+   "bidLow": 0.060869,
+   "bidHigh": 0.596618
+  },
+  {
+   "text": "restaurant étoilé bordeaux et alentours",
+   "vol": 20,
+   "comp": "faible",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "restaurant bordeaux a proximite",
+   "vol": 20,
+   "comp": "faible",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "chef étoilé bordeaux",
+   "vol": 20,
+   "comp": "faible",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "meilleur restaurant italien de bordeaux",
+   "vol": 20,
+   "comp": "faible",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "meilleurs restaurants italiens bordeaux",
+   "vol": 20,
+   "comp": "faible",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "resto italien bordeaux centre",
+   "vol": 20,
+   "comp": "faible",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "nouveau restaurant italien bordeaux",
+   "vol": 20,
+   "comp": "faible",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "restaurant cool bordeaux",
+   "vol": 20,
+   "comp": "faible",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "pizzeria italienne bordeaux",
+   "vol": 20,
+   "comp": "faible",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "reserver restaurant bordeaux",
+   "vol": 10,
+   "comp": "moyenne",
+   "bidLow": 0.761946,
+   "bidHigh": 1.237847
+  },
+  {
+   "text": "restaurant réputé bordeaux",
+   "vol": 10,
+   "comp": "moyenne",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "restaurant gastronomique sur bordeaux",
+   "vol": 10,
+   "comp": "faible",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "restaurant gastronomique a bordeaux",
+   "vol": 10,
+   "comp": "moyenne",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "restaurant chic a bordeaux",
+   "vol": 10,
+   "comp": "faible",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "repas gastronomique bordeaux",
+   "vol": 10,
+   "comp": "faible",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "restaurant gastronomique bordeau",
+   "vol": 10,
+   "comp": "faible",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "restaurant gourmet bordeaux",
+   "vol": 10,
+   "comp": "faible",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "bistrot gastronomique bordeaux",
+   "vol": 10,
+   "comp": "moyenne",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "resto semi gastro bordeaux",
+   "vol": 10,
+   "comp": "faible",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "restaurant raffiné bordeaux",
+   "vol": 10,
+   "comp": "faible",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "restaurant etoile a bordeaux",
+   "vol": 10,
+   "comp": "faible",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "restaurant chic bordeaux centre",
+   "vol": 10,
+   "comp": "faible",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "restaurants gastronomiques bordeaux et environs",
+   "vol": 10,
+   "comp": null,
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "restaurant de luxe bordeaux",
+   "vol": 10,
+   "comp": "faible",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "restaurant gastronomique autour de bordeaux",
+   "vol": 10,
+   "comp": "faible",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "restaurant gastronomique bordeaux ouvert le lundi",
+   "vol": 10,
+   "comp": "moyenne",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "bordeau restaurant",
+   "vol": 10,
+   "comp": "faible",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "restaurant 33 bordeaux",
+   "vol": 10,
+   "comp": null,
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "restaurant gastronomique bordeaux ouvert le dimanche",
+   "vol": 10,
+   "comp": "moyenne",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "resto étoilé bordeaux",
+   "vol": 10,
+   "comp": "faible",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "adresse bordeaux restaurant",
+   "vol": 10,
+   "comp": null,
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "restaurant bordeaux bordeaux",
+   "vol": 10,
+   "comp": "faible",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "restaurant à faire bordeaux",
+   "vol": 10,
+   "comp": null,
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "restaurant à faire à bordeaux",
+   "vol": 10,
+   "comp": "faible",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "restaurant gastronomique bordeaux étoilé",
+   "vol": 10,
+   "comp": "faible",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "resto etoilé bordeaux",
+   "vol": 10,
+   "comp": "faible",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "restaurant bon bordeaux",
+   "vol": 10,
+   "comp": null,
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "bonne adresse restaurant bordeaux",
+   "vol": 10,
+   "comp": "faible",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "restaurant local bordeaux",
+   "vol": 10,
+   "comp": "moyenne",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "restaurant gastronomique italien bordeaux",
+   "vol": 10,
+   "comp": "faible",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "adresse restaurant bordeaux",
+   "vol": 10,
+   "comp": null,
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "restaurant romantique bordeaux et alentours",
+   "vol": 10,
+   "comp": "faible",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "meilleur restaurant bordeau",
+   "vol": 10,
+   "comp": "moyenne",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "restaurant romantique bordeaux centre",
+   "vol": 10,
+   "comp": "faible",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "restaurants etoiles a bordeaux",
+   "vol": 10,
+   "comp": "faible",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "restaurants 1 etoile bordeaux",
+   "vol": 10,
+   "comp": null,
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "restaurants ouverts bordeaux",
+   "vol": 10,
+   "comp": null,
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "bon plan restaurant bordeaux",
+   "vol": 10,
+   "comp": "moyenne",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "restaurant ouvert à bordeaux",
+   "vol": 10,
+   "comp": "faible",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "restaurant ouvert a bordeaux",
+   "vol": 10,
+   "comp": "moyenne",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "bordeaux restaurant ouvert",
+   "vol": 10,
+   "comp": "faible",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "place restaurant bordeaux",
+   "vol": 10,
+   "comp": "faible",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "restaurant ouvert sur bordeaux",
+   "vol": 10,
+   "comp": "faible",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "italien bordeaux restaurant",
+   "vol": 10,
+   "comp": "faible",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "restaurant ouvert ce soir bordeaux",
+   "vol": 10,
+   "comp": "faible",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "restaurant italien a bordeaux",
+   "vol": 10,
+   "comp": "faible",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "bon restaurant italien bordeaux",
+   "vol": 10,
+   "comp": "moyenne",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "restaurant italien bordeau",
+   "vol": 10,
+   "comp": "faible",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "meilleurs restaurant italien bordeaux",
+   "vol": 10,
+   "comp": "moyenne",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "cuisine italienne bordeaux",
+   "vol": 10,
+   "comp": "faible",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "meilleur restaurant italien a bordeaux",
+   "vol": 10,
+   "comp": "faible",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "bar italien bordeaux",
+   "vol": 10,
+   "comp": "faible",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "restaurant it bordeaux",
+   "vol": 10,
+   "comp": "faible",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "restaurant italien quai bordeaux",
+   "vol": 10,
+   "comp": "faible",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "bistro gastro bordeaux",
+   "vol": 10,
+   "comp": "forte",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "etoile restaurant bordeaux",
+   "vol": 10,
+   "comp": "faible",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "gastro bordeaux resto",
+   "vol": 10,
+   "comp": null,
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "meilleur gastro bordeaux",
+   "vol": 10,
+   "comp": null,
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "restaurant a bordeaux gastronomique",
+   "vol": 10,
+   "comp": "moyenne",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "restaurant bordeaux 1 etoile",
+   "vol": 10,
+   "comp": "faible",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "restaurant chef etoilé bordeaux",
+   "vol": 10,
+   "comp": "faible",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "restaurant chef étoilé bordeaux",
+   "vol": 10,
+   "comp": "faible",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "restaurant gastronomique bordeaux centre ville",
+   "vol": 10,
+   "comp": "faible",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "restaurant gastronomique bordeaux et environs",
+   "vol": 10,
+   "comp": "forte",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "restaurant étoilé bordeaux et environs",
+   "vol": 10,
+   "comp": null,
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "restaurants etoiles bordeaux",
+   "vol": 10,
+   "comp": "faible",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "resto bordeaux michelin",
+   "vol": 10,
+   "comp": "faible",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "diner a bordeaux",
+   "vol": 10,
+   "comp": null,
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "diner romantique bordeaux",
+   "vol": 10,
+   "comp": "moyenne",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "diner à bordeaux",
+   "vol": 10,
+   "comp": "faible",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "diners bordeaux",
+   "vol": 10,
+   "comp": null,
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "excellent restaurant bordeaux",
+   "vol": 10,
+   "comp": "forte",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "les bons restaurants de bordeaux",
+   "vol": 10,
+   "comp": null,
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "les meilleur restaurant de bordeaux",
+   "vol": 10,
+   "comp": "moyenne",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "les meilleurs restaurant bordeaux",
+   "vol": 10,
+   "comp": null,
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "les meilleurs restaurant de bordeaux",
+   "vol": 10,
+   "comp": "moyenne",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "les meilleurs restaurants à bordeaux",
+   "vol": 10,
+   "comp": "forte",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "meilleures restaurants bordeaux",
+   "vol": 10,
+   "comp": null,
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "restaurant bordeaux top",
+   "vol": 10,
+   "comp": "faible",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "restaurant de qualité bordeaux",
+   "vol": 10,
+   "comp": "moyenne",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "restaurant diner bordeaux",
+   "vol": 10,
+   "comp": "faible",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "restaurant sympa a bordeaux",
+   "vol": 10,
+   "comp": "faible",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "restaurant top bordeaux",
+   "vol": 10,
+   "comp": "moyenne",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "restaurants ouverts à bordeaux",
+   "vol": 10,
+   "comp": "faible",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "restaurants romantiques bordeaux",
+   "vol": 10,
+   "comp": null,
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "super restaurant bordeaux",
+   "vol": 10,
+   "comp": "moyenne",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "restaurant italien bordeaux pas cher",
+   "vol": 10,
+   "comp": null,
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "reservation en ligne restaurant bordeaux",
+   "vol": 10,
+   "comp": null,
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "reservation restaurant bordeaux",
+   "vol": 10,
+   "comp": null,
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "restaurant bordeaux reservation",
+   "vol": 10,
+   "comp": null,
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "restaurant bordeaux reservation en ligne",
+   "vol": 10,
+   "comp": "forte",
+   "bidLow": null,
+   "bidHigh": null
+  },
+  {
+   "text": "réserver restaurant bordeaux",
+   "vol": 10,
+   "comp": "moyenne",
+   "bidLow": 0.761946,
+   "bidHigh": 1.237847
+  }
+ ],
+ "errors": []
+}

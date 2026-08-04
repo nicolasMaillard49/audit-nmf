@@ -1,0 +1,519 @@
+{
+  "source": "Google Ads Keyword Planner et generateKeywordForecastMetrics",
+  "extractedAt": "2026-07-28",
+  "zone": "Seine-et-Marne",
+  "geoTargetConstant": "geoTargetConstants/9040885",
+  "seeds": [
+    "menuisier sur mesure",
+    "menuisier agenceur",
+    "agencement intérieur",
+    "aménagement intérieur",
+    "mobilier sur mesure",
+    "dressing sur mesure",
+    "placard sur mesure",
+    "bibliothèque sur mesure",
+    "meuble sur mesure",
+    "cuisine sur mesure",
+    "bureau sur mesure",
+    "rangement sur mesure"
+  ],
+  "totals": {
+    "rawIdeas": 2539,
+    "ideasWithVolume": 2025,
+    "distinctQueries": 1173,
+    "monthlyCommercialIntentVolume": 580,
+    "monthlyForecastPortfolioVolume": 1560,
+    "averageTopOfPageCpc": 3.03,
+    "forecastedKeywords": 90
+  },
+  "forecast": [
+    {
+      "scenario": "Présence",
+      "strategy": "maximiser les clics",
+      "monthlyBudget": 2067,
+      "clicks": 926,
+      "averageCpc": 2.23,
+      "costPerClick": 2.23,
+      "capturedVolumePercent": 59.4,
+      "inventoryCapped": false,
+      "verifiedCap": false,
+      "capProofBudgets": [],
+      "budgetTestsComplete": true
+    },
+    {
+      "scenario": "Haut de page",
+      "strategy": "enchère fixe 3.02 €",
+      "monthlyBudget": 1258,
+      "clicks": 768,
+      "averageCpc": 1.64,
+      "costPerClick": 1.64,
+      "capturedVolumePercent": 49.2,
+      "inventoryCapped": false,
+      "verifiedCap": false,
+      "capProofBudgets": [],
+      "budgetTestsComplete": true
+    },
+    {
+      "scenario": "Domination",
+      "strategy": "enchère fixe 4.53 €",
+      "monthlyBudget": 1875,
+      "clicks": 897,
+      "averageCpc": 2.09,
+      "costPerClick": 2.09,
+      "capturedVolumePercent": 57.5,
+      "inventoryCapped": false,
+      "verifiedCap": false,
+      "capProofBudgets": [],
+      "budgetTestsComplete": true
+    }
+  ],
+  "budgetTests": {
+    "requiredMonthlyBudgets": [
+      50,
+      100,
+      150,
+      200,
+      300,
+      500,
+      750,
+      1000,
+      1500,
+      2000
+    ],
+    "separateApiCalls": 30,
+    "complete": true,
+    "apiErrors": [],
+    "results": [
+      {
+        "scenario": "Présence",
+        "requestedBudget": 50,
+        "forecastSpend": 52,
+        "clicks": 148,
+        "averageCpc": 0.35
+      },
+      {
+        "scenario": "Présence",
+        "requestedBudget": 100,
+        "forecastSpend": 103,
+        "clicks": 219,
+        "averageCpc": 0.47
+      },
+      {
+        "scenario": "Présence",
+        "requestedBudget": 150,
+        "forecastSpend": 155,
+        "clicks": 274,
+        "averageCpc": 0.57
+      },
+      {
+        "scenario": "Présence",
+        "requestedBudget": 200,
+        "forecastSpend": 207,
+        "clicks": 320,
+        "averageCpc": 0.65
+      },
+      {
+        "scenario": "Présence",
+        "requestedBudget": 300,
+        "forecastSpend": 310,
+        "clicks": 393,
+        "averageCpc": 0.79
+      },
+      {
+        "scenario": "Présence",
+        "requestedBudget": 500,
+        "forecastSpend": 517,
+        "clicks": 512,
+        "averageCpc": 1.01
+      },
+      {
+        "scenario": "Présence",
+        "requestedBudget": 750,
+        "forecastSpend": 775,
+        "clicks": 619,
+        "averageCpc": 1.25
+      },
+      {
+        "scenario": "Présence",
+        "requestedBudget": 1000,
+        "forecastSpend": 1033,
+        "clicks": 705,
+        "averageCpc": 1.47
+      },
+      {
+        "scenario": "Présence",
+        "requestedBudget": 1500,
+        "forecastSpend": 1550,
+        "clicks": 836,
+        "averageCpc": 1.85
+      },
+      {
+        "scenario": "Présence",
+        "requestedBudget": 2000,
+        "forecastSpend": 2067,
+        "clicks": 926,
+        "averageCpc": 2.23
+      },
+      {
+        "scenario": "Haut de page",
+        "requestedBudget": 50,
+        "forecastSpend": 52,
+        "clicks": 32,
+        "averageCpc": 1.64
+      },
+      {
+        "scenario": "Haut de page",
+        "requestedBudget": 100,
+        "forecastSpend": 103,
+        "clicks": 63,
+        "averageCpc": 1.64
+      },
+      {
+        "scenario": "Haut de page",
+        "requestedBudget": 150,
+        "forecastSpend": 155,
+        "clicks": 95,
+        "averageCpc": 1.64
+      },
+      {
+        "scenario": "Haut de page",
+        "requestedBudget": 200,
+        "forecastSpend": 207,
+        "clicks": 126,
+        "averageCpc": 1.64
+      },
+      {
+        "scenario": "Haut de page",
+        "requestedBudget": 300,
+        "forecastSpend": 310,
+        "clicks": 189,
+        "averageCpc": 1.64
+      },
+      {
+        "scenario": "Haut de page",
+        "requestedBudget": 500,
+        "forecastSpend": 517,
+        "clicks": 315,
+        "averageCpc": 1.64
+      },
+      {
+        "scenario": "Haut de page",
+        "requestedBudget": 750,
+        "forecastSpend": 775,
+        "clicks": 473,
+        "averageCpc": 1.64
+      },
+      {
+        "scenario": "Haut de page",
+        "requestedBudget": 1000,
+        "forecastSpend": 1033,
+        "clicks": 630,
+        "averageCpc": 1.64
+      },
+      {
+        "scenario": "Haut de page",
+        "requestedBudget": 1500,
+        "forecastSpend": 1258,
+        "clicks": 768,
+        "averageCpc": 1.64
+      },
+      {
+        "scenario": "Haut de page",
+        "requestedBudget": 2000,
+        "forecastSpend": 1258,
+        "clicks": 768,
+        "averageCpc": 1.64
+      },
+      {
+        "scenario": "Domination",
+        "requestedBudget": 50,
+        "forecastSpend": 52,
+        "clicks": 25,
+        "averageCpc": 2.09
+      },
+      {
+        "scenario": "Domination",
+        "requestedBudget": 100,
+        "forecastSpend": 103,
+        "clicks": 49,
+        "averageCpc": 2.09
+      },
+      {
+        "scenario": "Domination",
+        "requestedBudget": 150,
+        "forecastSpend": 155,
+        "clicks": 74,
+        "averageCpc": 2.09
+      },
+      {
+        "scenario": "Domination",
+        "requestedBudget": 200,
+        "forecastSpend": 207,
+        "clicks": 99,
+        "averageCpc": 2.09
+      },
+      {
+        "scenario": "Domination",
+        "requestedBudget": 300,
+        "forecastSpend": 310,
+        "clicks": 148,
+        "averageCpc": 2.09
+      },
+      {
+        "scenario": "Domination",
+        "requestedBudget": 500,
+        "forecastSpend": 517,
+        "clicks": 247,
+        "averageCpc": 2.09
+      },
+      {
+        "scenario": "Domination",
+        "requestedBudget": 750,
+        "forecastSpend": 775,
+        "clicks": 371,
+        "averageCpc": 2.09
+      },
+      {
+        "scenario": "Domination",
+        "requestedBudget": 1000,
+        "forecastSpend": 1033,
+        "clicks": 494,
+        "averageCpc": 2.09
+      },
+      {
+        "scenario": "Domination",
+        "requestedBudget": 1500,
+        "forecastSpend": 1550,
+        "clicks": 741,
+        "averageCpc": 2.09
+      },
+      {
+        "scenario": "Domination",
+        "requestedBudget": 2000,
+        "forecastSpend": 1875,
+        "clicks": 897,
+        "averageCpc": 2.09
+      }
+    ]
+  },
+  "comparisonBaseline": {
+    "zone": "Seine-et-Marne",
+    "forecastedKeywords": 50,
+    "monthlyCommercialIntentVolume": 520,
+    "presenceSpend": 106,
+    "presenceClicks": 23
+  },
+  "forecastPortfolio": [
+    "menuisier sur mesure",
+    "menuisier meuble sur mesure",
+    "menuisier agenceur",
+    "menuisier agencement intérieur",
+    "menuisier intérieur",
+    "menuisier Seine et Marne",
+    "menuiserie sur mesure",
+    "menuiserie intérieure sur mesure",
+    "agenceur intérieur",
+    "agenceur sur mesure",
+    "agenceur Seine et Marne",
+    "agencement intérieur",
+    "agencement intérieur sur mesure",
+    "aménagement intérieur",
+    "aménagement intérieur sur mesure",
+    "mobilier sur mesure",
+    "fabrication mobilier sur mesure",
+    "fabrication meuble sur mesure",
+    "création meuble sur mesure",
+    "conception meuble sur mesure",
+    "meuble sur mesure",
+    "meuble bois sur mesure",
+    "meuble rangement sur mesure",
+    "meuble entrée sur mesure",
+    "meuble salon sur mesure",
+    "meuble TV sur mesure",
+    "meuble bibliothèque sur mesure",
+    "bibliothèque sur mesure",
+    "bibliothèque murale sur mesure",
+    "bibliothèque bois sur mesure",
+    "dressing sur mesure",
+    "dressing personnalisé",
+    "création dressing",
+    "conception dressing",
+    "aménagement dressing",
+    "dressing sous pente",
+    "dressing d angle sur mesure",
+    "placard sur mesure",
+    "placard coulissant sur mesure",
+    "placard sous pente",
+    "placard sous escalier sur mesure",
+    "aménagement placard sur mesure",
+    "rangement sur mesure",
+    "rangement sous pente",
+    "meuble sous pente sur mesure",
+    "meuble sous escalier sur mesure",
+    "cuisine sur mesure",
+    "cuisine équipée sur mesure",
+    "meuble cuisine sur mesure",
+    "îlot cuisine sur mesure",
+    "bureau sur mesure",
+    "aménagement bureau sur mesure",
+    "table sur mesure",
+    "table bois sur mesure",
+    "table à manger sur mesure",
+    "claustra bois sur mesure",
+    "claustra sur mesure",
+    "agencement escalier",
+    "rangement sous escalier",
+    "devis menuisier sur mesure",
+    "devis agencement intérieur",
+    "devis meuble sur mesure",
+    "devis dressing sur mesure",
+    "devis bibliothèque sur mesure",
+    "devis placard sur mesure",
+    "devis cuisine sur mesure",
+    "devis bureau sur mesure",
+    "prix meuble sur mesure",
+    "prix dressing sur mesure",
+    "prix bibliothèque sur mesure",
+    "prix placard sur mesure",
+    "prix cuisine sur mesure",
+    "prix bureau sur mesure",
+    "tarif menuisier sur mesure",
+    "fabricant meuble sur mesure",
+    "artisan meuble sur mesure",
+    "artisan menuisier sur mesure",
+    "ébéniste meuble sur mesure",
+    "ébéniste sur mesure",
+    "fabricant dressing sur mesure",
+    "fabricant placard sur mesure",
+    "fabricant bibliothèque sur mesure",
+    "menuisier dressing",
+    "menuisier placard",
+    "menuisier bibliothèque",
+    "menuisier cuisine sur mesure",
+    "artisan agencement intérieur",
+    "aménagement sur mesure",
+    "meuble intégré sur mesure",
+    "mobilier intégré sur mesure"
+  ],
+  "selectedKeywords": [
+    {
+      "keyword": "dressing sur mesure",
+      "segment": "générique qualifié",
+      "monthlyVolume": 320,
+      "lowTopOfPageBid": 0.738292,
+      "highTopOfPageBid": 2.149697,
+      "competitionIndex": 100,
+      "cpcLevel": "Seine-et-Marne"
+    },
+    {
+      "keyword": "meubles pour sous pente",
+      "segment": "générique qualifié",
+      "monthlyVolume": 390,
+      "lowTopOfPageBid": 0.074094,
+      "highTopOfPageBid": 0.508002,
+      "competitionIndex": 100,
+      "cpcLevel": "Seine-et-Marne"
+    },
+    {
+      "keyword": "meuble pour sous escalier",
+      "segment": "générique qualifié",
+      "monthlyVolume": 260,
+      "lowTopOfPageBid": 0.224159,
+      "highTopOfPageBid": 1.015531,
+      "competitionIndex": 100,
+      "cpcLevel": "Seine-et-Marne"
+    },
+    {
+      "keyword": "meuble sur mesure",
+      "segment": "générique qualifié",
+      "monthlyVolume": 170,
+      "lowTopOfPageBid": 0.599033,
+      "highTopOfPageBid": 2.418767,
+      "competitionIndex": 100,
+      "cpcLevel": "Seine-et-Marne"
+    },
+    {
+      "keyword": "cuisine sur mesure",
+      "segment": "générique qualifié",
+      "monthlyVolume": 110,
+      "lowTopOfPageBid": 1.734517,
+      "highTopOfPageBid": 4.801397,
+      "competitionIndex": 88,
+      "cpcLevel": "Seine-et-Marne"
+    },
+    {
+      "keyword": "bibliothèque sur mesure",
+      "segment": "générique qualifié",
+      "monthlyVolume": 90,
+      "lowTopOfPageBid": 0.95729,
+      "highTopOfPageBid": 3.517198,
+      "competitionIndex": 100,
+      "cpcLevel": "Seine-et-Marne"
+    },
+    {
+      "keyword": "placard sur mesure",
+      "segment": "générique qualifié",
+      "monthlyVolume": 90,
+      "lowTopOfPageBid": 0.828053,
+      "highTopOfPageBid": 2.272881,
+      "competitionIndex": 100,
+      "cpcLevel": "Seine-et-Marne"
+    },
+    {
+      "keyword": "meuble télé sur mesure",
+      "segment": "générique qualifié",
+      "monthlyVolume": 50,
+      "lowTopOfPageBid": 0.585616,
+      "highTopOfPageBid": 1.960755,
+      "competitionIndex": 100,
+      "cpcLevel": "Seine-et-Marne"
+    },
+    {
+      "keyword": "menuisier sur mesure",
+      "segment": "générique qualifié",
+      "monthlyVolume": 40,
+      "lowTopOfPageBid": 1.500231,
+      "highTopOfPageBid": 5.271749,
+      "competitionIndex": 57,
+      "cpcLevel": "Seine-et-Marne"
+    },
+    {
+      "keyword": "agencement intérieur",
+      "segment": "générique qualifié",
+      "monthlyVolume": 20,
+      "lowTopOfPageBid": 1.148148,
+      "highTopOfPageBid": 4.447776,
+      "competitionIndex": 34,
+      "cpcLevel": "Ile-de-France"
+    },
+    {
+      "keyword": "prix dressing sur mesure",
+      "segment": "intention commerciale",
+      "monthlyVolume": 10,
+      "lowTopOfPageBid": 0.337621,
+      "highTopOfPageBid": 2.741326,
+      "competitionIndex": 100,
+      "cpcLevel": "Seine-et-Marne"
+    },
+    {
+      "keyword": "devis cuisine sur mesure",
+      "segment": "intention commerciale",
+      "monthlyVolume": 10,
+      "lowTopOfPageBid": 2.286919,
+      "highTopOfPageBid": 10.141074,
+      "competitionIndex": 71,
+      "cpcLevel": "Ile-de-France"
+    }
+  ],
+  "methodNotes": [
+    "La zone reste strictement la Seine-et-Marne ; seule la couverture de mots-clés est élargie.",
+    "Le portefeuille contient 90 expressions contrôlées couvrant douze familles de services réellement proposées par Totowood.",
+    "Les mots-clés de marques, pas cher, DIY, occasion, emploi et formation ne font pas partie du portefeuille prévu.",
+    "Lorsqu'un CPC départemental est indisponible, le script remonte au niveau Île-de-France puis France et trace ce niveau.",
+    "Chaque stratégie a été testée par dix appels API séparés, aux budgets mensuels de 50, 100, 150, 200, 300, 500, 750, 1 000, 1 500 et 2 000 €.",
+    "À 500 € demandés, les trois stratégies prévoient 517 € dépensés : 512 clics en Présence, 315 en Haut de page et 247 en Domination.",
+    "Le palier conseillé pour un premier test est 500 € : 1 000 € reste techniquement absorbable, mais ne doit être engagé qu'après validation des termes de recherche et des leads.",
+    "Aucun plafond n'est prouvé sous 2 000 € pour Présence et Domination ; le rapport ne présente donc pas 2 000 € comme recommandation de départ.",
+    "Pour ce portefeuille mixte, le taux clic vers lead de 2–5 % reste une hypothèse NMF à valider."
+  ]
+}

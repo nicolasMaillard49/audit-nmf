@@ -1,0 +1,670 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Récap & propositions — Totowood</title>
+  <style>
+    :root {
+      --navy: #102b46;
+      --navy-2: #244b6a;
+      --coral: #7148da;
+      --coral-soft: #f0ebfb;
+      --paper: #fbfdfe;
+      --white: #ffffff;
+      --ink: #102b46;
+      --muted: #5a6e80;
+      --line: #cdd9e2;
+      --line-dark: #9fb5c5;
+      --blue: #1469aa;
+      --orange: #7b61d9;
+      --green: #21a6a1;
+      --red: #b33a4a;
+    }
+
+    * { box-sizing: border-box; }
+    @page { size: A4; margin: 0; }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: #dfe4e9;
+      color: var(--ink);
+      font-family: "Aptos", "Segoe UI Variable Text", "Segoe UI", Arial, sans-serif;
+      font-kerning: normal;
+      -webkit-font-smoothing: antialiased;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+
+    body { font-size: 9pt; }
+
+    .page {
+      position: relative;
+      width: 210mm;
+      height: 297mm;
+      padding: 14mm 15mm 19mm;
+      overflow: hidden;
+      background-color: var(--paper);
+      background-image:
+        linear-gradient(rgba(20,105,170,.045) .25mm, transparent .25mm),
+        linear-gradient(90deg, rgba(20,105,170,.045) .25mm, transparent .25mm);
+      background-size: 8mm 8mm;
+      break-after: page;
+      page-break-after: always;
+    }
+
+    .page:last-child {
+      break-after: auto;
+      page-break-after: auto;
+    }
+
+    h1, h2, h3, h4, p { margin: 0; }
+    h1, h2, h3, h4 {
+      font-family: "Aptos Display", "Segoe UI Variable Display", "Segoe UI", Arial, sans-serif;
+      text-wrap: balance;
+    }
+
+    p { text-wrap: pretty; }
+    strong, b { font-weight: 700; }
+    .tabular { font-variant-numeric: tabular-nums; }
+
+    .brand-logo {
+      display: block;
+      width: 30mm;
+      height: auto;
+      object-fit: contain;
+    }
+
+    .brand-logo.closing-logo { width: 33mm; }
+
+    .page-head {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      padding-bottom: 5mm;
+      border-bottom: .55mm solid var(--navy);
+    }
+
+    .page-head > div:first-child {
+      min-width: 0;
+      padding-left: .8mm;
+    }
+
+    .kicker {
+      color: var(--coral);
+      font-family: "Cascadia Mono", Consolas, monospace;
+      font-size: 7.2pt;
+      font-weight: 700;
+      letter-spacing: .07em;
+      text-transform: uppercase;
+    }
+
+    .page-head h2 {
+      max-width: 138mm;
+      margin-top: 2.5mm;
+      color: var(--navy);
+      font-size: 22pt;
+      line-height: 1.02;
+      letter-spacing: -.035em;
+      text-wrap: wrap;
+    }
+
+    .head-status {
+      padding: 2.4mm 3mm;
+      background: var(--coral-soft);
+      color: var(--coral);
+      border: .25mm solid rgba(113,72,218,.28);
+      font-family: "Cascadia Mono", Consolas, monospace;
+      font-size: 7pt;
+      font-weight: 700;
+      line-height: 1.1;
+      text-align: center;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+
+    .head-mark {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 2.5mm;
+    }
+
+    .footer {
+      position: absolute;
+      right: 15mm;
+      bottom: 8mm;
+      left: 15mm;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 2.5mm;
+      border-top: .25mm solid var(--line);
+      color: var(--muted);
+      font-size: 6.7pt;
+    }
+
+    .footer .mini-mark {
+      display: inline-block;
+      width: 2.4mm;
+      height: 2.4mm;
+      margin-right: 1.6mm;
+      object-fit: contain;
+      vertical-align: -.4mm;
+    }
+
+    .lead {
+      max-width: 168mm;
+      margin-top: 4.5mm;
+      color: var(--navy-2);
+      font-size: 9.8pt;
+      line-height: 1.45;
+    }
+
+    .source {
+      color: var(--muted);
+      font-size: 6.2pt;
+      line-height: 1.35;
+    }
+
+    .metric-strip {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      margin-top: 5mm;
+      border: .25mm solid var(--line);
+      background: rgba(255,255,255,.76);
+    }
+
+    .metric {
+      min-height: 18mm;
+      padding: 3.8mm 4mm 3mm 0;
+    }
+
+    .metric + .metric {
+      padding-left: 5mm;
+      border-left: .25mm solid var(--line);
+    }
+
+    .metric strong {
+      display: block;
+      color: var(--blue);
+      font-family: "Cascadia Mono", Consolas, monospace;
+      font-size: 19pt;
+      line-height: .95;
+    }
+
+    .metric:nth-child(2) strong { color: var(--coral); }
+    .metric:nth-child(3) strong { color: var(--navy); }
+
+    .metric span {
+      display: block;
+      margin-top: 2mm;
+      color: var(--muted);
+      font-size: 7pt;
+      line-height: 1.35;
+    }
+
+    .section-title {
+      margin-bottom: 2.8mm;
+      color: var(--navy);
+      font-size: 12pt;
+    }
+
+    .finding {
+      display: grid;
+      grid-template-columns: 2.2mm 1fr;
+      gap: 3mm;
+      padding: 2.3mm 0;
+      border-top: .25mm solid var(--line);
+      font-size: 7.8pt;
+      line-height: 1.42;
+    }
+
+    .finding i {
+      width: 2mm;
+      height: 2mm;
+      margin-top: 1mm;
+      border-radius: 50%;
+      background: var(--coral);
+    }
+
+    .finding.ok i { background: var(--green); }
+
+    .decision-band {
+      padding: 4.5mm 5.5mm;
+      background: var(--navy);
+      color: var(--white);
+      box-shadow: inset 0 .8mm 0 var(--coral);
+    }
+
+    .decision-band strong {
+      color: #c7b7f2;
+      font-family: "Cascadia Mono", Consolas, monospace;
+      font-size: 9pt;
+      text-transform: uppercase;
+    }
+
+    .decision-band p {
+      margin-top: 2mm;
+      font-size: 8pt;
+      line-height: 1.43;
+    }
+
+    .summary-columns {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 11mm;
+      margin-top: 5mm;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 7pt;
+      line-height: 1.28;
+    }
+
+    th {
+      padding: 2.4mm 2mm;
+      border-bottom: .55mm solid var(--navy);
+      color: var(--navy);
+      font-family: "Cascadia Mono", Consolas, monospace;
+      font-size: 6.5pt;
+      text-align: left;
+      text-transform: uppercase;
+    }
+
+    td {
+      padding: 2.1mm 2mm;
+      border-bottom: .25mm solid var(--line);
+      vertical-align: top;
+    }
+
+    td.num, th.num {
+      text-align: right;
+      font-variant-numeric: tabular-nums;
+      white-space: nowrap;
+    }
+
+    /* ---------- PAGE 1 : chantiers ---------- */
+    .offer {
+      margin-top: 5mm;
+      border-top: .55mm solid var(--navy);
+    }
+
+    .offer-row {
+      display: grid;
+      grid-template-columns: 26mm 50mm 1fr 24mm;
+      gap: 5mm;
+      padding: 3.1mm 0;
+      border-bottom: .25mm solid var(--line);
+      align-items: start;
+    }
+
+    .offer-row .phase {
+      color: var(--coral);
+      font-family: "Cascadia Mono", Consolas, monospace;
+      font-size: 6.5pt;
+      font-weight: 700;
+      line-height: 1.3;
+      text-transform: uppercase;
+    }
+
+    .offer-row h3 {
+      color: var(--navy);
+      font-size: 10pt;
+      line-height: 1.1;
+    }
+
+    .offer-row p {
+      color: var(--muted);
+      font-size: 7pt;
+      line-height: 1.38;
+    }
+
+    .offer-row .impact {
+      color: var(--navy);
+      font-size: 6.5pt;
+      font-weight: 700;
+      text-align: right;
+      line-height: 1.35;
+      text-transform: uppercase;
+    }
+
+    /* ---------- PAGE 2 : budgets ---------- */
+    .budget-table { margin-top: 5.5mm; }
+    .budget-table th { font-size: 6.2pt; }
+    .budget-table td { font-size: 7.2pt; padding: 2.2mm 2mm; }
+    .budget-table td:first-child { color: var(--navy); font-weight: 750; }
+    .budget-table td small {
+      display: block;
+      margin-top: .8mm;
+      color: var(--muted);
+      font-size: 5.9pt;
+      font-weight: 400;
+    }
+    .budget-table tr.recommended td { background: var(--coral-soft); }
+    .budget-table tr.recommended td:first-child { color: var(--coral); }
+
+    .figure-title {
+      color: var(--navy);
+      font-family: "Aptos Display", "Segoe UI Variable Display", "Segoe UI", Arial, sans-serif;
+      font-size: 8.4pt;
+      font-weight: 700;
+    }
+
+    .chart-block {
+      margin-top: 4.5mm;
+      padding-top: 3mm;
+      border-top: .35mm solid var(--navy);
+    }
+
+    .bars {
+      display: flex;
+      align-items: flex-end;
+      gap: 9mm;
+      height: 26mm;
+      margin-top: 3.5mm;
+      padding: 0 6mm;
+      border-bottom: .25mm solid var(--line-dark);
+    }
+
+    .bar-col {
+      display: flex;
+      flex: 1;
+      height: 100%;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: center;
+      gap: 1.5mm;
+    }
+
+    .bar-col strong {
+      color: var(--navy);
+      font-size: 6.8pt;
+    }
+
+    .bar-col i {
+      display: block;
+      width: 16mm;
+      background: var(--blue);
+    }
+
+    .bar-col.is-reco i { background: var(--coral); }
+    .bar-col.is-cap i { background: var(--green); }
+
+    .bar-col span {
+      color: var(--muted);
+      font-size: 6pt;
+      text-align: center;
+    }
+
+    .plateau {
+      margin-top: 3mm;
+      padding: 3mm 3.5mm;
+      background: var(--coral-soft);
+      color: var(--navy-2);
+      font-size: 6.6pt;
+      line-height: 1.42;
+    }
+
+    .fees {
+      margin-top: 4.5mm;
+    }
+
+    .fees-table td { padding: 1.8mm 2mm; }
+    .fees-table td:first-child { width: 52mm; color: var(--navy); font-weight: 700; }
+    .fees-table td:last-child {
+      width: 34mm;
+      text-align: right;
+      font-family: "Cascadia Mono", Consolas, monospace;
+      font-size: 7.4pt;
+      color: var(--coral);
+      font-weight: 700;
+      white-space: nowrap;
+    }
+
+    .closing {
+      display: grid;
+      grid-template-columns: 1.18fr .82fr;
+      gap: 9mm;
+      margin-top: 2.5mm;
+    }
+
+    .closing-copy {
+      padding: 5mm 6mm;
+      border-block: .35mm solid rgba(113,72,218,.45);
+      background: rgba(240,235,251,.88);
+      color: var(--navy);
+    }
+
+    .closing-copy h2 {
+      color: var(--navy);
+      font-size: 17pt;
+      line-height: 1.04;
+      letter-spacing: -.035em;
+    }
+
+    .closing-copy h2 span { color: var(--coral); }
+
+    .closing-copy p {
+      margin-top: 3.5mm;
+      color: var(--muted);
+      font-size: 8pt;
+      line-height: 1.46;
+    }
+
+    .closing-contact {
+      padding-top: 3mm;
+      border-top: .45mm solid var(--navy);
+    }
+
+    .contact-line {
+      padding: 1.6mm 0;
+      border-bottom: .25mm solid var(--line);
+    }
+
+    .contact-line small {
+      display: block;
+      color: var(--muted);
+      font-size: 6.3pt;
+    }
+
+    .contact-line strong {
+      display: block;
+      margin-top: 1.3mm;
+      color: var(--navy);
+      font-size: 8.6pt;
+    }
+  </style>
+</head>
+<body>
+
+<!-- PAGE 1 -->
+<section class="page">
+  <header class="page-head">
+    <div>
+      <div class="kicker">Récap d’audit · proposition d’accompagnement</div>
+      <h2>Ce que nous pouvons construire avec Totowood.</h2>
+    </div>
+    <div class="head-mark">
+      <img class="brand-logo" src="../assets/nmf/logo-light-bg.png" alt="NMF Agence Web">
+      <div class="head-status">Suite de<br>l’audit 07/2026</div>
+    </div>
+  </header>
+
+  <p class="lead">L’audit du 28 juillet 2026 a montré une entreprise solide, un site qui ne transforme pas encore ce savoir-faire en demandes de devis, et un marché local mesurable en Seine-et-Marne. Voici, en deux pages, ce que nous proposons et à quel budget.</p>
+
+  <div class="metric-strip">
+    <div class="metric">
+      <strong class="tabular">48 %</strong>
+      <span>niveau de préparation du site avant tout achat de trafic</span>
+    </div>
+    <div class="metric">
+      <strong class="tabular">1 560</strong>
+      <span>recherches/mois couvertes par 90 expressions métier dans le 77</span>
+    </div>
+    <div class="metric">
+      <strong class="tabular">6–16</strong>
+      <span>demandes/mois estimées au palier de test de 500 €, hypothèse NMF</span>
+    </div>
+  </div>
+
+  <div class="summary-columns">
+    <div>
+      <h3 class="section-title">Ce que l’audit a établi</h3>
+      <div class="finding"><i></i><span><b>Le premier écran masque le savoir-faire :</b> rendu graphique instable, téléphone et devis peu visibles.</span></div>
+      <div class="finding"><i></i><span><b>0 / 5 meta descriptions</b> et aucun balisage LocalBusiness sur les pages analysées.</span></div>
+      <div class="finding"><i></i><span><b>98 mots sur Services, 46 sur Réalisations :</b> pas assez de matière pour se positionner par métier.</span></div>
+      <div class="finding"><i></i><span><b>3,7 % du volume seulement</b> porte une intention commerciale : le ciblage doit être chirurgical.</span></div>
+    </div>
+    <div>
+      <h3 class="section-title">Ce qui est déjà acquis</h3>
+      <div class="finding ok"><i></i><span><b>Des preuves réelles :</b> réalisations, atelier, 11 ans d’expérience et témoignages clients.</span></div>
+      <div class="finding ok"><i></i><span><b>Un formulaire complet :</b> nom, email, téléphone, lieu, objet et message.</span></div>
+      <div class="finding ok"><i></i><span><b>Une demande locale réelle :</b> dressing, sous-pente, cuisine et bibliothèque sur mesure dans le 77.</span></div>
+      <div class="finding ok"><i></i><span><b>Un marché qui vaut cher :</b> jusqu’à 10,14 € de CPC sur « devis cuisine sur mesure ».</span></div>
+    </div>
+  </div>
+
+  <div class="offer">
+    <div class="offer-row">
+      <span class="phase">Chantier 1<br>1 semaine</span>
+      <h3>Réparer le site et déclencher le contact</h3>
+      <p>Correction du rendu (logo, médias, styles), header avec téléphone cliquable et bouton devis, réalisations et réassurance remontées avant le premier scroll, formulaire confirmé et testé sur mobile.</p>
+      <span class="impact">Conversion</span>
+    </div>
+    <div class="offer-row">
+      <span class="phase">Chantier 2<br>2 semaines</span>
+      <h3>Construire la demande locale</h3>
+      <p>Une page par intention — dressing, sous-pente, bibliothèque, cuisine — avec matériaux, méthode et réalisations. Titles, meta, H1, balisage LocalBusiness et Google Business Profile alignés sur la Seine-et-Marne.</p>
+      <span class="impact">SEO local</span>
+    </div>
+    <div class="offer-row">
+      <span class="phase">Chantier 3<br>2 jours</span>
+      <h3>Mesurer avant de dépenser</h3>
+      <p>Suivi des appels, des formulaires et des demandes qualifiées, avec service, commune et valeur estimée du projet. Sans cette étape, aucun budget publicitaire n’est pilotable.</p>
+      <span class="impact">Pilotage</span>
+    </div>
+    <div class="offer-row">
+      <span class="phase">Chantier 4<br>en continu</span>
+      <h3>Lancer et piloter le test Google Ads</h3>
+      <p>Ciblage strict Seine-et-Marne, groupes par service, correspondances Expression et Exact, mots-clés négatifs dès le premier jour, revue hebdomadaire des termes de recherche et rapport mensuel.</p>
+      <span class="impact">Acquisition</span>
+    </div>
+  </div>
+
+  <div class="decision-band" style="margin-top:4.5mm;">
+    <strong>L’ordre compte</strong>
+    <p>Les chantiers 1 à 3 conditionnent la rentabilité du chantier 4. Acheter du trafic vers le site actuel reviendrait à payer pour apprendre ce que l’audit montre déjà : les visiteurs ne trouvent ni la preuve, ni le chemin vers le devis.</p>
+  </div>
+
+  <p class="source" style="margin-top:4mm;">Constats issus de l’audit Totowood du 28 juillet 2026 : analyse des cinq pages publiques, contrôle du code source et données Google Ads API ciblées Seine-et-Marne.</p>
+  <footer class="footer"><span><img class="mini-mark" src="../assets/nmf/logo-symbol.png" alt="">Récap Totowood · NMF Agence</span><span>01 / 02</span></footer>
+</section>
+
+<!-- PAGE 2 -->
+<section class="page">
+  <header class="page-head">
+    <div>
+      <div class="kicker">Grilles de budget · données Google Ads API</div>
+      <h2>Quatre paliers, mesurés sur le vrai marché du 77.</h2>
+    </div>
+    <div class="head-status">Stratégie<br>haut de page</div>
+  </header>
+
+  <table class="budget-table">
+    <thead>
+      <tr>
+        <th>Palier</th>
+        <th class="num">Budget demandé</th>
+        <th class="num">Dépense réelle</th>
+        <th class="num">Clics/mois</th>
+        <th class="num">Volume capté</th>
+        <th class="num">Demandes*</th>
+        <th class="num">Coût/demande*</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Prudent<small>Valider le canal sans risque</small></td>
+        <td class="num">300 €</td>
+        <td class="num">310 €</td>
+        <td class="num">189</td>
+        <td class="num">12,1 %</td>
+        <td class="num">4–9</td>
+        <td class="num">33–82 €</td>
+      </tr>
+      <tr class="recommended">
+        <td>Test recommandé<small>Assez de volume pour décider</small></td>
+        <td class="num">500 €</td>
+        <td class="num">517 €</td>
+        <td class="num">315</td>
+        <td class="num">20,2 %</td>
+        <td class="num">6–16</td>
+        <td class="num">33–82 €</td>
+      </tr>
+      <tr>
+        <td>Accélération<small>Après validation des demandes</small></td>
+        <td class="num">1 000 €</td>
+        <td class="num">1 033 €</td>
+        <td class="num">630</td>
+        <td class="num">40,4 %</td>
+        <td class="num">13–32</td>
+        <td class="num">33–82 €</td>
+      </tr>
+      <tr>
+        <td>Plafond mesuré<small>Le marché ne consomme pas plus</small></td>
+        <td class="num">1 500 €</td>
+        <td class="num">1 258 €</td>
+        <td class="num">768</td>
+        <td class="num">49,2 %</td>
+        <td class="num">15–38</td>
+        <td class="num">33–82 €</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="chart-block">
+    <div class="figure-title">Clics mensuels simulés par palier — stratégie haut de page, Seine-et-Marne</div>
+    <div class="bars" role="img" aria-label="189 clics à 300 euros, 315 clics à 500 euros, 630 clics à 1000 euros, 768 clics à 1500 euros">
+      <div class="bar-col"><strong>189</strong><i style="height:6.2mm;"></i><span>300 €</span></div>
+      <div class="bar-col is-reco"><strong>315</strong><i style="height:10.3mm;"></i><span>500 €<br>recommandé</span></div>
+      <div class="bar-col"><strong>630</strong><i style="height:20.6mm;"></i><span>1 000 €</span></div>
+      <div class="bar-col is-cap"><strong>768</strong><i style="height:25.1mm;"></i><span>1 500 €<br>plafond</span></div>
+    </div>
+    <div class="plateau"><b>Ce que dit la donnée :</b> au-delà de 1 258 € réellement dépensés, Google ne trouve plus de volume qualifié à acheter en Seine-et-Marne sur ce portefeuille. Un budget supérieur ne se transforme pas en clics supplémentaires : il faudrait alors élargir les services ciblés, pas le budget.</div>
+  </div>
+
+  <div class="fees">
+    <h3 class="section-title">Investissement d’accompagnement NMF — périmètre proposé</h3>
+    <table class="fees-table">
+      <tbody>
+        <tr><td>Chantier 1 — Réparation du site & conversion</td><td>Rendu, header, CTA devis, preuves remontées, tests desktop et mobile.</td><td>Prix à discuter</td></tr>
+        <tr><td>Chantier 2 — Pages services & SEO local</td><td>4 pages par intention, titles, metas, LocalBusiness, Google Business Profile.</td><td>Prix à discuter</td></tr>
+        <tr><td>Chantier 3 — Instrumentation des conversions</td><td>Suivi des appels et formulaires, qualification service / commune / valeur.</td><td>Prix à discuter</td></tr>
+        <tr><td>Chantier 4 — Pilotage Google Ads</td><td>Création des campagnes à cadrer, puis gestion et reporting mensuels, hors budget média.</td><td>dès 300 €/mois</td></tr>
+      </tbody>
+    </table>
+    <p class="source" style="margin-top:2.5mm;">Montants hors taxes. Les chantiers 1 à 3 sont chiffrés après cadrage, selon le périmètre retenu ensemble. Le pilotage Google Ads démarre à 300 €/mois et évolue avec le budget média et le périmètre suivis. Le budget média reste payé directement par Totowood à Google.</p>
+  </div>
+
+  <div class="closing">
+    <div class="closing-copy">
+      <h2>Commencer petit, mais <span>commencer juste</span>.</h2>
+      <p>Notre recommandation : chantiers 1 à 3 d’abord, puis un test à 500 €/mois pendant deux mois. Nous décidons ensuite d’accélérer ou d’arrêter sur des demandes réelles, pas sur des promesses.</p>
+    </div>
+    <div class="closing-contact">
+      <img class="brand-logo closing-logo" src="../assets/nmf/logo-light-bg.png" alt="NMF Agence Web">
+      <div class="contact-line"><small>Échanger sur cette proposition</small><strong>contact@nmf-agence.com</strong></div>
+      <div class="contact-line"><small>Découvrir l’agence</small><strong>www.nmf-agence.com</strong></div>
+      <div class="contact-line"><small>Périmètre proposé</small><strong>Site · SEO local · Google Ads</strong></div>
+    </div>
+  </div>
+
+  <p class="source" style="margin-top:2mm;">Budgets, dépenses et clics : Google Ads generateKeywordForecastMetrics, Seine-et-Marne, 28 juillet 2026, portefeuille de 90 expressions en correspondance Expression. * Demandes et coût par demande : hypothèse NMF de 2 à 5 % de conversion des clics, sans promesse de résultat.</p>
+  <footer class="footer"><span><img class="mini-mark" src="../assets/nmf/logo-symbol.png" alt="">Récap Totowood · Grilles de budget</span><span>02 / 02</span></footer>
+</section>
+
+</body>
+</html>

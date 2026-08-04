@@ -1,0 +1,1841 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Audit de recommandation — Totowood</title>
+  <style>
+    :root {
+      --navy: #102b46;
+      --navy-2: #244b6a;
+      --coral: #7148da;
+      --coral-soft: #f0ebfb;
+      --paper: #fbfdfe;
+      --white: #ffffff;
+      --ink: #102b46;
+      --muted: #5a6e80;
+      --line: #cdd9e2;
+      --line-dark: #9fb5c5;
+      --blue: #1469aa;
+      --orange: #7b61d9;
+      --green: #21a6a1;
+      --red: #b33a4a;
+    }
+
+    * { box-sizing: border-box; }
+    @page { size: A4; margin: 0; }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: #dfe4e9;
+      color: var(--ink);
+      font-family: "Aptos", "Segoe UI Variable Text", "Segoe UI", Arial, sans-serif;
+      font-kerning: normal;
+      -webkit-font-smoothing: antialiased;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+
+    body { font-size: 9pt; }
+
+    .page {
+      position: relative;
+      width: 210mm;
+      height: 297mm;
+      padding: 15mm 15mm 19mm;
+      overflow: hidden;
+      background-color: var(--paper);
+      background-image:
+        linear-gradient(rgba(20,105,170,.045) .25mm, transparent .25mm),
+        linear-gradient(90deg, rgba(20,105,170,.045) .25mm, transparent .25mm);
+      background-size: 8mm 8mm;
+      break-after: page;
+      page-break-after: always;
+    }
+
+    .page:last-child {
+      break-after: auto;
+      page-break-after: auto;
+    }
+
+    h1, h2, h3, h4, p { margin: 0; }
+    h1, h2, h3, h4 {
+      font-family: "Aptos Display", "Segoe UI Variable Display", "Segoe UI", Arial, sans-serif;
+      text-wrap: balance;
+    }
+
+    p { text-wrap: pretty; }
+    strong, b { font-weight: 700; }
+    .tabular { font-variant-numeric: tabular-nums; }
+
+    .brand-logo {
+      display: block;
+      width: 30mm;
+      height: auto;
+      object-fit: contain;
+    }
+
+    .brand-logo.cover-logo { width: 31mm; }
+    .brand-logo.closing-logo { width: 33mm; }
+
+    .page-head {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      padding-bottom: 5mm;
+      border-bottom: .55mm solid var(--navy);
+    }
+
+    .page-head > div:first-child {
+      min-width: 0;
+      padding-left: .8mm;
+    }
+
+    .kicker {
+      color: var(--coral);
+      font-family: "Cascadia Mono", Consolas, monospace;
+      font-size: 7.2pt;
+      font-weight: 700;
+      letter-spacing: .07em;
+      text-transform: uppercase;
+    }
+
+    .page-head h2 {
+      max-width: 145mm;
+      margin-top: 2.5mm;
+      color: var(--navy);
+      font-size: 25pt;
+      line-height: 1.02;
+      letter-spacing: -.035em;
+      text-wrap: wrap;
+    }
+
+    .head-status {
+      padding: 2.4mm 3mm;
+      background: var(--coral-soft);
+      color: var(--coral);
+      border: .25mm solid rgba(113,72,218,.28);
+      font-family: "Cascadia Mono", Consolas, monospace;
+      font-size: 7pt;
+      font-weight: 700;
+      line-height: 1.1;
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+    .footer {
+      position: absolute;
+      right: 15mm;
+      bottom: 8mm;
+      left: 15mm;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 2.5mm;
+      border-top: .25mm solid var(--line);
+      color: var(--muted);
+      font-size: 6.7pt;
+    }
+
+    .footer .mini-mark {
+      display: inline-block;
+      width: 2.4mm;
+      height: 2.4mm;
+      margin-right: 1.6mm;
+      object-fit: contain;
+      vertical-align: -.4mm;
+    }
+
+    .lead {
+      max-width: 152mm;
+      color: var(--navy-2);
+      font-size: 10.5pt;
+      line-height: 1.48;
+    }
+
+    .source {
+      color: var(--muted);
+      font-size: 6.2pt;
+      line-height: 1.35;
+    }
+
+    .metric-strip {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      margin-top: 6mm;
+      border: .25mm solid var(--line);
+      background: rgba(255,255,255,.76);
+    }
+
+    .metric {
+      min-height: 24mm;
+      padding: 5mm 4mm 4mm 0;
+    }
+
+    .metric + .metric {
+      padding-left: 5mm;
+      border-left: .25mm solid var(--line);
+    }
+
+    .metric strong {
+      display: block;
+      color: var(--blue);
+      font-family: "Cascadia Mono", Consolas, monospace;
+      font-size: 22pt;
+      line-height: .95;
+    }
+
+    .metric:nth-child(2) strong { color: var(--coral); }
+    .metric:nth-child(3) strong { color: var(--navy); }
+
+    .metric span {
+      display: block;
+      margin-top: 2.5mm;
+      color: var(--muted);
+      font-size: 7pt;
+      line-height: 1.35;
+    }
+
+    .section-title {
+      margin-bottom: 3.5mm;
+      color: var(--navy);
+      font-size: 12pt;
+    }
+
+    .finding {
+      display: grid;
+      grid-template-columns: 2.2mm 1fr;
+      gap: 3mm;
+      padding: 3.2mm 0;
+      border-top: .25mm solid var(--line);
+      font-size: 7.8pt;
+      line-height: 1.42;
+    }
+
+    .finding i {
+      width: 2mm;
+      height: 2mm;
+      margin-top: 1mm;
+      border-radius: 50%;
+      background: var(--coral);
+    }
+
+    .decision-band {
+      padding: 5mm 5.5mm;
+      background: var(--navy);
+      color: var(--white);
+      box-shadow: inset 0 .8mm 0 var(--coral);
+    }
+
+    .decision-band strong {
+      color: #c7b7f2;
+      font-family: "Cascadia Mono", Consolas, monospace;
+      font-size: 9pt;
+      text-transform: uppercase;
+    }
+
+    .decision-band p {
+      margin-top: 2mm;
+      font-size: 8pt;
+      line-height: 1.43;
+    }
+
+    .priority {
+      font-family: "Cascadia Mono", Consolas, monospace;
+      font-size: 6.4pt;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+
+    .p0 { color: var(--red); }
+    .p1 { color: var(--orange); }
+    .p2 { color: var(--green); }
+
+    .tag {
+      display: inline-block;
+      padding: 1.3mm 2mm;
+      border: .25mm solid var(--line-dark);
+      color: var(--navy-2);
+      font-size: 6.4pt;
+      font-weight: 650;
+    }
+
+    .photo-caption {
+      padding-top: 1.5mm;
+      color: var(--muted);
+      font-size: 6pt;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 7pt;
+      line-height: 1.28;
+    }
+
+    th {
+      padding: 2.4mm 2mm;
+      border-bottom: .55mm solid var(--navy);
+      color: var(--navy);
+      font-family: "Cascadia Mono", Consolas, monospace;
+      font-size: 6.5pt;
+      text-align: left;
+      text-transform: uppercase;
+    }
+
+    td {
+      padding: 2.1mm 2mm;
+      border-bottom: .25mm solid var(--line);
+      vertical-align: top;
+    }
+
+    td.num, th.num {
+      text-align: right;
+      font-variant-numeric: tabular-nums;
+      white-space: nowrap;
+    }
+
+    tr.emphasis td { background: var(--coral-soft); }
+
+    /* COVER */
+    .cover {
+      padding: 0;
+      background-color: var(--paper);
+      color: var(--ink);
+    }
+
+    .cover-photo {
+      position: absolute;
+      top: 15mm;
+      right: 15mm;
+      bottom: 15mm;
+      left: auto;
+      width: 70mm;
+      height: auto;
+      object-fit: cover;
+      object-position: center 55%;
+      opacity: 1;
+      filter: saturate(.62) contrast(1.06);
+      border: .3mm solid var(--line-dark);
+    }
+
+    .cover-shade { display: none; }
+
+    .cover-content {
+      position: relative;
+      z-index: 2;
+      height: 100%;
+      padding: 15mm;
+    }
+
+    .cover-meta {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 108mm;
+      color: var(--muted);
+      font-size: 7.5pt;
+    }
+
+    .cover-copy {
+      width: 108mm;
+      margin-top: 42mm;
+    }
+
+    .cover .kicker { color: var(--blue); }
+
+    .cover h1 {
+      margin-top: 6mm;
+      color: var(--ink);
+      font-size: 38pt;
+      line-height: .99;
+      letter-spacing: -.04em;
+      text-transform: none;
+    }
+
+    .cover h1 span { color: var(--coral); }
+
+    .cover .lede {
+      width: 96mm;
+      margin-top: 9mm;
+      color: var(--muted);
+      font-size: 10.5pt;
+      line-height: 1.52;
+    }
+
+    .cover-ring {
+      position: absolute;
+      right: 64mm;
+      bottom: 34mm;
+      display: grid;
+      width: 38mm;
+      height: 38mm;
+      place-items: center;
+      border: .35mm solid rgba(20,105,170,.68);
+      border-radius: 50%;
+      background: rgba(251,253,254,.92);
+      color: var(--blue);
+      font-family: "Cascadia Mono", Consolas, monospace;
+    }
+
+    .cover-ring::before {
+      content: "SEINE-ET-MARNE";
+      position: absolute;
+      top: 8mm;
+      font-size: 5.5pt;
+      font-weight: 700;
+      letter-spacing: .08em;
+    }
+
+    .cover-ring::after {
+      content: "77";
+      margin-top: 7mm;
+      font-size: 24pt;
+      font-weight: 700;
+      line-height: 1;
+    }
+
+    .cover-facts {
+      position: absolute;
+      right: 86mm;
+      bottom: 15mm;
+      left: 15mm;
+      display: grid;
+      grid-template-columns: auto 1fr auto;
+      gap: 4mm;
+      padding-top: 3mm;
+      border-top: .3mm solid var(--line-dark);
+      color: var(--muted);
+      font-family: "Cascadia Mono", Consolas, monospace;
+      font-size: 5.5pt;
+      text-transform: uppercase;
+    }
+
+    /* PAGE 2 */
+    .summary-columns {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 11mm;
+      margin-top: 7mm;
+    }
+
+    .page-2 .decision-band { margin-top: 7mm; }
+
+    .google-hook {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 6mm;
+      padding: 4mm 0;
+      border-block: .25mm solid var(--line);
+    }
+
+    .google-hook strong {
+      color: var(--navy);
+      font-family: "Bahnschrift", Arial, sans-serif;
+      font-size: 12pt;
+    }
+
+    .google-hook span {
+      max-width: 88mm;
+      color: var(--muted);
+      font-size: 7.2pt;
+      line-height: 1.4;
+    }
+
+    /* PAGE 3 */
+    .company-hero {
+      display: grid;
+      grid-template-columns: 1.12fr .88fr;
+      gap: 8mm;
+      margin-top: 7mm;
+    }
+
+    .company-photo {
+      width: 100%;
+      height: 66mm;
+      object-fit: cover;
+      object-position: center;
+    }
+
+    .segment-list { margin-top: 5mm; }
+
+    .segment-row {
+      display: grid;
+      grid-template-columns: 36mm 1fr;
+      padding: 3.1mm 0;
+      border-top: .25mm solid var(--line);
+      font-size: 7.5pt;
+      line-height: 1.4;
+    }
+
+    .segment-row strong { color: var(--navy); }
+
+    .market-grid {
+      display: grid;
+      grid-template-columns: 1fr 1.25fr;
+      gap: 9mm;
+      margin-top: 7mm;
+    }
+
+    .proof-list {
+      border-top: .45mm solid var(--navy);
+    }
+
+    .proof-item {
+      padding: 3.5mm 0;
+      border-bottom: .25mm solid var(--line);
+      font-size: 7.4pt;
+      line-height: 1.42;
+    }
+
+    .proof-item b { color: var(--navy); }
+
+    .competitor-table td:first-child { font-weight: 700; }
+
+    /* PAGE 4 */
+    .visual-proof {
+      margin-top: 5mm;
+    }
+
+    .screen-frame {
+      position: relative;
+      overflow: hidden;
+      border: .25mm solid var(--line);
+      background: white;
+    }
+
+    .screen-label {
+      position: absolute;
+      z-index: 2;
+      top: 3mm;
+      left: 3mm;
+      padding: 1.5mm 2mm;
+      background: var(--navy);
+      color: white;
+      font-family: "Cascadia Mono", Consolas, monospace;
+      font-size: 6.2pt;
+      font-weight: 700;
+      letter-spacing: .04em;
+      text-transform: uppercase;
+    }
+
+    .primary-shot {
+      width: 100%;
+      height: 57mm;
+      object-fit: cover;
+      object-position: top left;
+    }
+
+    .visual-details {
+      display: grid;
+      grid-template-columns: 1.12fr .88fr;
+      gap: 6mm;
+      margin-top: 5mm;
+    }
+
+    .form-shot {
+      width: 100%;
+      height: 60mm;
+      object-fit: cover;
+      object-position: top left;
+    }
+
+    .render-diagnostic {
+      min-height: 60mm;
+      padding: 5mm;
+      border-top: .6mm solid var(--coral);
+      background: var(--coral-soft);
+    }
+
+    .render-diagnostic .metric {
+      color: var(--coral);
+      font-family: "Cascadia Mono", Consolas, monospace;
+      font-size: 17pt;
+      font-weight: 750;
+      line-height: 1;
+    }
+
+    .render-diagnostic > p {
+      margin-top: 2mm;
+      color: var(--navy);
+      font-size: 7.4pt;
+      line-height: 1.4;
+    }
+
+    .diag-item {
+      padding: 3mm 0;
+      border-top: .25mm solid var(--line);
+      color: var(--navy);
+      font-size: 7.1pt;
+      line-height: 1.4;
+    }
+
+    .page-visual > .decision-band {
+      margin-top: 5mm !important;
+      padding: 4mm 5mm;
+    }
+
+    /* PAGE 5 */
+    .tech-facts {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      margin-top: 6mm;
+      border-block: .25mm solid var(--line);
+    }
+
+    .tech-fact {
+      min-height: 21mm;
+      padding: 4.4mm 3mm 3.8mm 0;
+    }
+
+    .tech-fact + .tech-fact {
+      padding-left: 4mm;
+      border-left: .25mm solid var(--line);
+    }
+
+    .tech-fact strong {
+      display: block;
+      color: var(--blue);
+      font-family: "Cascadia Mono", Consolas, monospace;
+      font-size: 18pt;
+      line-height: 1;
+    }
+
+    .tech-fact span {
+      display: block;
+      margin-top: 2mm;
+      color: var(--muted);
+      font-size: 6.4pt;
+      line-height: 1.3;
+    }
+
+    .audit-table { margin-top: 6mm; }
+    .audit-table td:nth-child(1) { width: 31mm; font-weight: 700; color: var(--navy); }
+    .audit-table td:nth-child(2) { width: 49mm; }
+    .audit-table td:nth-child(4) { width: 18mm; text-align: right; }
+
+    .contact-band {
+      display: grid;
+      grid-template-columns: .72fr 1.28fr;
+      gap: 6mm;
+      margin-top: 6mm;
+      padding: 5mm;
+      background: var(--navy);
+      color: white;
+      box-shadow: inset 0 .8mm 0 var(--coral);
+    }
+
+    .contact-band h3 {
+      color: #c7b7f2;
+      font-size: 11pt;
+    }
+
+    .contact-band p {
+      font-size: 7.2pt;
+      line-height: 1.45;
+    }
+
+    /* PAGE 6 */
+    .keyword-page .metric-strip { margin-top: 5mm; }
+
+    .market-figure {
+      margin-top: 5mm;
+      padding: 4mm 0 3.5mm;
+      border-bottom: .25mm solid var(--line);
+    }
+
+    .figure-title {
+      color: var(--navy);
+      font-family: "Aptos Display", "Segoe UI Variable Display", "Segoe UI", Arial, sans-serif;
+      font-size: 8.4pt;
+      font-weight: 700;
+    }
+
+    .stacked-bar {
+      display: flex;
+      width: 100%;
+      height: 8mm;
+      margin-top: 3mm;
+      overflow: hidden;
+    }
+
+    .stacked-bar span {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-family: "Cascadia Mono", Consolas, monospace;
+      font-size: 6.3pt;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+
+    .stacked-bar .intent { width: 3.7%; min-width: 15mm; background: var(--blue); }
+    .stacked-bar .generic { flex: 1; background: var(--orange); }
+    .stacked-bar .exclude { width: 2.8%; min-width: 14mm; background: var(--green); }
+
+    .direct-legend {
+      display: flex;
+      gap: 8mm;
+      margin-top: 2mm;
+      color: var(--muted);
+      font-size: 6pt;
+    }
+
+    .direct-legend i {
+      display: inline-block;
+      width: 2mm;
+      height: 2mm;
+      margin-right: 1mm;
+      vertical-align: -.35mm;
+    }
+
+    .keyword-layout {
+      display: grid;
+      grid-template-columns: 1.14fr .86fr;
+      gap: 7mm;
+      margin-top: 4.5mm;
+    }
+
+    .keyword-table { font-size: 5.9pt; }
+    .keyword-table th { padding: 1.7mm 1.1mm; font-size: 5.5pt; }
+    .keyword-table td { padding: 1.5mm 1.1mm; }
+    .keyword-table td:first-child { width: 39mm; }
+
+    .scatter-wrap {
+      padding-left: 2mm;
+      border-left: .25mm solid var(--line);
+    }
+
+    .scatter {
+      width: 100%;
+      height: 75mm;
+      margin-top: 2mm;
+      overflow: visible;
+    }
+
+    .axis { stroke: #9eb0bd; stroke-width: 1; }
+    .gridline { stroke: #dfe6eb; stroke-width: 1; }
+    .axis-label { fill: #5a6e80; font: 8px "Segoe UI", Arial, sans-serif; }
+    .point-label { fill: #102b46; font: 8px "Segoe UI", Arial, sans-serif; }
+    .point-intent { fill: var(--blue); stroke: white; stroke-width: 1.5; }
+    .point-generic { fill: var(--orange); stroke: white; stroke-width: 1.5; }
+    .point-exclude { fill: var(--green); stroke: white; stroke-width: 1.5; }
+
+    .negative-band {
+      margin-top: 4mm;
+      padding: 3mm 3.5mm;
+      background: var(--coral-soft);
+      color: var(--navy-2);
+      font-size: 6.5pt;
+      line-height: 1.4;
+    }
+
+    /* PAGE 7 */
+    .scenario-table { margin-top: 5mm; }
+    .scenario-table td:first-child { font-weight: 750; color: var(--navy); }
+    .scenario-table .recommended td { background: var(--coral-soft); }
+
+    .chart-pair {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8mm;
+      margin-top: 5mm;
+    }
+
+    .mini-chart {
+      padding-top: 3mm;
+      border-top: .35mm solid var(--navy);
+    }
+
+    .bars {
+      display: flex;
+      align-items: flex-end;
+      gap: 7mm;
+      height: 34mm;
+      margin-top: 3mm;
+      padding: 0 4mm 0;
+      border-bottom: .25mm solid var(--line-dark);
+    }
+
+    .bar-col {
+      display: flex;
+      flex: 1;
+      height: 100%;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: center;
+      gap: 1.5mm;
+    }
+
+    .bar-col strong {
+      color: var(--navy);
+      font-size: 6.5pt;
+    }
+
+    .bar-col i {
+      display: block;
+      width: 12mm;
+      background: var(--blue);
+    }
+
+    .bar-col:nth-child(2) i { background: var(--coral); }
+    .bar-col:nth-child(3) i { background: var(--green); }
+
+    .bar-col span {
+      color: var(--muted);
+      font-size: 5.7pt;
+    }
+
+    .gauges {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 5mm;
+      margin-top: 5mm;
+    }
+
+    .gauge {
+      padding: 3mm 0 2.5mm;
+      border-top: .25mm solid var(--line);
+    }
+
+    .gauge-head {
+      display: flex;
+      justify-content: space-between;
+      font-size: 6.4pt;
+      font-weight: 700;
+    }
+
+    .gauge-track {
+      position: relative;
+      height: 3.5mm;
+      margin-top: 2mm;
+      background: #e3e9ee;
+    }
+
+    .gauge-track i {
+      position: absolute;
+      inset: 0 auto 0 0;
+      min-width: 4mm;
+      background: var(--blue);
+    }
+
+    .gauge:nth-child(2) .gauge-track i { background: var(--coral); }
+    .gauge:nth-child(3) .gauge-track i { background: var(--green); }
+
+    .score-grid {
+      display: grid;
+      grid-template-columns: 33mm 1fr;
+      gap: 7mm;
+      margin-top: 5mm;
+      padding: 4mm;
+      border: .35mm solid var(--line-dark);
+      background: rgba(255,255,255,.82);
+      color: var(--navy);
+      box-shadow: inset 0 .8mm 0 var(--coral);
+    }
+
+    .score-total {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      border-right: .25mm solid var(--line);
+    }
+
+    .score-total strong {
+      color: var(--coral);
+      font-family: "Cascadia Mono", Consolas, monospace;
+      font-size: 24pt;
+      line-height: 1;
+    }
+
+    .score-total span {
+      margin-top: 1.5mm;
+      font-size: 6pt;
+      text-align: center;
+    }
+
+    .score-lines { padding-right: 2mm; }
+
+    .score-line {
+      display: grid;
+      grid-template-columns: 1fr 19mm;
+      padding: 1.4mm 0;
+      border-bottom: .2mm solid var(--line);
+      font-size: 6.4pt;
+    }
+
+    .score-line b { text-align: right; }
+
+    /* PAGE 8 */
+    .budget-proof-grid {
+      display: grid;
+      grid-template-columns: 1.08fr .92fr;
+      gap: 7mm;
+      margin-top: 5mm;
+    }
+
+    .budget-curve-wrap {
+      padding-top: 3mm;
+      border-top: .35mm solid var(--navy);
+    }
+
+    .budget-curve {
+      width: 100%;
+      height: 67mm;
+      margin-top: 2mm;
+      overflow: visible;
+    }
+
+    .curve-presence,
+    .curve-top,
+    .curve-domination {
+      fill: none;
+      stroke-width: 3;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    .curve-presence { stroke: var(--blue); }
+    .curve-top { stroke: var(--coral); }
+    .curve-domination { stroke: var(--green); }
+
+    .budget-legend {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2mm 5mm;
+      margin-top: 1mm;
+      color: var(--muted);
+      font-size: 6.1pt;
+    }
+
+    .budget-legend i {
+      display: inline-block;
+      width: 4mm;
+      height: .7mm;
+      margin-right: 1mm;
+      vertical-align: 1px;
+    }
+
+    .budget-proof-table {
+      font-size: 5.9pt;
+      line-height: 1.18;
+    }
+
+    .budget-proof-table th {
+      padding: 1.5mm .8mm;
+      font-size: 5.1pt;
+      text-align: center;
+    }
+
+    .budget-proof-table td {
+      padding: 1.25mm .8mm;
+      text-align: center;
+      font-variant-numeric: tabular-nums;
+      white-space: nowrap;
+    }
+
+    .budget-proof-table td:first-child {
+      color: var(--navy);
+      font-weight: 750;
+    }
+
+    .budget-proof-table tr:last-child td {
+      background: var(--coral-soft);
+      border-bottom-color: var(--coral);
+    }
+
+    /* PAGE 9 */
+    .roadmap {
+      margin-top: 7mm;
+      border-top: .55mm solid var(--navy);
+    }
+
+    .road-row {
+      display: grid;
+      grid-template-columns: 28mm 52mm 1fr 22mm;
+      gap: 5mm;
+      min-height: 22mm;
+      padding: 4.5mm 0;
+      border-bottom: .25mm solid var(--line);
+      align-items: start;
+    }
+
+    .road-row .phase {
+      color: var(--coral);
+      font-family: "Cascadia Mono", Consolas, monospace;
+      font-size: 6.5pt;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+
+    .road-row h3 {
+      color: var(--navy);
+      font-size: 10pt;
+      line-height: 1.1;
+    }
+
+    .road-row p {
+      color: var(--muted);
+      font-size: 7.2pt;
+      line-height: 1.42;
+    }
+
+    .road-row .impact {
+      color: var(--navy);
+      font-size: 6.5pt;
+      font-weight: 700;
+      text-align: right;
+      text-transform: uppercase;
+    }
+
+    .closing {
+      display: grid;
+      grid-template-columns: 1.2fr .8fr;
+      gap: 9mm;
+      margin-top: 8mm;
+    }
+
+    .closing-copy {
+      padding: 8mm;
+      border-block: .35mm solid rgba(113,72,218,.45);
+      background: rgba(240,235,251,.88);
+      color: var(--navy);
+    }
+
+    .closing-copy h2 {
+      color: var(--navy);
+      font-size: 24pt;
+      line-height: 1.02;
+      letter-spacing: -.035em;
+    }
+
+    .closing-copy h2 span { color: var(--coral); }
+
+    .closing-copy p {
+      margin-top: 5mm;
+      color: var(--muted);
+      font-size: 8.5pt;
+      line-height: 1.48;
+    }
+
+    .closing-contact {
+      padding-top: 4mm;
+      border-top: .45mm solid var(--navy);
+    }
+
+    .contact-line {
+      padding: 4mm 0;
+      border-bottom: .25mm solid var(--line);
+    }
+
+    .contact-line small {
+      display: block;
+      color: var(--muted);
+      font-size: 6.3pt;
+    }
+
+    .contact-line strong {
+      display: block;
+      margin-top: 1.3mm;
+      color: var(--navy);
+      font-size: 9pt;
+    }
+
+    .appendix-page .page-head {
+      margin-bottom: 4mm;
+    }
+
+    .appendix-page .page-head h2 {
+      max-width: 148mm;
+      font-size: 22pt;
+    }
+
+    .appendix-summary {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      border-block: .35mm solid var(--line);
+      margin-bottom: 4mm;
+    }
+
+    .appendix-summary div {
+      min-height: 15mm;
+      padding: 3mm 3.5mm;
+      border-right: .25mm solid var(--line);
+    }
+
+    .appendix-summary div:last-child {
+      border-right: 0;
+    }
+
+    .appendix-summary strong {
+      display: block;
+      color: var(--blue);
+      font-family: var(--mono);
+      font-size: 12pt;
+      line-height: 1;
+    }
+
+    .appendix-summary span {
+      display: block;
+      margin-top: 1.4mm;
+      color: var(--muted);
+      font-size: 5.8pt;
+      line-height: 1.2;
+    }
+
+    .keyword-annex-table {
+      width: 100%;
+      border-collapse: collapse;
+      table-layout: fixed;
+      color: var(--navy);
+      font-size: 6.2pt;
+      line-height: 1.13;
+    }
+
+    .keyword-annex-table th {
+      padding: 1.8mm 1.2mm;
+      border-bottom: .55mm solid var(--navy);
+      color: var(--navy);
+      font-family: var(--mono);
+      font-size: 5.3pt;
+      text-align: left;
+      text-transform: uppercase;
+    }
+
+    .keyword-annex-table td {
+      padding: 1.3mm 1.2mm;
+      border-bottom: .2mm solid var(--line);
+      vertical-align: middle;
+    }
+
+    .keyword-annex-table tr.no-volume td {
+      background: rgba(240,235,251,.72);
+    }
+
+    .keyword-annex-table .num {
+      font-variant-numeric: tabular-nums;
+      text-align: right;
+      white-space: nowrap;
+    }
+
+    .geo-code {
+      display: inline-block;
+      min-width: 8mm;
+      padding: .7mm 1mm;
+      border: .2mm solid rgba(20,105,170,.45);
+      color: var(--blue);
+      font-family: var(--mono);
+      font-size: 5.3pt;
+      text-align: center;
+    }
+
+    .appendix-note {
+      margin-top: 4mm;
+      padding: 3mm 4mm;
+      border-left: .7mm solid var(--violet);
+      background: rgba(240,235,251,.72);
+      color: var(--muted);
+      font-size: 6pt;
+      line-height: 1.35;
+    }
+
+    .client-internal-only,
+    #keyword-annex {
+      display: none !important;
+    }
+  </style>
+</head>
+<body>
+
+<!-- PAGE 1 -->
+<section class="page cover">
+  <img class="cover-photo" src="../assets/totowood/photos/project-1.jpg" alt="">
+  <div class="cover-shade"></div>
+  <div class="cover-content">
+    <div class="cover-meta">
+      <img class="brand-logo cover-logo" src="../assets/nmf/logo-light-bg.png" alt="NMF Agence Web">
+      <span>Audit de recommandation · juillet 2026</span>
+    </div>
+
+    <div class="cover-copy">
+      <div class="kicker">Diagnostic digital & plan de croissance</div>
+      <h1>Totowood.<br><span>Du savoir-faire</span><br>à la demande.</h1>
+      <p class="lede">Une synthèse claire du site, de la visibilité locale et du potentiel Google Ads de Totowood en Seine-et-Marne.</p>
+    </div>
+
+    <div class="cover-ring"></div>
+    <div class="cover-facts">
+      <span>totowood.fr</span>
+      <span>8 pages · synthèse décisionnelle</span>
+      <span>Seine-et-Marne · 90 mots-clés</span>
+    </div>
+  </div>
+</section>
+
+<!-- PAGE 2 -->
+<section class="page page-2">
+  <header class="page-head">
+    <div>
+      <div class="kicker">Synthèse exécutive</div>
+      <h2>Un savoir-faire réel, avec un potentiel digital à structurer.</h2>
+    </div>
+    <div class="head-status">À préparer<br>avant lancement</div>
+  </header>
+
+  <div class="metric-strip">
+    <div class="metric">
+      <strong class="tabular">48 %</strong>
+      <span>niveau de préparation actuel ; le potentiel existe, mais le parcours doit être renforcé</span>
+    </div>
+    <div class="metric">
+      <strong class="tabular">500 €</strong>
+      <span>palier de test conseillé sur 90 expressions métier en Seine-et-Marne</span>
+    </div>
+    <div class="metric">
+      <strong class="tabular">6–16 leads</strong>
+      <span>avec 315 clics au palier 500 € et 2–5 % de conversion, hypothèse NMF</span>
+    </div>
+  </div>
+
+  <div class="summary-columns">
+    <div>
+      <h3 class="section-title">Ce qui porte Totowood</h3>
+      <div class="finding"><i></i><span><b>Preuves tangibles :</b> réalisations sur mesure, atelier et photos de projets réels.</span></div>
+      <div class="finding"><i></i><span><b>Offre à forte valeur :</b> conception, fabrication et pose de mobilier intérieur.</span></div>
+      <div class="finding"><i></i><span><b>Réassurance humaine :</b> 11 ans d’expérience annoncés et témoignages clients présents.</span></div>
+    </div>
+    <div>
+      <h3 class="section-title">Ce qui doit être renforcé</h3>
+      <div class="finding"><i></i><span><b>Rendu visuel :</b> stabiliser le logo, les médias et les éléments graphiques.</span></div>
+      <div class="finding"><i></i><span><b>Conversion :</b> rendre le téléphone, le devis et les preuves visibles dès le premier écran.</span></div>
+      <div class="finding"><i></i><span><b>SEO local :</b> enrichir les pages services, les metas et les signaux géographiques.</span></div>
+    </div>
+  </div>
+
+  <div class="google-hook">
+    <strong>1 560 recherches/mois</strong>
+    <span>couvertes par 90 expressions métier en Seine-et-Marne. Le volume vient de l’élargissement des services ciblés, pas de la zone géographique.</span>
+  </div>
+
+  <div class="decision-band">
+    <strong>Recommandation NMF</strong>
+    <p>Réparer et instrumenter le site avant tout trafic payant. Ensuite, lancer un test Search à 500 € en Seine-et-Marne, structuré par service, avec mots-clés négatifs et contrôle hebdomadaire des termes de recherche.</p>
+  </div>
+
+  <p class="source" style="margin-top:4mm;">Volumes, clics et coûts : Google Ads API, Seine-et-Marne, 28 juillet 2026. 30 appels séparés : 3 stratégies × 10 paliers de 50 à 2 000 €. Taux de conversion : hypothèse NMF.</p>
+  <footer class="footer"><span><img class="mini-mark" src="../assets/nmf/logo-symbol.png" alt="">Audit Totowood · NMF Agence</span><span>02 / 08</span></footer>
+</section>
+
+<!-- PAGE 3 -->
+<section class="page">
+  <header class="page-head">
+    <div>
+      <div class="kicker">L’entreprise & son marché</div>
+      <h2>Un atelier de proximité face à une concurrence structurée.</h2>
+    </div>
+    <span class="tag">Annet-sur-Marne · 77410</span>
+  </header>
+
+  <div class="company-hero">
+    <div>
+      <p class="lead">Totowood conçoit, fabrique et pose des agencements intérieurs sur mesure pour particuliers et professionnels depuis son atelier de Seine-et-Marne.</p>
+      <div class="segment-list">
+        <div class="segment-row"><strong>Mobilier intégré</strong><span>Dressing, bibliothèque, meuble TV, placard et rangements sous pente.</span></div>
+        <div class="segment-row"><strong>Pièces de vie</strong><span>Cuisine, table, claustra et agencements d’escalier.</span></div>
+        <div class="segment-row"><strong>Service complet</strong><span>Conception, fabrication en atelier et pose sur site.</span></div>
+        <div class="segment-row"><strong>Zone Ads retenue</strong><span>Seine-et-Marne ; le volume est développé par les services ciblés, sans élargir la géographie.</span></div>
+      </div>
+    </div>
+    <div>
+      <img class="company-photo" src="../assets/totowood/photos/project-2.jpg" alt="Réalisation de mobilier Totowood">
+      <p class="photo-caption">Réalisation issue des médias publics de totowood.fr.</p>
+    </div>
+  </div>
+
+  <div class="market-grid">
+    <div>
+      <h3 class="section-title">Présence publique vérifiée</h3>
+      <div class="proof-list">
+        <div class="proof-item"><b>Site :</b> cinq pages principales accessibles et indexables.</div>
+        <div class="proof-item"><b>Contact :</b> adresse, email, téléphone, Instagram et formulaire disponibles.</div>
+        <div class="proof-item"><b>LinkedIn :</b> activité régulière et 313 abonnés visibles lors du relevé.</div>
+        <div class="proof-item"><b>Avis :</b> trois témoignages sur le site, mais sans lien vers une source externe vérifiable.</div>
+        <div class="proof-item"><b>Google Business Profile :</b> profil et note non vérifiés de manière indépendante pendant l’audit.</div>
+      </div>
+    </div>
+    <div>
+      <h3 class="section-title">Concurrents visibles sur le territoire</h3>
+      <table class="competitor-table">
+        <thead><tr><th>Acteur</th><th>Positionnement public</th><th>Avantage visible</th></tr></thead>
+        <tbody>
+          <tr><td>EDENE Agencement</td><td>Fabrication pour professionnels et prescripteurs</td><td>Pages locales et expertise B2B explicite</td></tr>
+          <tr><td>OL Menuiserie</td><td>Agencements sur mesure en Seine-et-Marne</td><td>Zone d’intervention affichée</td></tr>
+          <tr><td>BD Agencements</td><td>Résidentiel et professionnel, atelier dans le 77</td><td>Processus et couverture IDF détaillés</td></tr>
+          <tr><td>Grandes enseignes</td><td>Dressing, cuisine et placard configurables</td><td>Notoriété et forte pression sur les requêtes génériques</td></tr>
+        </tbody>
+      </table>
+      <div class="decision-band" style="margin-top:5mm;">
+        <strong>Angle différenciant à tenir</strong>
+        <p>Ne pas se battre sur « meuble pas cher ». Vendre l’accompagnement complet, la fabrication d’atelier et l’adaptation aux contraintes réelles du logement.</p>
+      </div>
+    </div>
+  </div>
+
+  <p class="source" style="margin-top:5mm;">Sources publiques : totowood.fr, page LinkedIn Totowood et résultats web locaux consultés les 27 et 28 juillet 2026.</p>
+  <footer class="footer"><span><img class="mini-mark" src="../assets/nmf/logo-symbol.png" alt="">Audit Totowood · Marché local</span><span>03 / 08</span></footer>
+</section>
+
+<!-- PAGE 4 -->
+<section class="page page-visual">
+  <header class="page-head">
+    <div>
+      <div class="kicker">Audit du site · preuve visuelle</div>
+      <h2>Le savoir-faire existe. Le premier écran le masque.</h2>
+    </div>
+    <div class="head-status">Priorité<br>immédiate</div>
+  </header>
+
+  <div class="visual-proof">
+    <div class="screen-frame">
+      <span class="screen-label">Capture réelle · contenu existant</span>
+      <img class="primary-shot" src="../assets/totowood/screens/about-services-readable.png" alt="Zone À propos et Services du site Totowood">
+    </div>
+    <p class="photo-caption">Zone « À propos / Services » : le savoir-faire et les promesses existent, mais la mise en forme cassée les rend secondaires et peu valorisantes.</p>
+  </div>
+
+  <div class="visual-details">
+    <div>
+      <div class="screen-frame">
+        <span class="screen-label">Capture réelle · formulaire</span>
+        <img class="form-shot" src="../assets/totowood/screens/contact-form-readable-v2.png" alt="Formulaire de contact Totowood">
+      </div>
+      <p class="photo-caption">Le formulaire couvre nom, email, téléphone, lieu, objet et message : la base de conversion est bien présente.</p>
+    </div>
+    <aside class="render-diagnostic">
+      <div class="kicker">Point observé</div>
+      <div class="metric tabular">Rendu à stabiliser</div>
+      <p>Un élément graphique surdimensionné masque la hiérarchie et repousse les contenus qui rassurent le visiteur.</p>
+      <div class="diag-item"><strong>Rendu :</strong> corriger les styles graphiques, le logo et les médias.</div>
+      <div class="diag-item"><strong>Navigation :</strong> rétablir un header contrasté avec téléphone et bouton devis.</div>
+      <div class="diag-item"><strong>Preuves :</strong> remonter une réalisation, l’atelier local et l’expérience avant le premier scroll.</div>
+      <div class="diag-item"><strong>Protection :</strong> vérifier que la sécurité du site ne gêne ni les visiteurs ni la mesure.</div>
+    </aside>
+    </div>
+
+  <div class="decision-band" style="margin-top:6mm;">
+    <strong>Avant toute campagne</strong>
+    <p>Le contenu et le formulaire constituent une bonne base. La priorité consiste à stabiliser le rendu, renforcer le premier écran et mesurer correctement les conversions avant d’acheter du trafic.</p>
+  </div>
+  <footer class="footer"><span><img class="mini-mark" src="../assets/nmf/logo-symbol.png" alt="">Audit Totowood · Expérience visuelle</span><span>04 / 08</span></footer>
+</section>
+
+<!-- PAGE 5 -->
+<section class="page">
+  <header class="page-head">
+    <div>
+      <div class="kicker">Conversion & SEO local</div>
+      <h2>Une base saine, avec des optimisations prioritaires.</h2>
+    </div>
+    <span class="tag">5 pages analysées</span>
+  </header>
+
+  <div class="tech-facts">
+    <div class="tech-fact"><strong>0 / 5</strong><span>meta descriptions présentes</span></div>
+    <div class="tech-fact"><strong>0</strong><span>balisage LocalBusiness détecté</span></div>
+    <div class="tech-fact"><strong>98</strong><span>mots sur la page Services</span></div>
+    <div class="tech-fact"><strong>46</strong><span>mots sur la page Réalisations</span></div>
+  </div>
+
+  <table class="audit-table">
+    <thead><tr><th>Point contrôlé</th><th>Constat factuel</th><th>Correction recommandée</th><th>Priorité</th></tr></thead>
+    <tbody>
+      <tr><td>Titles</td><td>Présents, mais génériques : « totowood », « Services – totowood ».</td><td>Métier + service + Seine-et-Marne, avec un title unique par page.</td><td><span class="priority p1">P1</span></td></tr>
+      <tr><td>Meta descriptions</td><td>Absentes sur les cinq pages analysées.</td><td>Promesse, zone, preuve et invitation au devis en 140–160 caractères.</td><td><span class="priority p1">P1</span></td></tr>
+      <tr><td>Hiérarchie Hn</td><td>Contact sans H1 ; plusieurs phrases longues utilisées comme titres H3/H4.</td><td>Un H1 descriptif par page puis une structure H2/H3 réellement éditoriale.</td><td><span class="priority p1">P1</span></td></tr>
+      <tr><td>Contenu services</td><td>98 mots : conception, fabrication et pose restent trop peu détaillées.</td><td>Créer une page par intention : dressing, bibliothèque, cuisine, mobilier intégré.</td><td><span class="priority p0">P0</span></td></tr>
+      <tr><td>Réalisations</td><td>Galerie riche mais seulement 46 mots et aucune fiche projet indexable.</td><td>Transformer chaque projet en étude de cas avec commune, besoin et matériaux.</td><td><span class="priority p1">P1</span></td></tr>
+      <tr><td>Données structurées</td><td>ImageGallery sur Réalisations ; aucun LocalBusiness ou Service.</td><td>Ajouter l’entreprise, l’adresse, les services et les avis seulement s’ils sont vérifiés.</td><td><span class="priority p1">P1</span></td></tr>
+      <tr><td>Réseaux sociaux</td><td>Un lien Instagram « http://test » apparaît dans le gabarit général.</td><td>Remplacer par le compte réel et vérifier tous les liens sortants.</td><td><span class="priority p0">P0</span></td></tr>
+    </tbody>
+  </table>
+
+  <div class="contact-band">
+    <div>
+      <h3>Le contact fonctionne.</h3>
+      <p style="margin-top:2mm;">Adresse, email, téléphone et Instagram sont publiés sur la page Contact.</p>
+    </div>
+    <p><b>Formulaire :</b> nom, email, téléphone, lieu d’intervention, objet et message. La base est saine, mais elle gagnerait à accepter des photos et à afficher une confirmation claire. Le téléphone doit aussi remonter dans le header et rester cliquable sur mobile.</p>
+  </div>
+
+  <p class="source" style="margin-top:4mm;">Analyse HTML structurée, contrôle croisé dans le navigateur et vérification du code source. Aucun chiffre PageSpeed n’est avancé sans mesure fiable.</p>
+  <footer class="footer"><span><img class="mini-mark" src="../assets/nmf/logo-symbol.png" alt="">Audit Totowood · Conversion & SEO</span><span>05 / 08</span></footer>
+</section>
+
+<!-- PAGE 6 -->
+<section class="page keyword-page">
+  <header class="page-head">
+    <div>
+      <div class="kicker">Étude de mots-clés · Google Ads API</div>
+      <h2>Le volume est générique. La valeur est dans les requêtes rares.</h2>
+    </div>
+    <span class="tag">77 · 90 mots-clés</span>
+  </header>
+
+  <div class="metric-strip">
+    <div class="metric"><strong>15 830</strong><span>recherches visibles/mois dans l’univers étudié</span></div>
+    <div class="metric"><strong>580</strong><span>recherches/mois classées à intention commerciale</span></div>
+    <div class="metric"><strong>3,03 €</strong><span>CPC haut de page moyen des requêtes commerciales</span></div>
+  </div>
+
+  <div class="market-figure">
+    <div class="figure-title">Figure 1 — Répartition du marché par volume de recherche</div>
+    <div class="stacked-bar" role="img" aria-label="3,7 % intention commerciale, 93,6 % générique, 2,8 % marques et hors-cible">
+      <span class="intent" style="width:3.7%;">3,7 %</span>
+      <span class="generic" style="width:93.5%;">93,6 % générique / notoriété</span>
+      <span class="exclude" style="width:2.8%;">2,8 %</span>
+    </div>
+    <div class="direct-legend">
+      <span><i style="background:var(--blue)"></i>Intention commerciale · 580</span>
+      <span><i style="background:var(--orange)"></i>Génériques · 14 810</span>
+      <span><i style="background:var(--green)"></i>Marques / hors-cible · 440</span>
+    </div>
+  </div>
+
+  <div class="keyword-layout">
+    <div>
+      <table class="keyword-table">
+        <thead><tr><th>Mot-clé</th><th class="num">Vol.</th><th class="num">CPC bas–haut</th><th class="num">Conc.</th></tr></thead>
+        <tbody>
+          <tr><td>meubles pour sous pente</td><td class="num">390</td><td class="num">0,07–0,51 €</td><td class="num">100</td></tr>
+          <tr><td>dressing sur mesure</td><td class="num">320</td><td class="num">0,74–2,15 €</td><td class="num">100</td></tr>
+          <tr><td>meuble pour sous escalier</td><td class="num">260</td><td class="num">0,22–1,02 €</td><td class="num">100</td></tr>
+          <tr><td>meuble sur mesure</td><td class="num">170</td><td class="num">0,60–2,42 €</td><td class="num">100</td></tr>
+          <tr><td>cuisine sur mesure</td><td class="num">110</td><td class="num">1,73–4,80 €</td><td class="num">88</td></tr>
+          <tr><td>bibliothèque sur mesure</td><td class="num">90</td><td class="num">0,96–3,52 €</td><td class="num">100</td></tr>
+          <tr><td>placard sur mesure</td><td class="num">90</td><td class="num">0,83–2,27 €</td><td class="num">100</td></tr>
+          <tr><td>menuisier sur mesure</td><td class="num">40</td><td class="num">1,50–5,27 €</td><td class="num">57</td></tr>
+          <tr class="emphasis"><td>prix dressing sur mesure</td><td class="num">10</td><td class="num">0,34–2,74 €</td><td class="num">100</td></tr>
+          <tr class="emphasis"><td>devis cuisine sur mesure</td><td class="num">10</td><td class="num">2,29–10,14 €</td><td class="num">71</td></tr>
+        </tbody>
+      </table>
+      <p class="source" style="margin-top:2mm;">Volumes ciblés Seine-et-Marne. « Agencement intérieur » utilise le CPC Île-de-France, faute de signal départemental suffisant.</p>
+    </div>
+
+    <div class="scatter-wrap">
+      <div class="figure-title">Figure 2 — Inversion volume / valeur</div>
+      <svg class="scatter" viewBox="0 0 330 250" role="img" aria-labelledby="scatter-title scatter-desc">
+        <title id="scatter-title">Volume mensuel et CPC haut de page</title>
+        <desc id="scatter-desc">Les recherches de devis ont peu de volume mais un CPC élevé, tandis que les recherches génériques ont plus de volume.</desc>
+        <line class="gridline" x1="45" y1="205" x2="318" y2="205"/>
+        <line class="gridline" x1="45" y1="164" x2="318" y2="164"/>
+        <line class="gridline" x1="45" y1="123" x2="318" y2="123"/>
+        <line class="gridline" x1="45" y1="82" x2="318" y2="82"/>
+        <line class="gridline" x1="45" y1="41" x2="318" y2="41"/>
+        <line class="axis" x1="45" y1="205" x2="318" y2="205"/>
+        <line class="axis" x1="45" y1="22" x2="45" y2="205"/>
+        <text class="axis-label" x="12" y="208">0 €</text>
+        <text class="axis-label" x="12" y="167">2,5</text>
+        <text class="axis-label" x="12" y="126">5</text>
+        <text class="axis-label" x="12" y="85">7,5</text>
+        <text class="axis-label" x="12" y="44">10</text>
+        <text class="axis-label" x="47" y="224">10</text>
+        <text class="axis-label" x="145" y="224">100</text>
+        <text class="axis-label" x="249" y="224">250</text>
+        <text class="axis-label" x="295" y="224">390</text>
+        <text class="axis-label" x="151" y="244">Volume mensuel · échelle logarithmique</text>
+        <text class="axis-label" transform="translate(8,145) rotate(-90)">CPC haut de page</text>
+
+        <circle class="point-intent" cx="48" cy="39" r="5"/>
+        <text class="point-label" x="56" y="36">devis cuisine · 10,14 €</text>
+        <circle class="point-intent" cx="48" cy="157" r="5"/>
+        <text class="point-label" x="56" y="154">prix dressing · 2,74 €</text>
+        <circle class="point-generic" cx="318" cy="196" r="5"/>
+        <text class="point-label" x="218" y="192">sous pente · 390</text>
+        <circle class="point-generic" cx="303" cy="168" r="5"/>
+        <text class="point-label" x="224" y="163">dressing · 320</text>
+        <circle class="point-generic" cx="224" cy="126" r="5"/>
+        <text class="point-label" x="231" y="121">cuisine · 110</text>
+        <circle class="point-generic" cx="148" cy="117" r="5"/>
+        <text class="point-label" x="155" y="112">menuisier · 40</text>
+      </svg>
+      <div class="decision-band" style="padding:3.5mm 4mm;">
+        <strong>L’insight clé</strong>
+        <p>Un CPC élevé n’est pas un défaut : il signale qu’une demande vaut assez cher pour que les concurrents enchérissent.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="negative-band"><b>À exclure dès le lancement :</b> IKEA, Leroy Merlin, Lapeyre, Mobalpa, Mobibam, occasion, tuto, DIY, plan gratuit, emploi, formation et stage.</div>
+  <p class="source" style="margin-top:2mm;">Source : Google Ads Keyword Planner, Seine-et-Marne, 28 juillet 2026. 2 539 idées brutes, 1 173 familles de requêtes distinctes après dédoublonnage.</p>
+  <footer class="footer"><span><img class="mini-mark" src="../assets/nmf/logo-symbol.png" alt="">Audit Totowood · Mots-clés</span><span>06 / 08</span></footer>
+</section>
+
+<!-- PAGE 7 -->
+<section class="page">
+  <header class="page-head">
+    <div>
+      <div class="kicker">Projection Google Ads</div>
+      <h2>500 € : un test absorbable dans le 77.</h2>
+    </div>
+    <div class="head-status">Palier<br>de test</div>
+  </header>
+
+  <table class="scenario-table">
+    <thead><tr><th>Scénario</th><th>Stratégie</th><th class="num">Dépense</th><th class="num">Clics</th><th class="num">CPC réel</th><th class="num">Part volume</th><th class="num">Leads*</th></tr></thead>
+    <tbody>
+      <tr><td>Présence</td><td>Maximiser les clics</td><td class="num">517 €</td><td class="num">512</td><td class="num">1,01 €</td><td class="num">32,8 %</td><td class="num">10–26</td></tr>
+      <tr class="recommended"><td>Haut de page</td><td>Enchère fixe 3,02 €</td><td class="num">517 €</td><td class="num">315</td><td class="num">1,64 €</td><td class="num">20,2 %</td><td class="num">6–16</td></tr>
+      <tr><td>Domination</td><td>Enchère fixe 4,53 €</td><td class="num">517 €</td><td class="num">247</td><td class="num">2,09 €</td><td class="num">15,8 %</td><td class="num">5–12</td></tr>
+    </tbody>
+  </table>
+
+  <div class="chart-pair">
+    <div class="mini-chart">
+      <div class="figure-title">Figure 3A — Dépense au palier de 500 €</div>
+      <div class="bars" role="img" aria-label="517 euros dépensés dans chacun des trois scénarios pour 500 euros demandés">
+        <div class="bar-col"><strong>517 €</strong><i style="height:28mm;"></i><span>Présence</span></div>
+        <div class="bar-col"><strong>517 €</strong><i style="height:28mm;"></i><span>Haut page</span></div>
+        <div class="bar-col"><strong>517 €</strong><i style="height:28mm;"></i><span>Domination</span></div>
+      </div>
+    </div>
+    <div class="mini-chart">
+      <div class="figure-title">Figure 3B — Clics mensuels simulés</div>
+      <div class="bars" role="img" aria-label="Présence 512 clics, Haut de page 315 clics, Domination 247 clics">
+        <div class="bar-col"><strong>512</strong><i style="height:28mm;"></i><span>Présence</span></div>
+        <div class="bar-col"><strong>315</strong><i style="height:17.2mm;"></i><span>Haut page</span></div>
+        <div class="bar-col"><strong>247</strong><i style="height:13.5mm;"></i><span>Domination</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="figure-title" style="margin-top:5mm;">Figure 4 — Part du volume transformée en clics</div>
+  <div class="gauges">
+    <div class="gauge">
+      <div class="gauge-head"><span>Présence</span><b>32,8 %</b></div>
+      <div class="gauge-track"><i style="width:32.8%;"></i></div>
+    </div>
+    <div class="gauge">
+      <div class="gauge-head"><span>Haut de page</span><b>20,2 %</b></div>
+      <div class="gauge-track"><i style="width:20.2%;"></i></div>
+    </div>
+    <div class="gauge">
+      <div class="gauge-head"><span>Domination</span><b>15,8 %</b></div>
+      <div class="gauge-track"><i style="width:15.8%;background:var(--navy-2);"></i></div>
+    </div>
+  </div>
+
+  <div class="score-grid">
+    <div class="score-total"><strong>48 %</strong><span>niveau de préparation avant lancement</span></div>
+    <div class="score-lines">
+      <div class="score-line"><span>Demande locale</span><b>18 / 25</b></div>
+      <div class="score-line"><span>Part d’intention commerciale</span><b>4 / 20</b></div>
+      <div class="score-line"><span>CPC face à la valeur d’un projet</span><b>15 / 20</b></div>
+      <div class="score-line"><span>Qualité de la landing page</span><b>5 / 25</b></div>
+      <div class="score-line"><span>Capacité à traiter les leads</span><b>6 / 10</b></div>
+    </div>
+  </div>
+
+  <div class="decision-band" style="margin-top:5mm;padding:4mm 5mm;">
+    <strong>Test recommandé : Haut de page, 500 € demandés</strong>
+    <p>Google normalise le budget journalier en 517 € mensuels et prévoit 315 clics. À 2–5 % de conversion, cela représente 6–16 leads et un CPL entre 33 et 82 €. Le scénario Présence promet davantage de clics, mais expose plus fortement aux requêtes génériques : il ne devient pertinent qu’après validation des termes de recherche.</p>
+  </div>
+
+  <p class="source" style="margin-top:3mm;">Volumes, dépenses, clics et CPC : Google Ads API, Seine-et-Marne, 28 juillet 2026. Palier affiché : 500 € demandés. * Leads et CPL : hypothèse NMF de 2–5 %.</p>
+  <footer class="footer"><span><img class="mini-mark" src="../assets/nmf/logo-symbol.png" alt="">Audit Totowood · Projection Ads</span><span>07 / 08</span></footer>
+</section>
+
+<!-- PAGE 8 -->
+<section class="page client-internal-only">
+  <header class="page-head">
+    <div>
+      <div class="kicker">Preuve budgétaire complète</div>
+      <h2>Le portefeuille métier libère le budget sans élargir la zone.</h2>
+    </div>
+    <div class="head-status">30 appels<br>0 erreur</div>
+  </header>
+
+  <div class="metric-strip">
+    <div class="metric">
+      <strong class="tabular">517 €</strong>
+      <span>et 512 clics à 500 € demandés en scénario Présence</span>
+    </div>
+    <div class="metric">
+      <strong class="tabular">517 €</strong>
+      <span>et 315 clics à 500 € demandés en scénario Haut de page</span>
+    </div>
+    <div class="metric">
+      <strong class="tabular">517 €</strong>
+      <span>et 247 clics à 500 € demandés en scénario Domination</span>
+    </div>
+  </div>
+
+  <div class="budget-proof-grid">
+    <div class="budget-curve-wrap">
+      <div class="figure-title">Figure 5 - Dépense Google selon le budget demandé en Seine-et-Marne</div>
+      <svg class="budget-curve" viewBox="0 0 520 220" role="img" aria-labelledby="budget-title budget-desc">
+        <title id="budget-title">Dépense mensuelle simulée sur dix paliers budgétaires</title>
+        <desc id="budget-desc">Les trois courbes absorbent cinq cents euros. Haut de page se stabilise ensuite à mille deux cent cinquante-huit euros, tandis que Présence et Domination continuent de progresser.</desc>
+
+        <line class="gridline" x1="50" y1="35" x2="500" y2="35"/>
+        <line class="gridline" x1="50" y1="85" x2="500" y2="85"/>
+        <line class="gridline" x1="50" y1="135" x2="500" y2="135"/>
+        <line class="gridline" x1="50" y1="185" x2="500" y2="185"/>
+        <line class="axis" x1="50" y1="35" x2="50" y2="185"/>
+        <line class="axis" x1="50" y1="185" x2="500" y2="185"/>
+
+        <text class="axis-label" x="25" y="188">0</text>
+        <text class="axis-label" x="12" y="138">700</text>
+        <text class="axis-label" x="7" y="88">1 400</text>
+        <text class="axis-label" x="7" y="38">2 100 €</text>
+        <text class="axis-label" x="190" y="216">Budget mensuel demandé</text>
+
+        <text class="axis-label" x="44" y="201">50</text>
+        <text class="axis-label" x="90" y="201">100</text>
+        <text class="axis-label" x="140" y="201">150</text>
+        <text class="axis-label" x="190" y="201">200</text>
+        <text class="axis-label" x="240" y="201">300</text>
+        <text class="axis-label" x="290" y="201">500</text>
+        <text class="axis-label" x="340" y="201">750</text>
+        <text class="axis-label" x="386" y="201">1k</text>
+        <text class="axis-label" x="433" y="201">1,5k</text>
+        <text class="axis-label" x="486" y="201">2k</text>
+
+        <path class="curve-presence" d="M50 181.29 L100 177.64 L150 173.93 L200 170.21 L250 162.86 L300 148.07 L350 129.64 L400 111.21 L450 74.29 L500 37.36"/>
+        <path class="curve-top" d="M50 181.29 L100 177.64 L150 173.93 L200 170.21 L250 162.86 L300 148.07 L350 129.64 L400 111.21 L450 95.14 L500 95.14"/>
+        <path class="curve-domination" d="M50 181.29 L100 177.64 L150 173.93 L200 170.21 L250 162.86 L300 148.07 L350 129.64 L400 111.21 L450 74.29 L500 51.07"/>
+
+        <g fill="#1469AA">
+          <circle cx="50" cy="181.29" r="3"/><circle cx="100" cy="177.64" r="3"/><circle cx="150" cy="173.93" r="3"/>
+          <circle cx="200" cy="170.21" r="3"/><circle cx="250" cy="162.86" r="3"/><circle cx="300" cy="148.07" r="3"/>
+          <circle cx="350" cy="129.64" r="3"/><circle cx="400" cy="111.21" r="3"/><circle cx="450" cy="74.29" r="3"/><circle cx="500" cy="37.36" r="3"/>
+        </g>
+        <g fill="#7148DA">
+          <circle cx="50" cy="181.29" r="3"/><circle cx="100" cy="177.64" r="3"/><circle cx="150" cy="173.93" r="3"/>
+          <circle cx="200" cy="170.21" r="3"/><circle cx="250" cy="162.86" r="3"/><circle cx="300" cy="148.07" r="3"/>
+          <circle cx="350" cy="129.64" r="3"/><circle cx="400" cy="111.21" r="3"/><circle cx="450" cy="95.14" r="3"/><circle cx="500" cy="95.14" r="3"/>
+        </g>
+        <g fill="#21A6A1">
+          <circle cx="50" cy="181.29" r="3"/><circle cx="100" cy="177.64" r="3"/><circle cx="150" cy="173.93" r="3"/>
+          <circle cx="200" cy="170.21" r="3"/><circle cx="250" cy="162.86" r="3"/><circle cx="300" cy="148.07" r="3"/>
+          <circle cx="350" cy="129.64" r="3"/><circle cx="400" cy="111.21" r="3"/><circle cx="450" cy="74.29" r="3"/><circle cx="500" cy="51.07" r="3"/>
+        </g>
+      </svg>
+      <div class="budget-legend">
+        <span><i style="background:var(--blue)"></i>Présence - 2 067 € à 2k</span>
+        <span><i style="background:var(--coral)"></i>Haut de page - 1 258 € à 2k</span>
+        <span><i style="background:var(--green)"></i>Domination - 1 875 € à 2k</span>
+      </div>
+    </div>
+
+    <table class="budget-proof-table">
+      <thead>
+        <tr><th>Demandé</th><th>Présence<br>€ / clics</th><th>Haut page<br>€ / clics</th><th>Domination<br>€ / clics</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>50 €</td><td>52 / 148</td><td>52 / 32</td><td>52 / 25</td></tr>
+        <tr><td>100 €</td><td>103 / 219</td><td>103 / 63</td><td>103 / 49</td></tr>
+        <tr><td>150 €</td><td>155 / 274</td><td>155 / 95</td><td>155 / 74</td></tr>
+        <tr><td>200 €</td><td>207 / 320</td><td>207 / 126</td><td>207 / 99</td></tr>
+        <tr><td>300 €</td><td>310 / 393</td><td>310 / 189</td><td>310 / 148</td></tr>
+        <tr><td>500 €</td><td>517 / 512</td><td>517 / 315</td><td>517 / 247</td></tr>
+        <tr><td>750 €</td><td>775 / 619</td><td>775 / 473</td><td>775 / 371</td></tr>
+        <tr><td>1 000 €</td><td>1 033 / 705</td><td>1 033 / 630</td><td>1 033 / 494</td></tr>
+        <tr><td>1 500 €</td><td>1 550 / 836</td><td>1 258 / 768</td><td>1 550 / 741</td></tr>
+        <tr><td>2 000 €</td><td>2 067 / 926</td><td>1 258 / 768</td><td>1 875 / 897</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="decision-band" style="margin-top:5mm;padding:4mm 5mm;">
+    <strong>Résultat : 500 € sont absorbables dans le 77 avec un portefeuille mieux couvert</strong>
+    <p>Le portefeuille initial de 50 mots-clés plafonnait à 106 € et 23 clics en Présence. Avec 90 expressions contrôlées couvrant douze familles de services réelles, le même territoire prévoit 517 € et 512 clics au palier de test. Cette capacité technique ne justifie pas de démarrer au-delà : les termes de recherche et les leads doivent d’abord confirmer la qualité du volume.</p>
+  </div>
+
+  <p class="source" style="margin-top:3mm;">Source : Google Ads generateKeywordForecastMetrics, Seine-et-Marne, 28 juillet 2026. Chaque cellule provient d’un appel API distinct ; 30 appels, 0 erreur. Aucun plafond n’est affirmé sans deux paliers supérieurs stables.</p>
+  <footer class="footer"><span><img class="mini-mark" src="../assets/nmf/logo-symbol.png" alt="">Audit Totowood · Preuve budgétaire</span><span>08 / 08</span></footer>
+</section>
+
+<!-- PAGE 9 -->
+<section class="page">
+  <header class="page-head">
+    <div>
+      <div class="kicker">Plan d’action priorisé</div>
+      <h2>Réparer la confiance, construire la demande, puis tester.</h2>
+    </div>
+    <span class="tag">Ordre recommandé</span>
+  </header>
+
+  <div class="roadmap">
+    <div class="road-row">
+      <span class="phase">Prérequis</span>
+      <h3>Stabiliser le rendu</h3>
+      <p>Corriger logo, SVG et médias ; purger les caches ; tester les cinq pages sur desktop et mobile ; ajuster TigerProtect sans supprimer la protection.</p>
+      <span class="impact">Conversion</span>
+    </div>
+    <div class="road-row">
+      <span class="phase">Prérequis</span>
+      <h3>Rendre le contact immédiat</h3>
+      <p>Afficher téléphone cliquable et CTA devis dans le header ; conserver un seul CTA dominant ; ajouter les preuves près du formulaire.</p>
+      <span class="impact">Leads</span>
+    </div>
+    <div class="road-row">
+      <span class="phase">Fondation</span>
+      <h3>Créer les pages de service</h3>
+      <p>Dressing, bibliothèque, cuisine et mobilier intégré : une page par intention, avec réalisations, matériaux, méthode et formulaire contextualisé.</p>
+      <span class="impact">SEO + Ads</span>
+    </div>
+    <div class="road-row">
+      <span class="phase">Fondation</span>
+      <h3>Renforcer le local</h3>
+      <p>Optimiser title, meta, H1, LocalBusiness et Google Business Profile ; publier des études de cas par commune réellement desservie.</p>
+      <span class="impact">Visibilité</span>
+    </div>
+    <div class="road-row">
+      <span class="phase">Mesure</span>
+      <h3>Instrumenter les conversions</h3>
+      <p>Mesurer appels, formulaires et demandes qualifiées ; enregistrer le service, la commune et la valeur estimée du projet.</p>
+      <span class="impact">Pilotage</span>
+    </div>
+    <div class="road-row">
+      <span class="phase">Test</span>
+      <h3>Lancer un micro-test Search</h3>
+      <p>Ciblage strict Seine-et-Marne, groupes par service, expressions et exacts, négatifs dès le départ. Tester 500 €, puis étendre seulement si les termes de recherche et les leads restent qualifiés.</p>
+      <span class="impact">Validation</span>
+    </div>
+  </div>
+
+  <div class="closing">
+    <div class="closing-copy">
+      <h2>Le bon ordre évite de <span>payer pour apprendre</span> ce que le site montre déjà.</h2>
+      <p>Totowood n’a pas besoin d’un budget publicitaire démesuré. L’entreprise a d’abord besoin d’un site qui transforme ses réalisations en confiance, puis d’un test local à 500 € mesuré sur la qualité réelle des demandes.</p>
+    </div>
+    <div class="closing-contact">
+      <img class="brand-logo closing-logo" src="../assets/nmf/logo-light-bg.png" alt="NMF Agence Web">
+      <div class="contact-line"><small>Échanger sur l’audit</small><strong>contact@nmf-agence.com</strong></div>
+      <div class="contact-line"><small>Découvrir l’agence</small><strong>www.nmf-agence.com</strong></div>
+      <div class="contact-line"><small>Périmètre proposé</small><strong>Site · SEO local · Google Ads</strong></div>
+    </div>
+  </div>
+
+  <p class="source" style="margin-top:7mm;">Audit fondé sur les contenus publics disponibles et les données Google Ads au 28 juillet 2026. Aucune promesse de résultat : la performance dépendra de la qualité du site corrigé, du suivi commercial et de la demande locale.</p>
+  <footer class="footer"><span><img class="mini-mark" src="../assets/nmf/logo-symbol.png" alt="">NMF Agence · Audit Totowood</span><span>08 / 08</span></footer>
+</section>
+
+<div id="keyword-annex"></div>
+<script src="./keyword-annex-data.js"></script>
+<script>
+  (() => {
+    const annex = window.keywordAnnexData;
+    const target = document.getElementById("keyword-annex");
+    if (!annex || !target) return;
+
+    const escapeHtml = (value) => String(value)
+      .replaceAll("&", "&amp;")
+      .replaceAll("<", "&lt;")
+      .replaceAll(">", "&gt;")
+      .replaceAll('"', "&quot;");
+    const formatInteger = (value) => Number(value || 0).toLocaleString("fr-FR");
+    const formatEuro = (value) => value == null
+      ? "—"
+      : `${Number(value).toLocaleString("fr-FR", {
+          minimumFractionDigits: 2,
+          maximumFractionDigits: 2,
+        })} €`;
+    const formatCompetition = (item) => item.competitionIndex == null
+      ? "—"
+      : `${item.competitionIndex} / ${item.competition}`;
+    const formatBidRange = (item) => item.bidLow == null && item.bidHigh == null
+      ? "—"
+      : `${formatEuro(item.bidLow)} - ${formatEuro(item.bidHigh)}`;
+
+    const pages = [];
+    for (let offset = 0; offset < annex.keywordStats.length; offset += 30) {
+      pages.push(annex.keywordStats.slice(offset, offset + 30));
+    }
+
+    target.innerHTML = pages.map((rows, pageIndex) => {
+      const first = rows[0].order;
+      const last = rows.at(-1).order;
+      const pageNumber = 10 + pageIndex;
+      const title = pageIndex === 0
+        ? "90 mots-clés, statistiques ligne par ligne."
+        : `Portefeuille prévu · lignes ${first} à ${last}.`;
+      const body = rows.map((item) => `
+        <tr class="${item.volume === 0 ? "no-volume" : ""}">
+          <td class="num">${String(item.order).padStart(2, "0")}</td>
+          <td>${escapeHtml(item.keyword)}</td>
+          <td class="num">${formatInteger(item.volume)}</td>
+          <td class="num">${escapeHtml(formatCompetition(item))}</td>
+          <td class="num">${formatEuro(item.averageCpc)}</td>
+          <td class="num">${formatBidRange(item)}</td>
+          <td class="num"><span class="geo-code">${item.cpcGeo || "—"}</span></td>
+        </tr>
+      `).join("");
+
+      return `
+        <section class="page appendix-page">
+          <header class="page-head">
+            <div>
+              <div class="kicker">Annexe · inventaire Google Ads</div>
+              <h2>${title}</h2>
+            </div>
+            <span class="tag">Annexe ${pageIndex + 1} / ${pages.length}</span>
+          </header>
+
+          <div class="appendix-summary">
+            <div><strong>${annex.requestedKeywords}</strong><span>expressions distinctes envoyées au forecast</span></div>
+            <div><strong>${annex.counts.withVolume}</strong><span>avec un volume mensuel mesurable dans le 77</span></div>
+            <div><strong>${annex.counts.withCpc}</strong><span>avec un CPC disponible dans la cascade géographique</span></div>
+            <div><strong>${annex.counts.withCompetition}</strong><span>avec un indice de concurrence départemental</span></div>
+          </div>
+
+          <table class="keyword-annex-table">
+            <colgroup>
+              <col style="width:5%">
+              <col style="width:31%">
+              <col style="width:10%">
+              <col style="width:15%">
+              <col style="width:11%">
+              <col style="width:20%">
+              <col style="width:8%">
+            </colgroup>
+            <thead>
+              <tr>
+                <th class="num">N°</th>
+                <th>Expression utilisée</th>
+                <th class="num">Vol./mois</th>
+                <th class="num">Concurrence</th>
+                <th class="num">CPC moy.</th>
+                <th class="num">Enchère haut page</th>
+                <th class="num">Géo CPC</th>
+              </tr>
+            </thead>
+            <tbody>${body}</tbody>
+          </table>
+
+          <div class="appendix-note">
+            <b>Lecture :</b> portefeuille simulé en correspondance Expression (PHRASE).
+            Volume moyen sur 12 mois, strictement ciblé Seine-et-Marne.
+            Le CPC utilise le niveau le plus précis disponible : 77, puis IDF, puis FR.
+            « 0 » signifie qu’aucun volume moyen mesurable n’est publié ; « — » indique
+            une métrique indisponible. Google peut regrouper les variantes proches.
+          </div>
+          <p class="source" style="margin-top:3mm;">
+            Source : Google Ads generateKeywordHistoricalMetrics, réseau Search,
+            français, extraction du 28 juillet 2026.
+          </p>
+          <footer class="footer">
+            <span><img class="mini-mark" src="../assets/nmf/logo-symbol.png" alt="">Audit Totowood · Annexe mots-clés</span>
+            <span>${String(pageNumber).padStart(2, "0")} / 08</span>
+          </footer>
+        </section>
+      `;
+    }).join("");
+  })();
+</script>
+
+</body>
+</html>
