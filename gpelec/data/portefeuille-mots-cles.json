@@ -1,0 +1,719 @@
+{
+ "meta": {
+  "client": "GP elec — Pierre Guille",
+  "domain": "gp-elec-49.com",
+  "date": "2026-08-04",
+  "territoire": "Angers + couronne sud du Maine-et-Loire (10 communes)",
+  "principe": "Portefeuille sans ville par défaut : le ciblage géographique de la campagne localise déjà la diffusion. Les mots-clés avec ville sont conserves separement et marques, car ils cumulent ciblage geo et mention de ville, ce qui reduit fortement leur volume eligible.",
+  "version": 2,
+  "revision": "Portefeuille v1 confronte a generateKeywordIdeas (2 lots de graines metier + seed sur l URL du site, 20 234 idees brutes). Les candidats a volume >= 30 absents du portefeuille ont ete remesures en historical metrics, puis filtres : marques, produits nus, requetes informationnelles, mots-cles avec ville et variantes proches non fusionnees par Google.",
+  "principe_non_gonflement": "Un candidat dont le couple (volume, enchere haute) est deja porte par une ligne du portefeuille est une variante que Google n a pas fusionnee. L ajouter compterait deux fois la meme demande."
+ },
+ "familles": {
+  "A": "Climatisation et pompe à chaleur air/air",
+  "B": "Dépannage et urgence",
+  "C": "Électricien général et entreprise",
+  "D": "Rénovation, mise aux normes et Consuel",
+  "E": "Installation neuve",
+  "F": "Aménagement cuisine",
+  "G": "Domotique",
+  "H": "Devis, prix et tarifs"
+ },
+ "keywords": [
+  {
+   "n": 1,
+   "text": "climatisation reversible",
+   "famille": "A",
+   "intention": "commerciale",
+   "geo": "sans ville"
+  },
+  {
+   "n": 2,
+   "text": "clim reversible",
+   "famille": "A",
+   "intention": "commerciale",
+   "geo": "sans ville"
+  },
+  {
+   "n": 3,
+   "text": "installateur climatisation",
+   "famille": "A",
+   "intention": "commerciale forte",
+   "geo": "sans ville"
+  },
+  {
+   "n": 4,
+   "text": "installation climatisation",
+   "famille": "A",
+   "intention": "commerciale forte",
+   "geo": "sans ville"
+  },
+  {
+   "n": 5,
+   "text": "pose climatisation",
+   "famille": "A",
+   "intention": "commerciale forte",
+   "geo": "sans ville"
+  },
+  {
+   "n": 6,
+   "text": "devis climatisation",
+   "famille": "A",
+   "intention": "commerciale forte",
+   "geo": "sans ville"
+  },
+  {
+   "n": 7,
+   "text": "prix climatisation reversible",
+   "famille": "A",
+   "intention": "comparaison",
+   "geo": "sans ville"
+  },
+  {
+   "n": 8,
+   "text": "climatiseur reversible installation",
+   "famille": "A",
+   "intention": "commerciale",
+   "geo": "sans ville"
+  },
+  {
+   "n": 9,
+   "text": "pompe a chaleur air air",
+   "famille": "A",
+   "intention": "comparaison",
+   "geo": "sans ville"
+  },
+  {
+   "n": 10,
+   "text": "pac air air",
+   "famille": "A",
+   "intention": "comparaison",
+   "geo": "sans ville"
+  },
+  {
+   "n": 11,
+   "text": "installateur pompe a chaleur air air",
+   "famille": "A",
+   "intention": "commerciale forte",
+   "geo": "sans ville"
+  },
+  {
+   "n": 12,
+   "text": "climatisation maison",
+   "famille": "A",
+   "intention": "générique",
+   "geo": "sans ville"
+  },
+  {
+   "n": 13,
+   "text": "climatisation multi split",
+   "famille": "A",
+   "intention": "comparaison",
+   "geo": "sans ville"
+  },
+  {
+   "n": 14,
+   "text": "climatisation mono split",
+   "famille": "A",
+   "intention": "comparaison",
+   "geo": "sans ville"
+  },
+  {
+   "n": 15,
+   "text": "entretien climatisation",
+   "famille": "A",
+   "intention": "commerciale",
+   "geo": "sans ville"
+  },
+  {
+   "n": 16,
+   "text": "depannage climatisation",
+   "famille": "A",
+   "intention": "commerciale forte",
+   "geo": "sans ville"
+  },
+  {
+   "n": 17,
+   "text": "climatisation angers",
+   "famille": "A",
+   "intention": "commerciale",
+   "geo": "avec ville"
+  },
+  {
+   "n": 18,
+   "text": "installateur climatisation angers",
+   "famille": "A",
+   "intention": "commerciale forte",
+   "geo": "avec ville"
+  },
+  {
+   "n": 19,
+   "text": "depannage electrique",
+   "famille": "B",
+   "intention": "commerciale forte",
+   "geo": "sans ville"
+  },
+  {
+   "n": 20,
+   "text": "depannage electricien",
+   "famille": "B",
+   "intention": "commerciale forte",
+   "geo": "sans ville"
+  },
+  {
+   "n": 21,
+   "text": "electricien urgence",
+   "famille": "B",
+   "intention": "commerciale forte",
+   "geo": "sans ville"
+  },
+  {
+   "n": 22,
+   "text": "urgence electricien",
+   "famille": "B",
+   "intention": "commerciale forte",
+   "geo": "sans ville"
+  },
+  {
+   "n": 23,
+   "text": "panne electrique",
+   "famille": "B",
+   "intention": "commerciale",
+   "geo": "sans ville"
+  },
+  {
+   "n": 24,
+   "text": "panne de courant maison",
+   "famille": "B",
+   "intention": "commerciale",
+   "geo": "sans ville"
+  },
+  {
+   "n": 25,
+   "text": "court circuit maison",
+   "famille": "B",
+   "intention": "commerciale",
+   "geo": "sans ville"
+  },
+  {
+   "n": 26,
+   "text": "disjoncteur qui saute",
+   "famille": "B",
+   "intention": "générique",
+   "geo": "sans ville"
+  },
+  {
+   "n": 27,
+   "text": "electricien depannage",
+   "famille": "B",
+   "intention": "commerciale forte",
+   "geo": "sans ville"
+  },
+  {
+   "n": 28,
+   "text": "sos electricien",
+   "famille": "B",
+   "intention": "commerciale forte",
+   "geo": "sans ville"
+  },
+  {
+   "n": 29,
+   "text": "electricien urgence angers",
+   "famille": "B",
+   "intention": "commerciale forte",
+   "geo": "avec ville"
+  },
+  {
+   "n": 30,
+   "text": "electricien",
+   "famille": "C",
+   "intention": "commerciale",
+   "geo": "sans ville"
+  },
+  {
+   "n": 31,
+   "text": "electricien a proximite",
+   "famille": "C",
+   "intention": "commerciale forte",
+   "geo": "sans ville"
+  },
+  {
+   "n": 32,
+   "text": "entreprise electricite",
+   "famille": "C",
+   "intention": "commerciale",
+   "geo": "sans ville"
+  },
+  {
+   "n": 33,
+   "text": "entreprise electricien",
+   "famille": "C",
+   "intention": "commerciale",
+   "geo": "sans ville"
+  },
+  {
+   "n": 34,
+   "text": "artisan electricien",
+   "famille": "C",
+   "intention": "commerciale",
+   "geo": "sans ville"
+  },
+  {
+   "n": 35,
+   "text": "electricien angers",
+   "famille": "C",
+   "intention": "commerciale",
+   "geo": "avec ville"
+  },
+  {
+   "n": 36,
+   "text": "electricien brissac loire aubance",
+   "famille": "C",
+   "intention": "commerciale",
+   "geo": "avec ville"
+  },
+  {
+   "n": 37,
+   "text": "electricien maine et loire",
+   "famille": "C",
+   "intention": "commerciale",
+   "geo": "avec département"
+  },
+  {
+   "n": 38,
+   "text": "renovation electrique",
+   "famille": "D",
+   "intention": "commerciale",
+   "geo": "sans ville"
+  },
+  {
+   "n": 39,
+   "text": "mise aux normes electrique",
+   "famille": "D",
+   "intention": "commerciale forte",
+   "geo": "sans ville"
+  },
+  {
+   "n": 40,
+   "text": "mise en conformite electrique",
+   "famille": "D",
+   "intention": "commerciale forte",
+   "geo": "sans ville"
+  },
+  {
+   "n": 41,
+   "text": "refaire installation electrique",
+   "famille": "D",
+   "intention": "commerciale forte",
+   "geo": "sans ville"
+  },
+  {
+   "n": 42,
+   "text": "remplacement tableau electrique",
+   "famille": "D",
+   "intention": "commerciale forte",
+   "geo": "sans ville"
+  },
+  {
+   "n": 43,
+   "text": "tableau electrique",
+   "famille": "D",
+   "intention": "générique",
+   "geo": "sans ville"
+  },
+  {
+   "n": 44,
+   "text": "changer tableau electrique",
+   "famille": "D",
+   "intention": "commerciale forte",
+   "geo": "sans ville"
+  },
+  {
+   "n": 45,
+   "text": "consuel electricien",
+   "famille": "D",
+   "intention": "commerciale",
+   "geo": "sans ville"
+  },
+  {
+   "n": 46,
+   "text": "attestation consuel",
+   "famille": "D",
+   "intention": "générique",
+   "geo": "sans ville"
+  },
+  {
+   "n": 47,
+   "text": "diagnostic electrique maison",
+   "famille": "D",
+   "intention": "commerciale",
+   "geo": "sans ville"
+  },
+  {
+   "n": 48,
+   "text": "renovation electrique maison ancienne",
+   "famille": "D",
+   "intention": "commerciale forte",
+   "geo": "sans ville"
+  },
+  {
+   "n": 49,
+   "text": "installation electrique complete",
+   "famille": "E",
+   "intention": "commerciale forte",
+   "geo": "sans ville"
+  },
+  {
+   "n": 50,
+   "text": "installation electrique maison neuve",
+   "famille": "E",
+   "intention": "commerciale forte",
+   "geo": "sans ville"
+  },
+  {
+   "n": 51,
+   "text": "electricien construction neuve",
+   "famille": "E",
+   "intention": "commerciale forte",
+   "geo": "sans ville"
+  },
+  {
+   "n": 52,
+   "text": "cablage electrique maison",
+   "famille": "E",
+   "intention": "générique",
+   "geo": "sans ville"
+  },
+  {
+   "n": 53,
+   "text": "nf c 15100",
+   "famille": "E",
+   "intention": "générique",
+   "geo": "sans ville"
+  },
+  {
+   "n": 54,
+   "text": "installation electrique cuisine",
+   "famille": "F",
+   "intention": "commerciale forte",
+   "geo": "sans ville"
+  },
+  {
+   "n": 55,
+   "text": "prise plan de travail cuisine",
+   "famille": "F",
+   "intention": "générique",
+   "geo": "sans ville"
+  },
+  {
+   "n": 56,
+   "text": "circuit dedie cuisine",
+   "famille": "F",
+   "intention": "générique",
+   "geo": "sans ville"
+  },
+  {
+   "n": 57,
+   "text": "domotique",
+   "famille": "G",
+   "intention": "générique",
+   "geo": "sans ville"
+  },
+  {
+   "n": 58,
+   "text": "installateur domotique",
+   "famille": "G",
+   "intention": "commerciale forte",
+   "geo": "sans ville"
+  },
+  {
+   "n": 59,
+   "text": "domotique maison",
+   "famille": "G",
+   "intention": "générique",
+   "geo": "sans ville"
+  },
+  {
+   "n": 60,
+   "text": "knx installateur",
+   "famille": "G",
+   "intention": "commerciale forte",
+   "geo": "sans ville"
+  },
+  {
+   "n": 61,
+   "text": "maison connectee installation",
+   "famille": "G",
+   "intention": "commerciale",
+   "geo": "sans ville"
+  },
+  {
+   "n": 62,
+   "text": "devis electricien",
+   "famille": "H",
+   "intention": "commerciale forte",
+   "geo": "sans ville"
+  },
+  {
+   "n": 63,
+   "text": "prix electricien",
+   "famille": "H",
+   "intention": "comparaison",
+   "geo": "sans ville"
+  },
+  {
+   "n": 64,
+   "text": "tarif electricien",
+   "famille": "H",
+   "intention": "comparaison",
+   "geo": "sans ville"
+  },
+  {
+   "n": 65,
+   "text": "devis installation electrique",
+   "famille": "H",
+   "intention": "commerciale forte",
+   "geo": "sans ville"
+  },
+  {
+   "n": 66,
+   "text": "cout renovation electrique",
+   "famille": "H",
+   "intention": "comparaison",
+   "geo": "sans ville"
+  },
+  {
+   "n": 67,
+   "text": "climatiseur reversible",
+   "famille": "A",
+   "intention": "commerciale",
+   "geo": "sans ville",
+   "ajoute_le": "2026-08-04"
+  },
+  {
+   "n": 68,
+   "text": "pompe a chaleur reversible",
+   "famille": "A",
+   "intention": "commerciale",
+   "geo": "sans ville",
+   "ajoute_le": "2026-08-04"
+  },
+  {
+   "n": 69,
+   "text": "prix installation climatisation",
+   "famille": "A",
+   "intention": "commerciale forte",
+   "geo": "sans ville",
+   "ajoute_le": "2026-08-04"
+  },
+  {
+   "n": 70,
+   "text": "electricien autour de moi",
+   "famille": "C",
+   "intention": "commerciale forte",
+   "geo": "sans ville",
+   "ajoute_le": "2026-08-04"
+  },
+  {
+   "n": 71,
+   "text": "consuel",
+   "famille": "D",
+   "intention": "informationnelle",
+   "geo": "sans ville",
+   "ajoute_le": "2026-08-04"
+  },
+  {
+   "n": 72,
+   "text": "volet roulant electrique",
+   "famille": "G",
+   "intention": "commerciale",
+   "geo": "sans ville",
+   "ajoute_le": "2026-08-04"
+  },
+  {
+   "n": 73,
+   "text": "alarme somfy",
+   "famille": "G",
+   "intention": "commerciale",
+   "geo": "sans ville",
+   "ajoute_le": "2026-08-04"
+  }
+ ],
+ "exclusions": [
+  {
+   "text": "climatiseur",
+   "raison": "Achat de produit. Enchère haut de page 0,05-0,49 EUR, inventaire dominé par le retail. Ne cherche pas un installateur."
+  },
+  {
+   "text": "climatiseur mobile",
+   "raison": "Produit vendu en grande surface, hors offre."
+  },
+  {
+   "text": "clim portable",
+   "raison": "Produit vendu en grande surface, hors offre."
+  },
+  {
+   "text": "borne de recharge voiture electrique",
+   "raison": "Service non vendu : pas de qualification IRVE à date."
+  },
+  {
+   "text": "installateur irve",
+   "raison": "Service non vendu : pas de qualification IRVE à date."
+  },
+  {
+   "text": "panneau solaire",
+   "raison": "Service non vendu."
+  },
+  {
+   "text": "photovoltaique installateur",
+   "raison": "Service non vendu."
+  },
+  {
+   "text": "electricien rge",
+   "raison": "Qualification RGE non détenue à date : requête non honorable."
+  },
+  {
+   "text": "maprimerenov electricite",
+   "raison": "Suppose une qualification RGE non détenue."
+  },
+  {
+   "text": "emploi electricien",
+   "raison": "Recherche d’emploi."
+  },
+  {
+   "text": "offre emploi electricien",
+   "raison": "Recherche d’emploi."
+  },
+  {
+   "text": "salaire electricien",
+   "raison": "Recherche d’emploi."
+  },
+  {
+   "text": "formation electricien",
+   "raison": "Recherche de formation."
+  },
+  {
+   "text": "cap electricien",
+   "raison": "Recherche de formation."
+  },
+  {
+   "text": "schema electrique",
+   "raison": "Bricolage : ne cherche pas un professionnel."
+  },
+  {
+   "text": "branchement prise electrique",
+   "raison": "Bricolage."
+  },
+  {
+   "text": "tuto electricite",
+   "raison": "Bricolage."
+  },
+  {
+   "text": "leroy merlin electricite",
+   "raison": "Marque tierce et distribution."
+  },
+  {
+   "text": "castorama tableau electrique",
+   "raison": "Marque tierce et distribution."
+  },
+  {
+   "text": "electricien pas cher",
+   "raison": "Choix NMF : requête de chasse au prix, marge dégradée et faible taux de signature pour un artisan seul."
+  },
+  {
+   "text": "borne de recharge de vehicule electrique",
+   "volume": 2410,
+   "raison": "Famille entiere (22 requetes canoniques, ~2 410 rech./mois) : GP elec ne vend pas l installation de bornes de recharge, aucune mention sur le site au 04/08. Traite comme gisement hors offre, jamais compte dans le marche adressable."
+  },
+  {
+   "text": "alarme maison",
+   "volume": 720,
+   "raison": "Enchere haut de page 14,25 EUR, soit 9x le CPC tenu du plan. Un seul clic consommerait 7 % du budget mensuel. Ecarte pour raison economique, pas de pertinence."
+  },
+  {
+   "text": "clim portative / clim monobloc / climatiseur",
+   "volume": 210,
+   "raison": "Achat de produit en grande surface, pas de pose. Coherent avec les exclusions v1."
+  },
+  {
+   "text": "prise electrique / prise anglaise / plan electrique",
+   "volume": 270,
+   "raison": "Requetes produit ou bricolage, enchere haut de page a 0,00 EUR : aucun annonceur ne paie dessus."
+  },
+  {
+   "text": "electricite de france / borne de recharge electra",
+   "volume": 410,
+   "raison": "Marques tierces. Exclues par principe."
+  },
+  {
+   "text": "nfc 15_100 / prix electricite",
+   "volume": 90,
+   "raison": "Requetes informationnelles : la norme et le prix du kWh, pas un prestataire."
+  },
+  {
+   "text": "depannage electricite angers / entreprise electricite angers",
+   "volume": 100,
+   "raison": "Mots-cles avec ville : le ciblage geographique de la campagne localise deja la diffusion. Principe pose en v1, maintenu."
+  },
+  {
+   "text": "climatisation gainable / clim gainee",
+   "volume": 210,
+   "raison": "GP elec pose du mono-split et du multi-split. Le gainable n est pas au catalogue."
+  },
+  {
+   "text": "chauffe eau electrique / chauffe eau instantane",
+   "volume": 190,
+   "raison": "Non mentionne dans l offre du site au 04/08."
+  }
+ ],
+ "revision_2026_08_04": {
+  "candidats_mesures": 79,
+  "volume_candidats": 7620,
+  "retenus": [
+   {
+    "text": "climatiseur reversible",
+    "famille": "A",
+    "volume": 40,
+    "encheresHaute": 1.521156
+   },
+   {
+    "text": "pompe a chaleur reversible",
+    "famille": "A",
+    "volume": 40,
+    "encheresHaute": 2.024942
+   },
+   {
+    "text": "prix installation climatisation",
+    "famille": "A",
+    "volume": 40,
+    "encheresHaute": 1.011558
+   },
+   {
+    "text": "electricien autour de moi",
+    "famille": "C",
+    "volume": 110,
+    "encheresHaute": 3.311494
+   },
+   {
+    "text": "consuel",
+    "famille": "D",
+    "volume": 210,
+    "encheresHaute": null
+   },
+   {
+    "text": "volet roulant electrique",
+    "famille": "G",
+    "volume": 90,
+    "encheresHaute": 2.467698
+   },
+   {
+    "text": "alarme somfy",
+    "famille": "G",
+    "volume": 50,
+    "encheresHaute": 2.979737
+   }
+  ],
+  "volume_ajoute": 580,
+  "ecartes_variantes_proches": []
+ }
+}

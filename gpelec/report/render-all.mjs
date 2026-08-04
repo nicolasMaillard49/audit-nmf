@@ -93,16 +93,29 @@ const textes = Object.fromEntries(
 
 /* chaque cle : [libelle, motif, variantes ou le chiffre DOIT apparaitre] */
 const PARTAGES = [
-  ["recherches mensuelles", /2 420/, ["technique", "commercial", "resume"]],
-  ["clics a 200 EUR",       /\b121\b/, ["technique", "commercial", "resume"]],
-  ["CPC tenu",              /1,63 /,  ["technique", "commercial", "resume"]],
-  /* le resume arrondit volontairement 754 EUR a 750 EUR : arrondi lisible, pas divergence */
-  ["plafond d'inventaire",  /754/,    ["technique", "commercial"]],
-  ["plafond arrondi",       /75[04]/, ["resume"]],
+  ["recherches mensuelles", /3 000/, ["technique", "commercial", "resume"]],
+  ["clics a 200 EUR",       /\b133\b/, ["technique", "commercial", "resume"]],
+  ["CPC tenu",              /1,49 /,  ["technique", "commercial", "resume"]],
+  /* le resume arrondit volontairement 291,81 EUR a 290 EUR : arrondi lisible, pas divergence */
+  ["plafond d'inventaire",  /291,81/, ["technique", "commercial"]],
+  ["plafond arrondi",       /29[02]/, ["resume"]],
   ["volume electricien angers", /\b390\b/, ["technique", "commercial", "resume"]],
-  ["CPC reel",              /1,42 /,  ["technique", "commercial"]],
+  ["ecart au CPC sectoriel", /×2,8/,  ["technique", "commercial"]],
   ["depense reelle a 200",  /197,40/, ["technique", "commercial"]],
-  ["clics au plafond",      /\b187\b/, ["technique", "commercial"]],
+  ["clics au plafond",      /\b196\b/, ["technique", "commercial"]],
+  ["portefeuille canonique", /\b69\b/, ["technique", "commercial"]],
+];
+
+/* aucun chiffre de la passe du 31/07 ne doit survivre dans une variante */
+const PERIMES = [
+  ["volume 2 420",       /2 420/],
+  ["CPC 1,63",           /1,63 ?€/],
+  ["CPC 1,42",           /1,42 ?€/],
+  ["plafond 754,34",     /754,34/],
+  ["clics 187",          /\b187\b/],
+  ["depense 213,73",     /213,[47][35]/],
+  ["depense 325,37",     /325,37/],
+  ["portefeuille 66/62", /\b(66 mots|62 lignes)\b/],
 ];
 
 let divergences = 0;
@@ -113,6 +126,17 @@ for (const [libelle, motif, cibles] of PARTAGES) {
     console.log(`  DIVERGENCE  ${libelle.padEnd(26)} absent de : ${manquants.join(", ")}`);
   } else {
     console.log(`  ok          ${libelle.padEnd(26)} present dans ${cibles.join(", ")}`);
+  }
+}
+
+console.log("\n=== CHIFFRES PERIMES DE LA PASSE DU 31/07 ===");
+for (const cle of ["technique", "commercial", "resume"]) {
+  const restes = PERIMES.filter(([, re]) => re.test(textes[cle])).map(([l]) => l);
+  if (restes.length) {
+    divergences++;
+    console.log(`  PERIME      ${cle} contient encore : ${restes.join(", ")}`);
+  } else {
+    console.log(`  ok          ${cle} — aucun chiffre du 31/07`);
   }
 }
 

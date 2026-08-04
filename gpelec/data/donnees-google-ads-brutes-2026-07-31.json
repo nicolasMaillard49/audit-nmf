@@ -1,0 +1,3773 @@
+{
+ "meta": {
+  "extraction": "2026-07-31T17:44:50.000Z",
+  "mcc": "6711813801",
+  "api": "google-ads-api v24 / KeywordPlanIdeaService",
+  "langue": "languageConstants/1002",
+  "reseau": "GOOGLE_SEARCH",
+  "devise": "EUR",
+  "periode_forecast": {
+   "start_date": "2026-09-01",
+   "end_date": "2026-09-30"
+  },
+  "communes": [
+   "Angers",
+   "Loire-Authion",
+   "Trelaze",
+   "Avrille",
+   "Les Ponts-de-Ce",
+   "Brissac Loire Aubance",
+   "Saint-Barthelemy-d'Anjou",
+   "Bouchemaine",
+   "Verrieres-en-Anjou",
+   "Beaufort-en-Anjou"
+  ],
+  "budgets": [
+   50,
+   100,
+   150,
+   200,
+   300,
+   500,
+   750,
+   1000,
+   1500,
+   2000
+  ],
+  "enchere_reference": {
+   "mediane_high_top_of_page": 2.064655,
+   "bid_haut_de_page": 2.06,
+   "bid_domination": 3.1
+  }
+ },
+ "geo": [
+  {
+   "commune": "Angers",
+   "geo": "geoTargetConstants/1006271"
+  },
+  {
+   "commune": "Loire-Authion",
+   "geo": "geoTargetConstants/9216185"
+  },
+  {
+   "commune": "Trelaze",
+   "geo": "geoTargetConstants/9050264"
+  },
+  {
+   "commune": "Avrille",
+   "geo": "geoTargetConstants/9049308"
+  },
+  {
+   "commune": "Les Ponts-de-Ce",
+   "geo": "geoTargetConstants/9049785"
+  },
+  {
+   "commune": "Brissac Loire Aubance",
+   "geo": "geoTargetConstants/9248635"
+  },
+  {
+   "commune": "Saint-Barthelemy-d'Anjou",
+   "geo": "geoTargetConstants/1006289"
+  },
+  {
+   "commune": "Bouchemaine",
+   "geo": "geoTargetConstants/9251091"
+  },
+  {
+   "commune": "Verrieres-en-Anjou",
+   "geo": "geoTargetConstants/9108577"
+  },
+  {
+   "commune": "Beaufort-en-Anjou",
+   "geo": "geoTargetConstants/9219448"
+  }
+ ],
+ "historical": [
+  {
+   "text": "climatisation reversible",
+   "closeVariants": [
+    "clim reversible"
+   ],
+   "vol": 90,
+   "comp": "forte",
+   "compIndex": 98,
+   "bidLow": 0.149184,
+   "bidHigh": 1.725613,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 140
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 40
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 30
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 30
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 30
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 20
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 30
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 50
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 40
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 50
+    },
+    {
+     "m": "2026-MAY",
+     "v": 110
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 480
+    }
+   ]
+  },
+  {
+   "text": "installateur climatisation",
+   "closeVariants": [
+    "installation climatisation"
+   ],
+   "vol": 140,
+   "comp": "forte",
+   "compIndex": 73,
+   "bidLow": 0.455459,
+   "bidHigh": 2.425243,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 110
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 40
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 30
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 10
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 10
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 20
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 10
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 20
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 20
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 20
+    },
+    {
+     "m": "2026-MAY",
+     "v": 320
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 880
+    }
+   ]
+  },
+  {
+   "text": "pose climatisation",
+   "closeVariants": [],
+   "vol": 10,
+   "comp": "forte",
+   "compIndex": 82,
+   "bidLow": 0.41379,
+   "bidHigh": 2.783635,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 20
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 10
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 10
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 10
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 10
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 0
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 10
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 10
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 10
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 10
+    },
+    {
+     "m": "2026-MAY",
+     "v": 20
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 70
+    }
+   ]
+  },
+  {
+   "text": "devis climatisation",
+   "closeVariants": [],
+   "vol": 10,
+   "comp": "moyenne",
+   "compIndex": 50,
+   "bidLow": 0.481938,
+   "bidHigh": 2.305906,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 10
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 0
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 0
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 10
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 10
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 10
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 0
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 10
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 10
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 10
+    },
+    {
+     "m": "2026-MAY",
+     "v": 30
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 140
+    }
+   ]
+  },
+  {
+   "text": "prix climatisation reversible",
+   "closeVariants": [],
+   "vol": 50,
+   "comp": "forte",
+   "compIndex": 99,
+   "bidLow": 0.080062,
+   "bidHigh": 1.133081,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 40
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 30
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 20
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 20
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 10
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 10
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 20
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 20
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 10
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 10
+    },
+    {
+     "m": "2026-MAY",
+     "v": 70
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 260
+    }
+   ]
+  },
+  {
+   "text": "climatiseur reversible installation",
+   "closeVariants": [],
+   "vol": 10,
+   "comp": "forte",
+   "compIndex": 88,
+   "bidLow": 0.303099,
+   "bidHigh": 1.934034,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 0
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 0
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 0
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 10
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 0
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 0
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 0
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 0
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 0
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 0
+    },
+    {
+     "m": "2026-MAY",
+     "v": 0
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 10
+    }
+   ]
+  },
+  {
+   "text": "pompe a chaleur air air",
+   "closeVariants": [],
+   "vol": 90,
+   "comp": "forte",
+   "compIndex": 99,
+   "bidLow": 0.611848,
+   "bidHigh": 3.250242,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 90
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 50
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 40
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 70
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 90
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 70
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 140
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 70
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 70
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 90
+    },
+    {
+     "m": "2026-MAY",
+     "v": 110
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 210
+    }
+   ]
+  },
+  {
+   "text": "pac air air",
+   "closeVariants": [],
+   "vol": 50,
+   "comp": "forte",
+   "compIndex": 100,
+   "bidLow": 0.421968,
+   "bidHigh": 1.996156,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 30
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 20
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 20
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 40
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 50
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 30
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 40
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 30
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 30
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 40
+    },
+    {
+     "m": "2026-MAY",
+     "v": 50
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 170
+    }
+   ]
+  },
+  {
+   "text": "installateur pompe a chaleur air air",
+   "closeVariants": [],
+   "vol": 10,
+   "comp": "forte",
+   "compIndex": 76,
+   "bidLow": 1.087738,
+   "bidHigh": 2.041549,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 10
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 10
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 10
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 10
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 10
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 10
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 10
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 10
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 10
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 10
+    },
+    {
+     "m": "2026-MAY",
+     "v": 10
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 20
+    }
+   ]
+  },
+  {
+   "text": "climatisation maison",
+   "closeVariants": [],
+   "vol": 210,
+   "comp": "forte",
+   "compIndex": 100,
+   "bidLow": 0.058916,
+   "bidHigh": 1.276315,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 170
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 70
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 30
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 20
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 10
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 10
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 10
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 10
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 10
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 30
+    },
+    {
+     "m": "2026-MAY",
+     "v": 480
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 1600
+    }
+   ]
+  },
+  {
+   "text": "climatisation multi split",
+   "closeVariants": [],
+   "vol": 10,
+   "comp": "forte",
+   "compIndex": 99,
+   "bidLow": 0.067899,
+   "bidHigh": 1.035651,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 30
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 10
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 10
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 10
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 10
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 0
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 10
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 0
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 10
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 10
+    },
+    {
+     "m": "2026-MAY",
+     "v": 20
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 70
+    }
+   ]
+  },
+  {
+   "text": "climatisation mono split",
+   "closeVariants": [],
+   "vol": 10,
+   "comp": "forte",
+   "compIndex": 100,
+   "bidLow": 0.049177,
+   "bidHigh": 0.277612,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 20
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 10
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 0
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 0
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 10
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 0
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 10
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 0
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 10
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 10
+    },
+    {
+     "m": "2026-MAY",
+     "v": 20
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 70
+    }
+   ]
+  },
+  {
+   "text": "entretien climatisation",
+   "closeVariants": [],
+   "vol": 20,
+   "comp": "moyenne",
+   "compIndex": 44,
+   "bidLow": 0.525051,
+   "bidHigh": 3.415266,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 30
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 20
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 10
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 10
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 10
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 10
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 10
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 10
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 10
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 20
+    },
+    {
+     "m": "2026-MAY",
+     "v": 30
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 70
+    }
+   ]
+  },
+  {
+   "text": "depannage climatisation",
+   "closeVariants": [],
+   "vol": 10,
+   "comp": "faible",
+   "compIndex": 19,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 10
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 10
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 10
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 10
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 0
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 10
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 10
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 10
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 10
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 0
+    },
+    {
+     "m": "2026-MAY",
+     "v": 10
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 10
+    }
+   ]
+  },
+  {
+   "text": "climatisation angers",
+   "closeVariants": [],
+   "vol": 140,
+   "comp": "forte",
+   "compIndex": 92,
+   "bidLow": 0.177685,
+   "bidHigh": 1.797601,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 170
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 70
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 70
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 50
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 40
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 70
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 50
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 40
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 140
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 70
+    },
+    {
+     "m": "2026-MAY",
+     "v": 210
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 720
+    }
+   ]
+  },
+  {
+   "text": "installateur climatisation angers",
+   "closeVariants": [],
+   "vol": 40,
+   "comp": "moyenne",
+   "compIndex": 59,
+   "bidLow": 0.427358,
+   "bidHigh": 1.832246,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 30
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 10
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 30
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 10
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 10
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 10
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 10
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 30
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 40
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 20
+    },
+    {
+     "m": "2026-MAY",
+     "v": 70
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 210
+    }
+   ]
+  },
+  {
+   "text": "depannage electrique",
+   "closeVariants": [
+    "depannage electricien"
+   ],
+   "vol": 20,
+   "comp": "moyenne",
+   "compIndex": 39,
+   "bidLow": 1.714691,
+   "bidHigh": 3.06648,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 20
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 10
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 20
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 10
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 20
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 20
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 50
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 30
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 10
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 10
+    },
+    {
+     "m": "2026-MAY",
+     "v": 10
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 30
+    }
+   ]
+  },
+  {
+   "text": "electricien urgence",
+   "closeVariants": [],
+   "vol": 10,
+   "comp": "forte",
+   "compIndex": 71,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 0
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 0
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 10
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 10
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 10
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 10
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 10
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 10
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 0
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 10
+    },
+    {
+     "m": "2026-MAY",
+     "v": 10
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 10
+    }
+   ]
+  },
+  {
+   "text": "urgence electricien",
+   "closeVariants": [],
+   "vol": 10,
+   "comp": "forte",
+   "compIndex": 80,
+   "bidLow": 0.647089,
+   "bidHigh": 1.968214,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 10
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 10
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 10
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 10
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 10
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 10
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 10
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 10
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 10
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 10
+    },
+    {
+     "m": "2026-MAY",
+     "v": 10
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 10
+    }
+   ]
+  },
+  {
+   "text": "panne electrique",
+   "closeVariants": [],
+   "vol": 40,
+   "comp": "faible",
+   "compIndex": 4,
+   "bidLow": 0.140362,
+   "bidHigh": 1.552272,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 20
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 10
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 10
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 20
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 30
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 30
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 50
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 30
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 10
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 30
+    },
+    {
+     "m": "2026-MAY",
+     "v": 20
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 170
+    }
+   ]
+  },
+  {
+   "text": "court circuit maison",
+   "closeVariants": [],
+   "vol": 10,
+   "comp": null,
+   "compIndex": null,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 0
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 0
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 0
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 10
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 0
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 0
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 0
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 0
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 0
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 0
+    },
+    {
+     "m": "2026-MAY",
+     "v": 0
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 0
+    }
+   ]
+  },
+  {
+   "text": "disjoncteur qui saute",
+   "closeVariants": [],
+   "vol": 10,
+   "comp": "faible",
+   "compIndex": 0,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 10
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 10
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 0
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 10
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 10
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 10
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 10
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 10
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 10
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 10
+    },
+    {
+     "m": "2026-MAY",
+     "v": 10
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 10
+    }
+   ]
+  },
+  {
+   "text": "electricien depannage",
+   "closeVariants": [],
+   "vol": 10,
+   "comp": "forte",
+   "compIndex": 86,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 0
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 10
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 0
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 0
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 10
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 10
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 20
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 0
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 10
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 10
+    },
+    {
+     "m": "2026-MAY",
+     "v": 10
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 10
+    }
+   ]
+  },
+  {
+   "text": "sos electricien",
+   "closeVariants": [],
+   "vol": 30,
+   "comp": "faible",
+   "compIndex": 0,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 20
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 10
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 20
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 70
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 30
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 40
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 50
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 20
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 40
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 30
+    },
+    {
+     "m": "2026-MAY",
+     "v": 40
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 20
+    }
+   ]
+  },
+  {
+   "text": "electricien",
+   "closeVariants": [],
+   "vol": 320,
+   "comp": "faible",
+   "compIndex": 19,
+   "bidLow": 0.600441,
+   "bidHigh": 2.958552,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 170
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 140
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 260
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 390
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 390
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 260
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 390
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 260
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 390
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 480
+    },
+    {
+     "m": "2026-MAY",
+     "v": 480
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 320
+    }
+   ]
+  },
+  {
+   "text": "entreprise electricite",
+   "closeVariants": [
+    "entreprise electricien"
+   ],
+   "vol": 50,
+   "comp": "moyenne",
+   "compIndex": 41,
+   "bidLow": 0.78494,
+   "bidHigh": 5.306258,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 10
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 20
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 50
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 110
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 70
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 70
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 90
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 70
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 50
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 30
+    },
+    {
+     "m": "2026-MAY",
+     "v": 30
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 70
+    }
+   ]
+  },
+  {
+   "text": "artisan electricien",
+   "closeVariants": [],
+   "vol": 10,
+   "comp": "moyenne",
+   "compIndex": 46,
+   "bidLow": 0.58148,
+   "bidHigh": 2.633287,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 10
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 10
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 10
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 10
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 10
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 10
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 10
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 10
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 10
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 10
+    },
+    {
+     "m": "2026-MAY",
+     "v": 20
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 20
+    }
+   ]
+  },
+  {
+   "text": "electricien angers",
+   "closeVariants": [],
+   "vol": 390,
+   "comp": "moyenne",
+   "compIndex": 54,
+   "bidLow": 0.824956,
+   "bidHigh": 5.139836,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 260
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 260
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 320
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 390
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 320
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 320
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 390
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 390
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 590
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 590
+    },
+    {
+     "m": "2026-MAY",
+     "v": 390
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 390
+    }
+   ]
+  },
+  {
+   "text": "electricien maine et loire",
+   "closeVariants": [],
+   "vol": 20,
+   "comp": "moyenne",
+   "compIndex": 53,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 10
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 20
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 10
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 90
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 10
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 10
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 20
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 10
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 10
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 10
+    },
+    {
+     "m": "2026-MAY",
+     "v": 20
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 10
+    }
+   ]
+  },
+  {
+   "text": "renovation electrique",
+   "closeVariants": [],
+   "vol": 10,
+   "comp": null,
+   "compIndex": null,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 10
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 10
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 10
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 10
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 10
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 0
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 10
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 0
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 0
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 0
+    },
+    {
+     "m": "2026-MAY",
+     "v": 10
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 0
+    }
+   ]
+  },
+  {
+   "text": "mise aux normes electrique",
+   "closeVariants": [],
+   "vol": 10,
+   "comp": null,
+   "compIndex": null,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 10
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 0
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 0
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 10
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 10
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 10
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 10
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 10
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 10
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 0
+    },
+    {
+     "m": "2026-MAY",
+     "v": 10
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 0
+    }
+   ]
+  },
+  {
+   "text": "mise en conformite electrique",
+   "closeVariants": [],
+   "vol": 10,
+   "comp": null,
+   "compIndex": null,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 0
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 0
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 10
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 10
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 0
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 0
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 0
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 10
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 10
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 0
+    },
+    {
+     "m": "2026-MAY",
+     "v": 0
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 0
+    }
+   ]
+  },
+  {
+   "text": "refaire installation electrique",
+   "closeVariants": [],
+   "vol": 10,
+   "comp": "faible",
+   "compIndex": 29,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 0
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 0
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 0
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 0
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 0
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 0
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 0
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 0
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 10
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 0
+    },
+    {
+     "m": "2026-MAY",
+     "v": 0
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 10
+    }
+   ]
+  },
+  {
+   "text": "remplacement tableau electrique",
+   "closeVariants": [],
+   "vol": 10,
+   "comp": "faible",
+   "compIndex": 0,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 0
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 10
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 0
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 10
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 10
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 0
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 10
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 10
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 10
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 10
+    },
+    {
+     "m": "2026-MAY",
+     "v": 0
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 10
+    }
+   ]
+  },
+  {
+   "text": "tableau electrique",
+   "closeVariants": [],
+   "vol": 110,
+   "comp": "forte",
+   "compIndex": 96,
+   "bidLow": 0.035167,
+   "bidHigh": 2.960555,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 70
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 110
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 140
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 110
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 140
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 110
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 170
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 110
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 90
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 90
+    },
+    {
+     "m": "2026-MAY",
+     "v": 110
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 90
+    }
+   ]
+  },
+  {
+   "text": "changer tableau electrique",
+   "closeVariants": [],
+   "vol": 10,
+   "comp": "forte",
+   "compIndex": 100,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 10
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 0
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 10
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 10
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 10
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 10
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 10
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 10
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 10
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 10
+    },
+    {
+     "m": "2026-MAY",
+     "v": 0
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 10
+    }
+   ]
+  },
+  {
+   "text": "consuel electricien",
+   "closeVariants": [],
+   "vol": 50,
+   "comp": "faible",
+   "compIndex": 13,
+   "bidLow": 0.770982,
+   "bidHigh": 2.385714,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 40
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 30
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 30
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 50
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 30
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 30
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 50
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 140
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 50
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 50
+    },
+    {
+     "m": "2026-MAY",
+     "v": 40
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 50
+    }
+   ]
+  },
+  {
+   "text": "attestation consuel",
+   "closeVariants": [],
+   "vol": 10,
+   "comp": "faible",
+   "compIndex": 0,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 0
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 0
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 10
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 10
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 10
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 10
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 10
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 10
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 10
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 10
+    },
+    {
+     "m": "2026-MAY",
+     "v": 10
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 10
+    }
+   ]
+  },
+  {
+   "text": "diagnostic electrique maison",
+   "closeVariants": [],
+   "vol": 10,
+   "comp": null,
+   "compIndex": null,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 0
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 0
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 0
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 10
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 10
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 0
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 10
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 10
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 0
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 10
+    },
+    {
+     "m": "2026-MAY",
+     "v": 0
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 0
+    }
+   ]
+  },
+  {
+   "text": "renovation electrique maison ancienne",
+   "closeVariants": [],
+   "vol": 10,
+   "comp": null,
+   "compIndex": null,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 0
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 10
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 0
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 0
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 10
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 10
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 10
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 10
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 0
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 0
+    },
+    {
+     "m": "2026-MAY",
+     "v": 0
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 0
+    }
+   ]
+  },
+  {
+   "text": "installation electrique complete",
+   "closeVariants": [],
+   "vol": null,
+   "comp": null,
+   "compIndex": null,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": []
+  },
+  {
+   "text": "installation electrique maison neuve",
+   "closeVariants": [],
+   "vol": 10,
+   "comp": null,
+   "compIndex": null,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 0
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 0
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 0
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 10
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 10
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 0
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 0
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 0
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 0
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 0
+    },
+    {
+     "m": "2026-MAY",
+     "v": 0
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 0
+    }
+   ]
+  },
+  {
+   "text": "cablage electrique maison",
+   "closeVariants": [],
+   "vol": 10,
+   "comp": "faible",
+   "compIndex": 29,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 10
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 10
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 0
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 0
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 10
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 0
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 10
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 10
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 10
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 10
+    },
+    {
+     "m": "2026-MAY",
+     "v": 10
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 10
+    }
+   ]
+  },
+  {
+   "text": "nf c 15100",
+   "closeVariants": [],
+   "vol": 50,
+   "comp": "faible",
+   "compIndex": 19,
+   "bidLow": 0.029802,
+   "bidHigh": 0.349596,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 50
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 30
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 50
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 50
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 70
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 70
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 50
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 50
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 70
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 40
+    },
+    {
+     "m": "2026-MAY",
+     "v": 40
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 30
+    }
+   ]
+  },
+  {
+   "text": "installation electrique cuisine",
+   "closeVariants": [],
+   "vol": 10,
+   "comp": null,
+   "compIndex": null,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 0
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 0
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 0
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 0
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 0
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 0
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 0
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 0
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 10
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 0
+    },
+    {
+     "m": "2026-MAY",
+     "v": 0
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 0
+    }
+   ]
+  },
+  {
+   "text": "prise plan de travail cuisine",
+   "closeVariants": [],
+   "vol": 10,
+   "comp": "forte",
+   "compIndex": 100,
+   "bidLow": 0.098959,
+   "bidHigh": 0.617873,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 10
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 10
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 10
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 20
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 10
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 10
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 10
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 20
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 10
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 10
+    },
+    {
+     "m": "2026-MAY",
+     "v": 10
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 10
+    }
+   ]
+  },
+  {
+   "text": "domotique",
+   "closeVariants": [],
+   "vol": 140,
+   "comp": "moyenne",
+   "compIndex": 36,
+   "bidLow": 1.021268,
+   "bidHigh": 3.009009,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 90
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 40
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 880
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 140
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 110
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 70
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 90
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 90
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 50
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 70
+    },
+    {
+     "m": "2026-MAY",
+     "v": 70
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 50
+    }
+   ]
+  },
+  {
+   "text": "installateur domotique",
+   "closeVariants": [],
+   "vol": 10,
+   "comp": "faible",
+   "compIndex": 29,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 10
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 10
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 0
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 10
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 10
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 0
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 10
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 10
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 10
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 10
+    },
+    {
+     "m": "2026-MAY",
+     "v": 10
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 10
+    }
+   ]
+  },
+  {
+   "text": "domotique maison",
+   "closeVariants": [],
+   "vol": 20,
+   "comp": "moyenne",
+   "compIndex": 49,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 20
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 10
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 30
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 20
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 20
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 30
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 20
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 20
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 10
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 20
+    },
+    {
+     "m": "2026-MAY",
+     "v": 10
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 10
+    }
+   ]
+  },
+  {
+   "text": "knx installateur",
+   "closeVariants": [],
+   "vol": 0,
+   "comp": null,
+   "compIndex": null,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 0
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 0
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 0
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 0
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 0
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 0
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 0
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 0
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 0
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 0
+    },
+    {
+     "m": "2026-MAY",
+     "v": 0
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 0
+    }
+   ]
+  },
+  {
+   "text": "devis electricien",
+   "closeVariants": [],
+   "vol": 10,
+   "comp": null,
+   "compIndex": null,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 10
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 0
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 10
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 10
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 0
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 0
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 10
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 10
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 10
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 0
+    },
+    {
+     "m": "2026-MAY",
+     "v": 10
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 0
+    }
+   ]
+  },
+  {
+   "text": "prix electricien",
+   "closeVariants": [],
+   "vol": 40,
+   "comp": "forte",
+   "compIndex": 79,
+   "bidLow": 0.94957,
+   "bidHigh": 2.064655,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 40
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 30
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 40
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 50
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 40
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 30
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 50
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 40
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 40
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 40
+    },
+    {
+     "m": "2026-MAY",
+     "v": 30
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 10
+    }
+   ]
+  },
+  {
+   "text": "tarif electricien",
+   "closeVariants": [],
+   "vol": 10,
+   "comp": null,
+   "compIndex": null,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 10
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 10
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 10
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 10
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 10
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 10
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 10
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 10
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 10
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 0
+    },
+    {
+     "m": "2026-MAY",
+     "v": 10
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 0
+    }
+   ]
+  },
+  {
+   "text": "devis installation electrique",
+   "closeVariants": [],
+   "vol": 0,
+   "comp": null,
+   "compIndex": null,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 0
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 0
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 0
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 0
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 0
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 0
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 0
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 0
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 0
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 0
+    },
+    {
+     "m": "2026-MAY",
+     "v": 0
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 0
+    }
+   ]
+  },
+  {
+   "text": "cout renovation electrique",
+   "closeVariants": [],
+   "vol": 10,
+   "comp": null,
+   "compIndex": null,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 10
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 0
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 0
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 0
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 0
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 0
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 0
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 10
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 0
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 0
+    },
+    {
+     "m": "2026-MAY",
+     "v": 0
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 0
+    }
+   ]
+  },
+  {
+   "text": "panne de courant maison",
+   "closeVariants": [],
+   "vol": null,
+   "comp": null,
+   "compIndex": null,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": []
+  },
+  {
+   "text": "electricien urgence angers",
+   "closeVariants": [],
+   "vol": null,
+   "comp": null,
+   "compIndex": null,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": []
+  },
+  {
+   "text": "electricien a proximite",
+   "closeVariants": [],
+   "vol": 10,
+   "comp": null,
+   "compIndex": null,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": [
+    {
+     "m": "2025-JULY",
+     "v": 0
+    },
+    {
+     "m": "2025-AUGUST",
+     "v": 0
+    },
+    {
+     "m": "2025-SEPTEMBER",
+     "v": 0
+    },
+    {
+     "m": "2025-OCTOBER",
+     "v": 0
+    },
+    {
+     "m": "2025-NOVEMBER",
+     "v": 0
+    },
+    {
+     "m": "2025-DECEMBER",
+     "v": 0
+    },
+    {
+     "m": "2026-JANUARY",
+     "v": 0
+    },
+    {
+     "m": "2026-FEBRUARY",
+     "v": 0
+    },
+    {
+     "m": "2026-MARCH",
+     "v": 10
+    },
+    {
+     "m": "2026-APRIL",
+     "v": 10
+    },
+    {
+     "m": "2026-MAY",
+     "v": 10
+    },
+    {
+     "m": "2026-JUNE",
+     "v": 0
+    }
+   ]
+  },
+  {
+   "text": "electricien brissac loire aubance",
+   "closeVariants": [],
+   "vol": null,
+   "comp": null,
+   "compIndex": null,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": []
+  },
+  {
+   "text": "electricien construction neuve",
+   "closeVariants": [],
+   "vol": null,
+   "comp": null,
+   "compIndex": null,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": []
+  },
+  {
+   "text": "circuit dedie cuisine",
+   "closeVariants": [],
+   "vol": null,
+   "comp": null,
+   "compIndex": null,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": []
+  },
+  {
+   "text": "maison connectee installation",
+   "closeVariants": [],
+   "vol": null,
+   "comp": null,
+   "compIndex": null,
+   "bidLow": null,
+   "bidHigh": null,
+   "months": []
+  }
+ ],
+ "matrix": [
+  {
+   "strategy": "Presence (maximisation des clics)",
+   "budget_mensuel": 50,
+   "budget_journalier": 1.64,
+   "ok": true,
+   "impressions": null,
+   "clicks": 68.09811401367188,
+   "cost": 49.2,
+   "cpc": 0.722487,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Presence (maximisation des clics)",
+   "budget_mensuel": 100,
+   "budget_journalier": 3.29,
+   "ok": true,
+   "impressions": null,
+   "clicks": 94.27781677246094,
+   "cost": 98.70003,
+   "cpc": 1.046906,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Presence (maximisation des clics)",
+   "budget_mensuel": 150,
+   "budget_journalier": 4.93,
+   "ok": true,
+   "impressions": null,
+   "clicks": 112.90149688720703,
+   "cost": 147.90003,
+   "cpc": 1.309992,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Presence (maximisation des clics)",
+   "budget_mensuel": 200,
+   "budget_journalier": 6.58,
+   "ok": true,
+   "impressions": null,
+   "clicks": 126.78649139404297,
+   "cost": 197.4,
+   "cpc": 1.556948,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Presence (maximisation des clics)",
+   "budget_mensuel": 300,
+   "budget_journalier": 9.87,
+   "ok": true,
+   "impressions": null,
+   "clicks": 148.77883911132812,
+   "cost": 296.1,
+   "cpc": 1.990202,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Presence (maximisation des clics)",
+   "budget_mensuel": 500,
+   "budget_journalier": 16.45,
+   "ok": true,
+   "impressions": null,
+   "clicks": 174.82852172851562,
+   "cost": 493.5,
+   "cpc": 2.822766,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Presence (maximisation des clics)",
+   "budget_mensuel": 750,
+   "budget_journalier": 24.67,
+   "ok": true,
+   "impressions": null,
+   "clicks": 186.6160430908203,
+   "cost": 740.1,
+   "cpc": 3.965897,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Presence (maximisation des clics)",
+   "budget_mensuel": 1000,
+   "budget_journalier": 32.89,
+   "ok": true,
+   "impressions": null,
+   "clicks": 186.7227020263672,
+   "cost": 754.34121,
+   "cpc": 4.039901,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Presence (maximisation des clics)",
+   "budget_mensuel": 1500,
+   "budget_journalier": 49.34,
+   "ok": true,
+   "impressions": null,
+   "clicks": 186.7227020263672,
+   "cost": 754.34145,
+   "cpc": 4.039902,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Presence (maximisation des clics)",
+   "budget_mensuel": 2000,
+   "budget_journalier": 65.79,
+   "ok": true,
+   "impressions": null,
+   "clicks": 186.7227020263672,
+   "cost": 754.34121,
+   "cpc": 4.039901,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Haut de page (CPC manuel)",
+   "budget_mensuel": 50,
+   "budget_journalier": 1.64,
+   "ok": true,
+   "impressions": null,
+   "clicks": 30.164779663085938,
+   "cost": 49.2,
+   "cpc": 1.631041,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Haut de page (CPC manuel)",
+   "budget_mensuel": 100,
+   "budget_journalier": 3.29,
+   "ok": true,
+   "impressions": null,
+   "clicks": 60.558013916015625,
+   "cost": 98.7,
+   "cpc": 1.629842,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Haut de page (CPC manuel)",
+   "budget_mensuel": 150,
+   "budget_journalier": 4.93,
+   "ok": true,
+   "impressions": null,
+   "clicks": 90.74503326416016,
+   "cost": 147.9,
+   "cpc": 1.629841,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Haut de page (CPC manuel)",
+   "budget_mensuel": 200,
+   "budget_journalier": 6.58,
+   "ok": true,
+   "impressions": null,
+   "clicks": 121.02703857421875,
+   "cost": 197.4,
+   "cpc": 1.631041,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Haut de page (CPC manuel)",
+   "budget_mensuel": 300,
+   "budget_journalier": 9.87,
+   "ok": true,
+   "impressions": null,
+   "clicks": 131.03866577148438,
+   "cost": 213.72939,
+   "cpc": 1.631041,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Haut de page (CPC manuel)",
+   "budget_mensuel": 500,
+   "budget_journalier": 16.45,
+   "ok": true,
+   "impressions": null,
+   "clicks": 131.03866577148438,
+   "cost": 213.72936,
+   "cpc": 1.63104,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Haut de page (CPC manuel)",
+   "budget_mensuel": 750,
+   "budget_journalier": 24.67,
+   "ok": true,
+   "impressions": null,
+   "clicks": 130.96534729003906,
+   "cost": 213.45273,
+   "cpc": 1.629841,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Haut de page (CPC manuel)",
+   "budget_mensuel": 1000,
+   "budget_journalier": 32.89,
+   "ok": true,
+   "impressions": null,
+   "clicks": 131.03866577148438,
+   "cost": 213.72939,
+   "cpc": 1.631041,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Haut de page (CPC manuel)",
+   "budget_mensuel": 1500,
+   "budget_journalier": 49.34,
+   "ok": true,
+   "impressions": null,
+   "clicks": 130.96534729003906,
+   "cost": 213.45288,
+   "cpc": 1.629842,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Haut de page (CPC manuel)",
+   "budget_mensuel": 2000,
+   "budget_journalier": 65.79,
+   "ok": true,
+   "impressions": null,
+   "clicks": 130.96534729003906,
+   "cost": 213.45282,
+   "cpc": 1.629842,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Domination (CPC manuel majore)",
+   "budget_mensuel": 50,
+   "budget_journalier": 1.64,
+   "ok": true,
+   "impressions": null,
+   "clicks": 23.2802734375,
+   "cost": 49.2,
+   "cpc": 2.113377,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Domination (CPC manuel majore)",
+   "budget_mensuel": 100,
+   "budget_journalier": 3.29,
+   "ok": true,
+   "impressions": null,
+   "clicks": 46.74820327758789,
+   "cost": 98.7,
+   "cpc": 2.111311,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Domination (CPC manuel majore)",
+   "budget_mensuel": 150,
+   "budget_journalier": 4.93,
+   "ok": true,
+   "impressions": null,
+   "clicks": 70.05126953125,
+   "cost": 147.9,
+   "cpc": 2.111311,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Domination (CPC manuel majore)",
+   "budget_mensuel": 200,
+   "budget_journalier": 6.58,
+   "ok": true,
+   "impressions": null,
+   "clicks": 93.40504455566406,
+   "cost": 197.4,
+   "cpc": 2.113376,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Domination (CPC manuel majore)",
+   "budget_mensuel": 300,
+   "budget_journalier": 9.87,
+   "ok": true,
+   "impressions": null,
+   "clicks": 140.24452209472656,
+   "cost": 296.1,
+   "cpc": 2.111313,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Domination (CPC manuel majore)",
+   "budget_mensuel": 500,
+   "budget_journalier": 16.45,
+   "ok": true,
+   "impressions": null,
+   "clicks": 154.1066131591797,
+   "cost": 325.36701,
+   "cpc": 2.111311,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Domination (CPC manuel majore)",
+   "budget_mensuel": 750,
+   "budget_journalier": 24.67,
+   "ok": true,
+   "impressions": null,
+   "clicks": 154.1066131591797,
+   "cost": 325.36722,
+   "cpc": 2.111313,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Domination (CPC manuel majore)",
+   "budget_mensuel": 1000,
+   "budget_journalier": 32.89,
+   "ok": true,
+   "impressions": null,
+   "clicks": 154.1066131591797,
+   "cost": 325.36734,
+   "cpc": 2.111313,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Domination (CPC manuel majore)",
+   "budget_mensuel": 1500,
+   "budget_journalier": 49.34,
+   "ok": true,
+   "impressions": null,
+   "clicks": 154.17953491210938,
+   "cost": 325.83945,
+   "cpc": 2.113377,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Domination (CPC manuel majore)",
+   "budget_mensuel": 2000,
+   "budget_journalier": 65.79,
+   "ok": true,
+   "impressions": null,
+   "clicks": 154.1066131591797,
+   "cost": 325.36701,
+   "cpc": 2.111311,
+   "ctr": null,
+   "attempts": 1
+  }
+ ],
+ "errors": []
+}

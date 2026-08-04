@@ -1,0 +1,4 @@
+# Copie locale des dossiers de travail, anterieure au clone du depot.
+# Verifiee identique au depot le 2026-08-04 (hors les artefacts uniques de
+# gp-elec, archives dans gpelec/legacy/). Supprimable.
+_local/

@@ -95,15 +95,25 @@ Audit accompagné d'une proposition de campagne test.
 
 **Sources**
 
-- `data/marche-google-ads.json` — valeurs de l'étude et provenance de chaque bloc
+- `data/marche-google-ads.json` — source unique de chiffres des trois rapports, générée
+- `data/donnees-google-ads-brutes-2026-08-04.json` — réponses API brutes de la passe retenue
+- `data/donnees-google-ads-brutes-2026-07-31.json` — réponses brutes de la passe précédente, conservées
+- `data/portefeuille-mots-cles.json` — 73 mots-clés, 8 familles, 29 exclusions motivées
 - `data/diagnostic.json` — les 12 constats datés, le score de préparation et le verdict
 - `data/site.json`, `data/seo.json`, `data/lighthouse.json` — collecte et mesures du site
 - `shots/` — captures desktop et mobile, séquentielles
 - `report/*.html` — les trois sources de rapport
 - `report/render-all.mjs` — rend les trois PDF et les refuse au moindre défaut
+- `ads/` — les trois scripts d'extraction Google Ads (copie d'archive, cf. `gpelec/README.md`)
 - `collect.mjs`, `analyze.mjs`, `lh.mjs`, `capture2.mjs` — chaîne de collecte
 
-Détail et limites dans `gpelec/README.md`. À la différence des trois autres dossiers,
+**Refait le 4 août 2026.** La passe du 31/07 annonçait `generate_keyword_ideas` comme source
+alors que l'appel n'avait jamais été exécuté : le portefeuille n'avait jamais été confronté à la
+découverte Google. L'extraction complète a fait entrer 7 mots-clés (2 420 → 3 000 recherches/mois),
+révélé un gisement hors offre de 3 420 recherches/mois sur les bornes de recharge, et corrigé le
+plafond d'inventaire (754,34 € → 291,81 €, démontré cette fois stratégie par stratégie).
+
+Détail, limites d'API et pièges dans `gpelec/README.md`. À la différence des trois autres dossiers,
 les `node_modules` y sont exclus du dépôt (`package-lock.json` versionné).
 
 ---
