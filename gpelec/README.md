@@ -24,6 +24,56 @@ la passe du 31/07 a survécu**, ou si une formulation négative fuit dans une va
 > **Ne pas envoyer la version technique au client.** Elle contient l'analyse des défauts,
 > dont trois points qui proviennent de notre propre livraison.
 
+### Le résumé d'envoi a été refondu le 5 août
+
+**Le plafond d'inventaire n'y figure plus.** En faire le titre et le troisième chiffre-clé d'une
+proposition à 2 pages plafonnait la relation avant qu'elle commence, sans aucun gain commercial. Il
+reste porté par la version commerciale (page « Preuve budgétaire ») et par la technique : rien n'est
+dissimulé, c'est une question de place dans le document d'envoi. Le contrôle `plafond arrondi` a été
+retiré de `render-all.mjs` en conséquence — son absence dans le résumé n'est pas une régression.
+
+**Le document suit désormais le skill `vente-artisans`** (PPCO : problème, preuve, calcul, offre) :
+
+- le jargon est sorti — plus de « visites qualifiées », « enchère plafonnée », « portefeuille de
+  mots-clés » ni « API » ; le troisième chiffre-clé est le coût d'un clic expliqué en clair ;
+- le document dit où le budget achète réellement quelque chose, et où il n'achète rien : sur
+  `electricien angers`, les annonceurs montent à **5,14 €** le clic et le plafond retenu est de
+  2,07 € — **cette place ne s'achète pas à 200 €/mois**, le résumé l'écrit noir sur blanc. Ce que le
+  budget achète, c'est la climatisation (enchères hautes 1,28–2,43 €, **121 des 133 visites**) ;
+- le calcul est laissé au client (« une installation de climatisation signée sur les trois mois et
+  les 600 € sont derrière vous — faites le calcul »), conformément au skill ;
+- la clôture est un choix binaire, pas un « n'hésitez pas » ;
+- **« Deux semaines de préparation » a été retiré** de l'étape 01 : la règle NMF interdit toute
+  estimation de temps dans un document client. L'étape s'appelle « Avant l'ouverture ».
+
+Trois affirmations ont été écartées parce qu'elles étaient fausses ou non démontrables :
+
+1. « le budget qui rend le plus par euro dépensé » — le coût par clic est **plat à 1,49 €** sur tous
+   les paliers en haut de page, aucun palier ne « rend » mieux qu'un autre.
+2. « votre nom s'affiche en premier » — l'enchère cible le haut de page, elle ne garantit aucune
+   position.
+3. **« des annonceurs montent jusqu'à 5,14 € le clic pour cette place, nous on la prend à
+   1,49 € »** — sous-entendait qu'on gagne la même place trois fois moins cher. La donnée du dossier
+   dit l'inverse : le plafond retenu est 2,07 €, et quand la famille C (`electricien angers` et ses
+   390 recherches, 9 mots-clés) reçoit **seule** les 200 €, elle ne dépense que **24,13 € pour 23
+   clics**. C'est la signature d'une enchère trop basse pour l'inventaire : on ne gagne que les
+   enchères les moins chères de la famille. Les 133 clics viennent à **121 sur 133** de la
+   climatisation, où les enchères hautes plafonnent entre 1,28 € et 2,43 €.
+
+> **Aucune affirmation de position ne doit figurer dans un livrable.** `KeywordForecastMetrics` v24
+> ne rend ni impressions, ni CTR, ni position moyenne : nous n'avons pas de quoi étayer un rang. Et
+> l'Ad Rank intègre la qualité de la page d'arrivée — mobile à 81, LCP 4,5 s, aucune page dédiée
+> climatisation, aucun événement de conversion. Promettre le haut de page sur la requête la plus
+> disputée à 200 €/mois serait indéfendable.
+
+Le cas GP elec / « Pierre » sert de preuve client dans le skill `vente-artisans` : **inutilisable
+ici**, c'est le destinataire du document, et le chiffre de 45 appels par mois qu'il avance n'existe
+dans aucune de nos données.
+
+**`fix-typo.mjs` gère maintenant les guillemets** (insécable après `«` et avant `»`). Sans elle, le
+`»` de « électricien » partait seul en fin de ligne dans le résumé. La règle a été appliquée aux
+trois rapports.
+
 ## Les cinq points bloquants (version technique)
 
 1. `aggregateRating` **4,9 / 84 faux** dans le JSON-LD et affiché en page — la fiche porte **5,0 / 9**.
@@ -34,6 +84,72 @@ la passe du 31/07 a survécu**, ou si une formulation négative fuit dans une va
 
 Aucun des cinq P0 relevés le 31/07 n'a été corrigé, et la performance mobile a reculé de
 **97 à 81** (LCP 2,0 s → 4,5 s). Détail dans `data/diagnostic.json`.
+
+## Relecture du 5 août : saison, enchère, zone
+
+Trois questions posées après coup, trois mesures. Données dans `data/saisonnalite-forecast-2026-08-05.json`,
+`data/septembre-sans-clim-2026-08-05.json`, `data/zone-elargie-2026-08-05.json` — **327 prévisions au
+total, zéro erreur API**, tout en lecture seule.
+
+### 1. La prévision tient compte de la saison
+
+Vérifié à budget (200 €), plafond (2,07 €), zone, langue, réseau et portefeuille constants, seule la
+fenêtre variant :
+
+| Cible | Septembre 2026 | Mai 2027 | Juin 2027 |
+|---|---|---|---|
+| Portefeuille | 197,40 € · **132** cl · 1,50 € | 203,98 € · 109 cl · 1,87 € | 197,40 € · **182** cl · **1,08 €** |
+| A climatisation | 197,40 € · 121 cl · 1,63 € | 203,98 € · **91** cl · **2,25 €** | 197,40 € · **176** cl · **1,12 €** |
+| C électricien | 24,26 € · 23 cl | 27,22 € · 26 cl | 30,55 € · 25 cl |
+
+**Juin écrase septembre** : 176 clics contre 121 pour le même budget, à 1,12 € au lieu de 1,63 €. Et
+**mai est le pire mois** — la demande monte, la concurrence monte plus vite. La climatisation pèse
+350 recherches en septembre contre 1 011 de moyenne annuelle et 5 830 en juin (volumes mensuels réels,
+`historical[].months`). L'hypothèse « réversible, donc achat d'automne pour chauffer » est **fausse sur
+cette zone** : `climatisation reversible` fait 30 en septembre pour 480 en juin. Seul
+`pompe a chaleur air air` a un profil d'hiver.
+
+### 2. Le plafond de 292 € est celui de l'enchère, pas du marché
+
+Même zone, même fenêtre, seul le plafond d'enchère varie :
+
+| Plafond | Dépense max | Clics | CPC |
+|---:|---:|---:|---:|
+| 2,07 € | 306 € | 222 | 1,38 € |
+| 3,50 € | **513 €** | 269 | 1,91 € |
+| 5,20 € | 677 € | 293 | 2,31 € |
+| maximisation des clics | 1 110 € | 318 | 3,49 € |
+
+**Un objectif de 500 € de dépense mensuelle réelle est donc atteignable sans toucher à la zone.**
+Les deux rapports affirmaient « au-delà de 292 €, Google n'a plus rien à vendre » et « le reste ne
+s'achète pas : il n'existe pas assez de recherches sur votre zone » — **faux**, corrigé le 05/08 dans
+les deux variantes. L'inventaire existe ; il coûte plus cher au clic.
+
+À noter : le plafond mesuré à 2,07 € vaut **306 €** le 05/08 contre 291,81 € le 04/08 — **+5 % en un
+jour**. Google reprévoit en continu, un plafond gravé dans un PDF doit être daté.
+
+### 3. Élargir la zone bat largement monter l'enchère
+
+| Route vers 500 € de dépense réelle | Clics | CPC |
+|---|---:|---:|
+| Dix communes, enchère portée à 3,50 € | 269 | 1,91 € |
+| **Maine-et-Loire, enchère laissée à 2,07 €** | **451** | **1,36 €** |
+
+**+68 % de clics pour 29 % moins cher au clic.** Sur le département, le portefeuille absorbe 614 € à
+l'enchère d'origine.
+
+**Mais la domination de la climatisation ne vient pas de la zone.** Dans les quatre zones testées, la
+famille A pèse 78 à 90 % des clics du portefeuille. Hors climatisation, même sur tout le département,
+le plafond est de 230 € par mois (93 € à l'enchère de 2,07 €). Élargir la zone ne change pas le fait
+que les autres familles sont structurellement petites.
+
+**La maximisation des clics reste un piège** : 1 110 € pour 318 clics contre 306 € pour 222 clics en
+enchère plafonnée — 3,6 fois la dépense pour 43 % de clics en plus, à 3,49 € le clic. Le choix du CPC
+manuel de l'audit est confirmé.
+
+> **Décision en attente.** Rien n'a été re-basé sur une zone plus large : les trois livrables restent
+> sur les dix communes, qui correspondent à la zone déclarée du client. Passer l'étude au département
+> change la prémisse de l'audit et doit être tranché avec le client.
 
 ## Ce que dit l'étude
 

@@ -1,0 +1,453 @@
+{
+ "meta": {
+  "extraction": "2026-08-05T20:01:20.569Z",
+  "mcc": "6711813801",
+  "api": "google-ads-api v24 / generateKeywordForecastMetrics",
+  "question": "quel plafond d'enchere rend une campagne septembre sans climatisation finançable ?",
+  "fenetre": {
+   "start_date": "2026-09-01",
+   "end_date": "2026-09-30"
+  },
+  "constant": {
+   "langue": "languageConstants/1002",
+   "reseau": "GOOGLE_SEARCH",
+   "devise": "EUR",
+   "geo": 10,
+   "strategie": "CPC manuel plafonne"
+  },
+  "variable": [
+   "plafond d'enchere",
+   "budget mensuel",
+   "perimetre de familles"
+  ],
+  "plafonds": [
+   2.07,
+   3,
+   4,
+   5.2
+  ],
+  "budgets": [
+   100,
+   200,
+   300
+  ],
+  "perimetres": [
+   {
+    "cle": "C",
+    "label": "Electricien general seul",
+    "mots_cles": 9
+   },
+   {
+    "cle": "CD",
+    "label": "Electricien general + renovation/Consuel",
+    "mots_cles": 21
+   },
+   {
+    "cle": "CDG",
+    "label": "C + D + domotique",
+    "mots_cles": 28
+   }
+  ],
+  "reference_04_08": "famille C seule a 200 EUR / plafond 2,07 : 24,13 EUR depenses, 23 clics — famille D : 4,95 EUR, 7 clics",
+  "limite_api": "ni impressions, ni CTR, ni position — v24"
+ },
+ "previsions": [
+  {
+   "perimetre": "C",
+   "plafond": 2.07,
+   "budget_mensuel": 100,
+   "taux_de_depense_pct": 24,
+   "ok": true,
+   "clicks": 22.610017776489258,
+   "cost": 24.02157,
+   "cpc": 1.06243,
+   "attempts": 1
+  },
+  {
+   "perimetre": "C",
+   "plafond": 2.07,
+   "budget_mensuel": 200,
+   "taux_de_depense_pct": 12,
+   "ok": true,
+   "clicks": 23.033527374267578,
+   "cost": 24.25791,
+   "cpc": 1.053157,
+   "attempts": 1
+  },
+  {
+   "perimetre": "C",
+   "plafond": 2.07,
+   "budget_mensuel": 300,
+   "taux_de_depense_pct": 8,
+   "ok": true,
+   "clicks": 23.033525466918945,
+   "cost": 24.25473,
+   "cpc": 1.053019,
+   "attempts": 1
+  },
+  {
+   "perimetre": "C",
+   "plafond": 3,
+   "budget_mensuel": 100,
+   "taux_de_depense_pct": 34,
+   "ok": true,
+   "clicks": 26.089122772216797,
+   "cost": 34.37028,
+   "cpc": 1.317418,
+   "attempts": 1
+  },
+  {
+   "perimetre": "C",
+   "plafond": 3,
+   "budget_mensuel": 200,
+   "taux_de_depense_pct": 17,
+   "ok": true,
+   "clicks": 26.089122772216797,
+   "cost": 34.37028,
+   "cpc": 1.317418,
+   "attempts": 1
+  },
+  {
+   "perimetre": "C",
+   "plafond": 3,
+   "budget_mensuel": 300,
+   "taux_de_depense_pct": 12,
+   "ok": true,
+   "clicks": 26.577800750732422,
+   "cost": 34.70388,
+   "cpc": 1.305747,
+   "attempts": 1
+  },
+  {
+   "perimetre": "C",
+   "plafond": 4,
+   "budget_mensuel": 100,
+   "taux_de_depense_pct": 38,
+   "ok": true,
+   "clicks": 26.77383804321289,
+   "cost": 38.376,
+   "cpc": 1.43334,
+   "attempts": 1
+  },
+  {
+   "perimetre": "C",
+   "plafond": 4,
+   "budget_mensuel": 200,
+   "taux_de_depense_pct": 19,
+   "ok": true,
+   "clicks": 27.275344848632812,
+   "cost": 38.74848,
+   "cpc": 1.420641,
+   "attempts": 1
+  },
+  {
+   "perimetre": "C",
+   "plafond": 4,
+   "budget_mensuel": 300,
+   "taux_de_depense_pct": 13,
+   "ok": true,
+   "clicks": 27.275344848632812,
+   "cost": 38.74845,
+   "cpc": 1.42064,
+   "attempts": 1
+  },
+  {
+   "perimetre": "C",
+   "plafond": 5.2,
+   "budget_mensuel": 100,
+   "taux_de_depense_pct": 49,
+   "ok": true,
+   "clicks": 29.669612884521484,
+   "cost": 49.41327,
+   "cpc": 1.665451,
+   "attempts": 1
+  },
+  {
+   "perimetre": "C",
+   "plafond": 5.2,
+   "budget_mensuel": 200,
+   "taux_de_depense_pct": 24,
+   "ok": true,
+   "clicks": 29.124086380004883,
+   "cost": 48.93828,
+   "cpc": 1.680337,
+   "attempts": 1
+  },
+  {
+   "perimetre": "C",
+   "plafond": 5.2,
+   "budget_mensuel": 300,
+   "taux_de_depense_pct": 16,
+   "ok": true,
+   "clicks": 29.124086380004883,
+   "cost": 48.93828,
+   "cpc": 1.680337,
+   "attempts": 1
+  },
+  {
+   "perimetre": "CD",
+   "plafond": 2.07,
+   "budget_mensuel": 100,
+   "taux_de_depense_pct": 29,
+   "ok": true,
+   "clicks": 30.287200927734375,
+   "cost": 29.26683,
+   "cpc": 0.96631,
+   "attempts": 1
+  },
+  {
+   "perimetre": "CD",
+   "plafond": 2.07,
+   "budget_mensuel": 200,
+   "taux_de_depense_pct": 15,
+   "ok": true,
+   "clicks": 30.287200927734375,
+   "cost": 29.26683,
+   "cpc": 0.96631,
+   "attempts": 1
+  },
+  {
+   "perimetre": "CD",
+   "plafond": 2.07,
+   "budget_mensuel": 300,
+   "taux_de_depense_pct": 10,
+   "ok": true,
+   "clicks": 29.7716007232666,
+   "cost": 28.94565,
+   "cpc": 0.972257,
+   "attempts": 1
+  },
+  {
+   "perimetre": "CD",
+   "plafond": 3,
+   "budget_mensuel": 100,
+   "taux_de_depense_pct": 40,
+   "ok": true,
+   "clicks": 33.43842697143555,
+   "cost": 39.86259,
+   "cpc": 1.192119,
+   "attempts": 1
+  },
+  {
+   "perimetre": "CD",
+   "plafond": 3,
+   "budget_mensuel": 200,
+   "taux_de_depense_pct": 20,
+   "ok": true,
+   "clicks": 33.43842697143555,
+   "cost": 39.86259,
+   "cpc": 1.192119,
+   "attempts": 1
+  },
+  {
+   "perimetre": "CD",
+   "plafond": 3,
+   "budget_mensuel": 300,
+   "taux_de_depense_pct": 13,
+   "ok": true,
+   "clicks": 33.43842697143555,
+   "cost": 39.86259,
+   "cpc": 1.192119,
+   "attempts": 1
+  },
+  {
+   "perimetre": "CD",
+   "plafond": 4,
+   "budget_mensuel": 100,
+   "taux_de_depense_pct": 45,
+   "ok": true,
+   "clicks": 34.711795806884766,
+   "cost": 45.32307,
+   "cpc": 1.305697,
+   "attempts": 1
+  },
+  {
+   "perimetre": "CD",
+   "plafond": 4,
+   "budget_mensuel": 200,
+   "taux_de_depense_pct": 22,
+   "ok": true,
+   "clicks": 34.120872497558594,
+   "cost": 44.82561,
+   "cpc": 1.31373,
+   "attempts": 1
+  },
+  {
+   "perimetre": "CD",
+   "plafond": 4,
+   "budget_mensuel": 300,
+   "taux_de_depense_pct": 15,
+   "ok": true,
+   "clicks": 34.120872497558594,
+   "cost": 44.82561,
+   "cpc": 1.31373,
+   "attempts": 1
+  },
+  {
+   "perimetre": "CD",
+   "plafond": 5.2,
+   "budget_mensuel": 100,
+   "taux_de_depense_pct": 55,
+   "ok": true,
+   "clicks": 36.46331024169922,
+   "cost": 55.39572,
+   "cpc": 1.519218,
+   "attempts": 1
+  },
+  {
+   "perimetre": "CD",
+   "plafond": 5.2,
+   "budget_mensuel": 200,
+   "taux_de_depense_pct": 28,
+   "ok": true,
+   "clicks": 36.46331024169922,
+   "cost": 55.39572,
+   "cpc": 1.519218,
+   "attempts": 1
+  },
+  {
+   "perimetre": "CD",
+   "plafond": 5.2,
+   "budget_mensuel": 300,
+   "taux_de_depense_pct": 18,
+   "ok": true,
+   "clicks": 36.46331024169922,
+   "cost": 55.39572,
+   "cpc": 1.519218,
+   "attempts": 1
+  },
+  {
+   "perimetre": "CDG",
+   "plafond": 2.07,
+   "budget_mensuel": 100,
+   "taux_de_depense_pct": 48,
+   "ok": true,
+   "clicks": 45.970863342285156,
+   "cost": 47.98164,
+   "cpc": 1.04374,
+   "attempts": 1
+  },
+  {
+   "perimetre": "CDG",
+   "plafond": 2.07,
+   "budget_mensuel": 200,
+   "taux_de_depense_pct": 24,
+   "ok": true,
+   "clicks": 45.970863342285156,
+   "cost": 47.98164,
+   "cpc": 1.04374,
+   "attempts": 1
+  },
+  {
+   "perimetre": "CDG",
+   "plafond": 2.07,
+   "budget_mensuel": 300,
+   "taux_de_depense_pct": 16,
+   "ok": true,
+   "clicks": 45.970863342285156,
+   "cost": 47.98161,
+   "cpc": 1.04374,
+   "attempts": 1
+  },
+  {
+   "perimetre": "CDG",
+   "plafond": 3,
+   "budget_mensuel": 100,
+   "taux_de_depense_pct": 74,
+   "ok": true,
+   "clicks": 52.90333557128906,
+   "cost": 73.51065,
+   "cpc": 1.389528,
+   "attempts": 1
+  },
+  {
+   "perimetre": "CDG",
+   "plafond": 3,
+   "budget_mensuel": 200,
+   "taux_de_depense_pct": 37,
+   "ok": true,
+   "clicks": 52.90333557128906,
+   "cost": 73.51062,
+   "cpc": 1.389527,
+   "attempts": 1
+  },
+  {
+   "perimetre": "CDG",
+   "plafond": 3,
+   "budget_mensuel": 300,
+   "taux_de_depense_pct": 25,
+   "ok": true,
+   "clicks": 54.3571662902832,
+   "cost": 75.27702,
+   "cpc": 1.384859,
+   "attempts": 1
+  },
+  {
+   "perimetre": "CDG",
+   "plafond": 4,
+   "budget_mensuel": 100,
+   "taux_de_depense_pct": 89,
+   "ok": true,
+   "clicks": 54.790992736816406,
+   "cost": 89.34489,
+   "cpc": 1.630649,
+   "attempts": 1
+  },
+  {
+   "perimetre": "CDG",
+   "plafond": 4,
+   "budget_mensuel": 200,
+   "taux_de_depense_pct": 45,
+   "ok": true,
+   "clicks": 54.790992736816406,
+   "cost": 89.34492,
+   "cpc": 1.63065,
+   "attempts": 1
+  },
+  {
+   "perimetre": "CDG",
+   "plafond": 4,
+   "budget_mensuel": 300,
+   "taux_de_depense_pct": 30,
+   "ok": true,
+   "clicks": 54.790992736816406,
+   "cost": 89.34492,
+   "cpc": 1.63065,
+   "attempts": 1
+  },
+  {
+   "perimetre": "CDG",
+   "plafond": 5.2,
+   "budget_mensuel": 100,
+   "taux_de_depense_pct": 99,
+   "ok": true,
+   "clicks": 52.17094039916992,
+   "cost": 98.7,
+   "cpc": 1.891858,
+   "attempts": 1
+  },
+  {
+   "perimetre": "CDG",
+   "plafond": 5.2,
+   "budget_mensuel": 200,
+   "taux_de_depense_pct": 56,
+   "ok": true,
+   "clicks": 58.965606689453125,
+   "cost": 111.55455,
+   "cpc": 1.891858,
+   "attempts": 1
+  },
+  {
+   "perimetre": "CDG",
+   "plafond": 5.2,
+   "budget_mensuel": 300,
+   "taux_de_depense_pct": 37,
+   "ok": true,
+   "clicks": 58.965606689453125,
+   "cost": 111.55455,
+   "cpc": 1.891858,
+   "attempts": 1
+  }
+ ],
+ "errors": []
+}

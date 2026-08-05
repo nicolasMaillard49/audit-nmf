@@ -96,9 +96,9 @@ const PARTAGES = [
   ["recherches mensuelles", /3 000/, ["technique", "commercial", "resume"]],
   ["clics a 200 EUR",       /\b133\b/, ["technique", "commercial", "resume"]],
   ["CPC tenu",              /1,49 /,  ["technique", "commercial", "resume"]],
-  /* le resume arrondit volontairement 291,81 EUR a 290 EUR : arrondi lisible, pas divergence */
+  /* le plafond ne figure plus dans le resume d'envoi : decision commerciale du 05/08.
+     Il reste porte par la version commerciale (page "Preuve budgetaire") et la technique. */
   ["plafond d'inventaire",  /291,81/, ["technique", "commercial"]],
-  ["plafond arrondi",       /29[02]/, ["resume"]],
   ["volume electricien angers", /\b390\b/, ["technique", "commercial", "resume"]],
   ["ecart au CPC sectoriel", /×2,8/,  ["technique", "commercial"]],
   ["depense reelle a 200",  /197,40/, ["technique", "commercial"]],

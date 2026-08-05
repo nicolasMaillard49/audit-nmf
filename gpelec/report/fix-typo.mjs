@@ -1,7 +1,10 @@
 /**
  * Typographie francaise sur les trois rapports : espace insecable avant l'euro
  * et le pourcent, espace fine insecable comme separateur de milliers, espace
- * insecable avant les ponctuations doubles.
+ * insecable avant les ponctuations doubles et a l'interieur des guillemets.
+ *
+ * Les guillemets comptent : sans insecable, le « ou le » part seul en fin de
+ * ligne et la citation se casse en deux. Vu le 05/08 sur le resume d'envoi.
  *
  * A relancer apres tout patch de chiffres : patch-2026-08-04*.mjs aplatit ces
  * espaces pour pouvoir chercher du texte, c'est ici qu'on les repose.
@@ -56,7 +59,8 @@ for (const f of FICHIERS) {
   const apres = surTexte(body, (t) => t
     .replace(new RegExp(`(\\d)${ESP}(€|%)`, "g"), `$1${NBSP}$2`)
     .replace(new RegExp(`(\\d)${ESP}(\\d{3})\\b`, "g"), `$1${FINE}$2`)
-    .replace(new RegExp(`${ESP}([;:!?])`, "g"), `${NBSP}$1`));
+    .replace(new RegExp(`${ESP}([;:!?»])`, "g"), `${NBSP}$1`)
+    .replace(new RegExp(`«${ESP}`, "g"), `«${NBSP}`));
 
   writeFileSync(FILE, head + style + apres);
 

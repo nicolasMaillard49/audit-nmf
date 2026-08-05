@@ -1,0 +1,463 @@
+{
+ "meta": {
+  "extraction": "2026-08-05T19:55:29.814Z",
+  "mcc": "6711813801",
+  "api": "google-ads-api v24 / KeywordPlanIdeaService.generateKeywordForecastMetrics",
+  "question": "la prevision par famille varie-t-elle avec la fenetre de prevision ?",
+  "constant": {
+   "budget_mensuel": 200,
+   "strategie": "Haut de page (CPC manuel)",
+   "max_cpc": 2.07,
+   "langue": "languageConstants/1002",
+   "reseau": "GOOGLE_SEARCH",
+   "devise": "EUR",
+   "geo": 10
+  },
+  "variable": "forecast_period uniquement",
+  "fenetres": [
+   {
+    "cle": "septembre-2026",
+    "start_date": "2026-09-01",
+    "end_date": "2026-09-30"
+   },
+   {
+    "cle": "mai-2027",
+    "start_date": "2027-05-01",
+    "end_date": "2027-05-31"
+   },
+   {
+    "cle": "juin-2027",
+    "start_date": "2027-06-01",
+    "end_date": "2027-06-30"
+   }
+  ],
+  "geo_source": "reprise du brut du 2026-08-04, aucun appel geo refait",
+  "limite_api": "ni impressions, ni CTR, ni position — v24"
+ },
+ "volumes_mensuels_reels": {
+  "par_famille": {
+   "A": {
+    "2025-JULY": 1020,
+    "2025-AUGUST": 450,
+    "2025-SEPTEMBER": 350,
+    "2025-OCTOBER": 360,
+    "2025-NOVEMBER": 350,
+    "2025-DECEMBER": 320,
+    "2026-JANUARY": 430,
+    "2026-FEBRUARY": 350,
+    "2026-MARCH": 470,
+    "2026-APRIL": 430,
+    "2026-MAY": 1770,
+    "2026-JUNE": 5830
+   },
+   "B": {
+    "2025-JULY": 80,
+    "2025-AUGUST": 60,
+    "2025-SEPTEMBER": 70,
+    "2025-OCTOBER": 140,
+    "2025-NOVEMBER": 120,
+    "2025-DECEMBER": 130,
+    "2026-JANUARY": 200,
+    "2026-FEBRUARY": 110,
+    "2026-MARCH": 90,
+    "2026-APRIL": 110,
+    "2026-MAY": 110,
+    "2026-JUNE": 260
+   },
+   "C": {
+    "2025-JULY": 530,
+    "2025-AUGUST": 520,
+    "2025-SEPTEMBER": 820,
+    "2025-OCTOBER": 1080,
+    "2025-NOVEMBER": 890,
+    "2025-DECEMBER": 740,
+    "2026-JANUARY": 1160,
+    "2026-FEBRUARY": 850,
+    "2026-MARCH": 1230,
+    "2026-APRIL": 1240,
+    "2026-MAY": 1040,
+    "2026-JUNE": 920
+   },
+   "D": {
+    "2025-JULY": 400,
+    "2025-AUGUST": 280,
+    "2025-SEPTEMBER": 380,
+    "2025-OCTOBER": 440,
+    "2025-NOVEMBER": 450,
+    "2025-DECEMBER": 390,
+    "2026-JANUARY": 550,
+    "2026-FEBRUARY": 530,
+    "2026-MARCH": 460,
+    "2026-APRIL": 390,
+    "2026-MAY": 390,
+    "2026-JUNE": 390
+   },
+   "E": {
+    "2025-JULY": 60,
+    "2025-AUGUST": 40,
+    "2025-SEPTEMBER": 50,
+    "2025-OCTOBER": 60,
+    "2025-NOVEMBER": 90,
+    "2025-DECEMBER": 70,
+    "2026-JANUARY": 60,
+    "2026-FEBRUARY": 60,
+    "2026-MARCH": 80,
+    "2026-APRIL": 50,
+    "2026-MAY": 50,
+    "2026-JUNE": 40
+   },
+   "F": {
+    "2025-JULY": 10,
+    "2025-AUGUST": 10,
+    "2025-SEPTEMBER": 10,
+    "2025-OCTOBER": 20,
+    "2025-NOVEMBER": 10,
+    "2025-DECEMBER": 10,
+    "2026-JANUARY": 10,
+    "2026-FEBRUARY": 20,
+    "2026-MARCH": 20,
+    "2026-APRIL": 10,
+    "2026-MAY": 10,
+    "2026-JUNE": 10
+   },
+   "G": {
+    "2025-JULY": 280,
+    "2025-AUGUST": 200,
+    "2025-SEPTEMBER": 1130,
+    "2025-OCTOBER": 350,
+    "2025-NOVEMBER": 260,
+    "2025-DECEMBER": 240,
+    "2026-JANUARY": 280,
+    "2026-FEBRUARY": 230,
+    "2026-MARCH": 230,
+    "2026-APRIL": 240,
+    "2026-MAY": 250,
+    "2026-JUNE": 200
+   },
+   "H": {
+    "2025-JULY": 70,
+    "2025-AUGUST": 40,
+    "2025-SEPTEMBER": 60,
+    "2025-OCTOBER": 70,
+    "2025-NOVEMBER": 50,
+    "2025-DECEMBER": 40,
+    "2026-JANUARY": 70,
+    "2026-FEBRUARY": 70,
+    "2026-MARCH": 60,
+    "2026-APRIL": 40,
+    "2026-MAY": 50,
+    "2026-JUNE": 10
+   }
+  },
+  "moyenne_annuelle": {
+   "A": 1011,
+   "B": 123,
+   "C": 918,
+   "D": 421,
+   "E": 59,
+   "F": 13,
+   "G": 324,
+   "H": 53
+  }
+ },
+ "previsions": [
+  {
+   "fenetre": "septembre-2026",
+   "code": "TOUT",
+   "label": "Portefeuille entier",
+   "mots_cles": 73,
+   "ok": true,
+   "clicks": 131.5865478515625,
+   "cost": 197.4,
+   "cpc": 1.500153,
+   "attempts": 1
+  },
+  {
+   "fenetre": "septembre-2026",
+   "code": "A",
+   "label": "Climatisation et pompe à chaleur air/air",
+   "mots_cles": 21,
+   "ok": true,
+   "clicks": 120.86041259765625,
+   "cost": 197.4,
+   "cpc": 1.633289,
+   "attempts": 1
+  },
+  {
+   "fenetre": "septembre-2026",
+   "code": "B",
+   "label": "Dépannage et urgence",
+   "mots_cles": 11,
+   "ok": true,
+   "clicks": 2.881194829940796,
+   "cost": 3.36291,
+   "cpc": 1.167193,
+   "attempts": 1
+  },
+  {
+   "fenetre": "septembre-2026",
+   "code": "C",
+   "label": "Électricien général et entreprise",
+   "mots_cles": 9,
+   "ok": true,
+   "clicks": 23.033527374267578,
+   "cost": 24.25791,
+   "cpc": 1.053157,
+   "attempts": 1
+  },
+  {
+   "fenetre": "septembre-2026",
+   "code": "D",
+   "label": "Rénovation, mise aux normes et Consuel",
+   "mots_cles": 12,
+   "ok": true,
+   "clicks": 7.08671236038208,
+   "cost": 4.93776,
+   "cpc": 0.696763,
+   "attempts": 1
+  },
+  {
+   "fenetre": "septembre-2026",
+   "code": "E",
+   "label": "Installation neuve",
+   "mots_cles": 5,
+   "ok": true,
+   "clicks": 0,
+   "cost": 0,
+   "cpc": null,
+   "attempts": 1
+  },
+  {
+   "fenetre": "septembre-2026",
+   "code": "F",
+   "label": "Aménagement cuisine",
+   "mots_cles": 3,
+   "ok": true,
+   "clicks": 0.9205694794654846,
+   "cost": 0.39999,
+   "cpc": 0.434503,
+   "attempts": 1
+  },
+  {
+   "fenetre": "septembre-2026",
+   "code": "G",
+   "label": "Domotique",
+   "mots_cles": 7,
+   "ok": true,
+   "clicks": 18.491390228271484,
+   "cost": 19.87647,
+   "cpc": 1.074904,
+   "attempts": 1
+  },
+  {
+   "fenetre": "septembre-2026",
+   "code": "H",
+   "label": "Devis, prix et tarifs",
+   "mots_cles": 5,
+   "ok": true,
+   "clicks": 0.6976054906845093,
+   "cost": 0.42636,
+   "cpc": 0.611176,
+   "attempts": 1
+  },
+  {
+   "fenetre": "mai-2027",
+   "code": "TOUT",
+   "label": "Portefeuille entier",
+   "mots_cles": 73,
+   "ok": true,
+   "clicks": 108.89509582519531,
+   "cost": 203.98,
+   "cpc": 1.873179,
+   "attempts": 1
+  },
+  {
+   "fenetre": "mai-2027",
+   "code": "A",
+   "label": "Climatisation et pompe à chaleur air/air",
+   "mots_cles": 21,
+   "ok": true,
+   "clicks": 90.7958755493164,
+   "cost": 203.98,
+   "cpc": 2.246578,
+   "attempts": 1
+  },
+  {
+   "fenetre": "mai-2027",
+   "code": "B",
+   "label": "Dépannage et urgence",
+   "mots_cles": 11,
+   "ok": true,
+   "clicks": 3.1464929580688477,
+   "cost": 3.584809,
+   "cpc": 1.139303,
+   "attempts": 1
+  },
+  {
+   "fenetre": "mai-2027",
+   "code": "C",
+   "label": "Électricien général et entreprise",
+   "mots_cles": 9,
+   "ok": true,
+   "clicks": 25.623151779174805,
+   "cost": 27.224045,
+   "cpc": 1.062478,
+   "attempts": 1
+  },
+  {
+   "fenetre": "mai-2027",
+   "code": "D",
+   "label": "Rénovation, mise aux normes et Consuel",
+   "mots_cles": 12,
+   "ok": true,
+   "clicks": 7.369390487670898,
+   "cost": 5.836711,
+   "cpc": 0.792021,
+   "attempts": 1
+  },
+  {
+   "fenetre": "mai-2027",
+   "code": "E",
+   "label": "Installation neuve",
+   "mots_cles": 5,
+   "ok": true,
+   "clicks": 0,
+   "cost": 0,
+   "cpc": null,
+   "attempts": 1
+  },
+  {
+   "fenetre": "mai-2027",
+   "code": "F",
+   "label": "Aménagement cuisine",
+   "mots_cles": 3,
+   "ok": true,
+   "clicks": 0.9919151663780212,
+   "cost": 0.423708,
+   "cpc": 0.427162,
+   "attempts": 1
+  },
+  {
+   "fenetre": "mai-2027",
+   "code": "G",
+   "label": "Domotique",
+   "mots_cles": 7,
+   "ok": true,
+   "clicks": 19.811046600341797,
+   "cost": 23.317766,
+   "cpc": 1.177008,
+   "attempts": 1
+  },
+  {
+   "fenetre": "mai-2027",
+   "code": "H",
+   "label": "Devis, prix et tarifs",
+   "mots_cles": 5,
+   "ok": true,
+   "clicks": 0.7778636813163757,
+   "cost": 0.478082,
+   "cpc": 0.614609,
+   "attempts": 1
+  },
+  {
+   "fenetre": "juin-2027",
+   "code": "TOUT",
+   "label": "Portefeuille entier",
+   "mots_cles": 73,
+   "ok": true,
+   "clicks": 182.18658447265625,
+   "cost": 197.4,
+   "cpc": 1.083505,
+   "attempts": 1
+  },
+  {
+   "fenetre": "juin-2027",
+   "code": "A",
+   "label": "Climatisation et pompe à chaleur air/air",
+   "mots_cles": 21,
+   "ok": true,
+   "clicks": 176.0917205810547,
+   "cost": 197.4,
+   "cpc": 1.121007,
+   "attempts": 1
+  },
+  {
+   "fenetre": "juin-2027",
+   "code": "B",
+   "label": "Dépannage et urgence",
+   "mots_cles": 11,
+   "ok": true,
+   "clicks": 3.0959324836730957,
+   "cost": 4.13541,
+   "cpc": 1.335756,
+   "attempts": 1
+  },
+  {
+   "fenetre": "juin-2027",
+   "code": "C",
+   "label": "Électricien général et entreprise",
+   "mots_cles": 9,
+   "ok": true,
+   "clicks": 25.454025268554688,
+   "cost": 30.54999,
+   "cpc": 1.200203,
+   "attempts": 1
+  },
+  {
+   "fenetre": "juin-2027",
+   "code": "D",
+   "label": "Rénovation, mise aux normes et Consuel",
+   "mots_cles": 12,
+   "ok": true,
+   "clicks": 7.045890808105469,
+   "cost": 6.11226,
+   "cpc": 0.867493,
+   "attempts": 1
+  },
+  {
+   "fenetre": "juin-2027",
+   "code": "E",
+   "label": "Installation neuve",
+   "mots_cles": 5,
+   "ok": true,
+   "clicks": 0,
+   "cost": 0,
+   "cpc": null,
+   "attempts": 1
+  },
+  {
+   "fenetre": "juin-2027",
+   "code": "F",
+   "label": "Aménagement cuisine",
+   "mots_cles": 3,
+   "ok": true,
+   "clicks": 0.930831253528595,
+   "cost": 0.39201,
+   "cpc": 0.42114,
+   "attempts": 1
+  },
+  {
+   "fenetre": "juin-2027",
+   "code": "G",
+   "label": "Domotique",
+   "mots_cles": 7,
+   "ok": true,
+   "clicks": 23.347076416015625,
+   "cost": 25.93821,
+   "cpc": 1.110983,
+   "attempts": 1
+  },
+  {
+   "fenetre": "juin-2027",
+   "code": "H",
+   "label": "Devis, prix et tarifs",
+   "mots_cles": 5,
+   "ok": true,
+   "clicks": 0.7583114504814148,
+   "cost": 0.49767,
+   "cpc": 0.656287,
+   "attempts": 1
+  }
+ ],
+ "errors": []
+}

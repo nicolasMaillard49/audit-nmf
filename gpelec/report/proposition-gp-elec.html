@@ -3,16 +3,18 @@
 <link rel="stylesheet" href="assets/audit-design-lock.css">
 <style>
   .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 7mm; }
-  .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 5mm; }
   .mt-3 { margin-top: 3mm; } .mt-5 { margin-top: 5mm; } .mt-6 { margin-top: 6mm; } .mt-8 { margin-top: 8mm; }
   .body-copy { font-size: 9pt; line-height: 1.52; color: var(--nmf-navy-2); }
   .body-copy + .body-copy { margin-top: 3mm; }
-  .box { padding: 5mm; border: .25mm solid var(--line); background: var(--white-76); }
   .box-accent { padding: 5mm; border: .25mm solid var(--violet-border); background: var(--violet-soft-72); }
   .step { display: grid; grid-template-columns: 8mm 1fr; gap: 3.5mm; padding: 3.6mm 0; border-top: .25mm solid var(--line); }
   .step-n { font-family: var(--font-mono); font-size: 9pt; font-weight: 700; color: var(--nmf-violet); }
   .step h4 { font-size: 9pt; }
   .step p { margin-top: 1.4mm; font-size: 8pt; line-height: 1.45; color: var(--muted); }
+  .proof { margin: 3mm 0 0; padding: 0; list-style: none; }
+  .proof li { position: relative; padding-left: 4mm; font-size: 8pt; line-height: 1.45; color: var(--nmf-navy-2); }
+  .proof li + li { margin-top: 2mm; }
+  .proof li::before { content: ""; position: absolute; left: 0; top: 1.6mm; width: 1.5mm; height: 1.5mm; background: var(--nmf-violet); }
   .cover-photo { height: 267mm; object-position: center top; }
 </style>
 <body data-nmf-audit-design="1.1">
@@ -27,10 +29,10 @@
     </div>
     <div class="cover-copy">
       <div class="kicker">Proposition de campagne test · Google Ads</div>
-      <h1>GP elec<br>Trois mois pour savoir<br><span class="accent">ce que Google peut<br>vous apporter.</span></h1>
-      <p class="lede">Une campagne de test à 200 € par mois sur Brissac Loire Aubance et Angers.
-        L'objectif n'est pas le volume : c'est de mesurer, chiffres en main, ce que coûte
-        réellement une demande de devis.</p>
+      <h1>GP elec<br>3 000 recherches<br><span class="accent">par mois. Et pas<br>une seule annonce<br>à votre nom.</span></h1>
+      <p class="lede">Sur vos dix communes, 3 000 personnes cherchent chaque mois un électricien,
+        un installateur de climatisation, un dépanneur. Voici ce que coûte le fait d'être celui
+        qu'elles trouvent — mesuré chez Google, pas estimé au doigt mouillé.</p>
     </div>
     <div class="cover-ring">
       <span class="territory-label">Zone</span>
@@ -49,13 +51,14 @@
   <div class="page-head">
     <div>
       <div class="kicker">Le plan — en un coup d'œil</div>
-      <h2>200 € par mois, 133 visites, et un plafond qu'on ne dépassera pas.</h2>
+      <h2>200 € par mois, 133 personnes sur votre site, et vous arrêtez quand vous voulez.</h2>
     </div>
     <div class="head-status">Dès<br>septembre</div>
   </div>
 
-  <p class="lead mt-6">Nous avons mesuré votre marché directement auprès de Google, sur les dix communes
-    autour de Brissac et d'Angers. Voici ce qu'il représente, et ce que nous proposons d'en faire.</p>
+  <p class="lead mt-6">Chaque mois, 3 000 personnes autour de Brissac et d'Angers tapent sur Google
+    « électricien », « climatisation », « dépannage ». Aucune ne tombe sur une annonce à votre nom,
+    pour une raison simple : vous n'en avez pas.</p>
 
   <div class="metric-strip">
     <div class="metric">
@@ -64,54 +67,62 @@
     </div>
     <div class="metric">
       <strong class="tabular">133</strong>
-      <span>visites qualifiées par mois pour 200 €, soit environ 4 par jour</span>
+      <span>personnes arrivent sur votre site chaque mois pour 200 €, soit environ 4 par jour</span>
     </div>
     <div class="metric">
-      <strong class="tabular">290 €</strong>
-      <span>plafond utile démontré : au-delà, payer plus n'achète plus rien</span>
+      <strong class="tabular">1,49 €</strong>
+      <span>ce que vous payez quand l'une d'elles clique — les grilles du secteur annoncent 4,20 €</span>
     </div>
   </div>
 
   <div class="grid-2 mt-8">
     <div>
-      <h3 class="section-title">Ce que nous proposons</h3>
-      <p class="body-copy">Une campagne unique, sur les recherches où l'on cherche vraiment un
-        électricien — <strong>« electricien angers »</strong> en tête, avec 390 recherches par mois.
-        Enchère plafonnée pour que chaque visite reste autour de <strong>1,49 €</strong>, quel que soit
-        le mois.</p>
-      <p class="body-copy">Pendant trois mois, nous mesurons une seule chose : combien coûte une demande
-        de devis. C'est le chiffre qui décidera de la suite — pas une promesse faite à l'avance.</p>
+      <h3 class="section-title">Ce que 200 € achètent vraiment</h3>
+      <p class="body-copy">Sur <strong>« electricien angers »</strong> — 390 recherches par mois — les
+        annonceurs montent jusqu'à <strong>5,14 €</strong> le clic. À 200 € par mois, cette
+        place-là, on ne l'achète pas. Je ne vais pas vous la vendre.</p>
+      <p class="body-copy">Là où votre budget achète vraiment quelque chose, c'est la
+        <strong>climatisation</strong> : les enchères y plafonnent entre 1,28 € et 2,43 €, et
+        <strong>121 des 133 visites</strong> viennent de là. C'est donc par là qu'on commence.</p>
+      <p class="body-copy">Une seule installation signée sur les trois mois, et les 600 € sont
+        derrière vous. Ce que vaut un chantier chez vous, faites le calcul.</p>
       <div class="box-accent mt-5">
-        <div class="kicker">Notre engagement</div>
-        <p class="body-copy mt-3">Nous avons vérifié que votre marché sature autour de <strong>290 €
-          par mois</strong> à enchère plafonnée. Au-delà, Google encaisserait le budget sans rien vendre de plus.
-          Nous ne vous proposerons jamais davantage.</p>
+        <div class="kicker">Pourquoi ces chiffres tiennent</div>
+        <ul class="proof">
+          <li><strong>Rien n'est deviné.</strong> Ce sont les prévisions de Google pour vos dix communes,
+            relevées le 4 août — pas une moyenne nationale, et pas une promesse.</li>
+          <li><strong>73 recherches passées au crible</strong>, 69 gardées, 29 écartées : emploi,
+            formation, bricolage, matériel de grande surface.</li>
+          <li><strong>Dix budgets comparés.</strong> 200 € est le plus petit qui amène assez de monde
+            pour conclure en trois mois.</li>
+        </ul>
       </div>
     </div>
 
     <div>
-      <h3 class="section-title">Comment on démarre</h3>
+      <h3 class="section-title">Comment ça se passe</h3>
       <div class="step">
         <div class="step-n">01</div>
-        <div><h4>Deux semaines de préparation</h4>
-          <p>Mise en place du suivi des demandes, réception du formulaire et création du compte.
-            Aucune dépense publicitaire sur cette phase.</p></div>
+        <div><h4>Avant l'ouverture</h4>
+          <p>On branche le suivi des demandes et on crée le compte. Aucune dépense de publicité
+            sur cette phase.</p></div>
       </div>
       <div class="step">
         <div class="step-n">02</div>
-        <div><h4>Premier mois — ouverture</h4>
-          <p>La campagne démarre à budget maîtrisé. On surveille chaque jour les recherches sur
-            lesquelles vos annonces apparaissent.</p></div>
+        <div><h4>Premier mois — on ouvre</h4>
+          <p>Les annonces partent. Je regarde chaque jour sur quelles recherches vous apparaissez,
+            et je coupe tout ce qui n'a rien à voir avec vos chantiers.</p></div>
       </div>
       <div class="step">
         <div class="step-n">03</div>
-        <div><h4>Mois 2 et 3 — mesure</h4>
-          <p>Budget maintenu, ciblage affiné. On établit votre coût réel par demande de devis.</p></div>
+        <div><h4>Mois 2 et 3 — on mesure</h4>
+          <p>Même budget, ciblage resserré. On établit ce que vous coûte réellement une demande
+            de devis.</p></div>
       </div>
       <div class="step">
         <div class="step-n">04</div>
         <div><h4>Mois 4 — vous décidez</h4>
-          <p>Bilan chiffré : demandes reçues, coût unitaire, chantiers signés. Vous arrêtez,
+          <p>Chiffres en main : demandes reçues, coût de chacune, chantiers signés. Vous arrêtez,
             vous maintenez, ou vous montez. Sur des faits.</p></div>
       </div>
     </div>
@@ -119,9 +130,10 @@
 
   <div class="decision-band mt-8">
     <strong>En résumé</strong>
-    <p>600 € sur trois mois pour savoir si Google vous apporte des chantiers, et à quel prix.
-      Si la réponse est non, vous l'aurez su pour 600 € au lieu de le découvrir après un an.
-      Si elle est oui, vous connaîtrez déjà votre coût par client et le plafond à ne pas dépasser.</p>
+    <p>Vous ne touchez à rien : les chantiers restent votre métier, faire sonner le téléphone devient le
+      mien. 200 € par mois, aucun engagement, vous arrêtez quand vous voulez. Au quatrième mois, vous
+      saurez ce que vous coûte un client venu de Google. Je vous appelle plutôt le matin, ou en fin de
+      journée ?</p>
   </div>
 
   <div class="footer">
