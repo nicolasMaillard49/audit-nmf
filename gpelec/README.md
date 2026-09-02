@@ -204,6 +204,153 @@ non, et ce n'est **pas** un artefact de correspondance.
 > passe font foi** — c'est précisément pour cela que les trois correspondances ont été mesurées dans
 > la même passe. Et c'est un rappel de plus : un chiffre de prévision gravé dans un PDF doit être daté.
 
+## La zone, tranchée le 2 septembre
+
+**Décision prise : le test ouvre sur une zone intermédiaire**, l'agglomération d'Angers plus la
+couronne jusqu'à Brissac, Chalonnes, Seiches, Beaufort et Saint-Georges-sur-Loire. Ni les dix
+communes de l'audit, ni le département.
+
+### Ce que l'élargissement achète, mesuré à variable unique
+
+Trois zones, **même fenêtre, même enchère 1,92 €, même portefeuille, même correspondance**. Seule
+la zone varie — c'est la seule façon de ne pas confondre l'effet de zone avec la dérive de Google,
+mesurée à +5 % en un jour le 05/08 et bien plus sur un mois.
+
+| Budget/mois | Dix communes | **Zone retenue (20 cibles)** | Département |
+|---:|---|---|---|
+| 200 € | 197 cl · 1,00 € | **192 cl · 1,03 €** | 188 cl · 1,05 € |
+| 300 € | 296 cl · 1,00 € | **289 cl · 1,03 €** | 282 cl · 1,05 € |
+| 500 € | 360,77 € · 360 cl | **447,78 € · 437 cl** | 493,50 € · 470 cl |
+| 1 000 € et au-delà | 360,77 € · 360 cl | **447,78 € · 437 cl** | 720,42 € · 686 cl |
+
+**À budget de test, les trois zones rendent la même chose à 5 % près.** Élargir ne fait pas venir
+plus de monde à 200 €/mois — au contraire, le CPC monte avec la taille de la zone (1,00 → 1,03 →
+1,05 €), parce qu'on ajoute des enchères plus disputées autour d'Angers, pas du volume gratuit.
+
+**Le choix de zone est un choix de plafond de budget, pas de trafic.** Les trois plafonds sont
+démontrés au sens des trois conditions du skill :
+
+| Zone | Plafond d'inventaire | Clics |
+|---|---:|---:|
+| Dix communes | 360,77 € | 360 |
+| **Zone retenue** | **447,78 €** | **437** |
+| Département | 720,42 € | 686 |
+
+Le département reste documenté comme **palier de montée** : il double l'inventaire, au prix d'un
+arrosage jusqu'à Cholet, Saumur et Segré, hors rayon d'intervention déclaré.
+
+> **Ce qui est faux et qu'il ne faut pas reprendre.** Le passage « Élargir la zone bat largement
+> monter l'enchère : +68 % de clics pour 29 % moins cher » du 05/08 comparait deux enchères
+> différentes en même temps que deux zones. À enchère constante, l'élargissement ne rend rien sous
+> 300 €/mois. La mesure du 05/08 n'est pas fausse, sa lecture l'était.
+
+### La zone réellement mesurée
+
+**20 cibles** : Brissac Loire Aubance, Angers, Les Ponts-de-Cé, Trélazé, Avrillé,
+Saint-Barthélemy-d'Anjou, Bouchemaine, Beaucouzé, Verrières-en-Anjou, Écouflant, Montreuil-Juigné,
+Loire-Authion, Les Garennes-sur-Loire, Mûrs-Érigné, Sainte-Gemmes-sur-Loire, Beaufort-en-Anjou,
+Rochefort-sur-Loire, Tiercé, Seiches-sur-le-Loir, Saint-Georges-sur-Loire.
+
+- **Couvertes sans consommer de cible** : Chalonnes-sur-Loire et Briollay pointent sur le même
+  objet Google que Rochefort-sur-Loire et Verrières-en-Anjou.
+- **Hors périmètre**, écartées par le plafond de 20 : Bécon-les-Granits, Longuenée-en-Anjou,
+  Le Lion-d'Angers, Jarzé Villages, Mazé-Milon, La Ménitré, Gennes-Val-de-Loire, Tuffalun, Denée,
+  Mozé-sur-Louet.
+- **Non résolue par Google** : Bellevigne-en-Layon.
+
+### La base chiffrée des livrables
+
+Zone retenue, **enchère 2,12 €**, fenêtre 03/09 → 02/10/2026, phrase match. Zéro erreur d'API.
+
+| Budget demandé | Dépense | Clics | CPC |
+|---:|---:|---:|---:|
+| 200 € | 197,40 € | **180** | **1,10 €** |
+| 500 € | 493,50 € | 451 | 1,10 € |
+| 750 € et au-delà | **496,00 €** | **453** | 1,10 € |
+
+Domination (3,18 €) : 655,60 € / 490 clics. Maximisation des clics : 1 368,39 € pour 552 clics à
+**2,48 €** le clic — 2,8 fois la dépense pour 22 % de clics en plus. Le CPC manuel reste le choix.
+
+**Capacité par famille**, chacune recevant seule les 200 € :
+
+| Famille | Clics | Dépense |
+|---|---:|---:|
+| A — Climatisation et PAC air/air | **177** | **197,40 €** |
+| C — Électricien général | 51 | 51,67 € |
+| G — Domotique | 33 | 36,33 € |
+| D — Rénovation, normes, Consuel | 12 | 11,62 € |
+| B — Dépannage et urgence | 3 | 4,29 € |
+| H — Devis, prix et tarifs | 3 | 2,25 € |
+| F — Aménagement cuisine | 1 | 0,14 € |
+| E — Installation neuve | 0 | 0,00 € |
+
+La climatisation sature toujours seule le budget de test. Mais la capacité **hors climatisation**
+passe à ~106 €/mois, contre ~48 € sur les dix communes du 04/08 : une campagne non-clim devient
+finançable. C'est le vrai gain de la zone.
+
+### Deux chiffres qui ne sont pas mesurables, et qu'il faut donner comme tels
+
+`generateKeywordHistoricalMetrics` **refuse plus de 10 cibles géographiques**
+(`INVALID_VALUE`, mesuré le 02/09 — voir `ads/README.md`). Sur une zone à 20 cibles, ni le volume
+ni l'enchère médiane ne se mesurent. Ils sont encadrés :
+
+| | Sous-ensemble (cœur, 10 cibles) | Sur-ensemble (département) |
+|---|---:|---:|
+| Recherches mensuelles | 2 510 | 5 670 |
+| Enchère haute médiane | 2,12 € | 1,92 € |
+
+**L'enchère retenue est 2,12 €** : le département dilue avec des enchères rurales moins chères que
+celles réellement affrontées autour d'Angers, retenir la borne basse sous-estimerait la
+concurrence. Le 2,07 € du dossier d'août tombe dans la fourchette.
+
+> Le volume de la zone **ne doit jamais être présenté comme une mesure** dans un livrable, mais
+> comme un encadrement. Et « 2 510 contre 3 000 le 04/08 » n'est pas une baisse : ce ne sont pas
+> les mêmes dix communes — le cœur de la zone retenue contient Beaucouzé et Écouflant là où
+> l'audit avait Loire-Authion et Beaufort-en-Anjou.
+
+## La saison, sur quatre ans au lieu d'un
+
+`historical_metrics_options.year_month_range` remonte à **48 mois** — champ jamais demandé
+jusqu'ici, le dossier travaillait sur le défaut de 12. Série obtenue : **août 2022 → juillet 2026**.
+Avec une seule année, il était impossible de séparer la saison de la croissance.
+
+### « Attendez juin » ne tient pas
+
+Famille climatisation, mois de juin, sur le cœur de la zone :
+
+| 2023 | 2024 | 2025 | 2026 |
+|---:|---:|---:|---:|
+| 940 | 600 | 1 030 | **4 040** |
+
+**Juin 2026 fait quatre fois n'importe quel autre juin.** Ce n'est pas un pic saisonnier récurrent,
+c'est un événement de 2026 — et il porte sur toute la famille, pas sur un mot-clé :
+`climatisation maison` passe de 210 à 880, `climatisation angers` de 170 à 720,
+`installateur climatisation` de 140 à 590.
+
+Or la relecture du 05/08 concluait « juin écrase septembre, 176 clics contre 121 » et invitait à
+décaler la campagne. **Cette recommandation repose sur un seul mois exceptionnel**, et la prévision
+de juin 2027 rendue par Google extrapole vraisemblablement ce niveau. À reprendre dans les
+livrables avant tout conseil de calendrier.
+
+Septembre pour la climatisation, en revanche, est **stable et bas** sur quatre ans — 470, 610, 230,
+260, soit un indice de **73** pour une moyenne à 100. Ça, c'est solide.
+
+### L'électricien s'érode, et ça pèse plus lourd que la zone
+
+Famille C, mois de septembre : **1 590 → 1 260 → 780 → 620** de 2022 à 2025. **−61 % en trois ans.**
+Ce n'est pas de la saison, c'est structurel. Aucun choix de zone ne compense ça.
+
+### Le pic de septembre de la domotique est réel et inachetable
+
+Famille G, indice de septembre **315**, répété tous les ans. Mais mot par mot il vient
+**entièrement de `domotique` seul** : 480, 1 000, 720, 720 en septembre contre 140 en octobre.
+C'est la requête que le 04/08 avait déjà écartée comme informationnelle — « quelqu'un qui lit une
+définition, pas qui cherche un artisan ». Le pic existe, il ne s'achète pas. La règle tient.
+
+> **Les trois PDF portent encore la base du 04/08** : dix communes, 3 000 recherches, 133 clics à
+> 1,49 €, plafond 291,81 €. Ils n'ont pas été réécrits sur la zone retenue. Tant que ce n'est pas
+> fait, **aucun des trois ne doit partir chez le client**.
+
 ## Ce que dit l'étude
 
 | Chiffre | Valeur |

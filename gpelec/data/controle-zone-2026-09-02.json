@@ -1,0 +1,172 @@
+{
+ "meta": {
+  "extraction": "2026-09-02T14:31:33.734Z",
+  "mcc": "6711813801",
+  "api": "google-ads-api v24 / generateKeywordForecastMetrics",
+  "question": "l'elargissement au departement achete-t-il des clics, ou la derive de Google explique-t-elle tout ?",
+  "constant": {
+   "fenetre": {
+    "start_date": "2026-09-03",
+    "end_date": "2026-10-02"
+   },
+   "langue": "languageConstants/1002",
+   "reseau": "GOOGLE_SEARCH",
+   "devise": "EUR",
+   "correspondance": "PHRASE",
+   "strategie": "CPC manuel plafonne",
+   "enchere": 1.92,
+   "portefeuille": 73
+  },
+  "variable": [
+   "zone"
+  ],
+  "reference_departement": "passe v3 du 02/09, meme fenetre, meme enchere : 188 clics / 197,40 EUR a 200 EUR ; plafond 720,42 EUR / 686 clics",
+  "note_enchere": "1,92 EUR est la mediane des encheres hautes du portefeuille SUR LE DEPARTEMENT. Sur dix communes cette mediane vaut 2,07 EUR : elle est volontairement ignoree ici, sinon deux variables changeraient a la fois.",
+  "limite_api": "ni impressions, ni CTR, ni position — v24"
+ },
+ "geo": [
+  {
+   "commune": "Angers",
+   "geo": "geoTargetConstants/1006271"
+  },
+  {
+   "commune": "Loire-Authion",
+   "geo": "geoTargetConstants/9216185"
+  },
+  {
+   "commune": "Trelaze",
+   "geo": "geoTargetConstants/9050264"
+  },
+  {
+   "commune": "Avrille",
+   "geo": "geoTargetConstants/9049308"
+  },
+  {
+   "commune": "Les Ponts-de-Ce",
+   "geo": "geoTargetConstants/9049785"
+  },
+  {
+   "commune": "Brissac Loire Aubance",
+   "geo": "geoTargetConstants/9248635"
+  },
+  {
+   "commune": "Saint-Barthelemy-d'Anjou",
+   "geo": "geoTargetConstants/1006289"
+  },
+  {
+   "commune": "Bouchemaine",
+   "geo": "geoTargetConstants/9251091"
+  },
+  {
+   "commune": "Verrieres-en-Anjou",
+   "geo": "geoTargetConstants/9108577"
+  },
+  {
+   "commune": "Beaufort-en-Anjou",
+   "geo": "geoTargetConstants/9219448"
+  }
+ ],
+ "budgets": [
+  {
+   "budget_mensuel": 50,
+   "ok": true,
+   "clicks": 49.12665939331055,
+   "cost": 49.2,
+   "cpc": 1.001493,
+   "attempts": 1
+  },
+  {
+   "budget_mensuel": 100,
+   "ok": true,
+   "clicks": 98.5528793334961,
+   "cost": 98.7,
+   "cpc": 1.001493,
+   "attempts": 1
+  },
+  {
+   "budget_mensuel": 150,
+   "ok": true,
+   "clicks": 147.67965698242188,
+   "cost": 147.9,
+   "cpc": 1.001492,
+   "attempts": 1
+  },
+  {
+   "budget_mensuel": 200,
+   "ok": true,
+   "clicks": 197.1057891845703,
+   "cost": 197.4,
+   "cpc": 1.001493,
+   "attempts": 1
+  },
+  {
+   "budget_mensuel": 300,
+   "ok": true,
+   "clicks": 295.65863037109375,
+   "cost": 296.1,
+   "cpc": 1.001493,
+   "attempts": 1
+  },
+  {
+   "budget_mensuel": 500,
+   "ok": true,
+   "clicks": 360.23583984375,
+   "cost": 360.77364,
+   "cpc": 1.001493,
+   "attempts": 1
+  },
+  {
+   "budget_mensuel": 750,
+   "ok": true,
+   "clicks": 360.23583984375,
+   "cost": 360.77346,
+   "cpc": 1.001492,
+   "attempts": 1
+  },
+  {
+   "budget_mensuel": 1000,
+   "ok": true,
+   "clicks": 360.23583984375,
+   "cost": 360.77373,
+   "cpc": 1.001493,
+   "attempts": 1
+  },
+  {
+   "budget_mensuel": 1500,
+   "ok": true,
+   "clicks": 360.23583984375,
+   "cost": 360.77343,
+   "cpc": 1.001492,
+   "attempts": 1
+  },
+  {
+   "budget_mensuel": 2000,
+   "ok": true,
+   "clicks": 360.23583984375,
+   "cost": 360.77355,
+   "cpc": 1.001493,
+   "attempts": 1
+  }
+ ],
+ "familles": [
+  {
+   "famille": "A",
+   "mots_cles": 21,
+   "ok": true,
+   "clicks": 193.90811157226562,
+   "cost": 197.4,
+   "cpc": 1.018008,
+   "attempts": 1
+  },
+  {
+   "famille": "C",
+   "mots_cles": 9,
+   "ok": true,
+   "clicks": 44.83292007446289,
+   "cost": 42.30258,
+   "cpc": 0.943561,
+   "attempts": 1
+  }
+ ],
+ "errors": []
+}

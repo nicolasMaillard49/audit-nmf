@@ -1,0 +1,548 @@
+{
+ "meta": {
+  "extraction": "2026-09-02T14:48:17.666Z",
+  "mcc": "6711813801",
+  "api": "google-ads-api v24 / generateKeywordForecastMetrics",
+  "role": "base chiffree des trois livrables",
+  "zone_label": "Agglomeration d'Angers + couronne jusqu'a Brissac, Chalonnes, Seiches, Beaufort et Saint-Georges",
+  "zone_cibles": [
+   "Brissac Loire Aubance",
+   "Angers",
+   "Les Ponts-de-Ce",
+   "Trelaze",
+   "Avrille",
+   "Saint-Barthelemy-d'Anjou",
+   "Bouchemaine",
+   "Beaucouze",
+   "Verrieres-en-Anjou",
+   "Ecouflant",
+   "Montreuil-Juigne",
+   "Loire-Authion",
+   "Les Garennes sur Loire",
+   "Murs-Erigne",
+   "Sainte-Gemmes-sur-Loire",
+   "Beaufort-en-Anjou",
+   "Rochefort-sur-Loire",
+   "Tierce",
+   "Seiches-sur-le-Loir",
+   "Saint-Georges-sur-Loire"
+  ],
+  "zone_couvertes_sans_cible": [
+   {
+    "commune": "Chalonnes-sur-Loire",
+    "meme_objet_que": "Rochefort-sur-Loire",
+    "geo": "geoTargetConstants/9219376"
+   },
+   {
+    "commune": "Briollay",
+    "meme_objet_que": "Verrieres-en-Anjou",
+    "geo": "geoTargetConstants/9108577"
+   }
+  ],
+  "zone_hors_perimetre": [
+   "Becon-les-Granits",
+   "Longuenee-en-Anjou",
+   "Le Lion-d'Angers",
+   "Jarze Villages",
+   "Maze-Milon",
+   "La Menitre",
+   "Gennes-Val-de-Loire",
+   "Tuffalun",
+   "Denee",
+   "Moze-sur-Louet"
+  ],
+  "zone_non_resolue": [
+   "Bellevigne-en-Layon"
+  ],
+  "zone_pourquoi": "A 200 EUR/mois les trois zones testees rendent la meme chose a 5 % pres (197 / 192 / 188 clics). Elles ne different que par le plafond d'inventaire : 360,77 / 447,78 / 720,42 EUR. Le choix de zone est un choix de plafond de budget.",
+  "enchere_reference": {
+   "retenue": 2.12,
+   "domination": 3.17,
+   "methode": "mediane des encheres hautes haut de page du portefeuille",
+   "mesuree_sur": "les 10 cibles du coeur de la zone, 02/09 (n=27)",
+   "encadrement": {
+    "departement_sur_ensemble": 1.92,
+    "coeur_de_zone_sous_ensemble": 2.116423
+   },
+   "limite": "generateKeywordHistoricalMetrics refuse 20 geo_target_constants (INVALID_VALUE) : la mediane de la zone entiere n'est pas mesurable. Elle est encadree par les deux valeurs ci-dessus."
+  },
+  "volume_marche": {
+   "coeur_de_zone_10_cibles": 2510,
+   "departement": 5670,
+   "note": "Le volume de la zone a 20 cibles n'est pas mesurable (meme limite). Il est encadre par ces deux valeurs, il ne doit jamais etre presente comme une mesure."
+  },
+  "limite_api": "KeywordForecastMetrics v24 ne renvoie ni impressions, ni CTR, ni position moyenne. Aucun livrable ne doit annoncer d'impressions ni de position.",
+  "langue": "languageConstants/1002",
+  "reseau": "GOOGLE_SEARCH",
+  "devise": "EUR",
+  "periode_forecast": {
+   "start_date": "2026-09-03",
+   "end_date": "2026-10-02"
+  },
+  "correspondance": "PHRASE",
+  "budgets": [
+   50,
+   100,
+   150,
+   200,
+   300,
+   500,
+   750,
+   1000,
+   1500,
+   2000
+  ],
+  "strategies": [
+   "Presence (maximisation des clics)",
+   "Haut de page (CPC manuel)",
+   "Domination (CPC manuel majore)"
+  ]
+ },
+ "matrix": [
+  {
+   "strategy": "Presence (maximisation des clics)",
+   "budget_mensuel": 50,
+   "ok": true,
+   "clicks": 156.7855224609375,
+   "cost": 49.2,
+   "cpc": 0.313804,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Presence (maximisation des clics)",
+   "budget_mensuel": 100,
+   "ok": true,
+   "clicks": 228.8273468017578,
+   "cost": 98.7,
+   "cpc": 0.43133,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Presence (maximisation des clics)",
+   "budget_mensuel": 150,
+   "ok": true,
+   "clicks": 280.64227294921875,
+   "cost": 147.9,
+   "cpc": 0.527005,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Presence (maximisation des clics)",
+   "budget_mensuel": 200,
+   "ok": true,
+   "clicks": 318.0940246582031,
+   "cost": 197.40003,
+   "cpc": 0.620571,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Presence (maximisation des clics)",
+   "budget_mensuel": 300,
+   "ok": true,
+   "clicks": 378.38873291015625,
+   "cost": 296.10003,
+   "cpc": 0.782529,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Presence (maximisation des clics)",
+   "budget_mensuel": 500,
+   "ok": true,
+   "clicks": 452.4007263183594,
+   "cost": 493.50003,
+   "cpc": 1.090847,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Presence (maximisation des clics)",
+   "budget_mensuel": 750,
+   "ok": true,
+   "clicks": 506.1681213378906,
+   "cost": 740.10003,
+   "cpc": 1.462163,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Presence (maximisation des clics)",
+   "budget_mensuel": 1000,
+   "ok": true,
+   "clicks": 536.472900390625,
+   "cost": 986.70003,
+   "cpc": 1.839236,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Presence (maximisation des clics)",
+   "budget_mensuel": 1500,
+   "ok": true,
+   "clicks": 552.0230102539062,
+   "cost": 1368.39018,
+   "cpc": 2.478864,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Presence (maximisation des clics)",
+   "budget_mensuel": 2000,
+   "ok": true,
+   "clicks": 552.0230102539062,
+   "cost": 1368.38916,
+   "cpc": 2.478863,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Haut de page (CPC manuel)",
+   "budget_mensuel": 50,
+   "ok": true,
+   "clicks": 44.913124084472656,
+   "cost": 49.2,
+   "cpc": 1.095448,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Haut de page (CPC manuel)",
+   "budget_mensuel": 100,
+   "ok": true,
+   "clicks": 90.10011291503906,
+   "cost": 98.7,
+   "cpc": 1.095448,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Haut de page (CPC manuel)",
+   "budget_mensuel": 150,
+   "ok": true,
+   "clicks": 135.01319885253906,
+   "cost": 147.9,
+   "cpc": 1.095449,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Haut de page (CPC manuel)",
+   "budget_mensuel": 200,
+   "ok": true,
+   "clicks": 180.20030212402344,
+   "cost": 197.4,
+   "cpc": 1.095448,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Haut de page (CPC manuel)",
+   "budget_mensuel": 300,
+   "ok": true,
+   "clicks": 270.3004150390625,
+   "cost": 296.1,
+   "cpc": 1.095448,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Haut de page (CPC manuel)",
+   "budget_mensuel": 500,
+   "ok": true,
+   "clicks": 450.5004577636719,
+   "cost": 493.5,
+   "cpc": 1.095448,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Haut de page (CPC manuel)",
+   "budget_mensuel": 750,
+   "ok": true,
+   "clicks": 452.7790222167969,
+   "cost": 495.99612,
+   "cpc": 1.095449,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Haut de page (CPC manuel)",
+   "budget_mensuel": 1000,
+   "ok": true,
+   "clicks": 452.7790222167969,
+   "cost": 495.996,
+   "cpc": 1.095448,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Haut de page (CPC manuel)",
+   "budget_mensuel": 1500,
+   "ok": true,
+   "clicks": 452.7790222167969,
+   "cost": 495.996,
+   "cpc": 1.095448,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Haut de page (CPC manuel)",
+   "budget_mensuel": 2000,
+   "ok": true,
+   "clicks": 452.7790222167969,
+   "cost": 495.99612,
+   "cpc": 1.095449,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Domination (CPC manuel majore)",
+   "budget_mensuel": 50,
+   "ok": true,
+   "clicks": 36.74643325805664,
+   "cost": 49.2,
+   "cpc": 1.338906,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Domination (CPC manuel majore)",
+   "budget_mensuel": 100,
+   "ok": true,
+   "clicks": 73.71691131591797,
+   "cost": 98.7,
+   "cpc": 1.338906,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Domination (CPC manuel majore)",
+   "budget_mensuel": 150,
+   "ok": true,
+   "clicks": 110.46332550048828,
+   "cost": 147.9,
+   "cpc": 1.338906,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Domination (CPC manuel majore)",
+   "budget_mensuel": 200,
+   "ok": true,
+   "clicks": 147.43386840820312,
+   "cost": 197.4,
+   "cpc": 1.338905,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Domination (CPC manuel majore)",
+   "budget_mensuel": 300,
+   "ok": true,
+   "clicks": 221.0290069580078,
+   "cost": 296.1,
+   "cpc": 1.339643,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Domination (CPC manuel majore)",
+   "budget_mensuel": 500,
+   "ok": true,
+   "clicks": 368.5843200683594,
+   "cost": 493.5,
+   "cpc": 1.338907,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Domination (CPC manuel majore)",
+   "budget_mensuel": 750,
+   "ok": true,
+   "clicks": 489.65594482421875,
+   "cost": 655.60326,
+   "cpc": 1.338906,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Domination (CPC manuel majore)",
+   "budget_mensuel": 1000,
+   "ok": true,
+   "clicks": 489.65594482421875,
+   "cost": 655.60323,
+   "cpc": 1.338906,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Domination (CPC manuel majore)",
+   "budget_mensuel": 1500,
+   "ok": true,
+   "clicks": 489.65594482421875,
+   "cost": 655.60302,
+   "cpc": 1.338906,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Domination (CPC manuel majore)",
+   "budget_mensuel": 2000,
+   "ok": true,
+   "clicks": 489.65594482421875,
+   "cost": 655.60326,
+   "cpc": 1.338906,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  }
+ ],
+ "familles": [
+  {
+   "code": "A",
+   "label": "Climatisation et pompe à chaleur air/air",
+   "mots_cles": 21,
+   "strategy": "Haut de page (CPC manuel)",
+   "budget_mensuel": 200,
+   "ok": true,
+   "clicks": 177.49598693847656,
+   "cost": 197.4,
+   "cpc": 1.112138,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "code": "B",
+   "label": "Dépannage et urgence",
+   "mots_cles": 11,
+   "strategy": "Haut de page (CPC manuel)",
+   "budget_mensuel": 200,
+   "ok": true,
+   "clicks": 2.974254608154297,
+   "cost": 4.29126,
+   "cpc": 1.442802,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "code": "C",
+   "label": "Électricien général et entreprise",
+   "mots_cles": 9,
+   "strategy": "Haut de page (CPC manuel)",
+   "budget_mensuel": 200,
+   "ok": true,
+   "clicks": 51.26676559448242,
+   "cost": 51.67173,
+   "cpc": 1.007899,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "code": "D",
+   "label": "Rénovation, mise aux normes et Consuel",
+   "mots_cles": 12,
+   "strategy": "Haut de page (CPC manuel)",
+   "budget_mensuel": 200,
+   "ok": true,
+   "clicks": 11.820090293884277,
+   "cost": 11.61687,
+   "cpc": 0.982807,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "code": "E",
+   "label": "Installation neuve",
+   "mots_cles": 5,
+   "strategy": "Haut de page (CPC manuel)",
+   "budget_mensuel": 200,
+   "ok": true,
+   "clicks": 0,
+   "cost": 0,
+   "cpc": null,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "code": "F",
+   "label": "Aménagement cuisine",
+   "mots_cles": 3,
+   "strategy": "Haut de page (CPC manuel)",
+   "budget_mensuel": 200,
+   "ok": true,
+   "clicks": 0.5842478275299072,
+   "cost": 0.14397,
+   "cpc": 0.246419,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "code": "G",
+   "label": "Domotique",
+   "mots_cles": 7,
+   "strategy": "Haut de page (CPC manuel)",
+   "budget_mensuel": 200,
+   "ok": true,
+   "clicks": 32.584251403808594,
+   "cost": 36.33216,
+   "cpc": 1.115022,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "code": "H",
+   "label": "Devis, prix et tarifs",
+   "mots_cles": 5,
+   "strategy": "Haut de page (CPC manuel)",
+   "budget_mensuel": 200,
+   "ok": true,
+   "clicks": 2.777836322784424,
+   "cost": 2.2452,
+   "cpc": 0.808255,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  }
+ ],
+ "errors": []
+}

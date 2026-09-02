@@ -63,4 +63,61 @@ longue traîne, et l'écart entre les deux familles **s'élargit** en correspond
 > La fenêtre de cette passe (03/09 → 02/10) n'est pas celle des passes d'août (mois de septembre) :
 > **rien ici ne se compare terme à terme au 04/08 ou au 05/08.**
 
+## Passe du 2 septembre 2026 — la zone, refaite de bout en bout
+
+Six scripts, dans l'ordre où ils ont tourné. Tous en **lecture seule** : aucune campagne,
+aucun plan, rien n'est créé côté Google. **Zéro erreur d'API sur l'ensemble de la journée**,
+sauf une, volontairement provoquée et documentée plus bas.
+
+| Script | Question | Sortie |
+|---|---|---|
+| `audit-gp-elec-v3-departement.mjs` | reprise complète de `v2` sur le **département** en une seule cible : découverte, historique, matrice 3 × 10, capacité par famille | `data/donnees-google-ads-brutes-2026-09-02.json` |
+| `audit-gp-elec-controle-zone.mjs` | l'élargissement achète-t-il des clics, ou la dérive de Google explique-t-elle tout ? Dix communes rejouées à **l'enchère du département**, seule la zone varie | `data/controle-zone-2026-09-02.json` |
+| `audit-gp-elec-v3-zone-brissac-angers.mjs` | la zone intermédiaire retenue avec le client : 33 communes demandées, résolues, dédoublonnées, tronquées à 20 | `data/donnees-zone-brissac-angers-2026-09-02.json` |
+| `audit-gp-elec-v3-zone-complement.mjs` | répare les deux trous laissés par la limite de 10 cibles : familles à enchère comparable, borne basse de volume | `data/zone-complement-2026-09-02.json` |
+| `audit-gp-elec-v3-base-livrables.mjs` | **la base chiffrée des trois livrables** : zone retenue, enchère 2,12 €, matrice 3 × 10 + 8 familles | `data/base-livrables-2026-09-02.json` |
+| `audit-gp-elec-saison-multi-annees.mjs` | juin est-il un pic de saison ou le marché a-t-il grossi ? **48 mois** au lieu de 12 | `data/saison-multi-annees-2026-09-02.json` |
+
+### Trois limites d'API, dont deux découvertes ce jour
+
+> **1. `generateKeywordHistoricalMetrics` refuse 20 cibles géographiques.**
+> `keyword_plan_idea_error: INVALID_VALUE`, mesuré le 02/09. Le dossier affirmait depuis le
+> 05/08 que seul `generateKeywordIdeas` plafonnait à 10 et que le forecast en acceptait 20.
+> C'est vrai, mais incomplet : **le plafond de 10 vaut aussi pour l'appel historique**. Seul
+> `generateKeywordForecastMetrics` accepte 20.
+>
+> Conséquence pratique : sur une zone de plus de 10 cibles, **ni le volume de recherches ni
+> l'enchère médiane ne sont mesurables**. Ils ne peuvent qu'être encadrés par un sous-ensemble
+> et un sur-ensemble. `audit-gp-elec-v3-zone-brissac-angers.mjs` s'y est cassé les dents : sa
+> phase historique a échoué, l'enchère de référence est tombée sur son **défaut de 2,50 €**, et
+> ses 30 prévisions de matrice sont donc inexploitables. C'est `…-base-livrables.mjs` qui les
+> refait à l'enchère mesurée.
+
+> **2. `historical_metrics_options.year_month_range` remonte à 48 mois.** Jamais utilisé
+> jusqu'ici : le dossier travaillait sur le défaut de 12 mois, ce qui rendait impossible de
+> séparer la saison de la croissance. Août 2022 → juillet 2026 accepté du premier coup.
+
+> **3. Rappel du 05/08, toujours valable.** `generateKeywordIdeas` plafonne à 10 cibles ; viser
+> un objet géographique de niveau supérieur (le département, `geoTargetConstants/9040907`) rend
+> la limite sans objet.
+
+### Le dédoublonnage géographique n'est pas cosmétique
+
+`…-zone-brissac-angers.mjs` résout 33 communes, en garde 20, et **journalise ce qu'il écarte** :
+Chalonnes-sur-Loire et Briollay pointent sur le même objet Google que Rochefort-sur-Loire et
+Verrières-en-Anjou — elles sont donc couvertes sans consommer de cible ; dix communes de bordure
+tombent par la troncature ; Bellevigne-en-Layon n'est pas résolue par Google. Sans ce journal, la
+zone réellement mesurée serait devinée.
+
+### `audit-gp-elec-portefeuille-v2.mjs` n'est pas rejouable
+
+Sa liste d'ajouts est écrite en dur — les sept mots-clés retenus le 04/08. Le relancer
+ré-appliquerait les décisions d'août aux nouveaux candidats. L'étape « portefeuille » n'est pas
+mécanique : c'est là que s'applique la règle de non-gonflement, candidat par candidat.
+
+> **Défaut connu de cette règle.** Sa signature est le couple (volume, enchère haute) : deux
+> mots-clés sans enchère collisionnent. Le 02/09, `borne de recharge electra` (480, 0,00 €) est
+> signalé comme doublon de `consuel` (480, 0,00 €). Sans conséquence ici — l'IRVE est hors offre —
+> mais la règle écarte **en silence** : à corriger avant de la rejouer.
+
 Ordre d'exécution et limites d'API : voir `../README.md`.

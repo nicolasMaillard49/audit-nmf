@@ -1,0 +1,815 @@
+{
+ "meta": {
+  "extraction": "2026-09-02T14:38:00.409Z",
+  "mcc": "6711813801",
+  "api": "google-ads-api v24 / KeywordPlanIdeaService",
+  "role": "base chiffree des trois livrables — zone retenue pour le test et la campagne",
+  "zone_label": "Agglomeration d'Angers + couronne jusqu'a Brissac, Chalonnes, Le Lion-d'Angers, Seiches et Beaufort",
+  "zone_pourquoi": "Dix communes : sature a 360,77 EUR. Departement : +90 % d'inventaire mais -5 % de clics sous 300 EUR et arrosage hors rayon d'intervention. Zone intermediaire retenue avec le client le 02/09.",
+  "limite_geo": "generateKeywordForecastMetrics accepte 20 geo_target_constants ; 34 sont refusees en TOO_MANY (mesure du 05/08). La liste est ordonnee par priorite puis tronquee.",
+  "appels": [
+   "generateKeywordHistoricalMetrics (portefeuille)",
+   "generateKeywordForecastMetrics (matrice budgets, enchere de la zone)",
+   "generateKeywordForecastMetrics (par famille)",
+   "generateKeywordForecastMetrics (courbe de comparaison a 1,92 EUR)"
+  ],
+  "decouverte": "non rejouee ici : le portefeuille a ete confronte a generateKeywordIdeas le meme jour sur le departement, zone qui contient celle-ci (donnees-google-ads-brutes-2026-09-02.json).",
+  "limite_api": "KeywordForecastMetrics v24 ne renvoie ni impressions, ni CTR, ni position moyenne.",
+  "langue": "languageConstants/1002",
+  "reseau": "GOOGLE_SEARCH",
+  "devise": "EUR",
+  "periode_forecast": {
+   "start_date": "2026-09-03",
+   "end_date": "2026-10-02"
+  },
+  "correspondance": "PHRASE",
+  "budgets": [
+   50,
+   100,
+   150,
+   200,
+   300,
+   500,
+   750,
+   1000,
+   1500,
+   2000
+  ],
+  "strategies": [
+   "Presence (maximisation des clics)",
+   "Haut de page (CPC manuel)",
+   "Domination (CPC manuel majore)"
+  ],
+  "enchere_comparaison": 1.92,
+  "enchere_reference": {
+   "mediane_high_top_of_page": 2.5,
+   "bid_haut_de_page": 2.5,
+   "bid_domination": 3.75,
+   "echantillon": 0
+  }
+ },
+ "zone": {
+  "demandees": [
+   "Brissac Loire Aubance",
+   "Angers",
+   "Les Ponts-de-Ce",
+   "Trelaze",
+   "Avrille",
+   "Saint-Barthelemy-d'Anjou",
+   "Bouchemaine",
+   "Beaucouze",
+   "Verrieres-en-Anjou",
+   "Ecouflant",
+   "Montreuil-Juigne",
+   "Loire-Authion",
+   "Les Garennes sur Loire",
+   "Murs-Erigne",
+   "Sainte-Gemmes-sur-Loire",
+   "Beaufort-en-Anjou",
+   "Rochefort-sur-Loire",
+   "Chalonnes-sur-Loire",
+   "Bellevigne-en-Layon",
+   "Briollay",
+   "Tierce",
+   "Seiches-sur-le-Loir",
+   "Saint-Georges-sur-Loire",
+   "Becon-les-Granits",
+   "Longuenee-en-Anjou",
+   "Le Lion-d'Angers",
+   "Jarze Villages",
+   "Maze-Milon",
+   "La Menitre",
+   "Gennes-Val-de-Loire",
+   "Tuffalun",
+   "Denee",
+   "Moze-sur-Louet"
+  ],
+  "resolues": [
+   "Brissac Loire Aubance",
+   "Angers",
+   "Les Ponts-de-Ce",
+   "Trelaze",
+   "Avrille",
+   "Saint-Barthelemy-d'Anjou",
+   "Bouchemaine",
+   "Beaucouze",
+   "Verrieres-en-Anjou",
+   "Ecouflant",
+   "Montreuil-Juigne",
+   "Loire-Authion",
+   "Les Garennes sur Loire",
+   "Murs-Erigne",
+   "Sainte-Gemmes-sur-Loire",
+   "Beaufort-en-Anjou",
+   "Rochefort-sur-Loire",
+   "Tierce",
+   "Seiches-sur-le-Loir",
+   "Saint-Georges-sur-Loire"
+  ],
+  "doublons": [
+   {
+    "commune": "Chalonnes-sur-Loire",
+    "meme_objet_que": "Rochefort-sur-Loire",
+    "geo": "geoTargetConstants/9219376"
+   },
+   {
+    "commune": "Briollay",
+    "meme_objet_que": "Verrieres-en-Anjou",
+    "geo": "geoTargetConstants/9108577"
+   }
+  ],
+  "non_resolues": [
+   "Bellevigne-en-Layon"
+  ],
+  "ecartees_par_troncature": [
+   {
+    "commune": "Becon-les-Granits",
+    "geo": "geoTargetConstants/9109305"
+   },
+   {
+    "commune": "Longuenee-en-Anjou",
+    "geo": "geoTargetConstants/9111762"
+   },
+   {
+    "commune": "Le Lion-d'Angers",
+    "geo": "geoTargetConstants/9260447"
+   },
+   {
+    "commune": "Jarze Villages",
+    "geo": "geoTargetConstants/9216325"
+   },
+   {
+    "commune": "Maze-Milon",
+    "geo": "geoTargetConstants/9209819"
+   },
+   {
+    "commune": "La Menitre",
+    "geo": "geoTargetConstants/1006272"
+   },
+   {
+    "commune": "Gennes-Val-de-Loire",
+    "geo": "geoTargetConstants/9217487"
+   },
+   {
+    "commune": "Tuffalun",
+    "geo": "geoTargetConstants/9111530"
+   },
+   {
+    "commune": "Denee",
+    "geo": "geoTargetConstants/9112028"
+   },
+   {
+    "commune": "Moze-sur-Louet",
+    "geo": "geoTargetConstants/9112028"
+   }
+  ]
+ },
+ "geo": [
+  {
+   "commune": "Brissac Loire Aubance",
+   "geo": "geoTargetConstants/9248635"
+  },
+  {
+   "commune": "Angers",
+   "geo": "geoTargetConstants/1006271"
+  },
+  {
+   "commune": "Les Ponts-de-Ce",
+   "geo": "geoTargetConstants/9049785"
+  },
+  {
+   "commune": "Trelaze",
+   "geo": "geoTargetConstants/9050264"
+  },
+  {
+   "commune": "Avrille",
+   "geo": "geoTargetConstants/9049308"
+  },
+  {
+   "commune": "Saint-Barthelemy-d'Anjou",
+   "geo": "geoTargetConstants/1006289"
+  },
+  {
+   "commune": "Bouchemaine",
+   "geo": "geoTargetConstants/9251091"
+  },
+  {
+   "commune": "Beaucouze",
+   "geo": "geoTargetConstants/9218693"
+  },
+  {
+   "commune": "Verrieres-en-Anjou",
+   "geo": "geoTargetConstants/9108577"
+  },
+  {
+   "commune": "Ecouflant",
+   "geo": "geoTargetConstants/9252963"
+  },
+  {
+   "commune": "Montreuil-Juigne",
+   "geo": "geoTargetConstants/9223766"
+  },
+  {
+   "commune": "Loire-Authion",
+   "geo": "geoTargetConstants/9216185"
+  },
+  {
+   "commune": "Les Garennes sur Loire",
+   "geo": "geoTargetConstants/9217102"
+  },
+  {
+   "commune": "Murs-Erigne",
+   "geo": "geoTargetConstants/9224154"
+  },
+  {
+   "commune": "Sainte-Gemmes-sur-Loire",
+   "geo": "geoTargetConstants/9232224"
+  },
+  {
+   "commune": "Beaufort-en-Anjou",
+   "geo": "geoTargetConstants/9219448"
+  },
+  {
+   "commune": "Rochefort-sur-Loire",
+   "geo": "geoTargetConstants/9219376"
+  },
+  {
+   "commune": "Tierce",
+   "geo": "geoTargetConstants/9255009"
+  },
+  {
+   "commune": "Seiches-sur-le-Loir",
+   "geo": "geoTargetConstants/9253322"
+  },
+  {
+   "commune": "Saint-Georges-sur-Loire",
+   "geo": "geoTargetConstants/9244776"
+  }
+ ],
+ "historical": [],
+ "matrix": [
+  {
+   "strategy": "Presence (maximisation des clics)",
+   "budget_mensuel": 50,
+   "ok": true,
+   "clicks": 156.7855224609375,
+   "cost": 49.2,
+   "cpc": 0.313804,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Presence (maximisation des clics)",
+   "budget_mensuel": 100,
+   "ok": true,
+   "clicks": 228.8273468017578,
+   "cost": 98.7,
+   "cpc": 0.43133,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Presence (maximisation des clics)",
+   "budget_mensuel": 150,
+   "ok": true,
+   "clicks": 280.64227294921875,
+   "cost": 147.9,
+   "cpc": 0.527005,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Presence (maximisation des clics)",
+   "budget_mensuel": 200,
+   "ok": true,
+   "clicks": 318.0940246582031,
+   "cost": 197.40003,
+   "cpc": 0.620571,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Presence (maximisation des clics)",
+   "budget_mensuel": 300,
+   "ok": true,
+   "clicks": 378.38873291015625,
+   "cost": 296.10003,
+   "cpc": 0.782529,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Presence (maximisation des clics)",
+   "budget_mensuel": 500,
+   "ok": true,
+   "clicks": 452.4007263183594,
+   "cost": 493.50003,
+   "cpc": 1.090847,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Presence (maximisation des clics)",
+   "budget_mensuel": 750,
+   "ok": true,
+   "clicks": 506.1681213378906,
+   "cost": 740.10003,
+   "cpc": 1.462163,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Presence (maximisation des clics)",
+   "budget_mensuel": 1000,
+   "ok": true,
+   "clicks": 536.472900390625,
+   "cost": 986.70003,
+   "cpc": 1.839236,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Presence (maximisation des clics)",
+   "budget_mensuel": 1500,
+   "ok": true,
+   "clicks": 552.0230102539062,
+   "cost": 1368.39018,
+   "cpc": 2.478864,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Presence (maximisation des clics)",
+   "budget_mensuel": 2000,
+   "ok": true,
+   "clicks": 552.0230102539062,
+   "cost": 1368.38916,
+   "cpc": 2.478863,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Haut de page (CPC manuel)",
+   "budget_mensuel": 50,
+   "ok": true,
+   "clicks": 41.01845932006836,
+   "cost": 49.2,
+   "cpc": 1.19946,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Haut de page (CPC manuel)",
+   "budget_mensuel": 100,
+   "ok": true,
+   "clicks": 82.28706359863281,
+   "cost": 98.7,
+   "cpc": 1.19946,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Haut de page (CPC manuel)",
+   "budget_mensuel": 150,
+   "ok": true,
+   "clicks": 123.3055419921875,
+   "cost": 147.9,
+   "cpc": 1.19946,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Haut de page (CPC manuel)",
+   "budget_mensuel": 200,
+   "ok": true,
+   "clicks": 164.57403564453125,
+   "cost": 197.4,
+   "cpc": 1.19946,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Haut de page (CPC manuel)",
+   "budget_mensuel": 300,
+   "ok": true,
+   "clicks": 246.86109924316406,
+   "cost": 296.1,
+   "cpc": 1.19946,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Haut de page (CPC manuel)",
+   "budget_mensuel": 500,
+   "ok": true,
+   "clicks": 411.43536376953125,
+   "cost": 493.5,
+   "cpc": 1.199459,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Haut de page (CPC manuel)",
+   "budget_mensuel": 750,
+   "ok": true,
+   "clicks": 470.7607116699219,
+   "cost": 564.65856,
+   "cpc": 1.19946,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Haut de page (CPC manuel)",
+   "budget_mensuel": 1000,
+   "ok": true,
+   "clicks": 471.48626708984375,
+   "cost": 565.80777,
+   "cpc": 1.200051,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Haut de page (CPC manuel)",
+   "budget_mensuel": 1500,
+   "ok": true,
+   "clicks": 470.7607116699219,
+   "cost": 564.65841,
+   "cpc": 1.19946,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Haut de page (CPC manuel)",
+   "budget_mensuel": 2000,
+   "ok": true,
+   "clicks": 470.7607116699219,
+   "cost": 564.65865,
+   "cpc": 1.19946,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Domination (CPC manuel majore)",
+   "budget_mensuel": 50,
+   "ok": true,
+   "clicks": 33.96002197265625,
+   "cost": 49.2,
+   "cpc": 1.448762,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Domination (CPC manuel majore)",
+   "budget_mensuel": 100,
+   "ok": true,
+   "clicks": 68.12712097167969,
+   "cost": 98.7,
+   "cpc": 1.448762,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Domination (CPC manuel majore)",
+   "budget_mensuel": 150,
+   "ok": true,
+   "clicks": 102.08714294433594,
+   "cost": 147.9,
+   "cpc": 1.448762,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Domination (CPC manuel majore)",
+   "budget_mensuel": 200,
+   "ok": true,
+   "clicks": 136.25416564941406,
+   "cost": 197.4,
+   "cpc": 1.448763,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Domination (CPC manuel majore)",
+   "budget_mensuel": 300,
+   "ok": true,
+   "clicks": 204.38134765625,
+   "cost": 296.1,
+   "cpc": 1.448762,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Domination (CPC manuel majore)",
+   "budget_mensuel": 500,
+   "ok": true,
+   "clicks": 340.6355895996094,
+   "cost": 493.5,
+   "cpc": 1.448762,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Domination (CPC manuel majore)",
+   "budget_mensuel": 750,
+   "ok": true,
+   "clicks": 505.337158203125,
+   "cost": 732.11364,
+   "cpc": 1.448763,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Domination (CPC manuel majore)",
+   "budget_mensuel": 1000,
+   "ok": true,
+   "clicks": 505.9742431640625,
+   "cost": 732.61665,
+   "cpc": 1.447933,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Domination (CPC manuel majore)",
+   "budget_mensuel": 1500,
+   "ok": true,
+   "clicks": 505.337158203125,
+   "cost": 732.11343,
+   "cpc": 1.448762,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "strategy": "Domination (CPC manuel majore)",
+   "budget_mensuel": 2000,
+   "ok": true,
+   "clicks": 505.337158203125,
+   "cost": 732.11364,
+   "cpc": 1.448763,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  }
+ ],
+ "familles": [
+  {
+   "code": "A",
+   "label": "Climatisation et pompe à chaleur air/air",
+   "mots_cles": 21,
+   "strategy": "Haut de page (CPC manuel)",
+   "budget_mensuel": 200,
+   "ok": true,
+   "clicks": 162.79579162597656,
+   "cost": 197.4,
+   "cpc": 1.212562,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "code": "B",
+   "label": "Dépannage et urgence",
+   "mots_cles": 11,
+   "strategy": "Haut de page (CPC manuel)",
+   "budget_mensuel": 200,
+   "ok": true,
+   "clicks": 4.116654396057129,
+   "cost": 6.92382,
+   "cpc": 1.681905,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "code": "C",
+   "label": "Électricien général et entreprise",
+   "mots_cles": 9,
+   "strategy": "Haut de page (CPC manuel)",
+   "budget_mensuel": 200,
+   "ok": true,
+   "clicks": 55.31601333618164,
+   "cost": 62.11587,
+   "cpc": 1.122928,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "code": "D",
+   "label": "Rénovation, mise aux normes et Consuel",
+   "mots_cles": 12,
+   "strategy": "Haut de page (CPC manuel)",
+   "budget_mensuel": 200,
+   "ok": true,
+   "clicks": 13.21568489074707,
+   "cost": 16.06536,
+   "cpc": 1.215628,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "code": "E",
+   "label": "Installation neuve",
+   "mots_cles": 5,
+   "strategy": "Haut de page (CPC manuel)",
+   "budget_mensuel": 200,
+   "ok": true,
+   "clicks": 0,
+   "cost": 0,
+   "cpc": null,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "code": "F",
+   "label": "Aménagement cuisine",
+   "mots_cles": 3,
+   "strategy": "Haut de page (CPC manuel)",
+   "budget_mensuel": 200,
+   "ok": true,
+   "clicks": 0.5842478275299072,
+   "cost": 0.14397,
+   "cpc": 0.246419,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "code": "G",
+   "label": "Domotique",
+   "mots_cles": 7,
+   "strategy": "Haut de page (CPC manuel)",
+   "budget_mensuel": 200,
+   "ok": true,
+   "clicks": 32.766265869140625,
+   "cost": 38.44143,
+   "cpc": 1.173202,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "code": "H",
+   "label": "Devis, prix et tarifs",
+   "mots_cles": 5,
+   "strategy": "Haut de page (CPC manuel)",
+   "budget_mensuel": 200,
+   "ok": true,
+   "clicks": 2.777836322784424,
+   "cost": 2.64822,
+   "cpc": 0.953339,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  }
+ ],
+ "comparaison_1_92": [
+  {
+   "budget_mensuel": 50,
+   "enchere": 1.92,
+   "ok": true,
+   "clicks": 47.96410369873047,
+   "cost": 49.2,
+   "cpc": 1.025767,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "budget_mensuel": 100,
+   "enchere": 1.92,
+   "ok": true,
+   "clicks": 96.2207260131836,
+   "cost": 98.7,
+   "cpc": 1.025767,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "budget_mensuel": 150,
+   "enchere": 1.92,
+   "ok": true,
+   "clicks": 144.1848907470703,
+   "cost": 147.9,
+   "cpc": 1.025766,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "budget_mensuel": 200,
+   "enchere": 1.92,
+   "ok": true,
+   "clicks": 192.44143676757812,
+   "cost": 197.4,
+   "cpc": 1.025767,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "budget_mensuel": 300,
+   "enchere": 1.92,
+   "ok": true,
+   "clicks": 288.6620788574219,
+   "cost": 296.1,
+   "cpc": 1.025767,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "budget_mensuel": 500,
+   "enchere": 1.92,
+   "ok": true,
+   "clicks": 436.52978515625,
+   "cost": 447.77772,
+   "cpc": 1.025767,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "budget_mensuel": 750,
+   "enchere": 1.92,
+   "ok": true,
+   "clicks": 436.52978515625,
+   "cost": 447.77766,
+   "cpc": 1.025767,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "budget_mensuel": 1000,
+   "enchere": 1.92,
+   "ok": true,
+   "clicks": 436.52978515625,
+   "cost": 447.77787,
+   "cpc": 1.025767,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "budget_mensuel": 1500,
+   "enchere": 1.92,
+   "ok": true,
+   "clicks": 436.52978515625,
+   "cost": 447.77766,
+   "cpc": 1.025767,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  },
+  {
+   "budget_mensuel": 2000,
+   "enchere": 1.92,
+   "ok": true,
+   "clicks": 436.52978515625,
+   "cost": 447.77766,
+   "cpc": 1.025767,
+   "impressions": null,
+   "ctr": null,
+   "attempts": 1
+  }
+ ],
+ "errors": [
+  {
+   "phase": "historical",
+   "code": "{\"keyword_plan_idea_error\":\"INVALID_VALUE\"}",
+   "message": "The input has an invalid value."
+  }
+ ]
+}
