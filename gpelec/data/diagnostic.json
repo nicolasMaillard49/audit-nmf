@@ -40,7 +40,8 @@
    "preuve": "https://gp-elec-49.com/mentions-legales — 5 occurrences dans le HTML rendu, recompte le 02/09/2026 : forme juridique, capital, RCS, TVA intracommunautaire, assurance decennale.",
    "impact": "Mentions legales incompletes sur un site commercial.",
    "correction": "Obtenir de Pierre les cinq valeurs manquantes.",
-   "revision_2026_09_02": "Le comptage du 04/08 annoncait deux occurrences : sous-evalue de trois. Le SIRET a ete renseigne cote client depuis, et l'accueil n'en porte plus aucune."
+   "revision_2026_09_02": "Le comptage du 04/08 annoncait deux occurrences : sous-evalue de trois. Le SIRET a ete renseigne cote client depuis, et l'accueil n'en porte plus aucune.",
+   "precision_2026_09_02": "GP elec est une ENTREPRISE INDIVIDUELLE (nature juridique 1000, verifie le 02/09 au registre). Elle n'a ni capital social ni RCS : les lignes « au capital de », « RCS » et « forme juridique » des mentions legales ne sont pas a completer, elles sont a SUPPRIMER. Restent le SIRET, deja en ligne, l'immatriculation au repertoire des metiers, la TVA si assujetti et la decennale."
   },
   {
    "id": 4,
@@ -118,10 +119,35 @@
    "titre": "Reliquats techniques",
    "preuve": "meta keywords heritee (ignoree par Google), 2 liens href=\"#\", logo du JSON-LD pointant sur /favicon.ico au lieu du logo, favicon.png et apple-touch-icon.png a 47 Ko chacun.",
    "correction": "Nettoyage sans risque."
+  },
+  {
+   "id": 13,
+   "priorite": "P0",
+   "axe": "Conformite",
+   "titre": "Trois temoignages inventes servis sous un badge Avis verifies",
+   "preuve": "config.ts — Marie D., Patrick M., Sophie L., ville \"[A COMPLETER]\", textes detailles et dates. TemoignagesSection.vue les affiche sous un badge « Avis verifies », la mention Google My Business et un lien « Voir tous les avis Google » qui est un href=\"#\" mort.",
+   "realite": "La fiche Google Business porte 9 avis reels. Aucun des trois textes du site n'en provient.",
+   "impact": "Faux avis attribues a des personnes nommees sous un logo Google : article L121-4 du code de la consommation. Plus lourd qu'une note arrondie, et c'est notre livraison.",
+   "correction": "Relever les 9 avis reels de la fiche et remplacer, ou masquer la section jusqu'a ce qu'ils soient disponibles.",
+   "releve_le": "2026-09-02",
+   "statut": "non corrige — releve des vrais avis bloque, extension navigateur indisponible",
+   "note": "Ce constat manquait a la passe du 04/08 : l'audit avait releve l'aggregateRating faux (constat 1) sans voir les trois temoignages eux-memes."
+  },
+  {
+   "id": 14,
+   "priorite": "P0",
+   "axe": "Conformite",
+   "titre": "Anciennete de 40 ans revendiquee, et fondation datee de 1986 dans le JSON-LD",
+   "preuve": "pages/index.vue — foundingDate: '1986' avec founder: Pierre Guille. « 40 ans d'experience » figure au title SEO, a la meta description, au tagline du hero et au pied de page, comme attribut de l'entreprise.",
+   "realite": "Annuaire des entreprises de l'Etat, SIREN 990 872 129, verifie le 02/09/2026 : entreprise creee le 02/09/2025, entrepreneur individuel, dirigeant ne en 2001. L'entite a un an, et la donnee structuree la fait fonder quinze ans avant la naissance de son fondateur.",
+   "impact": "Anciennete non fondee sur l'entite, en donnee structuree lue par Google et en meta. Meme nature que les constats 1, 2 et 13.",
+   "correction": "Retirer foundingDate et reformuler sur le modele deja present dans AProposSection : « savoir-faire familial transmis sur 40 annees ». L'argument reste, il devient vrai.",
+   "releve_le": "2026-09-02",
+   "statut": "non corrige — arbitrage client du 02/09 : laisse en l'etat"
   }
  ],
  "scorePreparation": {
-  "total": 41,
+  "total": 39,
   "sur": 100,
   "grille": "Six axes, ponderes selon leur poids reel dans la reussite d'une campagne locale. Le score mesure l'etat de preparation, pas une probabilite de reussite.",
   "note": "La passe du 31/07/2026 annoncait 61/100 sur une grille dont le generateur n'est plus disponible. Le present score utilise la grille publiee ci-dessous et n'est donc pas directement comparable.",
@@ -153,8 +179,8 @@
    {
     "axe": "Conformite et reassurance",
     "poids": 20,
-    "note": 3,
-    "motif": "Note d'avis fausse, qualification non sourcee, mentions legales incompletes, mesure d'audience sans consentement."
+    "note": 1,
+    "motif": "Note d'avis fausse, qualification revendiquee mais non detenue, trois temoignages inventes sous un badge Avis verifies, anciennete non fondee, mentions legales incompletes, mesure d'audience sans consentement."
    },
    {
     "axe": "Contenu et preuve metier",
@@ -162,12 +188,13 @@
     "note": 4,
     "motif": "616 mots sur la page, photos majoritairement issues de banques d'images, pas de portrait du gerant, pas de page realisations."
    }
-  ]
+  ],
+  "revision_2026_09_02": "Deux P0 de conformite ajoutes le 02/09 (constats 13 et 14). L'axe Conformite passe de 3 a 1 sur 20, le total de 41 a 39 sur 100."
  },
  "verdict": {
   "code": "no-go avant corrections",
-  "libelle": "Ne pas ouvrir de campagne tant que les cinq points P0 ne sont pas traites.",
-  "motif": "Quatre des cinq P0 sont des points de conformite qui exposent le client personnellement, independamment de toute campagne. Le cinquieme casse les apercus de lien sur le canal d'entree principal. Aucun de ces points ne coute cher a corriger.",
+  "libelle": "Ne pas ouvrir de campagne tant que les sept points P0 ne sont pas traites.",
+  "motif": "Six des sept P0 sont des points de conformite qui exposent le client personnellement, independamment de toute campagne. Le septieme casse les apercus de lien sur le canal d'entree principal. Quatre d'entre eux proviennent de notre propre livraison.",
   "delai": "Les cinq P0 et les quatre P1 sont traitables en une a deux journees de travail."
  }
 }

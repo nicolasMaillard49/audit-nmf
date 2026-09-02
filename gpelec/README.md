@@ -74,13 +74,33 @@ dans aucune de nos données.
 `»` de « électricien » partait seul en fin de ligne dans le résumé. La règle a été appliquée aux
 trois rapports.
 
-## Les cinq points bloquants (version technique)
+## Les sept points bloquants (version technique)
 
 1. `aggregateRating` **4,9 / 84 faux** dans le JSON-LD et affiché en page — la fiche porte **5,0 / 9**.
 2. Qualification **Qualifelec** revendiquée alors qu'elle **n'est pas détenue** (vérifié le 02/09).
 3. **Cinq** `[À COMPLÉTER]` servis en production dans `/mentions-legales`.
 4. **GA4 chargé sans consentement**, aucun bandeau, aucune politique de confidentialité liée.
 5. `canonical`, `og:*`, `twitter:image` et les deux `hreflang` pointent sur **www**, qui répond **307** vers l'apex.
+6. **Trois témoignages inventés** — Marie D., Patrick M., Sophie L., `ville: "[À COMPLÉTER]"` — servis
+   sous un badge « Avis vérifiés », la mention Google My Business et un lien mort. La fiche porte neuf
+   avis réels, dont aucun de ces textes.
+7. **Ancienneté de 40 ans revendiquée** et `foundingDate: '1986'` dans le JSON-LD, alors que l'entreprise
+   a été créée le **2 septembre 2025** et que son dirigeant est né en 2001.
+
+> **Les constats 6 et 7 ont été ajoutés le 2 septembre : ils manquaient à la passe du 4 août.** Le
+> constat 1 avait relevé l'`aggregateRating` faux sans voir les trois témoignages eux-mêmes, et
+> personne n'avait confronté l'ancienneté au registre. Le score de préparation passe de **41 à 39
+> sur 100** — l'axe Conformité tombe de 3 à 1 sur 20.
+>
+> **Statut au 02/09.** Les constats 2 (Qualifelec), 4 (consentement) et 5 (canonique) sont **corrigés
+> en local, non déployés** — branche `p0-conformite` du dépôt du site. Le 6 attend le relevé des
+> neuf vrais avis, bloqué. Le 7 est **laissé en l'état sur arbitrage client**. Le 3 attend Pierre.
+
+> **Le constat 3 demandait des champs qui n'existent pas.** Vérification au registre le 02/09
+> (SIREN 990 872 129) : GP elec est une **entreprise individuelle**, pas une société. Ni capital
+> social, ni RCS. Les lignes « forme juridique au capital de » et « RCS » des mentions légales sont à
+> **supprimer**, pas à compléter. Restent le SIRET — déjà en ligne et concordant —, la TVA si
+> assujetti et la décennale.
 
 Aucun des cinq P0 relevés le 31/07 n'a été corrigé, et la performance mobile a reculé de
 **97 à 81** (LCP 2,0 s → 4,5 s). Détail dans `data/diagnostic.json`.
