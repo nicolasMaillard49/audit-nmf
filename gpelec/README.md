@@ -77,13 +77,21 @@ trois rapports.
 ## Les cinq points bloquants (version technique)
 
 1. `aggregateRating` **4,9 / 84 faux** dans le JSON-LD et affiché en page — la fiche porte **5,0 / 9**.
-2. Qualification **Qualifelec** revendiquée sans numéro ni date.
-3. Deux **`[À COMPLÉTER]`** servis en production dans `/mentions-legales`.
+2. Qualification **Qualifelec** revendiquée alors qu'elle **n'est pas détenue** (vérifié le 02/09).
+3. **Cinq** `[À COMPLÉTER]` servis en production dans `/mentions-legales`.
 4. **GA4 chargé sans consentement**, aucun bandeau, aucune politique de confidentialité liée.
 5. `canonical`, `og:*`, `twitter:image` et les deux `hreflang` pointent sur **www**, qui répond **307** vers l'apex.
 
 Aucun des cinq P0 relevés le 31/07 n'a été corrigé, et la performance mobile a reculé de
 **97 à 81** (LCP 2,0 s → 4,5 s). Détail dans `data/diagnostic.json`.
+
+> **Recomptage du 2 septembre 2026 — constats 2 et 3 seulement.** Le site a reçu **sept commits**
+> depuis la mesure du 04/08 ; tout le reste de `diagnostic.json` reste daté du 04/08 et n'a pas été
+> revérifié. Deux corrections : la qualification Qualifelec n'était pas un défaut de documentation
+> mais une **revendication sans objet** — elle tenait à quatre endroits, dont la donnée structurée lue
+> par Google ; et le comptage des `[À COMPLÉTER]` **annonçait deux occurrences pour cinq**. Le SIRET,
+> lui, a été renseigné côté client entre-temps et l'accueil n'en porte plus aucune. Les quatre sources
+> de la revendication ont été retirées en local le 02/09 — **non déployé**.
 
 ## Relecture du 5 août : saison, enchère, zone
 
@@ -104,10 +112,19 @@ fenêtre variant :
 
 **Juin écrase septembre** : 176 clics contre 121 pour le même budget, à 1,12 € au lieu de 1,63 €. Et
 **mai est le pire mois** — la demande monte, la concurrence monte plus vite. La climatisation pèse
-350 recherches en septembre contre 1 011 de moyenne annuelle et 5 830 en juin (volumes mensuels réels,
-`historical[].months`). L'hypothèse « réversible, donc achat d'automne pour chauffer » est **fausse sur
-cette zone** : `climatisation reversible` fait 30 en septembre pour 480 en juin. Seul
+**350 recherches en septembre 2025** contre 1 011 de moyenne sur les douze mois et **5 830 en juin
+2026** (volumes mensuels réels, `historical[].months`, série **juillet 2025 → juin 2026**).
+L'hypothèse « réversible, donc achat d'automne pour chauffer » est **fausse sur cette zone** :
+`climatisation reversible` fait 30 en septembre 2025 pour 480 en juin 2026. Seul
 `pompe a chaleur air air` a un profil d'hiver.
+
+> **Ces volumes mensuels ne sont pas un dénominateur de la prévision** — correction du 02/09. La
+> série `months` s'arrête en juin 2026 : son « septembre » est **septembre 2025**, onze mois avant la
+> fenêtre prévue, sur un marché où la famille A est passée de 1 020 (juil. 2025) à 5 830 (juin 2026).
+> Rapporter les clics prévus pour septembre 2026 à ces volumes pour en tirer un « taux de capture »
+> mélange deux millésimes et ne veut rien dire. L'erreur a été commise en relecture, **elle n'a
+> jamais atteint un livrable**. Le profil de saison, lui, tient : il se lit **à l'intérieur** d'une
+> seule série continue.
 
 ### 2. Le plafond de 292 € est celui de l'enchère, pas du marché
 
@@ -150,6 +167,42 @@ manuel de l'audit est confirmé.
 > **Décision en attente.** Rien n'a été re-basé sur une zone plus large : les trois livrables restent
 > sur les dix communes, qui correspondent à la zone déclarée du client. Passer l'étude au département
 > change la prémisse de l'audit et doit être tranché avec le client.
+
+## Relecture du 2 septembre : le type de correspondance
+
+Une objection restait ouverte : la famille A capte 121 clics quand la famille C en capte 23, alors que
+C porte **plus** de recherches canoniques que A. Hypothèse posée : le **phrase match** ratisserait pour
+la climatisation une longue traîne absente des volumes du portefeuille, et gonflerait A.
+
+`audit-gp-elec-matchtype.mjs` rejoue le même forecast en EXACT, PHRASE et BROAD **dans une seule
+passe** — 9 prévisions, lecture seule, zéro erreur API. Budget 200 €, plafond 2,07 €, dix communes,
+fenêtre 03/09 → 02/10/2026. Données dans `data/matchtype-2026-09-02.json`.
+
+| Périmètre | EXACT | PHRASE | BROAD |
+|---|---|---|---|
+| **A — climatisation** (21 mots) | 78 cl · **84,91 €** · 1,08 € | 184 cl · 197,40 € · 1,07 € | 201 cl · 197,40 € · 0,98 € |
+| **C — électricien** (9 mots) | 12 cl · **11,06 €** · 0,93 € | 46 cl · 44,48 € · 0,97 € | 50 cl · 49,90 € · 0,99 € |
+| Portefeuille (73 mots) | 109 cl · 116,53 € · 1,07 € | 187 cl · 197,40 € · 1,06 € | 201 cl · 197,40 € · 0,98 € |
+
+**L'hypothèse est fausse, et l'inverse est vrai.** En passant de PHRASE à EXACT, **C perd 74 % de ses
+clics et A seulement 57 %** : la longue traîne est proportionnellement *plus* grosse sur électricien
+que sur climatisation. Le rapport A/C ne se referme pas, il s'écarte — **4,0× en phrase, 6,5× en
+exact**. La conclusion centrale de l'audit tient : la climatisation absorbe le budget, l'électricien
+non, et ce n'est **pas** un artefact de correspondance.
+
+**Deux lectures secondaires.**
+
+- **EXACT ne dépense pas le budget** : 116,53 € sur 200 € demandés pour le portefeuille entier, 11,06 €
+  pour la seule famille C. En correspondance exacte, l'inventaire de la zone ne suffit pas — une raison
+  de plus de ne pas ouvrir la campagne en exact.
+- **BROAD n'achète presque rien de plus que PHRASE** (201 clics contre 187, à 0,98 € contre 1,06 €) et
+  ouvre le ciblage à des requêtes non contrôlées. Le choix du phrase match de l'audit est confirmé.
+
+> **Ces chiffres ne se comparent pas terme à terme avec ceux du 05/08.** La fenêtre a bougé
+> (03/09 → 02/10 au lieu du mois de septembre) et Google reprévoit en continu : la famille A en phrase
+> vaut 184 clics ici contre 121 le 05/08, pour la même dépense. **Seuls les écarts internes à cette
+> passe font foi** — c'est précisément pour cela que les trois correspondances ont été mesurées dans
+> la même passe. Et c'est un rappel de plus : un chiffre de prévision gravé dans un PDF doit être daté.
 
 ## Ce que dit l'étude
 
@@ -294,12 +347,19 @@ négative ayant fuité dans la version commerciale ou le résumé.
 
 ### Refaire l'extraction Google Ads
 
-Les scripts d'extraction vivent dans `D:\projets\scrapProsp\scripts\` — c'est là que sont les
-credentials (`.env.local`) et le module `app/lib/googleAds/`. Ils écrivent directement dans
-`gpelec/data/` :
+Les scripts d'extraction vivent dans le checkout `scrapProsp`, avec le module `app/lib/googleAds/`
+et le `.env.local`. Ils écrivent directement dans `gpelec/data/`.
+
+> **Le chemin a changé, et les credentials ne sont pas où les en-têtes le disent.** Les scripts de la
+> passe d'août annoncent `D:\projets\scrapProsp` — ce chemin **n'existe pas** sur la machine
+> courante, où le checkout est `C:\Users\n.maillard\VueJS\scrapProsp`. Et son `.env.local` ne porte
+> **pas** les `GOOGLE_ADS_*` : ils sont dans le `Credentials.md` du vault Obsidian.
+> `audit-gp-elec-matchtype.mjs` charge les deux sources et journalise au démarrage combien de
+> variables il a reprises du vault ; les scripts plus anciens supposent encore le `.env.local` seul et
+> doivent être repathés avant d'être relancés.
 
 ```bash
-cd D:/projets/scrapProsp
+cd C:/Users/n.maillard/VueJS/scrapProsp
 node --import tsx scripts/audit-gp-elec-v2.mjs        # 7 phases, ~40 appels, ~12 min
 node scripts/audit-gp-elec-portefeuille-v2.mjs        # applique la decouverte au portefeuille
 node scripts/audit-gp-elec-marche.mjs                 # consolide marche-google-ads.json

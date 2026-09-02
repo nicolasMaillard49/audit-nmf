@@ -102,8 +102,8 @@
       <h3 class="section-title">Ce qui bloque</h3>
       <div class="finding"><i></i><div><span class="priority p0">P0</span> <strong>La note affichée est fausse</strong> —
         4,9 sur 84 avis dans le JSON-LD, contre 5,0 sur 9 en réalité. Et c'est notre livraison qui est en cause.</div></div>
-      <div class="finding"><i></i><div><span class="priority p0">P0</span> <strong>Qualifelec revendiquée sans preuve</strong>,
-        et deux <span class="tabular">[À COMPLÉTER]</span> encore servis dans les mentions légales.</div></div>
+      <div class="finding"><i></i><div><span class="priority p0">P0</span> <strong>Qualifelec revendiquée, jamais détenue</strong>,
+        et cinq <span class="tabular">[À COMPLÉTER]</span> encore servis dans les mentions légales.</div></div>
       <div class="finding"><i></i><div><span class="priority p0">P0</span> <strong>GA4 se charge sans consentement</strong>,
         sans bandeau ni politique de confidentialité.</div></div>
       <div class="finding"><i></i><div><span class="priority p1">P1</span> <strong>Aucun événement de conversion</strong> —
@@ -270,20 +270,23 @@
     </div>
 
     <div class="issue">
-      <div class="issue-head"><span class="priority p0">P0 · 02</span><h4>Qualification Qualifelec revendiquée sans preuve</h4></div>
-      <p><b>Constat.</b> Le bloc <span class="tabular">hasCredential</span> déclare Qualifelec, sans
-        numéro ni date de validité, alors que RGE et IRVE ont justement été retirés du site faute de
-        qualification.</p>
-      <p class="fix"><b>Correction.</b> Obtenir de Pierre une confirmation écrite avec numéro et date,
-        ou supprimer le bloc.</p>
+      <div class="issue-head"><span class="priority p0">P0 · 02</span><h4>Qualification Qualifelec revendiquée, jamais détenue</h4></div>
+      <p><b>Constat.</b> Le bloc <span class="tabular">hasCredential</span> déclare Qualifelec sans
+        numéro ni date, alors que RGE et IRVE avaient été retirés du site faute de qualification.
+        <b>Vérifié le 2 septembre 2026 : l'entreprise n'en détient aucune.</b> La revendication tenait
+        à quatre endroits — donnée structurée, réponse de FAQ, mots-clés, section dédiée.</p>
+      <p class="fix"><b>Correction.</b> Faite le 2 septembre, les quatre sources retirées. NF C 15-100
+        et le Consuel restent : une norme appliquée et une attestation de chantier ne sont pas des
+        titres détenus.</p>
     </div>
 
     <div class="issue">
-      <div class="issue-head"><span class="priority p0">P0 · 03</span><h4>Deux mentions [À COMPLÉTER] en production</h4></div>
-      <p><b>Constat.</b> Deux occurrences subsistent dans le HTML rendu de
-        <span class="tabular">/mentions-legales</span>.</p>
-      <p class="fix"><b>Correction.</b> Obtenir forme juridique, capital, RCS, TVA intracommunautaire et
-        numéro d'assurance décennale.</p>
+      <div class="issue-head"><span class="priority p0">P0 · 03</span><h4>Cinq mentions [À COMPLÉTER] en production</h4></div>
+      <p><b>Constat.</b> Le comptage du 4 août en annonçait deux : il en manquait trois. Recompté sur le
+        HTML rendu le 2 septembre 2026, <span class="tabular">/mentions-legales</span> en sert cinq —
+        forme juridique, capital, RCS, TVA intracommunautaire et assurance décennale. Le SIRET a été
+        renseigné depuis, et l'accueil n'en porte plus aucune.</p>
+      <p class="fix"><b>Correction.</b> Obtenir de Pierre les cinq valeurs manquantes.</p>
     </div>
 
     <div class="issue">
@@ -855,7 +858,7 @@
       <div class="phase">Lot 1<br>Bloquants</div>
       <div>
         <h4 class="figure-title">Les cinq P0</h4>
-        <p class="body-copy mt-3">Aligner la note sur 5,0 / 9. Sourcer ou retirer Qualifelec. Compléter
+        <p class="body-copy mt-3">Aligner la note sur 5,0 / 9. Retirer Qualifelec, non détenue. Compléter
           les mentions légales. Poser le consentement et la politique de confidentialité. Aligner la
           chaîne canonique sur l'apex.</p>
       </div>

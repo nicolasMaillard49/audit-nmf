@@ -1,0 +1,148 @@
+{
+ "meta": {
+  "extraction": "2026-09-02T09:29:26.809Z",
+  "mcc": "6711813801",
+  "api": "google-ads-api v24 / generateKeywordForecastMetrics",
+  "question": "le portefeuille A est-il 12x plus performant que C, ou 12x plus large ?",
+  "fenetre": {
+   "start_date": "2026-09-03",
+   "end_date": "2026-10-02"
+  },
+  "fenetre_note": "la reference du 05/08 portait sur 2026-09-01 -> 2026-09-30 ; cette fenetre est passee, les valeurs ne sont pas comparables terme a terme. Seuls les ecarts INTERNES a cette passe font foi.",
+  "constant": {
+   "langue": "languageConstants/1002",
+   "reseau": "GOOGLE_SEARCH",
+   "devise": "EUR",
+   "geo": 10,
+   "strategie": "CPC manuel plafonne",
+   "plafond": 2.07,
+   "budget": 200
+  },
+  "variable": [
+   "type de correspondance",
+   "perimetre de familles"
+  ],
+  "perimetres": [
+   {
+    "cle": "A",
+    "label": "Climatisation et PAC air/air",
+    "mots_cles": 21
+   },
+   {
+    "cle": "C",
+    "label": "Electricien general",
+    "mots_cles": 9
+   },
+   {
+    "cle": "TOUT",
+    "label": "Portefeuille entier",
+    "mots_cles": 73
+   }
+  ],
+  "matchs": [
+   "EXACT",
+   "PHRASE",
+   "BROAD"
+  ],
+  "reference_05_08": "A (phrase, 200 EUR, plafond 2,07) : 121 clics / 197,40 EUR — C : 23 clics / 24,26 EUR",
+  "recherches_septembre": {
+   "A": 350,
+   "C": 820,
+   "TOUT": 2870
+  },
+  "limite_api": "ni impressions, ni CTR, ni position — v24"
+ },
+ "previsions": [
+  {
+   "perimetre": "A",
+   "match": "EXACT",
+   "mots_cles": 21,
+   "ok": true,
+   "clicks": 78.47413635253906,
+   "cost": 84.9081,
+   "cpc": 1.081988,
+   "attempts": 1
+  },
+  {
+   "perimetre": "A",
+   "match": "PHRASE",
+   "mots_cles": 21,
+   "ok": true,
+   "clicks": 183.71316528320312,
+   "cost": 197.4,
+   "cpc": 1.074501,
+   "attempts": 1
+  },
+  {
+   "perimetre": "A",
+   "match": "BROAD",
+   "mots_cles": 21,
+   "ok": true,
+   "clicks": 201.26736450195312,
+   "cost": 197.4,
+   "cpc": 0.980785,
+   "attempts": 1
+  },
+  {
+   "perimetre": "C",
+   "match": "EXACT",
+   "mots_cles": 9,
+   "ok": true,
+   "clicks": 11.935102462768555,
+   "cost": 11.05809,
+   "cpc": 0.926518,
+   "attempts": 1
+  },
+  {
+   "perimetre": "C",
+   "match": "PHRASE",
+   "mots_cles": 9,
+   "ok": true,
+   "clicks": 45.72638702392578,
+   "cost": 44.47872,
+   "cpc": 0.972715,
+   "attempts": 1
+  },
+  {
+   "perimetre": "C",
+   "match": "BROAD",
+   "mots_cles": 9,
+   "ok": true,
+   "clicks": 50.34190368652344,
+   "cost": 49.89933,
+   "cpc": 0.991209,
+   "attempts": 1
+  },
+  {
+   "perimetre": "TOUT",
+   "match": "EXACT",
+   "mots_cles": 73,
+   "ok": true,
+   "clicks": 108.6775131225586,
+   "cost": 116.52564,
+   "cpc": 1.072215,
+   "attempts": 1
+  },
+  {
+   "perimetre": "TOUT",
+   "match": "PHRASE",
+   "mots_cles": 73,
+   "ok": true,
+   "clicks": 187.0464630126953,
+   "cost": 197.4,
+   "cpc": 1.055353,
+   "attempts": 1
+  },
+  {
+   "perimetre": "TOUT",
+   "match": "BROAD",
+   "mots_cles": 73,
+   "ok": true,
+   "clicks": 201.1263427734375,
+   "cost": 197.4,
+   "cpc": 0.981473,
+   "attempts": 1
+  }
+ ],
+ "errors": []
+}
