@@ -81,9 +81,10 @@ trois rapports.
 3. **Cinq** `[À COMPLÉTER]` servis en production dans `/mentions-legales`.
 4. **GA4 chargé sans consentement**, aucun bandeau, aucune politique de confidentialité liée.
 5. `canonical`, `og:*`, `twitter:image` et les deux `hreflang` pointent sur **www**, qui répond **307** vers l'apex.
-6. **Trois témoignages inventés** — Marie D., Patrick M., Sophie L., `ville: "[À COMPLÉTER]"` — servis
-   sous un badge « Avis vérifiés », la mention Google My Business et un lien mort. La fiche porte neuf
-   avis réels, dont aucun de ces textes.
+6. **Trois témoignages inventés** — Marie D., Patrick M., Sophie L., `ville: "[À COMPLÉTER]"` — dans
+   `config.ts`, avec un badge « Avis vérifiés », la mention Google My Business et un lien mort. La
+   fiche porte neuf avis réels, dont aucun de ces textes. **Corrigé le 03/09/2026** — voir la
+   rectification ci-dessous : ils n'étaient pas publiés.
 7. **Ancienneté de 40 ans revendiquée** et `foundingDate: '1986'` dans le JSON-LD, alors que l'entreprise
    a été créée le **2 septembre 2025** et que son dirigeant est né en 2001.
 
@@ -94,10 +95,25 @@ trois rapports.
 >
 > **Statut au 03/09.** Les constats 2 (Qualifelec), 4 (consentement) et 5 (canonique) sont
 > **corrigés et déployés** : la branche `p0-conformite` du dépôt du site a été mergée sur `main`
-> et poussée (commit `fc36033`). Le 6 — **les trois faux témoignages — est toujours en ligne** :
-> il attend le relevé des neuf vrais avis, bloqué parce que l'extension Claude in Chrome ne se
-> connecte pas sur cette machine. Le 7 est **laissé en l'état sur arbitrage client**. Le 3 attend
-> Pierre.
+> et poussée (commit `fc36033`). Le 6 est **corrigé** (commit `2458bea`). Le 7 est **laissé en
+> l'état sur arbitrage client**. Le 3 attend Pierre.
+
+> **Rectification du constat 6 — il était surévalué.** Le constat affirmait que les trois faux
+> témoignages étaient **servis** sous un badge « Avis vérifiés ». Vérifié le 03/09/2026 :
+> `components/TemoignagesSection.vue` **n'est référencé par aucune page depuis le commit
+> initial**, et `curl` sur `gp-elec-49.com` ne trouve ni « Marie D. », ni « Patrick M. », ni
+> « Sophie L. », ni « Avis vérifiés ». C'était de la **donnée morte dans `config.ts`**, pas du
+> contenu publié — un piège quand même : brancher le composant les aurait mis en ligne d'un coup.
+>
+> Corrigé à la source : les trois faux sont remplacés par les **trois avis les plus récents de la
+> fiche Google**, recopiés mot pour mot le 03/09/2026 — Hugo Coutant, Thomas Redois et alex nba,
+> cinq étoiles chacun, visite en mai. Les champs `ville` et `travaux` sont supprimés du modèle
+> comme du rendu : Google ne les donne pas, et les inventer reproduirait la faute. Le lien
+> « Voir tous les avis Google », qui était un `href="#"`, pointe désormais sur la fiche Maps.
+>
+> **Le constat 1 (`aggregateRating` 4,9 / 84) est déjà réglé, lui.** Le JSON-LD servi porte
+> `ratingValue: 5, reviewCount: 9`, ce qui concorde exactement avec la fiche Google relevée le
+> 03/09/2026 (5,0 sur 9 avis).
 
 > **Le constat 3 demandait des champs qui n'existent pas.** Vérification au registre le 02/09
 > (SIREN 990 872 129) : GP elec est une **entreprise individuelle**, pas une société. Ni capital

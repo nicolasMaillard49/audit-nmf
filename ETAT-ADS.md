@@ -200,13 +200,14 @@ créée le 02/09/2025. **Rien n'est encore ouvert côté Google.**
    dépense. → **Passer par l'interface.** `ads/gpelec-creer-compte.mjs` reste en dry-run et
    sert de garde-fou anti-doublon ; il porte l'identité vérifiée au registre et rappelle que
    **devise et fuseau sont définitifs** (EUR / Europe/Paris).
-3. **Trois faux témoignages sont en ligne.** Constat 6 de l'audit : Marie D., Patrick M.,
-   Sophie L., sous un badge « Avis vérifiés » et la mention Google My Business, alors que la
-   fiche porte neuf avis réels dont aucun de ces textes. La branche `p0-conformite` du dépôt
-   du site (`nicolasMaillard49/GP-elec`) a été **mergée et déployée** — elle corrigeait
-   Qualifelec, le consentement GA4 et le domaine canonique, **mais pas les témoignages**.
-   Le relevé des neuf vrais avis est bloqué : l'extension Claude in Chrome ne se connecte pas
-   sur cette machine.
+3. ~~**Trois faux témoignages sont en ligne.**~~ **Réglé le 03/09/2026, et le constat était
+   surévalué.** Les trois faux — Marie D., Patrick M., Sophie L. — vivaient dans `config.ts`,
+   mais `TemoignagesSection.vue` **n'est référencé par aucune page depuis le commit initial** :
+   `curl` sur `gp-elec-49.com` n'en trouve aucune trace, ni du badge « Avis vérifiés ». C'était
+   de la donnée morte, pas du contenu publié. Ils sont désormais remplacés par les trois avis
+   Google réels (commit `2458bea`), et le lien « Voir tous les avis Google » — un `href="#"`
+   mort — pointe sur la fiche Maps. L'`aggregateRating` servi, lui, est juste : 5,0 sur 9,
+   concordant avec la fiche relevée le 03/09.
 4. **Le formulaire de contact est toujours en `mailto:`, et il n'y a pas de page `/merci`.**
    C'est le constat P1 #7, ouvert depuis le 31/07 et **jamais corrigé** : vérifié le 03/09,
    le dépôt du site ne porte aucun backend d'envoi — ni route Nitro, ni Resend, ni Formspree —
