@@ -1,12 +1,13 @@
 /**
  * Captures d'ecran de preuve pour l'audit La Rencontre.
  * Emulation mobile reelle (UA + deviceScaleFactor + isMobile) via puppeteer-core.
- *   node capture.mjs
+ *   node tools/capture.mjs   (depuis la-rencontre/)
  */
 import puppeteer from "puppeteer-core";
+import { fileURLToPath } from "node:url";
 
 const CHROME = "C:/Program Files/Google/Chrome/Application/chrome.exe";
-const DIR = "D:/projets/audit/la-rencontre/shots";
+const DIR = fileURLToPath(new URL("../shots", import.meta.url));
 const UA_MOBILE =
   "Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Mobile Safari/537.36";
 

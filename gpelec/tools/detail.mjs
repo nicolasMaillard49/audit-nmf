@@ -1,5 +1,5 @@
 import { readFileSync } from "node:fs";
-const lh = JSON.parse(readFileSync("./data/lh-raw-accueil-mobile.json", "utf8"));
+const lh = JSON.parse(readFileSync(new URL("../data/lh-raw-accueil-mobile.json", import.meta.url), "utf8"));
 const a = lh.audits;
 
 console.log("=== ELEMENT LCP ===");

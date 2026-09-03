@@ -1,12 +1,12 @@
 import { readFileSync } from "node:fs";
 
 const html = readFileSync(
-  new URL("./report/audit-totowood-2026-client.html", import.meta.url),
+  new URL("../report/audit-totowood-2026-client.html", import.meta.url),
   "utf8",
 );
 const data = JSON.parse(
   readFileSync(
-    new URL("./data/google-ads-seine-et-marne-expanded.json", import.meta.url),
+    new URL("../data/google-ads-seine-et-marne-expanded.json", import.meta.url),
     "utf8",
   ),
 );

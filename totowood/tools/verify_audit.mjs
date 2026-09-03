@@ -1,17 +1,17 @@
 import { existsSync, readFileSync } from "node:fs";
 
-const html = readFileSync(new URL("./report/audit-totowood-2026.html", import.meta.url), "utf8");
+const html = readFileSync(new URL("../report/audit-totowood-2026.html", import.meta.url), "utf8");
 const data = JSON.parse(
-  readFileSync(new URL("./data/google-ads-seine-et-marne-expanded.json", import.meta.url), "utf8"),
+  readFileSync(new URL("../data/google-ads-seine-et-marne-expanded.json", import.meta.url), "utf8"),
 );
 const keywordData = JSON.parse(
   readFileSync(
-    new URL("./data/google-ads-seine-et-marne-keyword-stats.json", import.meta.url),
+    new URL("../data/google-ads-seine-et-marne-keyword-stats.json", import.meta.url),
     "utf8",
   ),
 );
 const annexDataScript = readFileSync(
-  new URL("./report/keyword-annex-data.js", import.meta.url),
+  new URL("../report/keyword-annex-data.js", import.meta.url),
   "utf8",
 );
 
@@ -165,12 +165,12 @@ for (const obsolete of [
 }
 
 for (const asset of [
-  "./assets/nmf/logo-light-bg.png",
-  "./assets/nmf/logo-symbol.png",
-  "./assets/totowood/photos/project-1.jpg",
-  "./assets/totowood/photos/project-2.jpg",
-  "./assets/totowood/photos/project-3.jpg",
-  "./report/keyword-annex-data.js",
+  "../assets/nmf/logo-light-bg.png",
+  "../assets/nmf/logo-symbol.png",
+  "../assets/totowood/photos/project-1.jpg",
+  "../assets/totowood/photos/project-2.jpg",
+  "../assets/totowood/photos/project-3.jpg",
+  "../report/keyword-annex-data.js",
 ]) {
   assert(existsSync(new URL(asset, import.meta.url)), `Ressource manquante : ${asset}`);
 }

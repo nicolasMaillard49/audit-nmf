@@ -2,7 +2,7 @@ import { readFileSync, writeFileSync } from "node:fs";
 
 const source = JSON.parse(
   readFileSync(
-    new URL("./data/google-ads-seine-et-marne-keyword-stats.json", import.meta.url),
+    new URL("../data/google-ads-seine-et-marne-keyword-stats.json", import.meta.url),
     "utf8",
   ),
 );
@@ -42,7 +42,7 @@ const payload = {
 };
 
 writeFileSync(
-  new URL("./report/keyword-annex-data.js", import.meta.url),
+  new URL("../report/keyword-annex-data.js", import.meta.url),
   `window.keywordAnnexData = ${JSON.stringify(payload)};\n`,
   "utf8",
 );

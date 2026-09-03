@@ -10,7 +10,7 @@
  */
 import { readFileSync, writeFileSync } from "fs";
 
-const AUDIT = "D:/projets/audit/gpelec";
+const AUDIT = "C:/Users/n.maillard/audit-nmf/gpelec";
 const raw = JSON.parse(readFileSync(`${AUDIT}/data/donnees-google-ads-brutes-2026-08-04.json`, "utf8"));
 const port = JSON.parse(readFileSync(`${AUDIT}/data/portefeuille-mots-cles.json`, "utf8"));
 const ancien = JSON.parse(readFileSync(`${AUDIT}/data/marche-google-ads.json`, "utf8"));

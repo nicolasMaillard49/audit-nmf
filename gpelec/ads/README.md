@@ -5,11 +5,19 @@ Ces scripts ne sont **pas exécutables depuis ce dossier** : ils importent `goog
 Ils écrivent directement dans `gpelec/data/`. La copie ici sert à documenter exactement ce qui a
 produit les données.
 
-> **Chemin et credentials, état au 02/09/2026.** Les en-têtes des scripts d'août annoncent
-> `D:\projets\scrapProsp` : **ce chemin n'existe pas** sur la machine courante, où le checkout est
-> `C:\Users\n.maillard\VueJS\scrapProsp`. Et le `.env.local` de ce checkout **ne porte pas** les
-> `GOOGLE_ADS_*` — ils sont dans le `Credentials.md` du vault Obsidian. Seul
-> `audit-gp-elec-matchtype.mjs` gère les deux sources ; les autres sont à repather avant relance.
+> **Chemins corrigés le 03/09/2026.** Les en-têtes des scripts d'août annonçaient
+> `D:\projets\scrapProsp` et écrivaient dans `D:/projets/audit/gpelec` : **ce lecteur n'existe pas**
+> sur la machine courante. Les quatorze scripts pointent désormais vers
+> `C:\Users\n.maillard\VueJS\scrapProsp` et `C:/Users/n.maillard/audit-nmf/gpelec`.
+>
+> **Les credentials, eux, restent ailleurs.** Le `.env.local` de ce checkout **ne porte pas** les
+> `GOOGLE_ADS_*` — ils sont dans le `Credentials.md` du vault Obsidian. Les scripts du 02/09
+> (`…-matchtype`, `…-v3-departement`, `…-v3-zone-brissac-angers`, `…-v3-zone-complement`,
+> `…-v3-base-livrables`, `…-controle-zone`, `…-saison-multi-annees`, `gpelec-creer-compte`)
+> chargent les deux sources et journalisent au démarrage combien de variables viennent du vault.
+> Les six scripts d'août (`…-v2`, `…-portefeuille-v2`, `…-marche`, `…-saisonnalite`,
+> `…-septembre-cd`, `…-zone-elargie`) ne lisent que le `.env.local` : **leur ajouter ce chargement
+> avant toute relance**.
 
 ## Passe du 4 août 2026 — l'audit
 

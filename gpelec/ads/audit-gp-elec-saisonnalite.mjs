@@ -24,7 +24,7 @@
  * Geo repris du fichier brut du 04/08 : aucun appel geo refait.
  * Lecture seule cote Google : uniquement des previsions, rien n'est cree.
  *
- *   cd D:/projets/scrapProsp
+ *   cd C:/Users/n.maillard/VueJS/scrapProsp
  *   node --import tsx scripts/audit-gp-elec-saisonnalite.mjs
  */
 import { readFileSync, writeFileSync, mkdirSync } from "fs";
@@ -41,7 +41,7 @@ for (const [k, v] of Object.entries(env)) if (process.env[k] === undefined) proc
 const { enums } = await import("google-ads-api");
 const { mccCustomer, MCC_ID } = await import("../app/lib/googleAds/client.ts");
 
-const AUDIT = "D:/projets/audit/gpelec";
+const AUDIT = "C:/Users/n.maillard/audit-nmf/gpelec";
 const BRUT = JSON.parse(readFileSync(`${AUDIT}/data/donnees-google-ads-brutes-2026-08-04.json`, "utf8"));
 const PORTFOLIO = JSON.parse(readFileSync(`${AUDIT}/data/portefeuille-mots-cles.json`, "utf8"));
 const OUT = `${AUDIT}/data/saisonnalite-forecast-2026-08-05.json`;

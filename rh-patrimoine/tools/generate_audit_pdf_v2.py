@@ -14,7 +14,7 @@ from reportlab.platypus import (
 from reportlab.lib.utils import ImageReader
 
 
-ROOT = Path(__file__).parent
+ROOT = Path(__file__).resolve().parent.parent
 ASSETS = ROOT / "assets/rhpatrimoine"
 TMP = ROOT / "tmp/pdfs/assets-v2"
 OUT = ROOT / "output/pdf/audit-rh-patrimoine-nmf.pdf"

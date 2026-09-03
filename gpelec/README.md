@@ -92,9 +92,12 @@ trois rapports.
 > personne n'avait confronté l'ancienneté au registre. Le score de préparation passe de **41 à 39
 > sur 100** — l'axe Conformité tombe de 3 à 1 sur 20.
 >
-> **Statut au 02/09.** Les constats 2 (Qualifelec), 4 (consentement) et 5 (canonique) sont **corrigés
-> en local, non déployés** — branche `p0-conformite` du dépôt du site. Le 6 attend le relevé des
-> neuf vrais avis, bloqué. Le 7 est **laissé en l'état sur arbitrage client**. Le 3 attend Pierre.
+> **Statut au 03/09.** Les constats 2 (Qualifelec), 4 (consentement) et 5 (canonique) sont
+> **corrigés et déployés** : la branche `p0-conformite` du dépôt du site a été mergée sur `main`
+> et poussée (commit `fc36033`). Le 6 — **les trois faux témoignages — est toujours en ligne** :
+> il attend le relevé des neuf vrais avis, bloqué parce que l'extension Claude in Chrome ne se
+> connecte pas sur cette machine. Le 7 est **laissé en l'état sur arbitrage client**. Le 3 attend
+> Pierre.
 
 > **Le constat 3 demandait des champs qui n'existent pas.** Vérification au registre le 02/09
 > (SIREN 990 872 129) : GP elec est une **entreprise individuelle**, pas une société. Ni capital
@@ -111,7 +114,7 @@ Aucun des cinq P0 relevés le 31/07 n'a été corrigé, et la performance mobile
 > mais une **revendication sans objet** — elle tenait à quatre endroits, dont la donnée structurée lue
 > par Google ; et le comptage des `[À COMPLÉTER]` **annonçait deux occurrences pour cinq**. Le SIRET,
 > lui, a été renseigné côté client entre-temps et l'accueil n'en porte plus aucune. Les quatre sources
-> de la revendication ont été retirées en local le 02/09 — **non déployé**.
+> de la revendication ont été retirées le 02/09 et **déployées depuis** (merge de `p0-conformite`).
 
 ## Relecture du 5 août : saison, enchère, zone
 
@@ -494,7 +497,12 @@ output/
   pdf/                                      les trois livrables
   qa/                                       une capture par page : tech-*, page-*, resume-*
 legacy/generateur-rapport.py                generateur Python de la passe du 31/07, conserve
-collect.mjs, analyze.mjs, lh.mjs, capture.mjs, capture2.mjs, detail.mjs   chaine de collecte
+tools/                                      chaine de collecte du site
+  collect.mjs                               aspire les pages -> data/site.json, data/pages/
+  analyze.mjs                               SEO / structure / conformite -> data/seo.json
+  lh.mjs                                    Lighthouse local -> data/lighthouse.json
+  capture.mjs, capture2.mjs                 captures desktop et mobile -> shots/
+  detail.mjs                                lecture du Lighthouse brut (LCP, ressources)
 ```
 
 ## Régénérer
@@ -502,9 +510,9 @@ collect.mjs, analyze.mjs, lh.mjs, capture.mjs, capture2.mjs, detail.mjs   chaine
 ```bash
 cd gpelec
 npm install
-node collect.mjs && node analyze.mjs   # recollecte le site
-node lh.mjs                            # remesure Lighthouse
-node capture2.mjs                      # refait les captures
+node tools/collect.mjs && node tools/analyze.mjs   # recollecte le site
+node tools/lh.mjs                                 # remesure Lighthouse
+node tools/capture2.mjs                           # refait les captures
 node report/render-all.mjs             # regenere les TROIS PDF et les verifie
 ```
 
@@ -517,13 +525,17 @@ négative ayant fuité dans la version commerciale ou le résumé.
 Les scripts d'extraction vivent dans le checkout `scrapProsp`, avec le module `app/lib/googleAds/`
 et le `.env.local`. Ils écrivent directement dans `gpelec/data/`.
 
-> **Le chemin a changé, et les credentials ne sont pas où les en-têtes le disent.** Les scripts de la
-> passe d'août annoncent `D:\projets\scrapProsp` — ce chemin **n'existe pas** sur la machine
-> courante, où le checkout est `C:\Users\n.maillard\VueJS\scrapProsp`. Et son `.env.local` ne porte
-> **pas** les `GOOGLE_ADS_*` : ils sont dans le `Credentials.md` du vault Obsidian.
-> `audit-gp-elec-matchtype.mjs` charge les deux sources et journalise au démarrage combien de
-> variables il a reprises du vault ; les scripts plus anciens supposent encore le `.env.local` seul et
-> doivent être repathés avant d'être relancés.
+> **Les chemins ont été corrigés le 03/09/2026 ; les credentials, eux, ne sont toujours pas où les
+> en-têtes le laissaient croire.** Les scripts de la passe d'août annonçaient
+> `D:\projets\scrapProsp` et `D:/projets/audit/gpelec` — un lecteur qui **n'existe pas** sur cette
+> machine. Les quatorze scripts d'`ads/` pointent désormais tous vers
+> `C:\Users\n.maillard\VueJS\scrapProsp` et `C:/Users/n.maillard/audit-nmf/gpelec`.
+> En revanche, le `.env.local` du checkout ne porte **pas** les `GOOGLE_ADS_*` : ils sont dans le
+> `Credentials.md` du vault Obsidian. Les scripts du 02/09 (`…-matchtype`, `…-v3-*`,
+> `…-controle-zone`, `…-saison-multi-annees`) chargent les deux sources et journalisent au démarrage
+> combien de variables viennent du vault ; les six scripts d'août (`…-v2`, `…-portefeuille-v2`,
+> `…-marche`, `…-saisonnalite`, `…-septembre-cd`, `…-zone-elargie`) supposent encore le `.env.local`
+> seul et doivent recevoir ce chargement avant d'être relancés.
 
 ```bash
 cd C:/Users/n.maillard/VueJS/scrapProsp

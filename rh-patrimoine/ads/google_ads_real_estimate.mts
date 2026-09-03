@@ -1,6 +1,6 @@
 import { readFileSync } from "node:fs";
 
-const repo = "D:/projets/scrapProsp";
+const repo = "C:/Users/n.maillard/VueJS/scrapProsp";
 const env = Object.fromEntries(
   readFileSync(`${repo}/.env.local`, "utf8")
     .split(/\r?\n/)
@@ -15,13 +15,13 @@ for (const [key, value] of Object.entries(env)) {
 }
 
 const { mccCustomer, clientCustomer, MCC_ID } = await import(
-  "file:///D:/projets/scrapProsp/app/lib/googleAds/client.ts"
+  "file:///C:/Users/n.maillard/VueJS/scrapProsp/app/lib/googleAds/client.ts"
 );
 const { resolveGeoTargetConstant, fetchKeywordIdeas } = await import(
-  "file:///D:/projets/scrapProsp/app/lib/googleAds/keywordIdeas.ts"
+  "file:///C:/Users/n.maillard/VueJS/scrapProsp/app/lib/googleAds/keywordIdeas.ts"
 );
 const { fetchCampaignReport } = await import(
-  "file:///D:/projets/scrapProsp/app/lib/googleAds/report.ts"
+  "file:///C:/Users/n.maillard/VueJS/scrapProsp/app/lib/googleAds/report.ts"
 );
 
 const mcc = mccCustomer();

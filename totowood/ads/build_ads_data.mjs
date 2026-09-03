@@ -1,8 +1,8 @@
 import { readFileSync, writeFileSync } from "node:fs";
 
-const rawPath = new URL("./tmp/forecast-totowood-77-expanded-20260728.json", import.meta.url);
-const outputPath = new URL("./data/google-ads-seine-et-marne-expanded.json", import.meta.url);
-const baselinePath = new URL("./data/google-ads-seine-et-marne.json", import.meta.url);
+const rawPath = new URL("../tmp/forecast-totowood-77-expanded-20260728.json", import.meta.url);
+const outputPath = new URL("../data/google-ads-seine-et-marne-expanded.json", import.meta.url);
+const baselinePath = new URL("../data/google-ads-seine-et-marne.json", import.meta.url);
 const raw = JSON.parse(readFileSync(rawPath, "utf8"));
 const baseline = JSON.parse(readFileSync(baselinePath, "utf8"));
 

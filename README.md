@@ -1,146 +1,92 @@
 # Audits NMF
 
-Archive des audits réalisés sous la marque **NMF**. Un dossier par client, contenant
-le livrable final (PDF), les rapports HTML source, les données collectées, les
-captures d'écran et les scripts de génération.
+Archive des audits réalisés sous la marque **NMF**. Un dossier par client, contenant le
+livrable final (PDF), les rapports HTML source, les données collectées, les captures d'écran
+et les scripts de génération.
+
+> **Où en est chaque client côté Google Ads : [`ETAT-ADS.md`](ETAT-ADS.md).**
+> C'est le point d'entrée pour reprendre un dossier — décisions arrêtées, blocages, prochaine
+> action, et les limites d'API à ne pas réapprendre.
 
 ## Clients
 
-| Client | Période | Livrable principal |
-|---|---|---|
-| [Totowood](#totowood) | juillet 2026 | `totowood/output/pdf/Audit-Totowood-NMF-2026-Client.pdf` |
-| [RH Patrimoine](#rh-patrimoine) | juillet 2026 | `rh-patrimoine/codex audit/output/pdf/audit-rh-patrimoine-nmf.pdf` |
-| [La Rencontre](#la-rencontre) | août 2026 | `la-rencontre/output/pdf/Audit-La-Rencontre-NMF-2026.pdf` |
-| [GP elec](#gp-elec) | août 2026 | `gpelec/output/pdf/` — trois versions |
+| Client | Période | Livrable principal | Détail |
+|---|---|---|---|
+| [Totowood](totowood/) | juillet 2026 | `totowood/output/pdf/Audit-Totowood-NMF-2026-Client.pdf` | [README](totowood/README.md) |
+| [RH Patrimoine](rh-patrimoine/) | juillet 2026 | `rh-patrimoine/output/pdf/audit-rh-patrimoine-nmf.pdf` | [README](rh-patrimoine/README.md) |
+| [La Rencontre](la-rencontre/) | août 2026 | `la-rencontre/output/pdf/Audit-La-Rencontre-NMF-2026.pdf` | [README](la-rencontre/README.md) |
+| [GP elec](gpelec/) | août–septembre 2026 | `gpelec/output/pdf/` — trois versions | [README](gpelec/README.md) |
 
----
+## Arborescence commune
 
-## Totowood
+Les quatre dossiers suivent la même structure. Un dossier absent signifie simplement que le
+dossier client n'en a pas eu besoin.
 
-Audit complet avec déclinaisons par zone géographique et par audience.
+| Dossier | Contenu |
+|---|---|
+| `ads/` | tout ce qui touche à l'API Google Ads : extraction, prévisions, normalisation |
+| `data/` | les données collectées — réponses d'API brutes, mesures du site, portefeuille |
+| `report/` | les sources HTML des rapports, la charte verrouillée et les scripts de rendu |
+| `output/pdf/` | les livrables |
+| `output/qa/` | une capture par page, pour relire le rendu |
+| `shots/` | les captures d'écran du site du client |
+| `assets/` | visuels du client et logos NMF |
+| `tools/` | collecte du site, captures, vérificateurs, chaînes de rendu |
+| `legacy/` | les passes antérieures, conservées telles quelles |
+| `tmp/` | intermédiaires de rendu |
 
-**PDF livrés** (`totowood/output/pdf/`)
+**Deux règles de chemin**, appliquées le 03/09/2026 :
 
-- `Audit-Totowood-NMF-2026-Client.pdf` — version client, la plus récente
-- `Audit-Totowood-NMF-2026-Interne.pdf` — version interne
-- `Audit-Totowood-NMF-2026-Ile-de-France.pdf` — déclinaison Île-de-France
-- `Audit-Totowood-NMF-2026-Seine-et-Marne.pdf` — déclinaison Seine-et-Marne
-- `Audit-Totowood-NMF-2026-Budget-2000.pdf` — scénario budget 2 000 €
-- `Recap-Totowood-NMF-2026.pdf` — récapitulatif
-- les versions `final`, `final-v2`, `v3`, `AC`, `draft`… sont les itérations
-  successives, conservées pour l'historique
-
-**Sources**
-
-- `report/` — rapports HTML (`audit-totowood-2026-client.html`, version interne, récap)
-- `data/` — données collectées
-- `assets/` — visuels et captures
-- `design-previews/` — maquettes de mise en page
-- `build_ads_data.mjs`, `build_keyword_annex_data.mjs`, `fetch_keyword_stats.mjs` —
-  collecte et préparation des données Google Ads / mots-clés
-- `make_audit_pdf.py` — génération du PDF
-- `verify_audit.mjs`, `verify_client_audit.mjs` — vérification du rendu
-- `PRODUCT.md`, `DESIGN.md` — notes produit et parti pris graphique
-- `report/mots-cles-totowood-google-ads.txt` — liste de mots-clés Google Ads
-
-## RH Patrimoine
-
-Deux passes d'audit menées en parallèle, conservées séparément.
-
-**PDF livrés**
-
-- `rh-patrimoine/codex audit/output/pdf/audit-rh-patrimoine-nmf.pdf` — version finale
-- `audit-rh-patrimoine-nmf-proof.pdf` — version relecture
-- `audit-rh-patrimoine-nmf-grand.pdf` / `-lisible.pdf` — variantes de mise en page
-- `rh-patrimoine/claude audit/RH-Patrimoine-Audit-NMF.pdf` — première passe
-
-**Sources**
-
-- `codex audit/assets/rhpatrimoine/` — visuels du site et captures
-  (`screens/` : hero, formulaire de contact, bandeau cookies, vue mobile)
-- `codex audit/generate-audit-html.mjs`, `generate_audit_pdf.py`,
-  `generate_audit_pdf_v2.py`, `render_pdf.py` — chaîne de génération
-- `codex audit/google_ads_real_estimate.mts` — estimation Google Ads
-- `claude audit/build-rh.mjs`, `charts.json` — première passe et ses graphiques
-
-## La Rencontre
-
-Audit accompagné d'une proposition de campagne test.
-
-**PDF livrés** (`la-rencontre/output/pdf/`)
-
-- `Audit-La-Rencontre-NMF-2026.pdf` — audit
-- `Proposition-La-Rencontre-Campagne-Test.pdf` — proposition de campagne test
-
-**Sources**
-
-- `report/` — `audit-la-rencontre-2026.html`, `proposition-campagne-test.html`
-- `data/` — données collectées, dont les rapports Lighthouse desktop et mobile
-- `shots/` — captures d'écran du site
-- `assets/` — visuels
-- `capture.mjs` — capture automatisée des écrans
-- `report/build-report.mjs`, `render-pdf.mjs`, `render-proposition.mjs`,
-  `contact-sheet.mjs` — génération du rapport et des PDF
-
-## GP elec
-
-Électricien à Brissac Loire Aubance (49), zone Brissac + Angers. Audit digital et étude du
-**potentiel Google Ads** du marché local, décliné en trois versions.
-
-**PDF livrés** (`gpelec/output/pdf/`)
-
-- `GP-elec-audit-digital-google-ads.pdf` — 15 pages, **interne**, contient l'analyse des défauts
-- `GP-elec-potentiel-google-ads.pdf` — 13 pages, client, sans analyse négative
-- `Proposition-GP-elec-Campagne-Test.pdf` — 2 pages, le résumé d'envoi
-
-**Sources**
-
-- `data/marche-google-ads.json` — source unique de chiffres des trois rapports, générée
-- `data/donnees-google-ads-brutes-2026-08-04.json` — réponses API brutes de la passe retenue
-- `data/donnees-google-ads-brutes-2026-07-31.json` — réponses brutes de la passe précédente, conservées
-- `data/portefeuille-mots-cles.json` — 73 mots-clés, 8 familles, 29 exclusions motivées
-- `data/diagnostic.json` — les 12 constats datés, le score de préparation et le verdict
-- `data/site.json`, `data/seo.json`, `data/lighthouse.json` — collecte et mesures du site
-- `shots/` — captures desktop et mobile, séquentielles
-- `report/*.html` — les trois sources de rapport
-- `report/render-all.mjs` — rend les trois PDF et les refuse au moindre défaut
-- `ads/` — les trois scripts d'extraction Google Ads (copie d'archive, cf. `gpelec/README.md`)
-- `collect.mjs`, `analyze.mjs`, `lh.mjs`, `capture2.mjs` — chaîne de collecte
-
-**Refait le 4 août 2026.** La passe du 31/07 annonçait `generate_keyword_ideas` comme source
-alors que l'appel n'avait jamais été exécuté : le portefeuille n'avait jamais été confronté à la
-découverte Google. L'extraction complète a fait entrer 7 mots-clés (2 420 → 3 000 recherches/mois),
-révélé un gisement hors offre de 3 420 recherches/mois sur les bornes de recharge, et corrigé le
-plafond d'inventaire (754,34 € → 291,81 €, démontré cette fois stratégie par stratégie).
-
-Détail, limites d'API et pièges dans `gpelec/README.md`. À la différence des trois autres dossiers,
-les `node_modules` y sont exclus du dépôt (`package-lock.json` versionné).
-
----
+1. Les scripts sous `ads/` et `tools/` résolvent leurs chemins **depuis la racine du dossier
+   client**, pas depuis le répertoire courant. Ils tournent donc d'où qu'on les lance.
+2. **Aucun chemin en dur `D:\`** ne subsiste. Ces dossiers ont été produits sur une machine
+   où le travail vivait sous `D:\projets\` ; ce lecteur n'existe pas ici. Les chemins pointent
+   désormais vers `C:\Users\n.maillard\audit-nmf\` et, pour le checkout d'API,
+   `C:\Users\n.maillard\VueJS\scrapProsp`.
 
 ## Régénérer un rapport
 
-Les dossiers `totowood/` et `la-rencontre/` sont des projets Node. Les dépendances
-sont versionnées dans le dépôt, donc les scripts sont exécutables directement :
+Chaque dossier client porte sa section « Régénérer ». Le principe est partout le même :
 
 ```bash
-cd la-rencontre
-node capture.mjs            # recapture les écrans
-node report/build-report.mjs # reconstruit le rapport HTML
-node report/render-pdf.mjs   # réexporte le PDF
+cd <client>
+node ads/…          # refaire ou renormaliser les donnees Google Ads
+node report/…       # reconstruire le HTML puis rendre les PDF
+node tools/…        # verifier le rendu
 ```
 
-Si les `node_modules` sont supprimés un jour, un `npm install` dans le dossier
-concerné les restaure (`package.json` et `package-lock.json` sont présents).
+Les dépendances Node sont versionnées pour `la-rencontre/`. Pour `gpelec/`, les
+`node_modules` sont exclus du dépôt (Lighthouse pèse à lui seul ~123 Mo) : un `npm install`
+les restaure, `package-lock.json` étant versionné. `totowood/` et `rh-patrimoine/` n'utilisent
+que la bibliothèque standard de Node, plus Pillow et WeasyPrint côté Python.
+
+## Credentials
+
+Les `GOOGLE_ADS_*` ne sont **dans aucun fichier de ce dépôt**, ni dans le `.env.local` du
+checkout `scrapProsp`. Ils vivent dans `Credentials.md` du vault Obsidian
+(`C:\Users\n.maillard\Obsidian\Cerveau`). Les scripts de la passe du 02/09 chargent les deux
+sources et journalisent au démarrage combien de variables viennent du vault ; les scripts plus
+anciens ne lisent que le `.env.local` et doivent être complétés avant relance — le détail est
+dans le README de chaque dossier.
+
+## Méthode
+
+Les audits NMF suivent le skill Obsidian `audit-digital-google-ads` du vault
+(`Skills/audit-digital-google-ads/SKILL.md` + `references/design.md`,
+`assets/audit-design-lock.css`, `scripts/validate_design.py`), **pas** le skill `ads`
+générique : design lock 1.1, structure 9 pages + annexes, matrice multi-budgets, et
+`validate_design.py` en exit 0 obligatoire avant tout rendu PDF.
 
 ## Note sur le contenu versionné
 
 Le dépôt contient l'intégralité des dossiers de travail, y compris :
 
-- `node_modules/` — dépendances Node des scripts de capture et de génération
-- `totowood/tmp/` — profils Chrome jetables créés par Puppeteer lors des exports
-  PDF (vérifiés : profils vierges, aucun cookie ni identifiant personnel)
+- `la-rencontre/node_modules/` — dépendances Node de ses scripts de capture et de rendu,
+  versionnées pour que le dossier tourne sans `npm install` ;
+- `totowood/tmp/` — profils Chrome jetables créés par Puppeteer lors des exports PDF
+  (vérifiés : profils vierges, aucun cookie ni identifiant personnel) **et** les forecasts
+  bruts `forecast-totowood-*.json`, dont `totowood/ads/build_ads_data.mjs` dépend.
 
-Ces deux ensembles représentent l'essentiel du poids du dépôt et ne font pas
-partie des livrables. Ils peuvent être retirés de l'historique si le dépôt devient
-trop lourd à cloner.
+Ces ensembles représentent l'essentiel du poids du dépôt (`.git` ≈ 324 Mo) et ne font pas
+partie des livrables. Ils sont conservés volontairement. S'ils devaient être retirés un jour,
+`totowood/tmp/forecast-*.json` doit être préservé — ce ne sont pas des fichiers jetables.

@@ -2,7 +2,7 @@ import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import { fileURLToPath, pathToFileURL } from "node:url";
 import { spawnSync } from "node:child_process";
 
-const scrapRoot = "D:/projets/scrapProsp";
+const scrapRoot = "C:/Users/n.maillard/VueJS/scrapProsp";
 const loaderPath = `${scrapRoot}/node_modules/tsx/dist/loader.mjs`;
 
 if (!process.env.__TOTOWOOD_KW_STATS_BOOTSTRAPPED) {
@@ -41,7 +41,7 @@ const googleAds = await import(
 );
 
 const source = JSON.parse(
-  readFileSync(new URL("./data/google-ads-seine-et-marne-expanded.json", import.meta.url), "utf8"),
+  readFileSync(new URL("../data/google-ads-seine-et-marne-expanded.json", import.meta.url), "utf8"),
 );
 const keywords = source.forecastPortfolio;
 const customerId = process.env.GOOGLE_ADS_AUDIT_CID || "4838999588";
@@ -165,7 +165,7 @@ const output = {
 };
 
 writeFileSync(
-  new URL("./data/google-ads-seine-et-marne-keyword-stats.json", import.meta.url),
+  new URL("../data/google-ads-seine-et-marne-keyword-stats.json", import.meta.url),
   `${JSON.stringify(output, null, 2)}\n`,
   "utf8",
 );

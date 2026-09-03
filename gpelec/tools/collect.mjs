@@ -1,6 +1,6 @@
 /**
  * Collecte technique du site GP ELEC (Pierre Guille) pour l'audit NMF.
- *   node collect.mjs
+ *   node tools/collect.mjs   (depuis gpelec/)
  * Ecrit data/site.json, data/pages/*.html
  */
 import { mkdirSync, writeFileSync } from "node:fs";
@@ -8,7 +8,7 @@ import { resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const HERE = dirname(fileURLToPath(import.meta.url));
-const DATA = resolve(HERE, "data");
+const DATA = resolve(HERE, "..", "data");
 mkdirSync(resolve(DATA, "pages"), { recursive: true });
 
 const ORIGIN = "https://gp-elec-49.com";

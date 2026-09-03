@@ -32,7 +32,7 @@ const { enums } = await import("google-ads-api");
 const { mccCustomer, MCC_ID } = await import("../app/lib/googleAds/client.ts");
 const { resolveGeoTargetConstant } = await import("../app/lib/googleAds/keywordIdeas.ts");
 
-const AUDIT = "D:/projets/audit/gpelec";
+const AUDIT = "C:/Users/n.maillard/audit-nmf/gpelec";
 const OUT = `${AUDIT}/data/donnees-google-ads-brutes-2026-08-04.json`;
 const PORTFOLIO = JSON.parse(readFileSync(`${AUDIT}/data/portefeuille-mots-cles.json`, "utf8"));
 

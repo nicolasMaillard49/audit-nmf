@@ -1,6 +1,6 @@
 /**
  * Captures de preuve pour l'audit GP elec (emulation mobile reelle).
- *   node capture.mjs
+ *   node tools/capture.mjs   (depuis gpelec/)
  */
 import puppeteer from "puppeteer-core";
 import { mkdirSync } from "node:fs";
@@ -8,7 +8,7 @@ import { resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const HERE = dirname(fileURLToPath(import.meta.url));
-const DIR = resolve(HERE, "shots");
+const DIR = resolve(HERE, "..", "shots");
 mkdirSync(DIR, { recursive: true });
 
 const UA_MOBILE =

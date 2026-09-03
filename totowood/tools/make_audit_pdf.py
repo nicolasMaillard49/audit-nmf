@@ -8,7 +8,7 @@ from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.lib.utils import ImageReader
 
-ROOT = Path(__file__).parent
+ROOT = Path(__file__).resolve().parent.parent
 ASSETS = ROOT / "assets" / "totowood"
 OUT = ROOT / "output" / "pdf" / "audit-totowood-fr-nmf.pdf"
 TMP = ROOT / "tmp" / "pdfs" / "totowood-v2"

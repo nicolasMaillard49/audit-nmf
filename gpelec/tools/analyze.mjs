@@ -1,13 +1,13 @@
 /**
  * Analyse SEO / structure / conformite de gp-elec-49.com.
- *   node analyze.mjs
+ *   node tools/analyze.mjs   (depuis gpelec/)
  */
 import { readFileSync, writeFileSync, readdirSync } from "node:fs";
 import { resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const HERE = dirname(fileURLToPath(import.meta.url));
-const DATA = resolve(HERE, "data");
+const DATA = resolve(HERE, "..", "data");
 const P = resolve(DATA, "pages");
 const site = JSON.parse(readFileSync(resolve(DATA, "site.json"), "utf8"));
 

@@ -1,6 +1,6 @@
 /**
  * Lighthouse local (Chrome installe) sur les pages cles, mobile + desktop.
- *   node lh.mjs
+ *   node tools/lh.mjs   (depuis gpelec/)
  * Ecrit data/lighthouse.json (resume) et data/lh-raw-<page>-<strategy>.json
  */
 import { writeFileSync } from "node:fs";
@@ -10,7 +10,7 @@ import lighthouse from "lighthouse";
 import * as chromeLauncher from "chrome-launcher";
 
 const HERE = dirname(fileURLToPath(import.meta.url));
-const DATA = resolve(HERE, "data");
+const DATA = resolve(HERE, "..", "data");
 
 const TARGETS = {
   accueil: "https://gp-elec-49.com/",
