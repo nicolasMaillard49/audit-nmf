@@ -10,7 +10,7 @@ Tous les comptes clients sont sous le MCC **`671-181-3801`**.
 | Client | Compte Ads | Campagne | Statut | Prochaine action |
 |---|---|---|---|---|
 | [Totowood](#totowood) | `370-246-3294` | **diffuse** depuis le 31/08 | 63/72 étapes | débloquer les mentions légales du client |
-| [La Rencontre](#la-rencontre) | `404-054-1764` | **montée, en pause** | événement posé et déployé, conversion pas encore branchée | **tester `generate_lead` en prod**, l'étoiler dans GA4, l'importer |
+| [La Rencontre](#la-rencontre) | `404-054-1764` | **montée, en pause** | chaîne de conversion câblée de bout en bout, **zéro conversion enregistrée** | déclencher une vraie conversion depuis un navigateur sans bloqueur |
 | [GP elec](#gp-elec) | **à créer** | — | zone et enchère tranchées, livrables périmés | réécrire les 3 PDF, créer le compte à la main |
 | [RH Patrimoine](#rh-patrimoine) | existant, au client | déjà active chez lui | audit prospect livré | aucune en cours |
 
@@ -101,22 +101,34 @@ pas la démarrer avant que la conversion **`generate_lead` soit étoilée dans G
 dans le compte. Sans elle on dépense à l'aveugle. C'est exactement le P0 que l'audit avait
 posé début août — l'événement « réservation confirmée ».
 
-**La chaîne de conversion, maillon par maillon**
+**La chaîne de conversion — tout est câblé, il manque une conversion réelle**
 
 | # | Maillon | État |
 |---|---|---|
 | 1 | Événement `generate_lead` au succès du formulaire | ✅ posé le 01/09 |
-| 2 | Déployé en production | ✅ vérifié le 03/09 — présent dans le bundle de `restaurantlarencontre.com/reservation`, balise `G-WP4T76RWV4` active |
-| 3 | **Test réel en production** — une vraie demande, l'événement vu arriver dans GA4 | ❌ **c'est ce qui manque** |
-| 4 | `generate_lead` marqué **événement clé** dans GA4 | ❌ |
-| 5 | Importé comme conversion dans le compte `404-054-1764` | ❌ |
-| 6 | Campagne dé-pausée | ❌ — le dernier geste |
+| 2 | Déployé en production | ✅ dans le bundle de `restaurantlarencontre.com/reservation`, balise `G-WP4T76RWV4` active |
+| 3 | L'événement part avec les bons paramètres | ✅ vérifié au navigateur le 03/09 |
+| 4 | `generate_lead` marqué **événement clé** dans GA4 | ✅ étoilé dans Admin › Événements |
+| 5 | Importé comme conversion dans le compte `404-054-1764` | ✅ action `restaurant la rencontre (web) generate_lead`, **Principale**, incluse dans les objectifs, fenêtre 90 j |
+| 6 | Une conversion réellement enregistrée | ❌ **« En attente de conversions » — zéro à ce jour** |
+| 7 | Campagne dé-pausée | ❌ — le dernier geste |
 
-Le 01/09, la chaîne a été suivie **en local** de bout en bout : réservation réelle du 12/09,
-écran « Demande reçue », événement dans le `dataLayer`, `POST` vers
-`region1.analytics.google.com/g/collect` avec `en=generate_lead`, HTTP 204. Concluant sur le
-code, **pas sur la production** — la balise de prod tire son identifiant de la base, pas du
-code, et rien ne prouve encore qu'un événement réel est arrivé dans la propriété.
+**Le test du 03/09.** Une vraie demande a été passée en production (2 couverts, jeudi 10/09 à
+20 h) puis **annulée dans la foulée**. L'événement est parti avec tous ses paramètres justes —
+`en=generate_lead`, `ep.transaction_id` = le cancelToken, `epn.party_size=2`,
+`ep.service_date=2026-09-10T20:00:00`, `ep.service=Service Soir`. **Mais la requête a répondu
+HTTP 503**, et GA4 « Temps réel » affiche 0 utilisateur sur 30 minutes : le hit n'est pas
+arrivé.
+
+> **Ce n'est ni le site ni le réseau : c'est ce profil Chrome.** Un `curl` vers le même
+> endpoint depuis la même machine répond 204. Une extension intercepte
+> `region1.analytics.google.com` et renvoie 503 — dans la même page,
+> `www.google.fr/ads/ga-audiences` passe en 200, et la propriété reçoit du trafic normalement
+> (306 utilisateurs sur 7 jours, 2,4 k événements).
+
+**Pour finir** : refaire la demande depuis un navigateur **sans bloqueur** (un téléphone en 4G
+suffit), puis regarder l'action passer de « En attente de conversions » à active — le décalage
+GA4 → Ads peut prendre quelques heures. Ensuite seulement, dé-pauser.
 
 **Ce que l'audit avait établi** (extraction du 02/08, 77 mots-clés, 10 communes, 10 paliers) :
 11 750 recherches mensuelles hors marque ; plafond de dépense réellement utile aux alentours
@@ -210,6 +222,25 @@ chiffres sont des prévisions.
 Aucune action en cours.
 
 ---
+
+## Ce que contient réellement le MCC — relevé au navigateur le 03/09/2026
+
+Le MCC `671-181-3801` (« Compte Parent ») porte **exactement trois sous-comptes** :
+
+| Compte | Identifiant |
+|---|---|
+| Totowood | `370-246-3294` |
+| RESTAURANT LA RENCONTRE | `404-054-1764` |
+| Couvreur Peter 06 72 44 92 46 | `483-899-9588` |
+
+Deux conséquences.
+
+1. **Il n'existe aucun compte GP elec** — cohérent avec le refus d'API du 02/09.
+2. **`483-899-9588` s'appelle aujourd'hui « Couvreur Peter »**, alors que
+   `rh-patrimoine/ads/google_ads_real_estimate.mts` lit ce même `customerId` (`4838999588`,
+   campagne `23955483287`) et présente le résultat comme le rapport réel de RH Patrimoine.
+   Soit le compte a été renommé et réaffecté depuis juillet, soit l'audit RH Patrimoine s'est
+   appuyé sur les chiffres d'un autre client. **À vérifier avant de réutiliser ces chiffres.**
 
 ## Rappels transverses
 

@@ -42,25 +42,57 @@ Il produit `../data/donnees-google-ads-brutes.json` et lit `../data/portefeuille
 > la pause : sans conversion, on dépense à l'aveugle. C'est le même P0 que celui déjà posé par
 > l'audit — l'événement « réservation confirmée ».
 
-## La chaîne de conversion — où elle en est au 03/09/2026
+## La chaîne de conversion — test de bout en bout du 03/09/2026
 
-L'événement est **posé et déployé**. Ce qui manque est en aval, dans GA4 et dans Google Ads.
+**Tout est câblé. Il manque une seule chose : qu'une vraie conversion arrive.**
 
 | # | Maillon | État |
 |---|---|---|
 | 1 | Événement `generate_lead` au succès du formulaire de réservation | ✅ posé le 01/09 (`apps/frontend/utils/analytics.ts` du dépôt du site) |
-| 2 | Déployé en production | ✅ vérifié le 03/09 — `generate_lead` est dans le bundle servi par `restaurantlarencontre.com/reservation`, balise GA4 `G-WP4T76RWV4` active |
-| 3 | **Test réel en production** : une vraie demande, l'événement vu arriver dans GA4 | ❌ **c'est ce qui manque** |
-| 4 | `generate_lead` marqué **événement clé** dans GA4 | ❌ |
-| 5 | Importé comme conversion dans le compte Ads `404-054-1764` | ❌ |
-| 6 | Campagne `24197703801` dé-pausée | ❌ — le dernier geste, et seulement après les cinq précédents |
+| 2 | Déployé en production | ✅ `generate_lead` est dans le bundle servi par `restaurantlarencontre.com/reservation`, balise GA4 `G-WP4T76RWV4` active |
+| 3 | L'événement part avec les bons paramètres | ✅ vérifié au navigateur — voir le relevé ci-dessous |
+| 4 | `generate_lead` marqué **événement clé** dans GA4 | ✅ étoilé dans Admin › Événements (avec `form_submit`) |
+| 5 | Importé comme conversion dans le compte Ads `404-054-1764` | ✅ action **`restaurant la rencontre (web) generate_lead`**, source GA4, **Principale**, incluse dans les objectifs du compte, fenêtre 90 jours |
+| 6 | Une conversion réellement enregistrée | ❌ **l'action est « En attente de conversions » — zéro à ce jour** |
+| 7 | Campagne `24197703801` dé-pausée | ❌ — le dernier geste, une fois le 6 vert |
 
-**Ce qui a été vérifié, et jusqu'où.** Le 01/09, la chaîne complète a été suivie **en local** :
-réservation réelle du 12/09, écran « Demande reçue », événement dans le `dataLayer` avec ses
-paramètres, puis `POST` vers `region1.analytics.google.com/g/collect` — `en=generate_lead`,
-HTTP 204. C'est concluant sur le code, **pas sur la production** : la balise de prod tire son
-identifiant de la base (`site.ga4_measurement_id`), pas du code, et rien ne prouve encore
-qu'un événement réel est arrivé dans la propriété.
+Le compte porte trois actions de conversion : `Lead form - Submit` (formulaire hébergé par
+Google, secondaire), `Formulaire` (GA4, secondaire) et
+`restaurant la rencontre (web) generate_lead` (GA4, **principale**). Les trois sont « En
+attente de conversions ».
+
+### Le test du 03/09 — ce qu'il a prouvé, et ce qui l'a arrêté
+
+Une vraie demande de réservation a été passée en production (2 couverts, jeudi 10/09 à 20 h,
+service soir), puis **annulée dans la foulée** par `/reservation/annuler/<cancelToken>`.
+
+L'événement est parti avec **tous ses paramètres justes** :
+
+```
+POST region1.analytics.google.com/g/collect
+  tid=G-WP4T76RWV4
+  en=generate_lead
+  ep.method=reservation_en_ligne
+  ep.transaction_id=cmtlba0vp00guasd9otqspbr2   ← le cancelToken, pour dedoublonner
+  epn.party_size=2
+  ep.service_date=2026-09-10T20:00:00
+  ep.service=Service Soir
+```
+
+**Mais la requête a répondu HTTP 503, pas 204** — comme le second appel,
+`/measurement/conversion`. GA4 « Temps réel » affiche **0 utilisateur sur 30 minutes** : le hit
+n'est jamais arrivé.
+
+> **Ce n'est ni le site ni le réseau : c'est ce profil Chrome.** Un `curl` vers le même
+> endpoint depuis la même machine répond **204**. Une extension du navigateur intercepte les
+> requêtes vers `region1.analytics.google.com` et renvoie 503 ; dans la même page,
+> `www.google.fr/ads/ga-audiences` passe en 200. La propriété reçoit par ailleurs du trafic
+> normalement (306 utilisateurs sur 7 jours, 2,4 k événements).
+
+**Pour finir le test** : refaire la même demande depuis un navigateur ou un profil **sans
+bloqueur** — un téléphone en 4G fait l'affaire — puis regarder l'action
+`restaurant la rencontre (web) generate_lead` passer de « En attente de conversions » à
+active dans le compte Ads. Le décalage GA4 → Ads peut prendre quelques heures.
 
 **Deux arbitrages du 01/09, à ne pas ré-ouvrir sans raison.** On compte la **demande**, pas la
 table confirmée — c'est ce que le visiteur peut faire depuis une annonce, donc ce sur quoi
