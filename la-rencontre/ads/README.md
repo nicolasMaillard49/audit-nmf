@@ -35,16 +35,18 @@ Il produit `../data/donnees-google-ads-brutes.json` et lit `../data/portefeuille
 | Groupes | 3 — Italien (famille B), Gastronomique (famille A), Découverte (famille F) |
 | URL finale | `https://restaurantlarencontre.com/reservation` |
 | Exclusions | 27, au niveau campagne |
-| État | **PAUSED** — rien ne diffuse |
+| État | **ACTIVE depuis le 03/09/2026** — « Éligible (apprentissage) », les 3 groupes Éligibles |
 
-> **Ne pas dé-pauser avant que la conversion `generate_lead` soit étoilée dans GA4 puis
-> importée dans le compte.** Le script le dit dans son en-tête, et c'est la raison d'être de
-> la pause : sans conversion, on dépense à l'aveugle. C'est le même P0 que celui déjà posé par
-> l'audit — l'événement « réservation confirmée ».
+> **Le script l'avait créée en pause exprès, et disait pourquoi** : ne pas démarrer avant que
+> `generate_lead` soit étoilée dans GA4 puis importée dans le compte, sinon on dépense à
+> l'aveugle. C'était le même P0 que celui posé par l'audit — l'événement « réservation
+> confirmée ». Les deux conditions étaient remplies ; vérifiées à l'écran le 03/09, **la
+> campagne a été activée dans la foulée**, après contrôle de la facturation (Mastercard
+> ••••4901 en mode principal, payeur « Restaurant La Rencontre », post-paiement).
 
 ## La chaîne de conversion — test de bout en bout du 03/09/2026
 
-**Tout est câblé. Il manque une seule chose : qu'une vraie conversion arrive.**
+**La chaîne est complète, et la campagne a été lancée le 03/09/2026.**
 
 | # | Maillon | État |
 |---|---|---|
@@ -55,19 +57,20 @@ Il produit `../data/donnees-google-ads-brutes.json` et lit `../data/portefeuille
 | 5 | Importé comme conversion dans le compte Ads `404-054-1764` | ✅ action **`restaurant la rencontre (web) generate_lead`**, source GA4, **Principale**, incluse dans les objectifs du compte, fenêtre 90 jours |
 | 6 | GA4 reçoit réellement l'événement | ✅ **4 `generate_lead` enregistrés** entre le 27/08 et le 02/09 |
 | 7 | Diagnostic des conversions côté Google Ads | ✅ « Non applicable » — **aucun problème signalé** |
-| 8 | Campagne `24197703801` dé-pausée | ❌ **le seul geste qui reste** |
+| 8 | Campagne `24197703801` dé-pausée | ✅ **activée le 03/09/2026** |
 
 Le compte porte trois actions de conversion : `Lead form - Submit` (formulaire hébergé par
 Google, secondaire), `Formulaire` (GA4, secondaire) et
 `restaurant la rencontre (web) generate_lead` (GA4, **principale**, incluse dans les objectifs
-du compte, fenêtre 90 jours). Les trois affichent « En attente de conversions ».
+du compte, fenêtre 90 jours). Les trois affichaient « En attente de conversions » au moment du
+contrôle — la campagne n'avait alors jamais diffusé.
 
 > **« En attente de conversions » n'est pas un défaut, et ce n'est pas un préalable au
 > lancement — c'en est la conséquence.** Une conversion importée de GA4 ne devient une
 > conversion Google Ads que si la session est **attribuable à un clic sur une annonce**. La
 > campagne n'a jamais diffusé : zéro impression, zéro clic, donc zéro conversion possible.
-> L'action restera dans cet état **tant que la campagne est en pause**, quoi qu'on fasse.
-> C'est le lancement qui débloque le compteur, pas l'inverse.
+> L'action serait restée dans cet état **tant que la campagne était en pause**, quoi qu'on
+> fasse. C'est le lancement qui débloque le compteur, pas l'inverse.
 >
 > Une version antérieure de ce fichier présentait l'ordre à l'envers — « attendre une
 > conversion enregistrée avant de dé-pauser ». C'était faux, et cela bloquait le dossier sur
@@ -106,14 +109,19 @@ entre le 27/08 et le 02/09, et la propriété reçoit 962 utilisateurs et 7,6 k 
 28 jours : la chaîne site → GA4 fonctionne pour de vrais visiteurs. Le 503 ne concerne que ce
 profil Chrome.
 
-## Un défaut ouvert, qui touche les enchères
+## Le Consent Mode manquait — corrigé le 03/09/2026
 
-Le site n'implémente **aucun Consent Mode**. `apps/frontend/layouts/default.vue` pose la balise
-avec le seul `anonymize_ip`, et il n'existe nulle part de `gtag('consent', …)` ni de bandeau de
-consentement. En EEE, sans les signaux `ad_user_data` et `ad_personalization`, Google restreint
-la modélisation des conversions — le relevé du 03/09 porte d'ailleurs `npa=1` (annonces non
-personnalisées) sur l'appel de mesure. À traiter avant de monter le budget ; c'est aussi un
-sujet RGPD.
+Le site posait la balise avec le seul `anonymize_ip`, sans aucun `gtag('consent', …)`. En EEE,
+Google plaquait donc `npa=1` (annonces non personnalisées) sur chaque hit — visible sur le
+relevé ci-dessus — ce qui dégrade la modélisation des conversions, et donc les enchères. Le
+commit `ad90368` du dépôt du site déclare Consent Mode v2 **avant** le `config` :
+`ad_storage`, `ad_user_data`, `ad_personalization`, `analytics_storage`,
+`functionality_storage`, `security_storage`.
+
+> **État déclaré accordé par défaut, sans bandeau de consentement** — arbitrage de Nicolas le
+> 03/09/2026. Le site n'avait pas de bandeau avant non plus : ce changement ne retire aucun
+> choix au visiteur, il donne à Google le signal qui manquait. L'exposition RGPD reste
+> inchangée, et ouverte.
 
 **Deux arbitrages du 01/09, à ne pas ré-ouvrir sans raison.** On compte la **demande**, pas la
 table confirmée — c'est ce que le visiteur peut faire depuis une annonce, donc ce sur quoi

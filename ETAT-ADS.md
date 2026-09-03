@@ -10,7 +10,7 @@ Tous les comptes clients sont sous le MCC **`671-181-3801`**.
 | Client | Compte Ads | Campagne | Statut | Prochaine action |
 |---|---|---|---|---|
 | [Totowood](#totowood) | `370-246-3294` | **diffuse** depuis le 31/08 | 63/72 étapes | débloquer les mentions légales du client |
-| [La Rencontre](#la-rencontre) | `404-054-1764` | **montée, en pause** | chaîne de conversion complète et vérifiée | **dé-pauser** — c'est le seul geste qui reste |
+| [La Rencontre](#la-rencontre) | `404-054-1764` | **diffuse** depuis le 03/09 | lancée, en apprentissage | surveiller les termes de recherche à J+1 |
 | [GP elec](#gp-elec) | **à créer** | — | zone et enchère tranchées, livrables périmés | réécrire les 3 PDF, créer le compte à la main |
 | [RH Patrimoine](#rh-patrimoine) | existant, au client | déjà active chez lui | audit prospect livré | aucune en cours |
 
@@ -83,12 +83,12 @@ L'audit de juillet et les scripts : [`totowood/README.md`](totowood/README.md) e
 Restaurant italien, 42 rue Maréchal Joffre, Bordeaux. SAS, SIREN 937 965 390.
 Périmètre : **le service du soir**.
 
-**Le dispositif est monté, il ne diffuse pas.**
+**Le dispositif est monté, et il diffuse depuis le 03/09/2026.**
 
 | | |
 |---|---|
 | Compte | `404-054-1764`, créé le 01/09/2026 après vérification au registre |
-| Campagne | `Recherche - La Rencontre Soir`, `campaignId 24197703801` — **PAUSED** |
+| Campagne | `Recherche - La Rencontre Soir`, `campaignId 24197703801` — **ACTIVE depuis le 03/09/2026**, état « Éligible (apprentissage) » |
 | Budget | 150 €/mois, soit 4,93 €/jour |
 | Réseau | Recherche seul |
 | Calendrier | tous les jours, **17 h → 22 h** — « soir » porte sur le service vendu, pas sur les jours d'ouverture |
@@ -96,11 +96,14 @@ Périmètre : **le service du soir**.
 | Exclusions | 27, au niveau campagne |
 | Composants | posés au niveau campagne (liens annexes, téléphone) |
 
-**Pourquoi elle a été mise en pause, et pourquoi cette raison a disparu.** Le script l'a créée
+**Pourquoi elle était en pause, et pourquoi elle ne l'est plus.** Le script l'avait créée
 `PAUSED` exprès : ne pas démarrer avant que `generate_lead` soit étoilée dans GA4 puis importée
 dans le compte, sinon on dépense à l'aveugle. C'était le P0 posé par l'audit début août —
-l'événement « réservation confirmée ». **Ces deux conditions sont remplies depuis le 01/09**,
-vérifiées à l'écran le 03/09. La pause n'a plus de justification.
+l'événement « réservation confirmée ». Ces deux conditions étaient remplies depuis le 01/09 ;
+vérifiées à l'écran le 03/09, **la campagne a été activée dans la foulée**. Facturation
+contrôlée avant lancement : Mastercard ••••4901 en mode principal, payeur « Restaurant La
+Rencontre », post-paiement. Seul avertissement, non bloquant : aucun mode de paiement
+secondaire.
 
 **La chaîne de conversion est complète et vérifiée. Rien ne reste à brancher.**
 
@@ -113,7 +116,7 @@ vérifiées à l'écran le 03/09. La pause n'a plus de justification.
 | 5 | Marqué **événement clé** dans GA4 | ✅ étoilé dans Admin › Événements |
 | 6 | Importé comme conversion dans `404-054-1764` | ✅ action `restaurant la rencontre (web) generate_lead`, source GA4, **Principale**, incluse dans les objectifs, fenêtre 90 j |
 | 7 | Diagnostic des conversions côté Google | ✅ « Non applicable » — **aucun problème signalé** |
-| 8 | Campagne dé-pausée | ❌ **le seul geste qui reste** |
+| 8 | Campagne dé-pausée | ✅ **activée le 03/09/2026** — état « Éligible (apprentissage) », les 3 groupes Éligibles |
 
 > **« En attente de conversions » n'est pas un défaut, et ce n'est pas un préalable au
 > lancement — c'en est la conséquence.** Une conversion importée de GA4 ne devient une
@@ -136,12 +139,17 @@ vérifiées à l'écran le 03/09. La pause n'a plus de justification.
 le dossier : GA4 a par ailleurs bien enregistré 4 `generate_lead`, et la propriété reçoit
 962 utilisateurs et 7,6 k événements sur 28 jours.
 
-**Un vrai défaut, lui, reste ouvert — et il touche les enchères.** Le site n'implémente
-**aucun Consent Mode** : `layouts/default.vue` pose la balise avec le seul `anonymize_ip`, et
-il n'existe nulle part de `gtag('consent', …)` ni de bandeau de consentement. En EEE, sans les
-signaux `ad_user_data` et `ad_personalization`, Google restreint la modélisation des
-conversions — le relevé du 03/09 montre d'ailleurs `npa=1` (annonces non personnalisées) sur
-l'appel de mesure. À traiter avant de monter le budget, et c'est aussi un sujet RGPD.
+**Le Consent Mode manquait — corrigé le 03/09/2026.** Le site posait la balise avec le seul
+`anonymize_ip`, sans aucun `gtag('consent', …)` : en EEE, Google plaquait `npa=1` (annonces non
+personnalisées) sur chaque hit, ce qui dégrade la modélisation des conversions et donc les
+enchères. Le commit `ad90368` du dépôt du site déclare Consent Mode v2 **avant** le `config`
+(`ad_storage`, `ad_user_data`, `ad_personalization`, `analytics_storage`,
+`functionality_storage`, `security_storage`).
+
+> **État déclaré accordé par défaut, sans bandeau de consentement** — arbitrage de Nicolas le
+> 03/09/2026. Le site n'avait pas de bandeau avant non plus : ce changement ne retire aucun
+> choix au visiteur, il donne à Google le signal qui manquait. L'exposition RGPD reste
+> inchangée et ouverte.
 
 **Ce que l'audit avait établi** (extraction du 02/08, 77 mots-clés, 10 communes, 10 paliers) :
 11 750 recherches mensuelles hors marque ; plafond de dépense réellement utile aux alentours
