@@ -10,7 +10,7 @@ Tous les comptes clients sont sous le MCC **`671-181-3801`**.
 | Client | Compte Ads | Campagne | Statut | Prochaine action |
 |---|---|---|---|---|
 | [Totowood](#totowood) | `370-246-3294` | **diffuse** depuis le 31/08 | 63/72 étapes | débloquer les mentions légales du client |
-| [La Rencontre](#la-rencontre) | `404-054-1764` | **montée, en pause** | bloquée sur la conversion | étoiler `generate_lead` dans GA4 puis l'importer |
+| [La Rencontre](#la-rencontre) | `404-054-1764` | **montée, en pause** | événement posé et déployé, conversion pas encore branchée | **tester `generate_lead` en prod**, l'étoiler dans GA4, l'importer |
 | [GP elec](#gp-elec) | **à créer** | — | zone et enchère tranchées, livrables périmés | réécrire les 3 PDF, créer le compte à la main |
 | [RH Patrimoine](#rh-patrimoine) | existant, au client | déjà active chez lui | audit prospect livré | aucune en cours |
 
@@ -99,23 +99,40 @@ Périmètre : **le service du soir**.
 **Ce qui bloque, et c'est volontaire.** La campagne a été créée en pause exprès : il ne faut
 pas la démarrer avant que la conversion **`generate_lead` soit étoilée dans GA4 puis importée**
 dans le compte. Sans elle on dépense à l'aveugle. C'est exactement le P0 que l'audit avait
-posé début août — l'événement « réservation confirmée ». **C'est le seul geste qui sépare ce
-dossier de la diffusion.**
+posé début août — l'événement « réservation confirmée ».
+
+**La chaîne de conversion, maillon par maillon**
+
+| # | Maillon | État |
+|---|---|---|
+| 1 | Événement `generate_lead` au succès du formulaire | ✅ posé le 01/09 |
+| 2 | Déployé en production | ✅ vérifié le 03/09 — présent dans le bundle de `restaurantlarencontre.com/reservation`, balise `G-WP4T76RWV4` active |
+| 3 | **Test réel en production** — une vraie demande, l'événement vu arriver dans GA4 | ❌ **c'est ce qui manque** |
+| 4 | `generate_lead` marqué **événement clé** dans GA4 | ❌ |
+| 5 | Importé comme conversion dans le compte `404-054-1764` | ❌ |
+| 6 | Campagne dé-pausée | ❌ — le dernier geste |
+
+Le 01/09, la chaîne a été suivie **en local** de bout en bout : réservation réelle du 12/09,
+écran « Demande reçue », événement dans le `dataLayer`, `POST` vers
+`region1.analytics.google.com/g/collect` avec `en=generate_lead`, HTTP 204. Concluant sur le
+code, **pas sur la production** — la balise de prod tire son identifiant de la base, pas du
+code, et rien ne prouve encore qu'un événement réel est arrivé dans la propriété.
 
 **Ce que l'audit avait établi** (extraction du 02/08, 77 mots-clés, 10 communes, 10 paliers) :
 11 750 recherches mensuelles hors marque ; plafond de dépense réellement utile aux alentours
 de **360 €/mois**, au-delà le budget n'est plus absorbé ; recommandation d'un test à
 **150 €/mois** — c'est le budget effectivement posé. Verdict : go pour un test encadré.
 
-**Deux limites avant toute relance des scripts**
+**À savoir**
 
-1. **La copie des annonces est introuvable sur cette machine.** `larencontre-campagne.mjs` et
-   `larencontre-composants.mjs` lisent un markdown `docs/ads/annonces-google-ads.md` du projet
-   du site, qui vivait sous `D:\projets\restaurant-larencontre\`. Il n'est **nulle part** sous
-   `VueJS\` ni dans le vault. La copie ne vit plus que dans le compte Google Ads : la récupérer
-   de là si les scripts doivent tourner à nouveau.
-2. Les deux PDF livrés (audit + proposition) sont **calés sur un calendrier échu** — « dès la
-   mi-août », « 1er septembre, pleine vitesse sur le pic ». À redater avant tout renvoi.
+- **La copie des annonces a été retrouvée le 03/09.** Elle était sur `origin/main` du dépôt du
+  site, mais le checkout local avait **sept commits de retard** : un `git pull` l'a ramenée à
+  `VueJS\retaurantLaRencontre\docs\ads\annonces-google-ads.md`. Son compteur de caractères
+  contrôle 80 lignes dans 10 sections et passe.
+- **Le téléphone à utiliser est le 05 47 74 03 99**, celui du site en ligne. Le dump SQL local
+  porte encore `05 56 81 88 88`, périmé.
+- Les deux PDF livrés (audit + proposition) sont **calés sur un calendrier échu** — « dès la
+  mi-août », « 1er septembre, pleine vitesse sur le pic ». À redater avant tout renvoi.
 
 Détail : [`la-rencontre/README.md`](la-rencontre/README.md) et
 [`la-rencontre/ads/README.md`](la-rencontre/ads/README.md).
@@ -157,6 +174,19 @@ créée le 02/09/2025. **Rien n'est encore ouvert côté Google.**
    Qualifelec, le consentement GA4 et le domaine canonique, **mais pas les témoignages**.
    Le relevé des neuf vrais avis est bloqué : l'extension Claude in Chrome ne se connecte pas
    sur cette machine.
+4. **Le formulaire de contact est toujours en `mailto:`, et il n'y a pas de page `/merci`.**
+   C'est le constat P1 #7, ouvert depuis le 31/07 et **jamais corrigé** : vérifié le 03/09,
+   le dépôt du site ne porte aucun backend d'envoi — ni route Nitro, ni Resend, ni Formspree —
+   et son dernier commit reste le merge de conformité du 02/09. Conséquence directe pour
+   Google Ads : **aucune conversion n'est mesurable sur ce site**. Le brancher est un
+   prérequis à l'ouverture de la campagne, au même titre que `generate_lead` l'est pour
+   La Rencontre.
+
+> **Il n'y a aucun dispositif de mailing propre à GP elec.** Le seul envoi d'e-mail de
+> l'agence est celui de `scrapProsp` — `app/lib/email.ts` via Resend, habillé le 27/08
+> (`793dc25`) et testable par `node scripts/apercu-lead.mts --mail` (`14fde44`). Il notifie
+> l'agence et l'artisan d'une demande de devis arrivée par les **landing pages Totowood**,
+> et n'est branché sur rien chez GP elec.
 
 Détail complet, limites d'API et pièges : [`gpelec/README.md`](gpelec/README.md) et
 [`gpelec/ads/README.md`](gpelec/ads/README.md).
