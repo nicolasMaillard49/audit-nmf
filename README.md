@@ -7,6 +7,12 @@ et les scripts de génération.
 > **Où en est chaque client côté Google Ads : [`ETAT-ADS.md`](ETAT-ADS.md).**
 > C'est le point d'entrée pour reprendre un dossier — décisions arrêtées, blocages, prochaine
 > action, et les limites d'API à ne pas réapprendre.
+>
+> **Ce dépôt porte les audits, pas tout le dispositif.** Les scripts qui appellent l'API Google
+> Ads vivent dans `C:\Users\n.maillard\VueJS\scrapProsp` (versionnés) et sont **copiés en
+> archive** dans `<client>/ads/`. Le dispositif de campagne de Totowood — landing pages,
+> conversions, suivi des 72 étapes — vit dans `VueJS\totowood-lp`. Les sites clients ont chacun
+> leur dépôt. `ETAT-ADS.md` dit qui est où.
 
 ## Clients
 
