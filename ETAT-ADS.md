@@ -10,7 +10,7 @@ Tous les comptes clients sont sous le MCC **`671-181-3801`**.
 | Client | Compte Ads | Campagne | Statut | Prochaine action |
 |---|---|---|---|---|
 | [Totowood](#totowood) | `370-246-3294` | **diffuse** depuis le 31/08 | 63/72 étapes | débloquer les mentions légales du client |
-| [La Rencontre](#la-rencontre) | `404-054-1764` | **montée, en pause** | chaîne de conversion câblée de bout en bout, **zéro conversion enregistrée** | déclencher une vraie conversion depuis un navigateur sans bloqueur |
+| [La Rencontre](#la-rencontre) | `404-054-1764` | **montée, en pause** | chaîne de conversion complète et vérifiée | **dé-pauser** — c'est le seul geste qui reste |
 | [GP elec](#gp-elec) | **à créer** | — | zone et enchère tranchées, livrables périmés | réécrire les 3 PDF, créer le compte à la main |
 | [RH Patrimoine](#rh-patrimoine) | existant, au client | déjà active chez lui | audit prospect livré | aucune en cours |
 
@@ -96,39 +96,52 @@ Périmètre : **le service du soir**.
 | Exclusions | 27, au niveau campagne |
 | Composants | posés au niveau campagne (liens annexes, téléphone) |
 
-**Ce qui bloque, et c'est volontaire.** La campagne a été créée en pause exprès : il ne faut
-pas la démarrer avant que la conversion **`generate_lead` soit étoilée dans GA4 puis importée**
-dans le compte. Sans elle on dépense à l'aveugle. C'est exactement le P0 que l'audit avait
-posé début août — l'événement « réservation confirmée ».
+**Pourquoi elle a été mise en pause, et pourquoi cette raison a disparu.** Le script l'a créée
+`PAUSED` exprès : ne pas démarrer avant que `generate_lead` soit étoilée dans GA4 puis importée
+dans le compte, sinon on dépense à l'aveugle. C'était le P0 posé par l'audit début août —
+l'événement « réservation confirmée ». **Ces deux conditions sont remplies depuis le 01/09**,
+vérifiées à l'écran le 03/09. La pause n'a plus de justification.
 
-**La chaîne de conversion — tout est câblé, il manque une conversion réelle**
+**La chaîne de conversion est complète et vérifiée. Rien ne reste à brancher.**
 
-| # | Maillon | État |
+| # | Maillon | État, vérifié à l'écran le 03/09/2026 |
 |---|---|---|
 | 1 | Événement `generate_lead` au succès du formulaire | ✅ posé le 01/09 |
-| 2 | Déployé en production | ✅ dans le bundle de `restaurantlarencontre.com/reservation`, balise `G-WP4T76RWV4` active |
-| 3 | L'événement part avec les bons paramètres | ✅ vérifié au navigateur le 03/09 |
-| 4 | `generate_lead` marqué **événement clé** dans GA4 | ✅ étoilé dans Admin › Événements |
-| 5 | Importé comme conversion dans le compte `404-054-1764` | ✅ action `restaurant la rencontre (web) generate_lead`, **Principale**, incluse dans les objectifs, fenêtre 90 j |
-| 6 | Une conversion réellement enregistrée | ❌ **« En attente de conversions » — zéro à ce jour** |
-| 7 | Campagne dé-pausée | ❌ — le dernier geste |
+| 2 | Déployé en production | ✅ présent dans le bundle de `restaurantlarencontre.com/reservation`, balise `G-WP4T76RWV4` active |
+| 3 | L'événement part avec les bons paramètres | ✅ relevé au navigateur, voir ci-dessous |
+| 4 | GA4 reçoit l'événement | ✅ **4 `generate_lead` enregistrés** entre le 27/08 et le 02/09 |
+| 5 | Marqué **événement clé** dans GA4 | ✅ étoilé dans Admin › Événements |
+| 6 | Importé comme conversion dans `404-054-1764` | ✅ action `restaurant la rencontre (web) generate_lead`, source GA4, **Principale**, incluse dans les objectifs, fenêtre 90 j |
+| 7 | Diagnostic des conversions côté Google | ✅ « Non applicable » — **aucun problème signalé** |
+| 8 | Campagne dé-pausée | ❌ **le seul geste qui reste** |
+
+> **« En attente de conversions » n'est pas un défaut, et ce n'est pas un préalable au
+> lancement — c'en est la conséquence.** Une conversion importée de GA4 ne devient une
+> conversion Google Ads que si la session est **attribuable à un clic sur une annonce**. La
+> campagne n'a jamais diffusé : zéro impression, zéro clic, donc zéro conversion possible.
+> L'action restera « En attente de conversions » **tant que la campagne est en pause**, quoi
+> qu'on fasse. C'est le lancement qui débloque le compteur, pas l'inverse.
+>
+> Une version antérieure de ce fichier présentait l'ordre à l'envers — « attendre une
+> conversion enregistrée avant de dé-pauser ». C'était faux et cela bloquait le dossier sur
+> une condition impossible.
 
 **Le test du 03/09.** Une vraie demande a été passée en production (2 couverts, jeudi 10/09 à
 20 h) puis **annulée dans la foulée**. L'événement est parti avec tous ses paramètres justes —
 `en=generate_lead`, `ep.transaction_id` = le cancelToken, `epn.party_size=2`,
-`ep.service_date=2026-09-10T20:00:00`, `ep.service=Service Soir`. **Mais la requête a répondu
-HTTP 503**, et GA4 « Temps réel » affiche 0 utilisateur sur 30 minutes : le hit n'est pas
-arrivé.
+`ep.service_date=2026-09-10T20:00:00`, `ep.service=Service Soir`. La requête a répondu HTTP
+503 et n'est pas arrivée : **une extension de ce profil Chrome** intercepte
+`region1.analytics.google.com` — un `curl` vers le même endpoint depuis la même machine répond
+204, et `www.google.fr/ads/ga-audiences` passe en 200 dans la même page. Sans conséquence sur
+le dossier : GA4 a par ailleurs bien enregistré 4 `generate_lead`, et la propriété reçoit
+962 utilisateurs et 7,6 k événements sur 28 jours.
 
-> **Ce n'est ni le site ni le réseau : c'est ce profil Chrome.** Un `curl` vers le même
-> endpoint depuis la même machine répond 204. Une extension intercepte
-> `region1.analytics.google.com` et renvoie 503 — dans la même page,
-> `www.google.fr/ads/ga-audiences` passe en 200, et la propriété reçoit du trafic normalement
-> (306 utilisateurs sur 7 jours, 2,4 k événements).
-
-**Pour finir** : refaire la demande depuis un navigateur **sans bloqueur** (un téléphone en 4G
-suffit), puis regarder l'action passer de « En attente de conversions » à active — le décalage
-GA4 → Ads peut prendre quelques heures. Ensuite seulement, dé-pauser.
+**Un vrai défaut, lui, reste ouvert — et il touche les enchères.** Le site n'implémente
+**aucun Consent Mode** : `layouts/default.vue` pose la balise avec le seul `anonymize_ip`, et
+il n'existe nulle part de `gtag('consent', …)` ni de bandeau de consentement. En EEE, sans les
+signaux `ad_user_data` et `ad_personalization`, Google restreint la modélisation des
+conversions — le relevé du 03/09 montre d'ailleurs `npa=1` (annonces non personnalisées) sur
+l'appel de mesure. À traiter avant de monter le budget, et c'est aussi un sujet RGPD.
 
 **Ce que l'audit avait établi** (extraction du 02/08, 77 mots-clés, 10 communes, 10 paliers) :
 11 750 recherches mensuelles hors marque ; plafond de dépense réellement utile aux alentours

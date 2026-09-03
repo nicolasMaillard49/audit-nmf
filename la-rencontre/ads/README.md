@@ -53,13 +53,25 @@ Il produit `../data/donnees-google-ads-brutes.json` et lit `../data/portefeuille
 | 3 | L'événement part avec les bons paramètres | ✅ vérifié au navigateur — voir le relevé ci-dessous |
 | 4 | `generate_lead` marqué **événement clé** dans GA4 | ✅ étoilé dans Admin › Événements (avec `form_submit`) |
 | 5 | Importé comme conversion dans le compte Ads `404-054-1764` | ✅ action **`restaurant la rencontre (web) generate_lead`**, source GA4, **Principale**, incluse dans les objectifs du compte, fenêtre 90 jours |
-| 6 | Une conversion réellement enregistrée | ❌ **l'action est « En attente de conversions » — zéro à ce jour** |
-| 7 | Campagne `24197703801` dé-pausée | ❌ — le dernier geste, une fois le 6 vert |
+| 6 | GA4 reçoit réellement l'événement | ✅ **4 `generate_lead` enregistrés** entre le 27/08 et le 02/09 |
+| 7 | Diagnostic des conversions côté Google Ads | ✅ « Non applicable » — **aucun problème signalé** |
+| 8 | Campagne `24197703801` dé-pausée | ❌ **le seul geste qui reste** |
 
 Le compte porte trois actions de conversion : `Lead form - Submit` (formulaire hébergé par
 Google, secondaire), `Formulaire` (GA4, secondaire) et
-`restaurant la rencontre (web) generate_lead` (GA4, **principale**). Les trois sont « En
-attente de conversions ».
+`restaurant la rencontre (web) generate_lead` (GA4, **principale**, incluse dans les objectifs
+du compte, fenêtre 90 jours). Les trois affichent « En attente de conversions ».
+
+> **« En attente de conversions » n'est pas un défaut, et ce n'est pas un préalable au
+> lancement — c'en est la conséquence.** Une conversion importée de GA4 ne devient une
+> conversion Google Ads que si la session est **attribuable à un clic sur une annonce**. La
+> campagne n'a jamais diffusé : zéro impression, zéro clic, donc zéro conversion possible.
+> L'action restera dans cet état **tant que la campagne est en pause**, quoi qu'on fasse.
+> C'est le lancement qui débloque le compteur, pas l'inverse.
+>
+> Une version antérieure de ce fichier présentait l'ordre à l'envers — « attendre une
+> conversion enregistrée avant de dé-pauser ». C'était faux, et cela bloquait le dossier sur
+> une condition impossible à satisfaire.
 
 ### Le test du 03/09 — ce qu'il a prouvé, et ce qui l'a arrêté
 
@@ -89,10 +101,19 @@ n'est jamais arrivé.
 > `www.google.fr/ads/ga-audiences` passe en 200. La propriété reçoit par ailleurs du trafic
 > normalement (306 utilisateurs sur 7 jours, 2,4 k événements).
 
-**Pour finir le test** : refaire la même demande depuis un navigateur ou un profil **sans
-bloqueur** — un téléphone en 4G fait l'affaire — puis regarder l'action
-`restaurant la rencontre (web) generate_lead` passer de « En attente de conversions » à
-active dans le compte Ads. Le décalage GA4 → Ads peut prendre quelques heures.
+**Sans conséquence sur le dossier.** GA4 a par ailleurs bien enregistré **4 `generate_lead`**
+entre le 27/08 et le 02/09, et la propriété reçoit 962 utilisateurs et 7,6 k événements sur
+28 jours : la chaîne site → GA4 fonctionne pour de vrais visiteurs. Le 503 ne concerne que ce
+profil Chrome.
+
+## Un défaut ouvert, qui touche les enchères
+
+Le site n'implémente **aucun Consent Mode**. `apps/frontend/layouts/default.vue` pose la balise
+avec le seul `anonymize_ip`, et il n'existe nulle part de `gtag('consent', …)` ni de bandeau de
+consentement. En EEE, sans les signaux `ad_user_data` et `ad_personalization`, Google restreint
+la modélisation des conversions — le relevé du 03/09 porte d'ailleurs `npa=1` (annonces non
+personnalisées) sur l'appel de mesure. À traiter avant de monter le budget ; c'est aussi un
+sujet RGPD.
 
 **Deux arbitrages du 01/09, à ne pas ré-ouvrir sans raison.** On compte la **demande**, pas la
 table confirmée — c'est ce que le visiteur peut faire depuis une annonce, donc ce sur quoi
