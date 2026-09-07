@@ -1,0 +1,208 @@
+{
+  "date": "2026-09-07T12:38:58.832Z",
+  "campaignId": 24197703801,
+  "customer": "4040541764",
+  "avant": {
+    "campagne": {
+      "nom": "Recherche - La Rencontre Soir",
+      "statut": "ENABLED",
+      "budgetJourEuros": 4.93
+    },
+    "annonces": [
+      {
+        "groupe": "Italien",
+        "adId": "823111204463",
+        "resourceName": "customers/4040541764/ads/823111204463",
+        "finalUrls": [
+          "https://restaurantlarencontre.com/reservation"
+        ],
+        "statut": "ENABLED",
+        "approbation": "APPROVED"
+      },
+      {
+        "groupe": "Gastronomique",
+        "adId": "822994206225",
+        "resourceName": "customers/4040541764/ads/822994206225",
+        "finalUrls": [
+          "https://restaurantlarencontre.com/reservation"
+        ],
+        "statut": "ENABLED",
+        "approbation": "APPROVED"
+      },
+      {
+        "groupe": "Découverte",
+        "adId": "823036870234",
+        "resourceName": "customers/4040541764/ads/823036870234",
+        "finalUrls": [
+          "https://restaurantlarencontre.com/reservation"
+        ],
+        "statut": "ENABLED",
+        "approbation": "APPROVED"
+      }
+    ],
+    "plages": [
+      {
+        "resourceName": "customers/4040541764/campaignCriteria/24197703801~306888",
+        "jour": "MONDAY",
+        "de": 17,
+        "a": 22
+      },
+      {
+        "resourceName": "customers/4040541764/campaignCriteria/24197703801~316888",
+        "jour": "TUESDAY",
+        "de": 17,
+        "a": 22
+      },
+      {
+        "resourceName": "customers/4040541764/campaignCriteria/24197703801~326888",
+        "jour": "WEDNESDAY",
+        "de": 17,
+        "a": 22
+      },
+      {
+        "resourceName": "customers/4040541764/campaignCriteria/24197703801~336888",
+        "jour": "THURSDAY",
+        "de": 17,
+        "a": 22
+      },
+      {
+        "resourceName": "customers/4040541764/campaignCriteria/24197703801~346888",
+        "jour": "FRIDAY",
+        "de": 17,
+        "a": 22
+      },
+      {
+        "resourceName": "customers/4040541764/campaignCriteria/24197703801~356888",
+        "jour": "SATURDAY",
+        "de": 17,
+        "a": 22
+      },
+      {
+        "resourceName": "customers/4040541764/campaignCriteria/24197703801~366888",
+        "jour": "SUNDAY",
+        "de": 17,
+        "a": 22
+      }
+    ]
+  },
+  "plan": {
+    "urls": [
+      {
+        "adId": "823111204463",
+        "groupe": "Italien",
+        "de": [
+          "https://restaurantlarencontre.com/reservation"
+        ],
+        "vers": [
+          "https://restaurantlarencontre.com/"
+        ]
+      },
+      {
+        "adId": "822994206225",
+        "groupe": "Gastronomique",
+        "de": [
+          "https://restaurantlarencontre.com/reservation"
+        ],
+        "vers": [
+          "https://restaurantlarencontre.com/"
+        ]
+      },
+      {
+        "adId": "823036870234",
+        "groupe": "Découverte",
+        "de": [
+          "https://restaurantlarencontre.com/reservation"
+        ],
+        "vers": [
+          "https://restaurantlarencontre.com/"
+        ]
+      }
+    ],
+    "plagesSupprimees": [
+      {
+        "resourceName": "customers/4040541764/campaignCriteria/24197703801~306888",
+        "jour": "MONDAY",
+        "de": 17,
+        "a": 22
+      },
+      {
+        "resourceName": "customers/4040541764/campaignCriteria/24197703801~366888",
+        "jour": "SUNDAY",
+        "de": 17,
+        "a": 22
+      }
+    ]
+  },
+  "applique": true,
+  "apres": {
+    "campagne": {
+      "nom": "Recherche - La Rencontre Soir",
+      "statut": "ENABLED",
+      "budgetJourEuros": 4.93
+    },
+    "annonces": [
+      {
+        "groupe": "Italien",
+        "adId": "823111204463",
+        "resourceName": "customers/4040541764/ads/823111204463",
+        "finalUrls": [
+          "https://restaurantlarencontre.com/"
+        ],
+        "statut": "ENABLED",
+        "approbation": "UNKNOWN"
+      },
+      {
+        "groupe": "Gastronomique",
+        "adId": "822994206225",
+        "resourceName": "customers/4040541764/ads/822994206225",
+        "finalUrls": [
+          "https://restaurantlarencontre.com/"
+        ],
+        "statut": "ENABLED",
+        "approbation": "UNKNOWN"
+      },
+      {
+        "groupe": "Découverte",
+        "adId": "823036870234",
+        "resourceName": "customers/4040541764/ads/823036870234",
+        "finalUrls": [
+          "https://restaurantlarencontre.com/"
+        ],
+        "statut": "ENABLED",
+        "approbation": "UNKNOWN"
+      }
+    ],
+    "plages": [
+      {
+        "resourceName": "customers/4040541764/campaignCriteria/24197703801~316888",
+        "jour": "TUESDAY",
+        "de": 17,
+        "a": 22
+      },
+      {
+        "resourceName": "customers/4040541764/campaignCriteria/24197703801~326888",
+        "jour": "WEDNESDAY",
+        "de": 17,
+        "a": 22
+      },
+      {
+        "resourceName": "customers/4040541764/campaignCriteria/24197703801~336888",
+        "jour": "THURSDAY",
+        "de": 17,
+        "a": 22
+      },
+      {
+        "resourceName": "customers/4040541764/campaignCriteria/24197703801~346888",
+        "jour": "FRIDAY",
+        "de": 17,
+        "a": 22
+      },
+      {
+        "resourceName": "customers/4040541764/campaignCriteria/24197703801~356888",
+        "jour": "SATURDAY",
+        "de": 17,
+        "a": 22
+      }
+    ]
+  }
+}
