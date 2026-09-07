@@ -10,7 +10,7 @@ documenter exactement ce qui a produit les données et monté la campagne.
 > versionné dans `scrapProsp` depuis le début, avec les trois scripts de campagne. Le dossier
 > était vide, pas la traçabilité.
 
-## Les quatre scripts
+## Les huit scripts
 
 | Script | Rôle | Date |
 |---|---|---|
@@ -18,6 +18,10 @@ documenter exactement ce qui a produit les données et monté la campagne.
 | `larencontre-creer-compte.mjs` | crée le compte client sous le MCC, après vérification d'identité au registre | 01/09/2026 |
 | `larencontre-campagne.mjs` | monte la campagne **en PAUSE** : budget, réseau Recherche seul, zones, langue, calendrier, 27 exclusions, 3 groupes, mots clés en expression **et** exact, une annonce responsive par groupe | 01/09/2026 |
 | `larencontre-composants.mjs` | pose les composants (liens annexes, téléphone) **au niveau campagne** — ils servent les trois groupes d'un coup | 01/09/2026 |
+| `larencontre-perf.mjs` | **le relevé de performance**, lecture seule — 8 passes : campagne jour par jour avec les parts d'impressions, groupes, mots clés et Quality Score, **termes de recherche**, répartition horaire, annonces, conversions par action, exclusions en place. Écrit `../data/perf-AAAA-MM-JJ.json` | 04/09/2026 |
+| `larencontre-exclusions.mjs` | **pose les exclusions du relevé J+1** en correspondance d'expression, lues dans `../data/exclusions-proposees-2026-09-04.json`. Dédoublonne contre l'existant sans dépouiller les accents — c'est le point de la manœuvre — valide chez Google avant d'écrire, et relit après coup. **Appliqué le 04/09/2026 : 27 → 147 exclusions** | 04/09/2026 |
+| `larencontre-url-calendrier.mjs` | **bascule l'URL finale des 3 annonces sur l'accueil** et **retire dimanche et lundi** du calendrier, budget et statut intacts. Tout ou rien, relu après coup. Écrit `../data/changement-url-calendrier-AAAA-MM-JJ.json`. **Appliqué le 07/09/2026** — [`../report/changement-url-calendrier-2026-09-07.md`](../report/changement-url-calendrier-2026-09-07.md) | 07/09/2026 |
+| `composants-image.mjs` | **pose les composants Image** (générique, un manifeste par client) : recadre avec `sharp` en carré 1:1 et paysage 1,91:1 depuis `../data/composants-image.json`, envoie les assets et les lie à la campagne en `AD_IMAGE`, relit. Idempotent. Écrit `../data/composants-image-AAAA-MM-JJ.json`. **Appliqué le 07/09/2026 : 6 images au niveau campagne** | 07/09/2026 |
 
 `audit-la-rencontre-ads.mjs` écrit au fil de l'eau pour ne rien perdre en cas de coupure.
 Il produit `../data/donnees-google-ads-brutes.json` et lit `../data/portefeuille-mots-cles.json`.
@@ -31,11 +35,12 @@ Il produit `../data/donnees-google-ads-brutes.json` et lit `../data/portefeuille
 | Campagne | `Recherche - La Rencontre Soir` — `campaignId 24197703801` |
 | Budget | 150 €/mois, soit **4,93 €/jour** (`4 930 000` micros — multiple de 10 000, sinon Google refuse) |
 | Réseau | Recherche seul |
-| Calendrier | tous les jours, **17 h 00 → 22 h 00** — « soir uniquement » porte sur le service vendu, pas sur les jours d'ouverture |
+| Calendrier | **mardi → samedi, 17 h 00 → 22 h 00** depuis le 07/09/2026 (7 jours au montage). Le planning en prod sert mardi soir jusqu'au 31/12 et mercredi→samedi midi et soir ; dimanche et lundi sont fermés |
 | Groupes | 3 — Italien (famille B), Gastronomique (famille A), Découverte (famille F) |
-| URL finale | `https://restaurantlarencontre.com/reservation` |
-| Exclusions | 27, au niveau campagne |
-| État | **ACTIVE depuis le 03/09/2026** — « Éligible (apprentissage) », les 3 groupes Éligibles |
+| URL finale | **`https://restaurantlarencontre.com/`** depuis le 07/09/2026 (`/reservation` au montage — un formulaire nu qui ne donnait envie de rien) |
+| Exclusions | 147 au niveau campagne (27 au montage, 120 posées le 04/09) |
+| Composants | liens annexes, accroches, extrait, appel (01/09) · **6 images** carré et paysage — plats, devanture, chefs (07/09) |
+| État | **ACTIVE depuis le 03/09/2026** — annonces repassées en examen le 07/09 après le changement d'URL, à vérifier `APPROVED` au J+7 |
 
 > **Le script l'avait créée en pause exprès, et disait pourquoi** : ne pas démarrer avant que
 > `generate_lead` soit étoilée dans GA4 puis importée dans le compte, sinon on dépense à

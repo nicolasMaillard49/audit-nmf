@@ -102,19 +102,31 @@ plafond mensuel reste 4,93 × 30,4 = 150 €. La dépense réelle se situera ent
   à jour de semaine, plus de dimanche ni de lundi dans la série ;
 - la dépense hebdomadaire : cinq jours actifs, le mensuel doit rester sous 150 €.
 
-## Les images — la question d'origine, non traitée ce jour
+## Les images — la question d'origine, posées le jour même
 
 Google propose bien le composant Image sur ce compte (bouton « + Images » sans message de
 blocage, malgré la règle des 60 jours de la doc), et annonce **+6 % de CTR en moyenne** quand
 une image s'affiche avec une annonce Recherche. Sur ce compte c'est un levier secondaire mais
 peu coûteux : à budget saturé, ce qui compte est le CPC, et un composant qui remonte le CTR
-observé remonte le QS. **Ne pas activer les images dynamiques** : Google les pioche sur la page
-de destination. Les visuels de `../assets/` (assiette, chefs, devanture, hero) sont en 3:2 et
-3:4 ; Google veut du 1:1 et du 1,91:1, sans texte ni logo. Il faut recadrer quatre images
-avant de les poser.
+observé remonte le QS.
 
-## À mettre à jour dans le dossier
+**Six images posées au niveau campagne le 07/09** par `composants-image.mjs`, depuis le
+manifeste `../data/composants-image.json` : tagliatelles à l'encre, raviolo noir, dessert
+chocolat-basilic et devanture en carré 1200×1200 ; devanture et les chefs en paysage 1200×628.
+Recadrages dans `../output/composants-image/`, dossier avant/après dans
+`../data/composants-image-2026-09-07.json`. Elles passent en examen chez Google.
 
-`ETAT-ADS.md` et `ads/README.md` disent encore « URL finale `/reservation` » et « calendrier
-tous les jours ». Ces deux fichiers portaient des modifications non commitées le 07/09 ; ils
-n'ont pas été touchés par cette passe, pour ne pas écraser un travail en cours.
+Deux pièges consignés. Sur Recherche, carré et paysage se lient avec le champ `AD_IMAGE` :
+`MARKETING_IMAGE` et `SQUARE_MARKETING_IMAGE` sont refusés (« incompatible with campaign type
+SEARCH »). Et **ne pas activer les images dynamiques** : Google les piocherait sur la page de
+destination.
+
+**Totowood, même jour, même script : refusé.** « field type not supported to be added
+directly through asset links », au niveau groupe comme au niveau campagne. Ce compte n'a
+aucune recommandation « Ajouter des images » : il n'est pas éligible. Voir
+`../../totowood/ads/README.md`.
+
+## Le dossier est à jour
+
+`ETAT-ADS.md` et `ads/README.md` portent ces changements depuis le 07/09/2026 (URL finale,
+calendrier, images), commités avec le relevé J+1 du 04/09 qui ne l'avait pas encore été.

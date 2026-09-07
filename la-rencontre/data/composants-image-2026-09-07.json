@@ -1,0 +1,185 @@
+{
+  "date": "2026-09-07T12:52:02.164Z",
+  "client": "La Rencontre",
+  "customer": "4040541764",
+  "campaignId": 24197703801,
+  "niveau": "campagne",
+  "manifeste": "composants-image.json",
+  "avant": {
+    "campagne": {
+      "nom": "Recherche - La Rencontre Soir",
+      "statut": "ENABLED"
+    },
+    "groupes": [
+      {
+        "id": "198510564663",
+        "nom": "Italien",
+        "resourceName": "customers/4040541764/adGroups/198510564663"
+      },
+      {
+        "id": "199984037979",
+        "nom": "Gastronomique",
+        "resourceName": "customers/4040541764/adGroups/199984037979"
+      },
+      {
+        "id": "204951119972",
+        "nom": "Découverte",
+        "resourceName": "customers/4040541764/adGroups/204951119972"
+      }
+    ],
+    "assets": [],
+    "liensCampagne": [],
+    "liensGroupe": []
+  },
+  "plan": [
+    {
+      "nom": "LR — tagliatelles à l'encre (carré)",
+      "action": "créer et lier",
+      "cible": "campagne",
+      "champ": "AD_IMAGE",
+      "taille": "1200×1200",
+      "ko": 162
+    },
+    {
+      "nom": "LR — raviolo noir (carré)",
+      "action": "créer et lier",
+      "cible": "campagne",
+      "champ": "AD_IMAGE",
+      "taille": "1200×1200",
+      "ko": 122
+    },
+    {
+      "nom": "LR — dessert chocolat basilic (carré)",
+      "action": "créer et lier",
+      "cible": "campagne",
+      "champ": "AD_IMAGE",
+      "taille": "1080×1080",
+      "ko": 135
+    },
+    {
+      "nom": "LR — devanture (carré)",
+      "action": "créer et lier",
+      "cible": "campagne",
+      "champ": "AD_IMAGE",
+      "taille": "1200×1200",
+      "ko": 255
+    },
+    {
+      "nom": "LR — devanture (paysage)",
+      "action": "créer et lier",
+      "cible": "campagne",
+      "champ": "AD_IMAGE",
+      "taille": "1200×628",
+      "ko": 142
+    },
+    {
+      "nom": "LR — Rosie et Francesco en cuisine (paysage)",
+      "action": "créer et lier",
+      "cible": "campagne",
+      "champ": "AD_IMAGE",
+      "taille": "1200×628",
+      "ko": 102
+    }
+  ],
+  "applique": true,
+  "apres": {
+    "campagne": {
+      "nom": "Recherche - La Rencontre Soir",
+      "statut": "ENABLED"
+    },
+    "groupes": [
+      {
+        "id": "198510564663",
+        "nom": "Italien",
+        "resourceName": "customers/4040541764/adGroups/198510564663"
+      },
+      {
+        "id": "199984037979",
+        "nom": "Gastronomique",
+        "resourceName": "customers/4040541764/adGroups/199984037979"
+      },
+      {
+        "id": "204951119972",
+        "nom": "Découverte",
+        "resourceName": "customers/4040541764/adGroups/204951119972"
+      }
+    ],
+    "assets": [
+      {
+        "id": "418461981635",
+        "nom": "LR — devanture (carré)",
+        "resourceName": "customers/4040541764/assets/418461981635",
+        "taille": "1200×1200",
+        "approbation": "?"
+      },
+      {
+        "id": "418462009232",
+        "nom": "LR — raviolo noir (carré)",
+        "resourceName": "customers/4040541764/assets/418462009232",
+        "taille": "1200×1200",
+        "approbation": "?"
+      },
+      {
+        "id": "418571132638",
+        "nom": "LR — tagliatelles à l'encre (carré)",
+        "resourceName": "customers/4040541764/assets/418571132638",
+        "taille": "1200×1200",
+        "approbation": "?"
+      },
+      {
+        "id": "418571133040",
+        "nom": "LR — dessert chocolat basilic (carré)",
+        "resourceName": "customers/4040541764/assets/418571133040",
+        "taille": "1080×1080",
+        "approbation": "?"
+      },
+      {
+        "id": "418571152774",
+        "nom": "LR — devanture (paysage)",
+        "resourceName": "customers/4040541764/assets/418571152774",
+        "taille": "1200×628",
+        "approbation": "?"
+      },
+      {
+        "id": "418645398636",
+        "nom": "LR — Rosie et Francesco en cuisine (paysage)",
+        "resourceName": "customers/4040541764/assets/418645398636",
+        "taille": "1200×628",
+        "approbation": "?"
+      }
+    ],
+    "liensCampagne": [
+      {
+        "champ": "AD_IMAGE",
+        "assetId": "418461981635",
+        "assetNom": "LR — devanture (carré)"
+      },
+      {
+        "champ": "AD_IMAGE",
+        "assetId": "418462009232",
+        "assetNom": "LR — raviolo noir (carré)"
+      },
+      {
+        "champ": "AD_IMAGE",
+        "assetId": "418571132638",
+        "assetNom": "LR — tagliatelles à l'encre (carré)"
+      },
+      {
+        "champ": "AD_IMAGE",
+        "assetId": "418571133040",
+        "assetNom": "LR — dessert chocolat basilic (carré)"
+      },
+      {
+        "champ": "AD_IMAGE",
+        "assetId": "418571152774",
+        "assetNom": "LR — devanture (paysage)"
+      },
+      {
+        "champ": "AD_IMAGE",
+        "assetId": "418645398636",
+        "assetNom": "LR — Rosie et Francesco en cuisine (paysage)"
+      }
+    ],
+    "liensGroupe": []
+  }
+}

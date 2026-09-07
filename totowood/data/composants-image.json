@@ -1,0 +1,23 @@
+{
+  "client": "Totowood",
+  "customer": "3702463294",
+  "campaignId": 24204097327,
+  "niveau": "campagne",
+  "sourceDir": "C:/Users/n.maillard/VueJS/totowood-lp/public/photos",
+  "outputDir": "../output/composants-image",
+  "note": "Photos des landing pages devis.totowood.fr (totowood-lp/public/photos), déjà utilisées en prod. Niveau CAMPAGNE. Le 07/09/2026, Google a refusé le lien AD_IMAGE sur ce compte, au niveau groupe puis au niveau campagne (« not supported to be added directly through asset links ») : compte non éligible aux images, à retenter plus tard. Le champ `groupe` documente le thème visé. Zones en pixels source [gauche, haut, largeur, hauteur].",
+  "images": [
+    { "groupe": "sous-pente", "fichier": "placards-sous-pente-bois.jpg", "nom": "TW — placards sous pente bois (carré)", "format": "carre", "zone": [0, 250, 1200, 1200] },
+    { "groupe": "sous-pente", "fichier": "placard-sous-escalier-ouvert.jpg", "nom": "TW — placard sous escalier ouvert (carré)", "format": "carre", "zone": [0, 300, 1200, 1200] },
+    { "groupe": "sous-pente", "fichier": "dressing-sous-pente-ouvert.jpg", "nom": "TW — dressing sous pente (paysage)", "format": "paysage", "zone": [0, 180, 1600, 838] },
+
+    { "groupe": "dressing", "fichier": "dressing-angle-eclaire.jpg", "nom": "TW — dressing d'angle éclairé (carré)", "format": "carre", "zone": [0, 300, 1200, 1200] },
+    { "groupe": "dressing", "fichier": "dressing-sous-pente-ouvert.jpg", "nom": "TW — dressing sous pente (carré)", "format": "carre", "zone": [200, 0, 1200, 1200] },
+
+    { "groupe": "biblioth", "fichier": "bibliotheque-niches-eclairees.jpg", "nom": "TW — bibliothèque niches éclairées (carré)", "format": "carre", "zone": [0, 300, 1200, 1200] },
+    { "groupe": "biblioth", "fichier": "bibliotheque-niches-eclairees.jpg", "nom": "TW — bibliothèque niches éclairées (paysage)", "format": "paysage", "zone": [0, 500, 1200, 628] },
+
+    { "groupe": "cuisine", "fichier": "cuisine-noire-ilot.jpg", "nom": "TW — cuisine noire îlot (carré)", "format": "carre", "zone": [250, 0, 1200, 1200] },
+    { "groupe": "cuisine", "fichier": "cuisine-noire-ilot.jpg", "nom": "TW — cuisine noire îlot (paysage)", "format": "paysage", "zone": [0, 150, 1600, 838] }
+  ]
+}

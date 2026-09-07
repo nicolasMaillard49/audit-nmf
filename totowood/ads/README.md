@@ -29,6 +29,7 @@ versionnés. La copie ici documente ce qui a monté la campagne.
 | `totowood-adgroups.mjs` | crée les groupes d'annonces restants, depuis la source de vérité — le markdown de copie `totowood-lp/docs/annonces-google-ads.md`, jamais de ressaisie |
 | `totowood-extensions.mjs` | pose les composants (ex-« extensions ») **au niveau campagne** : ils servent les quatre groupes d'un coup |
 | `totowood-brouillon.mjs` | garde-fou de suppression du brouillon résiduel « Campaign #1 » laissé par l'assistant de création de compte |
+| `composants-image.mjs` | **pose les composants Image** depuis `../data/composants-image.json` (9 photos des landing pages, recadrées carré et paysage). **Refusé par Google le 07/09/2026** : `The given field type is not supported to be added directly through asset links (AD_IMAGE)`, au niveau groupe comme au niveau campagne — alors que le même lien est passé sur La Rencontre le même jour. Le compte n'est pas éligible aux images : aucune recommandation « Ajouter des images » chez Totowood, deux chez La Rencontre. Les recadrages sont prêts dans `../output/composants-image/`, le dossier de l'échec dans `../data/composants-image-2026-09-07.json`. **À retenter** une fois la validation de l'annonceur terminée, ou à 60 jours de compte |
 
 ## Le compte et la campagne
 

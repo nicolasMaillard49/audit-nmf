@@ -1,0 +1,147 @@
+{
+  "date": "2026-09-07T12:50:53.565Z",
+  "client": "Totowood",
+  "customer": "3702463294",
+  "campaignId": 24204097327,
+  "niveau": "groupe",
+  "manifeste": "composants-image.json",
+  "avant": {
+    "campagne": {
+      "nom": "Recherche - Sur-mesure 77",
+      "statut": "ENABLED"
+    },
+    "groupes": [
+      {
+        "id": "195036264690",
+        "nom": "Sous-pente & sous-escalier",
+        "resourceName": "customers/3702463294/adGroups/195036264690"
+      },
+      {
+        "id": "199018789879",
+        "nom": "Dressing",
+        "resourceName": "customers/3702463294/adGroups/199018789879"
+      },
+      {
+        "id": "199018790799",
+        "nom": "Bibliothèque & meubles",
+        "resourceName": "customers/3702463294/adGroups/199018790799"
+      },
+      {
+        "id": "206539706624",
+        "nom": "Cuisine",
+        "resourceName": "customers/3702463294/adGroups/206539706624"
+      }
+    ],
+    "assets": [
+      {
+        "id": "418558327291",
+        "nom": "image.png",
+        "resourceName": "customers/3702463294/assets/418558327291",
+        "taille": "630×630",
+        "approbation": "?"
+      }
+    ],
+    "liensCampagne": [],
+    "liensGroupe": []
+  },
+  "plan": [
+    {
+      "nom": "TW — placards sous pente bois (carré)",
+      "action": "créer et lier",
+      "cible": "Sous-pente & sous-escalier",
+      "champ": "SQUARE_MARKETING_IMAGE",
+      "taille": "1200×1200",
+      "ko": 104
+    },
+    {
+      "nom": "TW — placard sous escalier ouvert (carré)",
+      "action": "créer et lier",
+      "cible": "Sous-pente & sous-escalier",
+      "champ": "SQUARE_MARKETING_IMAGE",
+      "taille": "1200×1200",
+      "ko": 168
+    },
+    {
+      "nom": "TW — dressing sous pente (paysage)",
+      "action": "créer et lier",
+      "cible": "Sous-pente & sous-escalier",
+      "champ": "MARKETING_IMAGE",
+      "taille": "1200×628",
+      "ko": 82
+    },
+    {
+      "nom": "TW — dressing d'angle éclairé (carré)",
+      "action": "créer et lier",
+      "cible": "Dressing",
+      "champ": "SQUARE_MARKETING_IMAGE",
+      "taille": "1200×1200",
+      "ko": 121
+    },
+    {
+      "nom": "TW — dressing sous pente (carré)",
+      "action": "créer et lier",
+      "cible": "Dressing",
+      "champ": "SQUARE_MARKETING_IMAGE",
+      "taille": "1200×1200",
+      "ko": 114
+    },
+    {
+      "nom": "TW — dressing d'angle éclairé (paysage)",
+      "action": "créer et lier",
+      "cible": "Dressing",
+      "champ": "MARKETING_IMAGE",
+      "taille": "1200×628",
+      "ko": 57
+    },
+    {
+      "nom": "TW — bibliothèque niches éclairées (carré)",
+      "action": "créer et lier",
+      "cible": "Bibliothèque & meubles",
+      "champ": "SQUARE_MARKETING_IMAGE",
+      "taille": "1200×1200",
+      "ko": 217
+    },
+    {
+      "nom": "TW — meuble TV tasseaux (carré)",
+      "action": "créer et lier",
+      "cible": "Bibliothèque & meubles",
+      "champ": "SQUARE_MARKETING_IMAGE",
+      "taille": "1200×1200",
+      "ko": 134
+    },
+    {
+      "nom": "TW — bibliothèque niches éclairées (paysage)",
+      "action": "créer et lier",
+      "cible": "Bibliothèque & meubles",
+      "champ": "MARKETING_IMAGE",
+      "taille": "1200×628",
+      "ko": 110
+    },
+    {
+      "nom": "TW — cuisine noire îlot (carré)",
+      "action": "créer et lier",
+      "cible": "Cuisine",
+      "champ": "SQUARE_MARKETING_IMAGE",
+      "taille": "1200×1200",
+      "ko": 111
+    },
+    {
+      "nom": "TW — cuisine noire îlot (paysage)",
+      "action": "créer et lier",
+      "cible": "Cuisine",
+      "champ": "MARKETING_IMAGE",
+      "taille": "1200×628",
+      "ko": 66
+    },
+    {
+      "nom": "TW — cuisine îlot arrondi (carré)",
+      "action": "créer et lier",
+      "cible": "Cuisine",
+      "champ": "SQUARE_MARKETING_IMAGE",
+      "taille": "1200×1200",
+      "ko": 107
+    }
+  ],
+  "applique": false,
+  "apres": null
+}

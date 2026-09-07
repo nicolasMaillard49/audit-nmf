@@ -1,4 +1,4 @@
-# État des travaux Google Ads — 3 septembre 2026
+# État des travaux Google Ads — 7 septembre 2026
 
 Vue transverse des quatre dossiers clients. Ce fichier ne contient **aucun chiffre qui ne
 soit pas déjà dans un `data/*.json`, un script versionné ou un relevé daté** : il dit où en
@@ -9,8 +9,8 @@ Tous les comptes clients sont sous le MCC **`671-181-3801`**.
 
 | Client | Compte Ads | Campagne | Statut | Prochaine action |
 |---|---|---|---|---|
-| [Totowood](#totowood) | `370-246-3294` | **diffuse** depuis le 31/08 | 63/72 étapes | débloquer les mentions légales du client |
-| [La Rencontre](#la-rencontre) | `404-054-1764` | **diffuse** depuis le 03/09 | lancée, en apprentissage | surveiller les termes de recherche à J+1 |
+| [Totowood](#totowood) | `370-246-3294` | **diffuse** depuis le 31/08 | 63/72 étapes ; images refusées par Google (compte non éligible) | débloquer les mentions légales du client, finir la validation de l'annonceur puis retenter les images |
+| [La Rencontre](#la-rencontre) | `404-054-1764` | **diffuse** depuis le 03/09 | 147 exclusions ; depuis le 07/09 accueil en atterrissage, mardi→samedi, 6 images | relever à J+7 : annonces `APPROVED`, le QS, le CTR avec images, le compteur de conversions |
 | [GP elec](#gp-elec) | **à créer** | — | zone et enchère tranchées, livrables périmés | réécrire les 3 PDF, créer le compte à la main |
 | [RH Patrimoine](#rh-patrimoine) | existant, au client | déjà active chez lui | audit prospect livré | aucune en cours |
 
@@ -74,6 +74,15 @@ termes, que les 14 exclusions de compte **ne couvraient pas les marques concurre
 4. Le **passage à Maximiser les conversions au 30ᵉ lead** — c'est le prochain geste
    d'enchères, pas un retour au CPC manuel.
 
+**Les images — refusées par Google le 07/09/2026.** Neuf photos des landing pages ont été
+recadrées en carré et en paysage (`totowood/output/composants-image/`) et envoyées par
+`composants-image.mjs`. Google a refusé le lien `AD_IMAGE`, au niveau groupe comme au niveau
+campagne : « field type not supported to be added directly through asset links ». Le même
+lien est passé sur La Rencontre le même jour, et Totowood n'a aucune recommandation « Ajouter
+des images » quand La Rencontre en a deux : **le compte n'est pas éligible aux images**. Cause
+probable : la validation de l'annonceur non terminée (point 2 ci-dessus), ou la règle des 60
+jours. À retenter après. Détail dans `totowood/ads/README.md`.
+
 Suivi détaillé, preuve par preuve : `totowood-lp/docs/avancement.json` (`npm run docs`).
 L'audit de juillet et les scripts : [`totowood/README.md`](totowood/README.md) et
 [`totowood/ads/README.md`](totowood/ads/README.md).
@@ -91,10 +100,11 @@ Périmètre : **le service du soir**.
 | Campagne | `Recherche - La Rencontre Soir`, `campaignId 24197703801` — **ACTIVE depuis le 03/09/2026**, état « Éligible (apprentissage) » |
 | Budget | 150 €/mois, soit 4,93 €/jour |
 | Réseau | Recherche seul |
-| Calendrier | tous les jours, **17 h → 22 h** — « soir » porte sur le service vendu, pas sur les jours d'ouverture |
+| Calendrier | **mardi → samedi, 17 h → 22 h** depuis le 07/09 — le planning en prod ouvre mardi soir et mercredi→samedi, dimanche et lundi sont fermés |
+| URL finale | **l'accueil** depuis le 07/09 (`/reservation` avant) |
 | Groupes | 3 : Italien, Gastronomique, Découverte — mots clés en expression **et** exact |
-| Exclusions | 27, au niveau campagne |
-| Composants | posés au niveau campagne (liens annexes, téléphone) |
+| Exclusions | 147, au niveau campagne (27 au montage, 120 le 04/09) |
+| Composants | liens annexes, accroches, extrait, appel (01/09) · **6 images** plats, devanture, chefs (07/09), au niveau campagne |
 
 **Pourquoi elle était en pause, et pourquoi elle ne l'est plus.** Le script l'avait créée
 `PAUSED` exprès : ne pas démarrer avant que `generate_lead` soit étoilée dans GA4 puis importée
@@ -104,6 +114,87 @@ vérifiées à l'écran le 03/09, **la campagne a été activée dans la foulée
 contrôlée avant lancement : Mastercard ••••4901 en mode principal, payeur « Restaurant La
 Rencontre », post-paiement. Seul avertissement, non bloquant : aucun mode de paiement
 secondaire.
+
+### Premier jour de diffusion — relevé du 04/09/2026 sur la journée du 03/09
+
+Extraction en lecture seule par `ads/larencontre-perf.mjs`, données dans
+`data/perf-2026-09-04.json`. **Analyse complète :
+[`la-rencontre/report/releve-j1-2026-09-04.md`](la-rencontre/report/releve-j1-2026-09-04.md).**
+
+| | Impr. | Clics | CTR | CPC moy. | Coût |
+|---|---:|---:|---:|---:|---:|
+| Italien | 13 | 0 | — | — | 0,00 € |
+| Gastronomique | 60 | 2 | 3,33 % | 1,05 € | 2,10 € |
+| Découverte | 98 | 4 | 4,08 % | 0,93 € | 3,73 € |
+| **Campagne** | **171** | **6** | **3,51 %** | **0,97 €** | **5,83 €** |
+
+Zéro conversion — à 6 clics, ce n'est pas un signal. Les 3 annonces sont approuvées, force
+« Moyenne ». Part d'impressions **10 %**, dont **69,3 % perdues faute de budget** et 26,2 % au
+classement : à 150 €/mois sur Bordeaux c'est attendu, l'audit du 02/08 chiffrait le plafond
+utile vers 360 €/mois.
+
+**Le constat qui compte : 53 % de la dépense du premier jour est partie hors cible.** Sur 117
+termes déclenchés, 70 sont des **marques concurrentes** (80 impressions, 2,10 €) et 8 nomment
+une **autre commune** (1,00 €). Les deux clics les plus chers de la journée sont les deux clics
+inutiles — `tupina bordeaux` à 2,10 €, `restaurant terrasse talence` à 1,00 €. Même piège que
+Totowood au jour 1, et pour la même raison : la correspondance d'expression matche sur le
+**sens**, donc `restaurant gastronomique bordeaux` attrape `tupina bordeaux`.
+
+**Deux exclusions du montage n'ont pas tenu.** `les mauvais garcons bordeaux` n'a bloqué ni le
+singulier ni la version accentuée ; `osteria palatino` n'a pas bloqué `palatino bordeaux`. Un
+mot clé à exclure **ne matche pas les variantes proches** — accents, singulier/pluriel, fautes
+— et une exclusion large exige que tous ses mots soient présents. Chaque variante doit être
+listée.
+
+**Quality Score entre 1 et 3** sur les mots clés notés, cohérent avec les 26,2 % d'impressions
+perdues au classement. Cause probable : les trois groupes pointent vers la **même URL**,
+`/reservation`, qui ne répond spécifiquement à aucune des trois intentions.
+
+**Les exclusions ont été posées le 04/09/2026**, par `ads/larencontre-exclusions.mjs` :
+**120 en correspondance d'expression** — 77 marques concurrentes avec leurs variantes
+accentuées et au singulier, 20 communes autres que Bordeaux, 23 requêtes hors offre. La
+campagne passe de **27 à 147 exclusions**. Validées chez Google avant écriture, relues après :
+`tupina`, `talence`, `mauvais garcon` **et** `mauvais garçon`, `palatino`, `les droles` **et**
+`les drôles` sont en place. Rien d'autre n'a bougé — ACTIVE, 4,93 €/jour, Maximiser les clics,
+3 groupes actifs. Liste et justifications dans
+`la-rencontre/data/exclusions-proposees-2026-09-04.json`, y compris ce qui est laissé passer
+exprès : les requêtes en anglais et en néerlandais — un touriste à Bordeaux est une cible — et
+`restaurant la rencontre bordeaux`, la marque du client, qu'on ne s'exclut pas à soi-même.
+
+**Prochaine action : relever à J+7** avec `ads/larencontre-perf.mjs`. Trois choses à regarder :
+le Quality Score a-t-il bougé, le flux de marques concurrentes s'est-il tari, le compteur de
+conversions est-il sorti de « En attente ». **Ne pas toucher au budget ni aux enchères** — la
+campagne a deux jours, et le problème du jour 1 n'était pas le montant mais sa destination.
+
+### Le 07/09/2026 — l'accueil en atterrissage, mardi→samedi, et les images
+
+Tout est parti de « pourquoi il n'y a pas d'image sur les annonces ? » — réponse : aucun
+script n'en avait jamais posé. En creusant, la page d'atterrissage s'est révélée le vrai sujet.
+**Analyse et décisions :
+[`la-rencontre/report/changement-url-calendrier-2026-09-07.md`](la-rencontre/report/changement-url-calendrier-2026-09-07.md).**
+
+- **URL finale des 3 annonces : `/reservation` → l'accueil.** Le formulaire nu ne donnait
+  envie de rien, ne répondait à aucune intention (d'où le QS à 1–3) et affichait « Pas de
+  créneaux » les jours fermés. L'accueil montre la devanture, les 150 avis, les plats, un
+  bouton Réserver collant. Le tracking ne casse pas : Réserver mène à `/reservation`.
+- **Calendrier : dimanche et lundi retirés.** Le planning réel (`/public/schedule`) sert
+  mardi soir jusqu'au 31/12 et mercredi→samedi midi et soir. Budget **intact** à 4,93 €/jour,
+  plafond mensuel 150 € inchangé.
+- **Deux réglages sur le site, déployés** (commit `499bfca` du dépôt du site) : l'intro de
+  3,3 s est sautée pour un clic publicitaire (`gclid`, `gbraid`, `wbraid`, `gad_source`) ; le
+  formulaire de réservation s'ouvre sur le premier jour qui a des tables au lieu d'aujourd'hui.
+  Vérifié en prod : un lundi, la page ouvre sur mardi avec dix créneaux.
+- **6 composants Image posés au niveau campagne** par `composants-image.mjs` : tagliatelles à
+  l'encre, raviolo, dessert, devanture (carré et paysage), les chefs (paysage). Google annonce
+  +6 % de CTR en moyenne quand une image s'affiche ; à budget saturé, le gain réel est le CPC
+  via le QS. Sur Recherche le champ est `AD_IMAGE` — `MARKETING_IMAGE` est refusé.
+- Les annonces sont **repassées en examen** après le changement d'URL. Les images aussi.
+
+**Prochaine action : relever à J+7 (vers le 10/09)** avec `ads/larencontre-perf.mjs`. À
+regarder : les 3 annonces et les 6 images revenues `APPROVED` ; le QS ; le CTR avec images,
+jour de semaine contre jour de semaine ; le flux de marques concurrentes ; le compteur de
+conversions ; la dépense hebdomadaire sur cinq jours actifs. **Le chantier « une page par
+intention » est laissé de côté** (arbitrage du 07/09).
 
 **La chaîne de conversion est complète et vérifiée. Rien ne reste à brancher.**
 

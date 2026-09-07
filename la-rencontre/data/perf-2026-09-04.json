@@ -1,0 +1,4499 @@
+{
+  "meta": {
+    "client": "Restaurant La Rencontre",
+    "customer": "4040541764",
+    "campaign": "24197703801",
+    "mcc": "6711813801",
+    "extraction": "2026-09-04T08:04:48.275Z",
+    "periode": {
+      "start": "2026-09-03",
+      "end": "2026-09-04"
+    }
+  },
+  "campagne": [
+    {
+      "campaign": {
+        "resource_name": "customers/4040541764/campaigns/24197703801",
+        "status": 2,
+        "advertising_channel_type": 2,
+        "bidding_strategy_type": 9,
+        "name": "Recherche - La Rencontre Soir",
+        "id": 24197703801
+      },
+      "metrics": {
+        "clicks": 6,
+        "search_budget_lost_impression_share": 0.6930469191633691,
+        "search_impression_share": 0.0999,
+        "search_rank_lost_impression_share": 0.26172979084228376,
+        "search_top_impression_share": 0.0999,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 5830000,
+        "ctr": 0.03508771929824561,
+        "all_conversions": 0,
+        "average_cpc": 971666.6666666666,
+        "impressions": 171
+      },
+      "campaign_budget": {
+        "resource_name": "customers/4040541764/campaignBudgets/15840567057",
+        "amount_micros": 4930000
+      },
+      "segments": {
+        "date": "2026-09-03"
+      }
+    }
+  ],
+  "groupes": [
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/198510564663",
+        "status": 2,
+        "id": 198510564663,
+        "name": "Italien",
+        "cpc_bid_micros": 10000
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 13
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/199984037979",
+        "status": 2,
+        "id": 199984037979,
+        "name": "Gastronomique",
+        "cpc_bid_micros": 10000
+      },
+      "metrics": {
+        "clicks": 2,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 2100000,
+        "ctr": 0.03333333333333333,
+        "all_conversions": 0,
+        "average_cpc": 1050000,
+        "impressions": 60
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/204951119972",
+        "status": 2,
+        "id": 204951119972,
+        "name": "Découverte",
+        "cpc_bid_micros": 10000
+      },
+      "metrics": {
+        "clicks": 4,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 3730000,
+        "ctr": 0.04081632653061224,
+        "all_conversions": 0,
+        "average_cpc": 932500,
+        "impressions": 98
+      }
+    }
+  ],
+  "motsCles": [
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/204951119972",
+        "name": "Découverte"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 41
+      },
+      "ad_group_criterion": {
+        "resource_name": "customers/4040541764/adGroupCriteria/204951119972~297692571550",
+        "status": 2,
+        "keyword": {
+          "match_type": 3,
+          "text": "restaurant bordeaux centre ville"
+        }
+      },
+      "keyword_view": {
+        "resource_name": "customers/4040541764/keywordViews/204951119972~297692571550"
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/199984037979",
+        "name": "Gastronomique"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 33
+      },
+      "ad_group_criterion": {
+        "resource_name": "customers/4040541764/adGroupCriteria/199984037979~324589820810",
+        "status": 2,
+        "quality_info": {
+          "quality_score": 2
+        },
+        "keyword": {
+          "match_type": 3,
+          "text": "restaurant gastronomique bordeaux"
+        }
+      },
+      "keyword_view": {
+        "resource_name": "customers/4040541764/keywordViews/199984037979~324589820810"
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/204951119972",
+        "name": "Découverte"
+      },
+      "metrics": {
+        "clicks": 1,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 1000000,
+        "ctr": 0.05555555555555555,
+        "all_conversions": 0,
+        "average_cpc": 1000000,
+        "impressions": 18
+      },
+      "ad_group_criterion": {
+        "resource_name": "customers/4040541764/adGroupCriteria/204951119972~298878673106",
+        "status": 2,
+        "quality_info": {
+          "quality_score": 3
+        },
+        "keyword": {
+          "match_type": 3,
+          "text": "bon restaurant bordeaux"
+        }
+      },
+      "keyword_view": {
+        "resource_name": "customers/4040541764/keywordViews/204951119972~298878673106"
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/204951119972",
+        "name": "Découverte"
+      },
+      "metrics": {
+        "clicks": 3,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 2730000,
+        "ctr": 0.23076923076923078,
+        "all_conversions": 0,
+        "average_cpc": 910000,
+        "impressions": 13
+      },
+      "ad_group_criterion": {
+        "resource_name": "customers/4040541764/adGroupCriteria/204951119972~299565641707",
+        "status": 2,
+        "quality_info": {
+          "quality_score": 3
+        },
+        "keyword": {
+          "match_type": 2,
+          "text": "bon restaurant bordeaux"
+        }
+      },
+      "keyword_view": {
+        "resource_name": "customers/4040541764/keywordViews/204951119972~299565641707"
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/204951119972",
+        "name": "Découverte"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 13
+      },
+      "ad_group_criterion": {
+        "resource_name": "customers/4040541764/adGroupCriteria/204951119972~324589818890",
+        "status": 2,
+        "quality_info": {
+          "quality_score": 3
+        },
+        "keyword": {
+          "match_type": 3,
+          "text": "meilleur restaurant bordeaux"
+        }
+      },
+      "keyword_view": {
+        "resource_name": "customers/4040541764/keywordViews/204951119972~324589818890"
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/199984037979",
+        "name": "Gastronomique"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 11
+      },
+      "ad_group_criterion": {
+        "resource_name": "customers/4040541764/adGroupCriteria/199984037979~330335521381",
+        "status": 2,
+        "keyword": {
+          "match_type": 3,
+          "text": "restaurant bistronomique bordeaux"
+        }
+      },
+      "keyword_view": {
+        "resource_name": "customers/4040541764/keywordViews/199984037979~330335521381"
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/199984037979",
+        "name": "Gastronomique"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 9
+      },
+      "ad_group_criterion": {
+        "resource_name": "customers/4040541764/adGroupCriteria/199984037979~324589820290",
+        "status": 2,
+        "keyword": {
+          "match_type": 3,
+          "text": "restaurant chic bordeaux"
+        }
+      },
+      "keyword_view": {
+        "resource_name": "customers/4040541764/keywordViews/199984037979~324589820290"
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/198510564663",
+        "name": "Italien"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 8
+      },
+      "ad_group_criterion": {
+        "resource_name": "customers/4040541764/adGroupCriteria/198510564663~342320072390",
+        "status": 2,
+        "keyword": {
+          "match_type": 3,
+          "text": "restaurant italien bordeaux"
+        }
+      },
+      "keyword_view": {
+        "resource_name": "customers/4040541764/keywordViews/198510564663~342320072390"
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/198510564663",
+        "name": "Italien"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 4
+      },
+      "ad_group_criterion": {
+        "resource_name": "customers/4040541764/adGroupCriteria/198510564663~817044893202",
+        "status": 2,
+        "keyword": {
+          "match_type": 2,
+          "text": "cuisine italienne bordeaux"
+        }
+      },
+      "keyword_view": {
+        "resource_name": "customers/4040541764/keywordViews/198510564663~817044893202"
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/204951119972",
+        "name": "Découverte"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 3
+      },
+      "ad_group_criterion": {
+        "resource_name": "customers/4040541764/adGroupCriteria/204951119972~298549601702",
+        "status": 2,
+        "keyword": {
+          "match_type": 3,
+          "text": "restaurant original bordeaux"
+        }
+      },
+      "keyword_view": {
+        "resource_name": "customers/4040541764/keywordViews/204951119972~298549601702"
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/204951119972",
+        "name": "Découverte"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 3
+      },
+      "ad_group_criterion": {
+        "resource_name": "customers/4040541764/adGroupCriteria/204951119972~328124765731",
+        "status": 2,
+        "quality_info": {
+          "quality_score": 3
+        },
+        "keyword": {
+          "match_type": 2,
+          "text": "ou manger a bordeaux"
+        }
+      },
+      "keyword_view": {
+        "resource_name": "customers/4040541764/keywordViews/204951119972~328124765731"
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/199984037979",
+        "name": "Gastronomique"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 2
+      },
+      "ad_group_criterion": {
+        "resource_name": "customers/4040541764/adGroupCriteria/199984037979~12077721890",
+        "status": 2,
+        "quality_info": {
+          "quality_score": 2
+        },
+        "keyword": {
+          "match_type": 2,
+          "text": "restaurant gastronomique bordeaux"
+        }
+      },
+      "keyword_view": {
+        "resource_name": "customers/4040541764/keywordViews/199984037979~12077721890"
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/199984037979",
+        "name": "Gastronomique"
+      },
+      "metrics": {
+        "clicks": 2,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 2100000,
+        "ctr": 1,
+        "all_conversions": 0,
+        "average_cpc": 1050000,
+        "impressions": 2
+      },
+      "ad_group_criterion": {
+        "resource_name": "customers/4040541764/adGroupCriteria/199984037979~392694578855",
+        "status": 2,
+        "keyword": {
+          "match_type": 3,
+          "text": "restaurant gastronomique bordeaux centre"
+        }
+      },
+      "keyword_view": {
+        "resource_name": "customers/4040541764/keywordViews/199984037979~392694578855"
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/199984037979",
+        "name": "Gastronomique"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 2
+      },
+      "ad_group_criterion": {
+        "resource_name": "customers/4040541764/adGroupCriteria/199984037979~459481639664",
+        "status": 2,
+        "quality_info": {
+          "quality_score": 1
+        },
+        "keyword": {
+          "match_type": 2,
+          "text": "restaurant semi gastronomique bordeaux"
+        }
+      },
+      "keyword_view": {
+        "resource_name": "customers/4040541764/keywordViews/199984037979~459481639664"
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/204951119972",
+        "name": "Découverte"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 2
+      },
+      "ad_group_criterion": {
+        "resource_name": "customers/4040541764/adGroupCriteria/204951119972~297692569830",
+        "status": 2,
+        "keyword": {
+          "match_type": 3,
+          "text": "nouveau restaurant bordeaux"
+        }
+      },
+      "keyword_view": {
+        "resource_name": "customers/4040541764/keywordViews/204951119972~297692569830"
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/204951119972",
+        "name": "Découverte"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 2
+      },
+      "ad_group_criterion": {
+        "resource_name": "customers/4040541764/adGroupCriteria/204951119972~299565641747",
+        "status": 2,
+        "quality_info": {
+          "quality_score": 3
+        },
+        "keyword": {
+          "match_type": 2,
+          "text": "meilleur restaurant bordeaux"
+        }
+      },
+      "keyword_view": {
+        "resource_name": "customers/4040541764/keywordViews/204951119972~299565641747"
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/198510564663",
+        "name": "Italien"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "ad_group_criterion": {
+        "resource_name": "customers/4040541764/adGroupCriteria/198510564663~417645880774",
+        "status": 2,
+        "keyword": {
+          "match_type": 3,
+          "text": "restaurant italien bordeaux centre"
+        }
+      },
+      "keyword_view": {
+        "resource_name": "customers/4040541764/keywordViews/198510564663~417645880774"
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/199984037979",
+        "name": "Gastronomique"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "ad_group_criterion": {
+        "resource_name": "customers/4040541764/adGroupCriteria/199984037979~300327707496",
+        "status": 2,
+        "keyword": {
+          "match_type": 2,
+          "text": "restaurant chic bordeaux"
+        }
+      },
+      "keyword_view": {
+        "resource_name": "customers/4040541764/keywordViews/199984037979~300327707496"
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/204951119972",
+        "name": "Découverte"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "ad_group_criterion": {
+        "resource_name": "customers/4040541764/adGroupCriteria/204951119972~298549598622",
+        "status": 2,
+        "quality_info": {
+          "quality_score": 3
+        },
+        "keyword": {
+          "match_type": 3,
+          "text": "ou manger a bordeaux"
+        }
+      },
+      "keyword_view": {
+        "resource_name": "customers/4040541764/keywordViews/204951119972~298549598622"
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/204951119972",
+        "name": "Découverte"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "ad_group_criterion": {
+        "resource_name": "customers/4040541764/adGroupCriteria/204951119972~299918608695",
+        "status": 2,
+        "keyword": {
+          "match_type": 2,
+          "text": "restaurant bordeaux centre ville"
+        }
+      },
+      "keyword_view": {
+        "resource_name": "customers/4040541764/keywordViews/204951119972~299918608695"
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/204951119972",
+        "name": "Découverte"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "ad_group_criterion": {
+        "resource_name": "customers/4040541764/adGroupCriteria/204951119972~301537977770",
+        "status": 2,
+        "quality_info": {
+          "quality_score": 1
+        },
+        "keyword": {
+          "match_type": 2,
+          "text": "restaurant quartier saint pierre bordeaux"
+        }
+      },
+      "keyword_view": {
+        "resource_name": "customers/4040541764/keywordViews/204951119972~301537977770"
+      }
+    }
+  ],
+  "termes": [
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/199984037979",
+        "name": "Gastronomique"
+      },
+      "metrics": {
+        "clicks": 2,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 2100000,
+        "ctr": 1,
+        "all_conversions": 0,
+        "average_cpc": 1050000,
+        "impressions": 2
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~199984037979~dHVwaW5hIGJvcmRlYXV4",
+        "status": 5,
+        "search_term": "tupina bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant gastronomique bordeaux centre"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/199984037979~392694578855"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/204951119972",
+        "name": "Découverte"
+      },
+      "metrics": {
+        "clicks": 2,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 1690000,
+        "ctr": 0.2857142857142857,
+        "all_conversions": 0,
+        "average_cpc": 845000,
+        "impressions": 7
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~204951119972~cmVzdGF1cmFudCBib3JkZWF1eA",
+        "status": 5,
+        "search_term": "restaurant bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 2,
+            "text": "bon restaurant bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/204951119972~299565641707"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/204951119972",
+        "name": "Découverte"
+      },
+      "metrics": {
+        "clicks": 1,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 1040000,
+        "ctr": 0.5,
+        "all_conversions": 0,
+        "average_cpc": 1040000,
+        "impressions": 2
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~204951119972~Ym9uIHJlc3RhdXJhbnQgYm9yZGVhdXg",
+        "status": 2,
+        "search_term": "bon restaurant bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 2,
+            "text": "bon restaurant bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/204951119972~299565641707"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/204951119972",
+        "name": "Découverte"
+      },
+      "metrics": {
+        "clicks": 1,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 1000000,
+        "ctr": 0.5,
+        "all_conversions": 0,
+        "average_cpc": 1000000,
+        "impressions": 2
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~204951119972~cmVzdGF1cmFudCB0ZXJyYXNzZSB0YWxlbmNl",
+        "status": 5,
+        "search_term": "restaurant terrasse talence"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "bon restaurant bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/204951119972~298878673106"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/198510564663",
+        "name": "Italien"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 2
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~198510564663~bGEgdHJhZGl6aW9uZSBib3JkZWF1eA",
+        "status": 5,
+        "search_term": "la tradizione bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant italien bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/198510564663~342320072390"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/198510564663",
+        "name": "Italien"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~198510564663~cGFsYXRpbm8gYm9yZGVhdXg",
+        "status": 5,
+        "search_term": "palatino bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant italien bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/198510564663~342320072390"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/198510564663",
+        "name": "Italien"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~198510564663~cGFzdGEgcmVzdGF1cmFudCBib3JkZWF1eA",
+        "status": 5,
+        "search_term": "pasta restaurant bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant italien bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/198510564663~342320072390"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/198510564663",
+        "name": "Italien"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~198510564663~cGlwbyBib3JkZWF1eA",
+        "status": 5,
+        "search_term": "pipo bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant italien bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/198510564663~342320072390"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/198510564663",
+        "name": "Italien"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~198510564663~cmVzdGF1cmFudCBlbGlvcyBib3JkZWF1eA",
+        "status": 5,
+        "search_term": "restaurant elios bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant italien bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/198510564663~342320072390"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/198510564663",
+        "name": "Italien"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~198510564663~cmlzb3R0byBtZXJpZ25hYw",
+        "status": 5,
+        "search_term": "risotto merignac"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant italien bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/198510564663~342320072390"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/198510564663",
+        "name": "Italien"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~198510564663~c2FudGluaSBib3JkZWF1eA",
+        "status": 5,
+        "search_term": "santini bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant italien bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/198510564663~342320072390"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/198510564663",
+        "name": "Italien"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~198510564663~cmVzdGF1cmFudCBpdGFsaWVuIHJ1ZSBkdSBoYSBib3JkZWF1eA",
+        "status": 5,
+        "search_term": "restaurant italien rue du ha bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant italien bordeaux centre"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/198510564663~417645880774"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/198510564663",
+        "name": "Italien"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 3
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~198510564663~cmVzdG8gaXRhbGllbiBib3JkZWF1eA",
+        "status": 5,
+        "search_term": "resto italien bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 2,
+            "text": "cuisine italienne bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/198510564663~817044893202"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/199984037979",
+        "name": "Gastronomique"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 2
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~199984037979~cmVzdGF1cmFudCBnYXN0cm9ub21pcXVlIGJvcmRlYXV4",
+        "status": 2,
+        "search_term": "restaurant gastronomique bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 2,
+            "text": "restaurant gastronomique bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/199984037979~12077721890"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/199984037979",
+        "name": "Gastronomique"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~199984037979~bWVpbGxldXIgcmVzdGF1cmFudCBnYXN0cm9ub21pcXVlIGJvcmRlYXV4",
+        "status": 5,
+        "search_term": "meilleur restaurant gastronomique bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 2,
+            "text": "restaurant chic bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/199984037979~300327707496"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/199984037979",
+        "name": "Gastronomique"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~199984037979~Ym90YW5pcXVlIGJvcmRlYXV4IHJlc3RhdXJhbnQ",
+        "status": 5,
+        "search_term": "botanique bordeaux restaurant"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant chic bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/199984037979~324589820290"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/199984037979",
+        "name": "Gastronomique"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~199984037979~bCBlcGljdXJlIGJvcmRlYXV4",
+        "status": 5,
+        "search_term": "l epicure bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant chic bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/199984037979~324589820290"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/199984037979",
+        "name": "Gastronomique"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~199984037979~bGUgbWVsb2RpZSBib3JkZWF1eA",
+        "status": 5,
+        "search_term": "le melodie bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant chic bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/199984037979~324589820290"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/199984037979",
+        "name": "Gastronomique"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~199984037979~cmVzdGF1cmFudCBtYWRhbWUgYg",
+        "status": 5,
+        "search_term": "restaurant madame b"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant chic bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/199984037979~324589820290"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/199984037979",
+        "name": "Gastronomique"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~199984037979~cmVzdGF1cmFudCBtw6lyaWduYWMgZ2FzdHJvbm9taXF1ZQ",
+        "status": 5,
+        "search_term": "restaurant mérignac gastronomique"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant chic bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/199984037979~324589820290"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/199984037979",
+        "name": "Gastronomique"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~199984037979~emVwaHlyaW5lIGJvcmRlYXV4",
+        "status": 5,
+        "search_term": "zephyrine bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant chic bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/199984037979~324589820290"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/199984037979",
+        "name": "Gastronomique"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~199984037979~YW1pY2kgcmVzdGF1cmFudCBib3JkZWF1eA",
+        "status": 5,
+        "search_term": "amici restaurant bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant gastronomique bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/199984037979~324589820810"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/199984037979",
+        "name": "Gastronomique"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 2
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~199984037979~YXJjYWRhIGJvcmRlYXV4",
+        "status": 5,
+        "search_term": "arcada bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant gastronomique bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/199984037979~324589820810"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/199984037979",
+        "name": "Gastronomique"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~199984037979~YXJjYWRhIGJvcmRlYXV4IG1lbnU",
+        "status": 5,
+        "search_term": "arcada bordeaux menu"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant gastronomique bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/199984037979~324589820810"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/199984037979",
+        "name": "Gastronomique"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~199984037979~YnJ1dCByZXN0YXVyYW50IGJvcmRlYXV4",
+        "status": 5,
+        "search_term": "brut restaurant bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant gastronomique bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/199984037979~324589820810"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/199984037979",
+        "name": "Gastronomique"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~199984037979~Y2VudCB0cmVudGUgdHJvaXMgYm9yZGVhdXg",
+        "status": 5,
+        "search_term": "cent trente trois bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant gastronomique bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/199984037979~324589820810"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/199984037979",
+        "name": "Gastronomique"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 2
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~199984037979~Y29sb3JlcyBib3JkZWF1eA",
+        "status": 5,
+        "search_term": "colores bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant gastronomique bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/199984037979~324589820810"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/199984037979",
+        "name": "Gastronomique"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~199984037979~ZGVtZXRlciBib3JkZWF1eA",
+        "status": 5,
+        "search_term": "demeter bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant gastronomique bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/199984037979~324589820810"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/199984037979",
+        "name": "Gastronomique"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~199984037979~bCBlc2NhbGV0dGUgYm9yZGVhdXg",
+        "status": 5,
+        "search_term": "l escalette bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant gastronomique bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/199984037979~324589820810"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/199984037979",
+        "name": "Gastronomique"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~199984037979~bCBvaXNlYXUgYmxldSBib3JkZWF1eA",
+        "status": 5,
+        "search_term": "l oiseau bleu bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant gastronomique bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/199984037979~324589820810"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/199984037979",
+        "name": "Gastronomique"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~199984037979~bGUgY2xhc3NpcXVlIGJvcmRlYXV4",
+        "status": 5,
+        "search_term": "le classique bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant gastronomique bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/199984037979~324589820810"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/199984037979",
+        "name": "Gastronomique"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~199984037979~bGUgcGFzc2FnZSBzZWNyZXQgYm9yZGVhdXg",
+        "status": 5,
+        "search_term": "le passage secret bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant gastronomique bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/199984037979~324589820810"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/199984037979",
+        "name": "Gastronomique"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~199984037979~bW9uZHJpYW4gYm9yZGVhdXggcmVzdGF1cmFudA",
+        "status": 5,
+        "search_term": "mondrian bordeaux restaurant"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant gastronomique bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/199984037979~324589820810"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/199984037979",
+        "name": "Gastronomique"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~199984037979~cGFuYWlsbGUgYm9yZGVhdXg",
+        "status": 5,
+        "search_term": "panaille bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant gastronomique bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/199984037979~324589820810"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/199984037979",
+        "name": "Gastronomique"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 2
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~199984037979~cGllcnJlIGdhZ25haXJlIGJvcmRlYXV4",
+        "status": 5,
+        "search_term": "pierre gagnaire bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant gastronomique bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/199984037979~324589820810"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/199984037979",
+        "name": "Gastronomique"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~199984037979~cmVzdGF1cmFudCBicnV0IGJvcmRlYXV4",
+        "status": 5,
+        "search_term": "restaurant brut bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant gastronomique bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/199984037979~324589820810"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/199984037979",
+        "name": "Gastronomique"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~199984037979~cmVzdGF1cmFudCBnYXN0cm9ub21pcXVlIHbDqWfDqXRhcmllbiBib3JkZWF1eA",
+        "status": 5,
+        "search_term": "restaurant gastronomique végétarien bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant gastronomique bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/199984037979~324589820810"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/199984037979",
+        "name": "Gastronomique"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 2
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~199984037979~cmVzdGF1cmFudCBsZSBjbGFzc2lxdWUgYm9yZGVhdXg",
+        "status": 5,
+        "search_term": "restaurant le classique bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant gastronomique bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/199984037979~324589820810"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/199984037979",
+        "name": "Gastronomique"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~199984037979~cmVzdGF1cmFudCBsZSBwbGFuYSBib3JkZWF1eA",
+        "status": 5,
+        "search_term": "restaurant le plana bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant gastronomique bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/199984037979~324589820810"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/199984037979",
+        "name": "Gastronomique"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 2
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~199984037979~cmVzdGF1cmFudCBsdW5hIGJvcmRlYXV4",
+        "status": 5,
+        "search_term": "restaurant luna bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant gastronomique bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/199984037979~324589820810"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/199984037979",
+        "name": "Gastronomique"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~199984037979~cmVzdGF1cmFudCBwaGlsaXBwZSBldGNoZWJlc3QgYm9yZGVhdXg",
+        "status": 5,
+        "search_term": "restaurant philippe etchebest bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant gastronomique bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/199984037979~324589820810"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/199984037979",
+        "name": "Gastronomique"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~199984037979~cmVzdGF1cmFudCByZXNzb3VyY2VzIGJvcmRlYXV4",
+        "status": 5,
+        "search_term": "restaurant ressources bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant gastronomique bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/199984037979~324589820810"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/199984037979",
+        "name": "Gastronomique"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~199984037979~cmVzdGF1cmFudCBzb24gb2YgdGhlIHNvbiBib3JkZWF1eA",
+        "status": 5,
+        "search_term": "restaurant son of the son bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant gastronomique bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/199984037979~324589820810"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/199984037979",
+        "name": "Gastronomique"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 2
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~199984037979~cmVzdGF1cmFudCB0aGllcnJ5IG1hcnggYm9yZGVhdXg",
+        "status": 5,
+        "search_term": "restaurant thierry marx bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant gastronomique bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/199984037979~324589820810"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/199984037979",
+        "name": "Gastronomique"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~199984037979~c29sZW5hIGJvcmRlYXV4",
+        "status": 5,
+        "search_term": "solena bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant gastronomique bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/199984037979~324589820810"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/199984037979",
+        "name": "Gastronomique"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 2
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~199984037979~YmVydGh1cyBib3JkZWF1eA",
+        "status": 5,
+        "search_term": "berthus bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant bistronomique bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/199984037979~330335521381"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/199984037979",
+        "name": "Gastronomique"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~199984037979~YmlzdHJvdCBkdSBjYWNoYWxvdCBib3JkZWF1eA",
+        "status": 5,
+        "search_term": "bistrot du cachalot bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant bistronomique bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/199984037979~330335521381"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/199984037979",
+        "name": "Gastronomique"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~199984037979~Y2Fyb2xpbmUgcmVzdGF1cmFudCBsZW9nbmFu",
+        "status": 5,
+        "search_term": "caroline restaurant leognan"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant bistronomique bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/199984037979~330335521381"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/199984037979",
+        "name": "Gastronomique"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~199984037979~bGUgYmVydGh1cyByZXN0YXVyYW50",
+        "status": 5,
+        "search_term": "le berthus restaurant"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant bistronomique bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/199984037979~330335521381"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/199984037979",
+        "name": "Gastronomique"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~199984037979~bGVzIGRyw7RsZXMgYm9yZGVhdXg",
+        "status": 5,
+        "search_term": "les drôles bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant bistronomique bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/199984037979~330335521381"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/199984037979",
+        "name": "Gastronomique"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~199984037979~bWVudSBkZSBkZXV4IHBpw6hjZXMgY3Vpc2luZQ",
+        "status": 5,
+        "search_term": "menu de deux pièces cuisine"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant bistronomique bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/199984037979~330335521381"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/199984037979",
+        "name": "Gastronomique"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~199984037979~b3VpIG1hZGFtZSBib3JkZWF1eA",
+        "status": 5,
+        "search_term": "oui madame bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant bistronomique bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/199984037979~330335521381"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/199984037979",
+        "name": "Gastronomique"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~199984037979~cmVzdGF1cmFudCBsZSBjaGFyYWJpYSBib3JkZWF1eA",
+        "status": 5,
+        "search_term": "restaurant le charabia bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant bistronomique bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/199984037979~330335521381"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/199984037979",
+        "name": "Gastronomique"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~199984037979~cmVzdGF1cmFudCBsZXMgcmVjb2x0YW50cw",
+        "status": 5,
+        "search_term": "restaurant les recoltants"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant bistronomique bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/199984037979~330335521381"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/199984037979",
+        "name": "Gastronomique"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~199984037979~cmVzdGF1cmFudCB0ZXJyb2lyIGJvcmRlYXV4",
+        "status": 5,
+        "search_term": "restaurant terroir bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant bistronomique bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/199984037979~330335521381"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/199984037979",
+        "name": "Gastronomique"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 2
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~199984037979~cmVzdGF1cmFudCBzZW1pIGdhc3Ryb25vbWlxdWUgYm9yZGVhdXg",
+        "status": 2,
+        "search_term": "restaurant semi gastronomique bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 2,
+            "text": "restaurant semi gastronomique bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/199984037979~459481639664"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/204951119972",
+        "name": "Découverte"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~204951119972~bm91dmVhdSByZXN0YXVyYW50IGRlIHBoaWxpcHBlIGV0Y2hlYmVzdCDDoCBib3JkZWF1eA",
+        "status": 5,
+        "search_term": "nouveau restaurant de philippe etchebest à bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "nouveau restaurant bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/204951119972~297692569830"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/204951119972",
+        "name": "Découverte"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~204951119972~bm91dmVhdSByZXN0YXVyYW50IHJ1ZSBzYWludCByw6ltaSBib3JkZWF1eA",
+        "status": 5,
+        "search_term": "nouveau restaurant rue saint rémi bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "nouveau restaurant bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/204951119972~297692569830"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/204951119972",
+        "name": "Découverte"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~204951119972~NCBlbWUgbXVyIGJvcmRlYXV4",
+        "status": 5,
+        "search_term": "4 eme mur bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant bordeaux centre ville"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/204951119972~297692571550"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/204951119972",
+        "name": "Découverte"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~204951119972~YXZlbnVlIGNhcm5vdCByZXN0YXVyYW50",
+        "status": 5,
+        "search_term": "avenue carnot restaurant"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant bordeaux centre ville"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/204951119972~297692571550"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/204951119972",
+        "name": "Découverte"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~204951119972~YmFyIHR3byBtdWNoIGJvcmRlYXV4",
+        "status": 5,
+        "search_term": "bar two much bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant bordeaux centre ville"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/204951119972~297692571550"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/204951119972",
+        "name": "Découverte"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~204951119972~YmVsbGUgZXBvcXVlIGJvcmRlYXV4",
+        "status": 5,
+        "search_term": "belle epoque bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant bordeaux centre ville"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/204951119972~297692571550"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/204951119972",
+        "name": "Découverte"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~204951119972~Y2hhaSBtYWVzdHJvIGJvcmRlYXV4IG1lbnU",
+        "status": 5,
+        "search_term": "chai maestro bordeaux menu"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant bordeaux centre ville"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/204951119972~297692571550"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/204951119972",
+        "name": "Découverte"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~204951119972~ZWwgbmFjaW9uYWwgYm9yZGVhdXg",
+        "status": 5,
+        "search_term": "el nacional bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant bordeaux centre ville"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/204951119972~297692571550"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/204951119972",
+        "name": "Découverte"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~204951119972~bGEgYmVsbGUgc2Fpc29uIGJvcmRlYXV4",
+        "status": 5,
+        "search_term": "la belle saison bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant bordeaux centre ville"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/204951119972~297692571550"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/204951119972",
+        "name": "Découverte"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~204951119972~bGEgY2FudGluZSBib3JkZWF1eA",
+        "status": 5,
+        "search_term": "la cantine bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant bordeaux centre ville"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/204951119972~297692571550"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/204951119972",
+        "name": "Découverte"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~204951119972~bGUgcm9oYW4gYm9yZGVhdXg",
+        "status": 5,
+        "search_term": "le rohan bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant bordeaux centre ville"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/204951119972~297692571550"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/204951119972",
+        "name": "Découverte"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~204951119972~bGVzIGRyb2xlcyBib3JkZWF1eA",
+        "status": 5,
+        "search_term": "les droles bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant bordeaux centre ville"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/204951119972~297692571550"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/204951119972",
+        "name": "Découverte"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~204951119972~bGVzIG1hdXZhaXMgZ2Fyw6dvbnMgYm9yZGVhdXg",
+        "status": 5,
+        "search_term": "les mauvais garçons bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant bordeaux centre ville"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/204951119972~297692571550"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/204951119972",
+        "name": "Découverte"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 2
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~204951119972~bWF1dmFpcyBnYXJjb24gYm9yZGVhdXg",
+        "status": 5,
+        "search_term": "mauvais garcon bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant bordeaux centre ville"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/204951119972~297692571550"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/204951119972",
+        "name": "Découverte"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~204951119972~bWVudSBkZSBicnV0dXMgcmVzdGF1cmFudCBib3JkZWF1eA",
+        "status": 5,
+        "search_term": "menu de brutus restaurant bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant bordeaux centre ville"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/204951119972~297692571550"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/204951119972",
+        "name": "Découverte"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~204951119972~bWVudSBkZSBkZXV4IHBpw6hjZXMgY3Vpc2luZQ",
+        "status": 5,
+        "search_term": "menu de deux pièces cuisine"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant bordeaux centre ville"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/204951119972~297692571550"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/204951119972",
+        "name": "Découverte"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~204951119972~bcOpbG9kaWUgYm9yZGVhdXg",
+        "status": 5,
+        "search_term": "mélodie bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant bordeaux centre ville"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/204951119972~297692571550"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/204951119972",
+        "name": "Découverte"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~204951119972~b3J0YSBib3JkZWF1eA",
+        "status": 5,
+        "search_term": "orta bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant bordeaux centre ville"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/204951119972~297692571550"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/204951119972",
+        "name": "Découverte"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~204951119972~cG91bGV0dGUgYm9yZGVhdXg",
+        "status": 5,
+        "search_term": "poulette bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant bordeaux centre ville"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/204951119972~297692571550"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/204951119972",
+        "name": "Découverte"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~204951119972~cmVzdGF1cmFudCBhbGxlZSB0b3VybnkgYm9yZGVhdXg",
+        "status": 5,
+        "search_term": "restaurant allee tourny bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant bordeaux centre ville"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/204951119972~297692571550"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/204951119972",
+        "name": "Découverte"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~204951119972~cmVzdGF1cmFudCBib3JkZWF1eCBjaGFydHJvbnM",
+        "status": 5,
+        "search_term": "restaurant bordeaux chartrons"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant bordeaux centre ville"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/204951119972~297692571550"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/204951119972",
+        "name": "Découverte"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~204951119972~cmVzdGF1cmFudCBnYW1iZXR0YSBib3JkZWF1eA",
+        "status": 5,
+        "search_term": "restaurant gambetta bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant bordeaux centre ville"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/204951119972~297692571550"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/204951119972",
+        "name": "Découverte"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~204951119972~cmVzdGF1cmFudCBsYSBjcm9peCBibGFuY2hlIGJvcmRlYXV4IG1lbnU",
+        "status": 5,
+        "search_term": "restaurant la croix blanche bordeaux menu"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant bordeaux centre ville"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/204951119972~297692571550"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/204951119972",
+        "name": "Découverte"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~204951119972~cmVzdGF1cmFudCBsZSBub2FpbGxlcw",
+        "status": 5,
+        "search_term": "restaurant le noailles"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant bordeaux centre ville"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/204951119972~297692571550"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/204951119972",
+        "name": "Découverte"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~204951119972~cmVzdGF1cmFudCBsZXMgbWF1dmFpcyBnYXLDp29ucyBib3JkZWF1eA",
+        "status": 5,
+        "search_term": "restaurant les mauvais garçons bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant bordeaux centre ville"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/204951119972~297692571550"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/204951119972",
+        "name": "Découverte"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~204951119972~cmVzdGF1cmFudCBtZXJjdXJlIGJvcmRlYXV4",
+        "status": 5,
+        "search_term": "restaurant mercure bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant bordeaux centre ville"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/204951119972~297692571550"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/204951119972",
+        "name": "Découverte"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~204951119972~cmVzdGF1cmFudCBtaW5vdWNoZSBib3JkZWF1eA",
+        "status": 5,
+        "search_term": "restaurant minouche bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant bordeaux centre ville"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/204951119972~297692571550"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/204951119972",
+        "name": "Découverte"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~204951119972~cmVzdGF1cmFudCBwbGFjZSBzYWludGUgY29sb21iZSBib3JkZWF1eA",
+        "status": 5,
+        "search_term": "restaurant place sainte colombe bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant bordeaux centre ville"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/204951119972~297692571550"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/204951119972",
+        "name": "Découverte"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~204951119972~cmVzdGF1cmFudCBydWUgZHUgdG9uZHUgYm9yZGVhdXg",
+        "status": 5,
+        "search_term": "restaurant rue du tondu bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant bordeaux centre ville"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/204951119972~297692571550"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/204951119972",
+        "name": "Découverte"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 3
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~204951119972~cmVzdGF1cmFudCBydWUgZnJhbsOnb2lzIGRlIHNvdXJkaXMgYm9yZGVhdXg",
+        "status": 5,
+        "search_term": "restaurant rue françois de sourdis bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant bordeaux centre ville"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/204951119972~297692571550"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/204951119972",
+        "name": "Découverte"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~204951119972~c2FjcmVibGV1IGJvcmRlYXV4",
+        "status": 5,
+        "search_term": "sacrebleu bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant bordeaux centre ville"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/204951119972~297692571550"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/204951119972",
+        "name": "Découverte"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~204951119972~YmllbiBtYW5nZXIgYSBib3JkZWF1eA",
+        "status": 5,
+        "search_term": "bien manger a bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "ou manger a bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/204951119972~298549598622"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/204951119972",
+        "name": "Découverte"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~204951119972~MjMwIGRlZ3LDqXMgZnVzaW9uIGJvcmRlYXV4",
+        "status": 5,
+        "search_term": "230 degrés fusion bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant original bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/204951119972~298549601702"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/204951119972",
+        "name": "Découverte"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~204951119972~bGEgdHVwaW5hIGJvcmRlYXV4",
+        "status": 5,
+        "search_term": "la tupina bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant original bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/204951119972~298549601702"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/204951119972",
+        "name": "Découverte"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~204951119972~bWFqb3JlbGxlIGJvcmRlYXV4",
+        "status": 5,
+        "search_term": "majorelle bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "restaurant original bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/204951119972~298549601702"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/204951119972",
+        "name": "Découverte"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~204951119972~Y2FmZSBnb3VybWFuZCBib3JkZWF1eA",
+        "status": 5,
+        "search_term": "cafe gourmand bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "bon restaurant bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/204951119972~298878673106"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/204951119972",
+        "name": "Découverte"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~204951119972~bWFuZ2VyIHVuZSByYWNsZXR0ZSBhIGJvcmRlYXV4",
+        "status": 5,
+        "search_term": "manger une raclette a bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "bon restaurant bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/204951119972~298878673106"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/204951119972",
+        "name": "Découverte"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~204951119972~b2ZmcmlyIHVuIHJlc3RhdXJhbnQgcG91ciAyIGJvcmRlYXV4",
+        "status": 5,
+        "search_term": "offrir un restaurant pour 2 bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "bon restaurant bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/204951119972~298878673106"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/204951119972",
+        "name": "Découverte"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~204951119972~cmVzdGF1cmFudCBiZWdsZXM",
+        "status": 5,
+        "search_term": "restaurant begles"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "bon restaurant bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/204951119972~298878673106"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/204951119972",
+        "name": "Découverte"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~204951119972~cmVzdGF1cmFudCBib3JkZWF1eCBtZW51IDIwIGV1cm9z",
+        "status": 5,
+        "search_term": "restaurant bordeaux menu 20 euros"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "bon restaurant bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/204951119972~298878673106"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/204951119972",
+        "name": "Découverte"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~204951119972~cmVzdGF1cmFudCBmcnVpdHMgZGUgbWVyIGJvcmRlYXV4IHF1YWlz",
+        "status": 5,
+        "search_term": "restaurant fruits de mer bordeaux quais"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "bon restaurant bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/204951119972~298878673106"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/204951119972",
+        "name": "Découverte"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~204951119972~cmVzdGF1cmFudCBsYSByZW5jb250cmUgYm9yZGVhdXg",
+        "status": 5,
+        "search_term": "restaurant la rencontre bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "bon restaurant bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/204951119972~298878673106"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/204951119972",
+        "name": "Découverte"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~204951119972~cmVzdGF1cmFudCBtw6lyaWduYWMgY2VudHJlIHZpbGxl",
+        "status": 5,
+        "search_term": "restaurant mérignac centre ville"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "bon restaurant bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/204951119972~298878673106"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/204951119972",
+        "name": "Découverte"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~204951119972~cmVzdGF1cmFudCBzZXJ2aWNlIGNvbnRpbnUgYm9yZGVhdXg",
+        "status": 5,
+        "search_term": "restaurant service continu bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "bon restaurant bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/204951119972~298878673106"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/204951119972",
+        "name": "Découverte"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~204951119972~cmVzdGF1cmFudCB2aWxsZW5hdmUgZCBvcm5vbg",
+        "status": 5,
+        "search_term": "restaurant villenave d ornon"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "bon restaurant bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/204951119972~298878673106"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/204951119972",
+        "name": "Découverte"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~204951119972~bGV1a2UgcmVzdGF1cmFudHMgYm9yZGVhdXg",
+        "status": 5,
+        "search_term": "leuke restaurants bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 2,
+            "text": "bon restaurant bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/204951119972~299565641707"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/204951119972",
+        "name": "Découverte"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~204951119972~cmVzdGF1cmFudCBib3JkZWF1eCBhdXRvdXIgZGUgbW9p",
+        "status": 5,
+        "search_term": "restaurant bordeaux autour de moi"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 2,
+            "text": "bon restaurant bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/204951119972~299565641707"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/204951119972",
+        "name": "Découverte"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~204951119972~cmVzdGF1cmFudHMgYm9yZGVhdXg",
+        "status": 5,
+        "search_term": "restaurants bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 2,
+            "text": "bon restaurant bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/204951119972~299565641707"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/204951119972",
+        "name": "Découverte"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~204951119972~cmVzdGF1cmFudHMgaW4gYm9yZGVhdXg",
+        "status": 5,
+        "search_term": "restaurants in bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 2,
+            "text": "bon restaurant bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/204951119972~299565641707"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/204951119972",
+        "name": "Découverte"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~204951119972~bWVpbGxldXIgcmVzdGF1cmFudCBib3JkZWF1eA",
+        "status": 2,
+        "search_term": "meilleur restaurant bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 2,
+            "text": "meilleur restaurant bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/204951119972~299565641747"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/204951119972",
+        "name": "Découverte"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~204951119972~b3UgbWFuZ2VyIGEgYm9yZGVhdXggY2VudHJlIHZpbGxl",
+        "status": 5,
+        "search_term": "ou manger a bordeaux centre ville"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 2,
+            "text": "restaurant bordeaux centre ville"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/204951119972~299918608695"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/204951119972",
+        "name": "Découverte"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~204951119972~cmVzdGF1cmFudCBxdWFydGllciBzYWludCBwaWVycmUgYm9yZGVhdXg",
+        "status": 2,
+        "search_term": "restaurant quartier saint pierre bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 2,
+            "text": "restaurant quartier saint pierre bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/204951119972~301537977770"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/204951119972",
+        "name": "Découverte"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~204951119972~bWVpbGxldXIgcmVzdGF1cmFudCBsZSBib3VzY2F0",
+        "status": 5,
+        "search_term": "meilleur restaurant le bouscat"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "meilleur restaurant bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/204951119972~324589818890"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/204951119972",
+        "name": "Découverte"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~204951119972~cmVzdGF1cmFudCBib3JkIGRlIGwgZWF1IGJvcmRlYXV4",
+        "status": 5,
+        "search_term": "restaurant bord de l eau bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "meilleur restaurant bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/204951119972~324589818890"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/204951119972",
+        "name": "Découverte"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~204951119972~cmVzdGF1cmFudCBib3JkZWF1eCBhdXRvdXIgZGUgbW9p",
+        "status": 5,
+        "search_term": "restaurant bordeaux autour de moi"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "meilleur restaurant bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/204951119972~324589818890"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/204951119972",
+        "name": "Découverte"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~204951119972~cmVzdGF1cmFudCBib3JkZWF1eCB2aWFuZGUgbWF0dXJlZQ",
+        "status": 5,
+        "search_term": "restaurant bordeaux viande maturee"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "meilleur restaurant bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/204951119972~324589818890"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/204951119972",
+        "name": "Découverte"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~204951119972~cmVzdGF1cmFudCBtb3VsZXMgYm9yZGVhdXg",
+        "status": 5,
+        "search_term": "restaurant moules bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "meilleur restaurant bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/204951119972~324589818890"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/204951119972",
+        "name": "Découverte"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~204951119972~cmVzdGF1cmFudCBwb2lzc29uIGJvcmRlYXV4",
+        "status": 5,
+        "search_term": "restaurant poisson bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "meilleur restaurant bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/204951119972~324589818890"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/204951119972",
+        "name": "Découverte"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~204951119972~cmVzdGF1cmFudCBzYWludCBwaWVycmUgYm9yZGVhdXg",
+        "status": 5,
+        "search_term": "restaurant saint pierre bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "meilleur restaurant bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/204951119972~324589818890"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/204951119972",
+        "name": "Découverte"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 1
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~204951119972~cmVzdGF1cmFudCDDoCBsaWduYW4gZGUgYm9yZGVhdXg",
+        "status": 5,
+        "search_term": "restaurant à lignan de bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 3,
+            "text": "meilleur restaurant bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/204951119972~324589818890"
+        }
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/204951119972",
+        "name": "Découverte"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 3
+      },
+      "search_term_view": {
+        "resource_name": "customers/4040541764/searchTermViews/24197703801~204951119972~b3UgbWFuZ2VyIGEgYm9yZGVhdXg",
+        "status": 2,
+        "search_term": "ou manger a bordeaux"
+      },
+      "segments": {
+        "keyword": {
+          "info": {
+            "match_type": 2,
+            "text": "ou manger a bordeaux"
+          },
+          "ad_group_criterion": "customers/4040541764/adGroupCriteria/204951119972~328124765731"
+        }
+      }
+    }
+  ],
+  "horaire": [
+    {
+      "campaign": {
+        "resource_name": "customers/4040541764/campaigns/24197703801"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 6
+      },
+      "segments": {
+        "day_of_week": 5,
+        "hour": 17
+      }
+    },
+    {
+      "campaign": {
+        "resource_name": "customers/4040541764/campaigns/24197703801"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 23
+      },
+      "segments": {
+        "day_of_week": 5,
+        "hour": 18
+      }
+    },
+    {
+      "campaign": {
+        "resource_name": "customers/4040541764/campaigns/24197703801"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 75
+      },
+      "segments": {
+        "day_of_week": 5,
+        "hour": 19
+      }
+    },
+    {
+      "campaign": {
+        "resource_name": "customers/4040541764/campaigns/24197703801"
+      },
+      "metrics": {
+        "clicks": 6,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 5830000,
+        "ctr": 0.08955223880597014,
+        "all_conversions": 0,
+        "average_cpc": 971666.6666666666,
+        "impressions": 67
+      },
+      "segments": {
+        "day_of_week": 5,
+        "hour": 20
+      }
+    }
+  ],
+  "annonces": [
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/198510564663",
+        "name": "Italien"
+      },
+      "metrics": {
+        "clicks": 0,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 0,
+        "ctr": 0,
+        "all_conversions": 0,
+        "impressions": 13
+      },
+      "ad_group_ad": {
+        "resource_name": "customers/4040541764/adGroupAds/198510564663~823111204463",
+        "status": 2,
+        "ad": {
+          "resource_name": "customers/4040541764/ads/823111204463",
+          "id": 823111204463,
+          "final_urls": [
+            "https://restaurantlarencontre.com/reservation"
+          ]
+        },
+        "policy_summary": {
+          "approval_status": 4
+        },
+        "ad_strength": 5
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/199984037979",
+        "name": "Gastronomique"
+      },
+      "metrics": {
+        "clicks": 2,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 2100000,
+        "ctr": 0.03333333333333333,
+        "all_conversions": 0,
+        "average_cpc": 1050000,
+        "impressions": 60
+      },
+      "ad_group_ad": {
+        "resource_name": "customers/4040541764/adGroupAds/199984037979~822994206225",
+        "status": 2,
+        "ad": {
+          "resource_name": "customers/4040541764/ads/822994206225",
+          "id": 822994206225,
+          "final_urls": [
+            "https://restaurantlarencontre.com/reservation"
+          ]
+        },
+        "policy_summary": {
+          "approval_status": 4
+        },
+        "ad_strength": 5
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/204951119972",
+        "name": "Découverte"
+      },
+      "metrics": {
+        "clicks": 4,
+        "conversions_value": 0,
+        "conversions": 0,
+        "cost_micros": 3730000,
+        "ctr": 0.04081632653061224,
+        "all_conversions": 0,
+        "average_cpc": 932500,
+        "impressions": 98
+      },
+      "ad_group_ad": {
+        "resource_name": "customers/4040541764/adGroupAds/204951119972~823036870234",
+        "status": 2,
+        "ad": {
+          "resource_name": "customers/4040541764/ads/823036870234",
+          "id": 823036870234,
+          "final_urls": [
+            "https://restaurantlarencontre.com/reservation"
+          ]
+        },
+        "policy_summary": {
+          "approval_status": 4
+        },
+        "ad_strength": 5
+      }
+    }
+  ],
+  "conversions": [],
+  "exclusions": [
+    {
+      "campaign_criterion": {
+        "resource_name": "customers/4040541764/campaignCriteria/24197703801~177509458",
+        "keyword": {
+          "match_type": 4,
+          "text": "recette italienne"
+        }
+      }
+    },
+    {
+      "campaign_criterion": {
+        "resource_name": "customers/4040541764/campaignCriteria/24197703801~299382571643",
+        "keyword": {
+          "match_type": 4,
+          "text": "traiteur bordeaux"
+        }
+      }
+    },
+    {
+      "campaign_criterion": {
+        "resource_name": "customers/4040541764/campaignCriteria/24197703801~302812691970",
+        "keyword": {
+          "match_type": 4,
+          "text": "tripadvisor bordeaux restaurant"
+        }
+      }
+    },
+    {
+      "campaign_criterion": {
+        "resource_name": "customers/4040541764/campaignCriteria/24197703801~302964598027",
+        "keyword": {
+          "match_type": 4,
+          "text": "brunch bordeaux"
+        }
+      }
+    },
+    {
+      "campaign_criterion": {
+        "resource_name": "customers/4040541764/campaignCriteria/24197703801~306891105052",
+        "keyword": {
+          "match_type": 4,
+          "text": "restaurant pas cher bordeaux"
+        }
+      }
+    },
+    {
+      "campaign_criterion": {
+        "resource_name": "customers/4040541764/campaignCriteria/24197703801~309589725488",
+        "keyword": {
+          "match_type": 4,
+          "text": "restaurant bordeaux lundi soir"
+        }
+      }
+    },
+    {
+      "campaign_criterion": {
+        "resource_name": "customers/4040541764/campaignCriteria/24197703801~311044071535",
+        "keyword": {
+          "match_type": 4,
+          "text": "le pressoir d argent"
+        }
+      }
+    },
+    {
+      "campaign_criterion": {
+        "resource_name": "customers/4040541764/campaignCriteria/24197703801~313741033144",
+        "keyword": {
+          "match_type": 4,
+          "text": "pizzeria bordeaux"
+        }
+      }
+    },
+    {
+      "campaign_criterion": {
+        "resource_name": "customers/4040541764/campaignCriteria/24197703801~315709536163",
+        "keyword": {
+          "match_type": 4,
+          "text": "restaurant mariage bordeaux"
+        }
+      }
+    },
+    {
+      "campaign_criterion": {
+        "resource_name": "customers/4040541764/campaignCriteria/24197703801~315827234064",
+        "keyword": {
+          "match_type": 4,
+          "text": "formation cuisine bordeaux"
+        }
+      }
+    },
+    {
+      "campaign_criterion": {
+        "resource_name": "customers/4040541764/campaignCriteria/24197703801~317175480638",
+        "keyword": {
+          "match_type": 4,
+          "text": "restaurant a emporter bordeaux"
+        }
+      }
+    },
+    {
+      "campaign_criterion": {
+        "resource_name": "customers/4040541764/campaignCriteria/24197703801~322199046206",
+        "keyword": {
+          "match_type": 4,
+          "text": "restaurant etoile bordeaux"
+        }
+      }
+    },
+    {
+      "campaign_criterion": {
+        "resource_name": "customers/4040541764/campaignCriteria/24197703801~322199046926",
+        "keyword": {
+          "match_type": 4,
+          "text": "restaurant midi bordeaux"
+        }
+      }
+    },
+    {
+      "campaign_criterion": {
+        "resource_name": "customers/4040541764/campaignCriteria/24197703801~335995604783",
+        "keyword": {
+          "match_type": 4,
+          "text": "restaurant michelin bordeaux"
+        }
+      }
+    },
+    {
+      "campaign_criterion": {
+        "resource_name": "customers/4040541764/campaignCriteria/24197703801~346879252034",
+        "keyword": {
+          "match_type": 4,
+          "text": "restaurant bordeaux dimanche"
+        }
+      }
+    },
+    {
+      "campaign_criterion": {
+        "resource_name": "customers/4040541764/campaignCriteria/24197703801~358835600800",
+        "keyword": {
+          "match_type": 4,
+          "text": "emploi restaurant bordeaux"
+        }
+      }
+    },
+    {
+      "campaign_criterion": {
+        "resource_name": "customers/4040541764/campaignCriteria/24197703801~379945478317",
+        "keyword": {
+          "match_type": 4,
+          "text": "restaurant groupe bordeaux"
+        }
+      }
+    },
+    {
+      "campaign_criterion": {
+        "resource_name": "customers/4040541764/campaignCriteria/24197703801~506844650392",
+        "keyword": {
+          "match_type": 4,
+          "text": "pizza bordeaux livraison"
+        }
+      }
+    },
+    {
+      "campaign_criterion": {
+        "resource_name": "customers/4040541764/campaignCriteria/24197703801~533800560132",
+        "keyword": {
+          "match_type": 4,
+          "text": "privatisation restaurant bordeaux"
+        }
+      }
+    },
+    {
+      "campaign_criterion": {
+        "resource_name": "customers/4040541764/campaignCriteria/24197703801~878636816576",
+        "keyword": {
+          "match_type": 4,
+          "text": "recrutement serveur bordeaux"
+        }
+      }
+    },
+    {
+      "campaign_criterion": {
+        "resource_name": "customers/4040541764/campaignCriteria/24197703801~994642120006",
+        "keyword": {
+          "match_type": 4,
+          "text": "thefork bordeaux"
+        }
+      }
+    },
+    {
+      "campaign_criterion": {
+        "resource_name": "customers/4040541764/campaignCriteria/24197703801~1436693550609",
+        "keyword": {
+          "match_type": 4,
+          "text": "osteria palatino"
+        }
+      }
+    },
+    {
+      "campaign_criterion": {
+        "resource_name": "customers/4040541764/campaignCriteria/24197703801~2042056666459",
+        "keyword": {
+          "match_type": 4,
+          "text": "maison nouvelle bordeaux"
+        }
+      }
+    },
+    {
+      "campaign_criterion": {
+        "resource_name": "customers/4040541764/campaignCriteria/24197703801~2064624972954",
+        "keyword": {
+          "match_type": 4,
+          "text": "les mauvais garcons bordeaux"
+        }
+      }
+    },
+    {
+      "campaign_criterion": {
+        "resource_name": "customers/4040541764/campaignCriteria/24197703801~2370735195100",
+        "keyword": {
+          "match_type": 4,
+          "text": "gruppomimo bordeaux"
+        }
+      }
+    },
+    {
+      "campaign_criterion": {
+        "resource_name": "customers/4040541764/campaignCriteria/24197703801~2499775921593",
+        "keyword": {
+          "match_type": 4,
+          "text": "restaurant bordeaux pas cher ce soir"
+        }
+      }
+    },
+    {
+      "campaign_criterion": {
+        "resource_name": "customers/4040541764/campaignCriteria/24197703801~2499775921633",
+        "keyword": {
+          "match_type": 4,
+          "text": "formule dejeuner bordeaux"
+        }
+      }
+    }
+  ]
+}

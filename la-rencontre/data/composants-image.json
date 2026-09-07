@@ -1,0 +1,17 @@
+{
+  "client": "La Rencontre",
+  "customer": "4040541764",
+  "campaignId": 24197703801,
+  "niveau": "campagne",
+  "sourceDir": "../assets",
+  "outputDir": "../output/composants-image",
+  "note": "Zones en pixels source [gauche, haut, largeur, hauteur]. Carré = 1:1 (sortie 1200x1200 max), paysage = 1,91:1 (sortie 1200x628). Pas de texte ni de logo incrusté : Google refuse.",
+  "images": [
+    { "fichier": "img-cmoientep00039o5qh98rkj5t.jpg", "nom": "LR — tagliatelles à l'encre (carré)", "format": "carre", "zone": [0, 500, 1500, 1500] },
+    { "fichier": "img-cmolwcjuc00024imjxeuyf1up.jpg", "nom": "LR — raviolo noir (carré)", "format": "carre", "zone": [0, 250, 1500, 1500] },
+    { "fichier": "img-cmond3zsf0004nf51xxuikp3o.jpg", "nom": "LR — dessert chocolat basilic (carré)", "format": "carre", "zone": [0, 200, 1080, 1080] },
+    { "fichier": "hero.jpg", "nom": "LR — devanture (carré)", "format": "carre", "zone": [333, 0, 1334, 1334] },
+    { "fichier": "hero.jpg", "nom": "LR — devanture (paysage)", "format": "paysage", "zone": [0, 143, 2000, 1047] },
+    { "fichier": "chefs.jpg", "nom": "LR — Rosie et Francesco en cuisine (paysage)", "format": "paysage", "zone": [0, 143, 2000, 1047] }
+  ]
+}
