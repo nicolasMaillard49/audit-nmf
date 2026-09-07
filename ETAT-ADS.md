@@ -78,10 +78,15 @@ termes, que les 14 exclusions de compte **ne couvraient pas les marques concurre
 recadrées en carré et en paysage (`totowood/output/composants-image/`) et envoyées par
 `composants-image.mjs`. Google a refusé le lien `AD_IMAGE`, au niveau groupe comme au niveau
 campagne : « field type not supported to be added directly through asset links ». Le même
-lien est passé sur La Rencontre le même jour, et Totowood n'a aucune recommandation « Ajouter
-des images » quand La Rencontre en a deux : **le compte n'est pas éligible aux images**. Cause
-probable : la validation de l'annonceur non terminée (point 2 ci-dessus), ou la règle des 60
-jours. À retenter après. Détail dans `totowood/ads/README.md`.
+lien est passé sur La Rencontre le même jour ; refusé aussi au niveau compte. **Le compte n'est
+pas éligible aux images, et ce n'est pas l'API** : dans l'interface, le menu « + » de la page
+Composants ne propose pas « Image » (capture
+`totowood/shots/2026-09-07-composants-menu-sans-image.png`), et aucune recommandation
+« Ajouter des images » n'existe ici quand La Rencontre en a deux. Les quatre annonces sont
+approuvées sans sujet de règles. Piste la plus probable : la validation de l'annonceur non
+terminée (point 2 ci-dessus) — La Rencontre, plus jeune, est éligible, donc l'ancienneté seule
+n'explique pas. **À retenter après la validation, puis chaque semaine** ; la commande est dans
+`totowood/ads/README.md`, le script est idempotent.
 
 Suivi détaillé, preuve par preuve : `totowood-lp/docs/avancement.json` (`npm run docs`).
 L'audit de juillet et les scripts : [`totowood/README.md`](totowood/README.md) et
