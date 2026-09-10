@@ -1,4 +1,4 @@
-# État des travaux Google Ads — 7 septembre 2026
+# État des travaux Google Ads — 10 septembre 2026
 
 Vue transverse des quatre dossiers clients. Ce fichier ne contient **aucun chiffre qui ne
 soit pas déjà dans un `data/*.json`, un script versionné ou un relevé daté** : il dit où en
@@ -10,7 +10,7 @@ Tous les comptes clients sont sous le MCC **`671-181-3801`**.
 | Client | Compte Ads | Campagne | Statut | Prochaine action |
 |---|---|---|---|---|
 | [Totowood](#totowood) | `370-246-3294` | **diffuse** depuis le 31/08 | 63/72 étapes ; images refusées par Google (compte non éligible) | débloquer les mentions légales du client, finir la validation de l'annonceur puis retenter les images |
-| [La Rencontre](#la-rencontre) | `404-054-1764` | **diffuse** depuis le 03/09 | 147 exclusions ; depuis le 07/09 accueil en atterrissage, mardi→samedi, 6 images | relever à J+7 : annonces `APPROVED`, le QS, le CTR avec images, le compteur de conversions |
+| [La Rencontre](#la-rencontre) | `404-054-1764` | **diffuse** depuis le 03/09 | **1re conversion le 09/09**, suivi vérifié actif ; annonces approuvées, 6 images en diffusion, CPC 0,63 € ; 147 exclusions, 382 de plus prêtes | poser la 2e vague d'exclusions sur go ; validation de l'annonceur ; relever à J+14 vers le 17/09 |
 | [GP elec](#gp-elec) | **à créer** | — | zone et enchère tranchées, livrables périmés | réécrire les 3 PDF, créer le compte à la main |
 | [RH Patrimoine](#rh-patrimoine) | existant, au client | déjà active chez lui | audit prospect livré | aucune en cours |
 
@@ -195,11 +195,50 @@ script n'en avait jamais posé. En creusant, la page d'atterrissage s'est révé
   via le QS. Sur Recherche le champ est `AD_IMAGE` — `MARKETING_IMAGE` est refusé.
 - Les annonces sont **repassées en examen** après le changement d'URL. Les images aussi.
 
-**Prochaine action : relever à J+7 (vers le 10/09)** avec `ads/larencontre-perf.mjs`. À
-regarder : les 3 annonces et les 6 images revenues `APPROVED` ; le QS ; le CTR avec images,
-jour de semaine contre jour de semaine ; le flux de marques concurrentes ; le compteur de
-conversions ; la dépense hebdomadaire sur cinq jours actifs. **Le chantier « une page par
+Le relevé J+7 prévu ici a été fait le 10/09 (section suivante). **Le chantier « une page par
 intention » est laissé de côté** (arbitrage du 07/09).
+
+### Relevé J+7 du 10/09/2026 — la première conversion, et le suivi vérifié
+
+Extraction en lecture seule par `ads/larencontre-perf.mjs` et
+`ads/larencontre-suivi-conversions.mjs` sur le 03→09/09. **Analyse complète :
+[`la-rencontre/report/releve-j7-2026-09-10.md`](la-rencontre/report/releve-j7-2026-09-10.md).**
+
+| | Impr. | Clics | CTR | CPC moy. | Coût | Conv. |
+|---|---:|---:|---:|---:|---:|---:|
+| Italien | 118 | 2 | 1,69 % | 0,58 € | 1,15 € | 0 |
+| Gastronomique | 364 | 12 | 3,30 % | 0,71 € | 8,53 € | 0 |
+| Découverte | 806 | 50 | 6,20 % | 0,61 € | 30,65 € | **1** |
+| **Campagne, 6 jours** | **1 288** | **64** | **4,97 %** | **0,63 €** | **40,33 €** | **1** |
+
+- **Le suivi des conversions est actif — il n'y avait rien à activer.** L'action principale
+  `generate_lead` est `ENABLED`, principale, incluse dans les objectifs, et affiche « Active »
+  au lieu de « En attente » : **première conversion le 09/09**, sur `restaurant nansouty
+  bordeaux`, un clic à 0,45 €. Le message vu par Nicolas est la carte générique « Mesurez les
+  conversions » de la Vue d'ensemble (assistant de création d'une action supplémentaire,
+  présent sur tous les comptes), à côté d'un bandeau **« Validez l'identité de l'annonceur »**
+  qui, lui, est une vraie démarche — à faire par le titulaire dans Admin, non bloquante.
+- **Annonces revenues `APPROVED`**, force « Moyenne » → « Bonne », URL finale l'accueil.
+  **Les 6 images diffusent** (`ELIGIBLE`) : la devanture en carré a accompagné 621
+  impressions et 22 clics.
+- **CPC en baisse** : 0,97 € au jour 1, 0,63 € en moyenne sur la semaine. Google double sur les
+  jours actifs depuis la coupure de dimanche-lundi (9,86 € et 9,80 € les 8 et 9) ; le plafond
+  mensuel de 150 € tient. Le budget porte désormais jusqu'à 21 h.
+- **QS inchangé (1–3)** — deux jours d'accueil en atterrissage, trop tôt. Part d'impressions
+  10 %, inchangée par construction.
+- **La première vague d'exclusions a tenu** (zéro impression sur ses 120 termes), mais
+  **52 % de la dépense visible reste partie sur des enseignes** — 200 noms nouveaux en cinq
+  jours, et quatre exclusions contournées par une variante (`le bouscat` n'a pas bloqué
+  `hippodrome bouscat`, 1,52 €). Règle apprise : en expression, les mots doivent être contigus
+  — exclure le nom **seul**. **Deuxième vague prête, non posée** : 382 exclusions validées chez
+  Google dans `la-rencontre/data/exclusions-proposees-2026-09-10.json`.
+- Découverte prend 78 % des clics ; `"ou manger a bordeaux"` seul fait 20 clics et 11,06 €
+  pour 0 conversion. À trancher au J+14, pas avant : la conversion est venue de ce groupe.
+
+**Prochaines actions :** poser la deuxième vague sur le go de Nicolas (`larencontre-exclusions.mjs
+--source … --go`) ; validation de l'annonceur par le titulaire ; **relever à J+14 vers le
+17/09** — QS, CTR jour contre jour, deuxième conversion, cumul mensuel sous 150 €. Budget et
+enchères : ne pas toucher.
 
 **La chaîne de conversion est complète et vérifiée. Rien ne reste à brancher.**
 

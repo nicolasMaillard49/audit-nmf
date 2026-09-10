@@ -50,8 +50,13 @@ const { clientCustomer } = await import("../app/lib/googleAds/client.ts");
 
 const CUSTOMER = "4040541764";
 const CAMPAIGN = "24197703801";
-const SOURCE = "C:/Users/n.maillard/audit-nmf/la-rencontre/data/exclusions-proposees-2026-09-04.json";
+/* `--source <json>` pour une vague ulterieure (la deuxieme : exclusions-proposees-2026-09-10.json). */
+const iSource = process.argv.indexOf("--source");
+const SOURCE = iSource > -1 && process.argv[iSource + 1]
+  ? process.argv[iSource + 1]
+  : "C:/Users/n.maillard/audit-nmf/la-rencontre/data/exclusions-proposees-2026-09-04.json";
 const GO = process.argv.includes("--go");
+console.log(`Source : ${SOURCE}`);
 
 /* ── La liste ──────────────────────────────────────────────────────────────── */
 const prop = JSON.parse(readFileSync(SOURCE, "utf8"));

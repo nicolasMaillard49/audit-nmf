@@ -1,0 +1,2692 @@
+{
+ "bianca pizza bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "big mamma bordeaux": {
+  "i": 3,
+  "c": 0,
+  "e": 0
+ },
+ "cacio e pepe bordeaux": {
+  "i": 2,
+  "c": 0,
+  "e": 0
+ },
+ "chez gina bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "chez maxime cauderan": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "da luigi bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "del arte bordeaux lac": {
+  "i": 2,
+  "c": 0,
+  "e": 0
+ },
+ "elio's ristorante menu": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "elios restaurant bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "il vicolo rosso": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "italian restaurants bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "italian trattoria bordeaux": {
+  "i": 3,
+  "c": 0,
+  "e": 0
+ },
+ "l amore bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "la delizia da bartolo": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "la petite italie bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "la rencontre restaurant bordeaux": {
+  "i": 6,
+  "c": 1,
+  "e": 0.63
+ },
+ "la trattoria bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "la trattoria da bartolo": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "lello bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "lume bordeaux": {
+  "i": 2,
+  "c": 0,
+  "e": 0
+ },
+ "meilleur restaurant italien de bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "menu de giulia bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "menu de osteria da luigi": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "mirabella bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "monzu bordeaux": {
+  "i": 4,
+  "c": 0,
+  "e": 0
+ },
+ "murano bordeaux": {
+  "i": 2,
+  "c": 0,
+  "e": 0
+ },
+ "nouveau restaurant italien bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "osteria da luigi bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "piacere bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "pizza bordeaux bastide": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant italien a bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant italien bordeaux": {
+  "i": 12,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant italien bordeaux centre ville": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant italien bordeaux meilleur": {
+  "i": 2,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant italien bouscat": {
+  "i": 2,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant italien gastronomique bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant italien gina bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant italien à bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant la rencontre bordeaux": {
+  "i": 3,
+  "c": 1,
+  "e": 0.55
+ },
+ "restaurant le gina": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant tentazioni": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurants italiens bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "resto italien bdx": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "resto italien bordeaux": {
+  "i": 2,
+  "c": 0,
+  "e": 0
+ },
+ "rigoletto bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "risotto bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "sicilia in bocca bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "sicilia in bocca bordeaux menu": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "suditalia bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "tentazione bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "trattoria bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "133 bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "amicis bordeaux": {
+  "i": 2,
+  "c": 0,
+  "e": 0
+ },
+ "arcadia bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "atelier des faures bordeaux": {
+  "i": 2,
+  "c": 0,
+  "e": 0
+ },
+ "babette bordeaux menu": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "bistro du musee bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "bistro regent bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "bistronomie bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "bistronomique bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "bistrot des anges bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "bistrot des grands hommes bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "blind bordeaux restaurant": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "bo tannique bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "bo tannique restaurant": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "bordeaux gordon ramsay": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "bouillon des quinconces": {
+  "i": 2,
+  "c": 0,
+  "e": 0
+ },
+ "brut cuisine à 1000 c": {
+  "i": 3,
+  "c": 0,
+  "e": 0
+ },
+ "brut restaurant bordeaux": {
+  "i": 3,
+  "c": 0,
+  "e": 0
+ },
+ "caudalie martillac restaurant": {
+  "i": 1,
+  "c": 1,
+  "e": 0.62
+ },
+ "cent33 menu": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "chai n 8 bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "chapon fin bordeaux": {
+  "i": 2,
+  "c": 0,
+  "e": 0
+ },
+ "chez michel bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "chez papi bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "colores restaurant bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "comptoir cuisine bordeaux": {
+  "i": 2,
+  "c": 0,
+  "e": 0
+ },
+ "comptoir d augusta bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "copain comme canard bordeaux": {
+  "i": 3,
+  "c": 0,
+  "e": 0
+ },
+ "copain comme canard bordeaux saint pierre": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "de part et d autre bordeaux": {
+  "i": 2,
+  "c": 0,
+  "e": 0
+ },
+ "demeter menu": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "echo bordeaux restaurant": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "estacade restaurant menu": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "goombah": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "gordon ramsay bordeaux": {
+  "i": 2,
+  "c": 1,
+  "e": 0.85
+ },
+ "gordon ramsay restaurant bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "gramma bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "intercontinental bordeaux restaurant": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "joel robuchon bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "kedem bordeaux": {
+  "i": 2,
+  "c": 0,
+  "e": 0
+ },
+ "kressmann bros": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "l amedee": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "l atelier des faures bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "l estacade bordeaux": {
+  "i": 2,
+  "c": 0,
+  "e": 0
+ },
+ "l inédit bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "la cheminée royale menu": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "la fine bouche bordeaux": {
+  "i": 4,
+  "c": 0,
+  "e": 0
+ },
+ "la fine bouche restaurant": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "la fine bouche restaurant bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "la grand vigne menu": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "la maison pavlov": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "la petite fabriek bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "la rencontre bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "la table d adamah": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "la table de l épicier": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "le 1925 bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "le 7 restaurant bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "le 7 restaurant menu": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "le bar du fromager bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "le bistrot des anges bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "le bordeaux gordon ramsay": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "le burdigala restaurant": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "le bœuf gourmand bordeaux": {
+  "i": 2,
+  "c": 1,
+  "e": 0.73
+ },
+ "le cent 33 bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "le cerey bordeaux": {
+  "i": 2,
+  "c": 0,
+  "e": 0
+ },
+ "le chai n8": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "le classique restaurant bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "le clos d augusta menu": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "le comptoir d augusta bordeaux": {
+  "i": 2,
+  "c": 0,
+  "e": 0
+ },
+ "le comptoir d etienne": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "le comptoir de sèze allées de tourny bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "le gabriel bordeaux": {
+  "i": 4,
+  "c": 0,
+  "e": 0
+ },
+ "le gabriel restaurant bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "le gaston bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "le michels bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "le prince noir bordeaux": {
+  "i": 3,
+  "c": 0,
+  "e": 0
+ },
+ "le prince noir lormont": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "le puy paulin bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "le quatrième mur bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "le quatrième mur restaurant": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "le scopitone menu": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "le signature bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "le tchanqué bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "les negociants bordeaux": {
+  "i": 3,
+  "c": 0,
+  "e": 0
+ },
+ "les voutes bordeaux": {
+  "i": 2,
+  "c": 0,
+  "e": 0
+ },
+ "lorangerie bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "luna restaurant bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "maison mere bordeaux": {
+  "i": 2,
+  "c": 0,
+  "e": 0
+ },
+ "meilleur restaurant bistronomique bordeaux": {
+  "i": 2,
+  "c": 0,
+  "e": 0
+ },
+ "meilleur restaurant gastronomique bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "menu de bistrot des grands hommes": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "menu de demeter restaurant bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "menu de estacade restaurant": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "menu de le cerey": {
+  "i": 1,
+  "c": 1,
+  "e": 0.59
+ },
+ "menu de le chapon fin": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "menu de mina restaurant": {
+  "i": 1,
+  "c": 1,
+  "e": 0.76
+ },
+ "menu de nama bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "menu de zéphirine": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "mifan bordeaux": {
+  "i": 2,
+  "c": 0,
+  "e": 0
+ },
+ "mina bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "modjo bordeaux": {
+  "i": 2,
+  "c": 0,
+  "e": 0
+ },
+ "orta restaurant bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "ost bordeaux restaurant": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "ost restaurant bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "papin restaurant bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "pey la tour la table": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "pressoir d argent": {
+  "i": 2,
+  "c": 0,
+  "e": 0
+ },
+ "prince noir restaurant bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "racines bordeaux": {
+  "i": 9,
+  "c": 0,
+  "e": 0
+ },
+ "racines bordeaux menu": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "remoulade bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "ressources restaurant bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant 133": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant 1925 bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant 3 étoiles bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant amicis": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant bacchus bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant bistronomique bordeaux": {
+  "i": 6,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant blind bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant bo tannique": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant bordeaux gastronomique": {
+  "i": 4,
+  "c": 1,
+  "e": 0.46
+ },
+ "restaurant bordeaux gastronomique abordable": {
+  "i": 3,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant bouliac saint james": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant burdigala bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant cadre exceptionnel bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant chic bordeaux": {
+  "i": 4,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant cul sec bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant cyusha": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant gabarre bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant gastro bordeaux": {
+  "i": 2,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant gastronomique bordeaux": {
+  "i": 11,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant gastronomique bordeaux et alentours": {
+  "i": 2,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant gastronomique cestas": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant gastronomique rue du palais gallien": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant gastronomique à bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant gordon ramsay bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant grand hotel bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant influences bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant influences menu": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant kedem menu": {
+  "i": 2,
+  "c": 2,
+  "e": 1.21
+ },
+ "restaurant l estacade bordeaux": {
+  "i": 2,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant l orangerie bordeaux": {
+  "i": 2,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant la grande maison à bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant la table du lavoir": {
+  "i": 2,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant le 7 bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant le chapon fin bordeaux": {
+  "i": 4,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant le gabriel bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant le plus cher de bordeaux": {
+  "i": 2,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant le prince noir lormont": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant le regalien": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant les négociants bordeaux": {
+  "i": 2,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant les voutes bordeaux": {
+  "i": 3,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant loco bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant mets mots": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant mina bordeaux": {
+  "i": 4,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant ost": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant ost bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant racine bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant rue mably bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant semi gastro bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant semi gastronomique bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant terroir bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant une étoile bordeaux": {
+  "i": 2,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant vatel bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant végétarien gastronomique bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant étoilé bordeaux": {
+  "i": 3,
+  "c": 0,
+  "e": 0
+ },
+ "restaurants étoilés bordeaux et environs": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "resto gastro bordeaux": {
+  "i": 3,
+  "c": 0,
+  "e": 0
+ },
+ "resto semi gastro bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "saint james bouliac": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "saint james bouliac menu": {
+  "i": 1,
+  "c": 1,
+  "e": 0.6
+ },
+ "semi gastro bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "son bordeaux restaurant": {
+  "i": 2,
+  "c": 0,
+  "e": 0
+ },
+ "son restaurant bordeaux": {
+  "i": 2,
+  "c": 0,
+  "e": 0
+ },
+ "table d adamah": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "tanguy laviale restaurant": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "terroir bordeaux": {
+  "i": 2,
+  "c": 0,
+  "e": 0
+ },
+ "terroir restaurant bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "the son restaurant": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "villa carnot bordeaux": {
+  "i": 2,
+  "c": 0,
+  "e": 0
+ },
+ "villa tourny bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "vivants restaurant bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "yarra bordeaux": {
+  "i": 2,
+  "c": 0,
+  "e": 0
+ },
+ "yarra restaurant bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "zephirine bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "zephirine bordeaux menu": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "zephirine restaurant bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "zoologie restaurant bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "2 pieces cuisine bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "230 c fusion bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "backyard bordeaux": {
+  "i": 2,
+  "c": 0,
+  "e": 0
+ },
+ "bar frida bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "beau restaurant bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "bertus bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "bien public bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "bistrot bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "bistrot l unité": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "bistrot nansouty": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "blind menu": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "bon restaurant bordeaux": {
+  "i": 4,
+  "c": 0,
+  "e": 0
+ },
+ "bonne adresse bordeaux": {
+  "i": 1,
+  "c": 1,
+  "e": 0.8
+ },
+ "bons restaurants bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "bordeaux restaurant": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "bossa bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "bouillon gare saint jean": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "brasserie a bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "brasserie bordeaux": {
+  "i": 2,
+  "c": 0,
+  "e": 0
+ },
+ "brasserie bordeaux centre ville": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "brasserie de bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "brick house bordeaux": {
+  "i": 2,
+  "c": 0,
+  "e": 0
+ },
+ "brique house bordeaux": {
+  "i": 3,
+  "c": 0,
+  "e": 0
+ },
+ "buffet à volonté bordeaux centre": {
+  "i": 1,
+  "c": 1,
+  "e": 0.6
+ },
+ "c est meilleur quand c est bon bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "c yusha": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "café des arts bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "café français bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "café maritime bordeaux menu": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "cantine corner bordeaux": {
+  "i": 2,
+  "c": 0,
+  "e": 0
+ },
+ "capc bordeaux restaurant": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "carioca bordeaux menu": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "carré bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "casa gaïa rue latour bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "chantilly restaurant bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "chez dupont bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "chez les ploucs bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "chez raymonde bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "choucroute bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "cité du vin restaurant": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "cochon volant bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "code 23 menu": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "cote de boeuf bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "cours du chapeau rouge bordeaux restaurant": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "crepe touch bordeaux lac": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "croques et soupes bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "de part & d autre menu": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "deruelle restaurant": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "diner a bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "diner romantique bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "duck restaurant bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "first name bordeaux restaurant": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "fork bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "french house bordeaux": {
+  "i": 3,
+  "c": 0,
+  "e": 0
+ },
+ "gault millau bordeaux": {
+  "i": 2,
+  "c": 0,
+  "e": 0
+ },
+ "ibaia cafe bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "influences bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "joya bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "kokomo bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "l atelier des faures": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "l autre petit bois": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "l autre petit bois bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "l embarcadère bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "l entrecôte bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "l ermitage cauderan": {
+  "i": 2,
+  "c": 0,
+  "e": 0
+ },
+ "l estacade": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "l estacade menu": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "l ibaia bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "la bodega bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "la ligne rouge bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "la table deruelle bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "la table deruelle menu": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "la tanière bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "la venta bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "la villa tourny bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "le bonbon bordeaux": {
+  "i": 2,
+  "c": 0,
+  "e": 0
+ },
+ "le bouillon saint jean": {
+  "i": 2,
+  "c": 0,
+  "e": 0
+ },
+ "le bouillon saint jean bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "le bourbon bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "le café maritime bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "le carre bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "le carreau bordeaux menu": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "le carré bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "le comptoir du palais bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "le k baroque menu": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "le melody bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "le ronrons des chartrons": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "le ségur restaurant": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "le terminus bordeaux menu": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "les bouillons bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "les doux secrets d hélène": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "les meilleurs restaurants de bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "les voyageurs bordeaux": {
+  "i": 2,
+  "c": 1,
+  "e": 0.88
+ },
+ "lucca bordeaux menu": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "maillard bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "maison julien bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "maitre kanter bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "mako restaurant bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "mama restaurant bordeaux menu": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "mama shelter bordeaux restaurant": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "mama shelter bordeaux rooftop": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "marlone bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "meilleur buffet à volonté bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "meilleur couscous bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "meilleur moule frite bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "meilleur restaurant bordeaux": {
+  "i": 5,
+  "c": 0,
+  "e": 0
+ },
+ "meilleur restaurant bordeaux centre": {
+  "i": 1,
+  "c": 1,
+  "e": 0.61
+ },
+ "meilleur restaurant rooftop bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "meilleur restaurant saint pierre bordeaux": {
+  "i": 2,
+  "c": 0,
+  "e": 0
+ },
+ "meilleur restaurant vietnamien bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "meilleur resto bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "meilleure brasserie bordeaux": {
+  "i": 2,
+  "c": 0,
+  "e": 0
+ },
+ "meilleurs restaurants autour de bordeaux": {
+  "i": 1,
+  "c": 2,
+  "e": 0.84
+ },
+ "meilleurs restaurants bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "meilleurs restaurants de bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "melodie menu": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "melodie restaurant": {
+  "i": 2,
+  "c": 0,
+  "e": 0
+ },
+ "menu de au 30 juin bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "menu de bouillon saint jean bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "menu de carmel bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "menu de copain comme canard bordeaux saint pierre": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "menu de de part & d autre bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "menu de flocus bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "menu de french house": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "menu de gargalou bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "menu de hippopotamus bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "menu de l entrecôte bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "menu de la belle en folie bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "menu de le carré bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "menu de le sobre chartrons": {
+  "i": 2,
+  "c": 0,
+  "e": 0
+ },
+ "menu de madame pang": {
+  "i": 2,
+  "c": 0,
+  "e": 0
+ },
+ "menu de mako bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "menu de mona bordeaux": {
+  "i": 2,
+  "c": 0,
+  "e": 0
+ },
+ "menu de osmose bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "menu de rooftop shasha sur le toit": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "menu l entrecote bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "mere michel bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "moelleuses et persillées bordeaux photos": {
+  "i": 1,
+  "c": 1,
+  "e": 0.62
+ },
+ "nouveau restaurant bassin à flot": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "nouveau restaurant quinconces bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "nouveau restaurant rives d arcins": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "nouveau restaurant rue saint rémi bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "nouveaux restaurants bordeaux": {
+  "i": 2,
+  "c": 0,
+  "e": 0
+ },
+ "orangerie bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "osmose bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "ou bien manger a bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "ou manger le midi à bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "où manger des huîtres à bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "papin bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "pipo restaurant bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "place des chartrons restaurant": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "place du marché des chartrons restaurant": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "plana bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "quoi manger a bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "radisson blu rooftop bordeaux": {
+  "i": 1,
+  "c": 1,
+  "e": 0.57
+ },
+ "ramon bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant ambiance bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant artigues pres de bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant atypique bordeaux abordable": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant atypique bordeaux les mieux notés": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant au chartrons": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant avec salle privative bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant avenue thiers bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant belle vue bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant belvedere bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant bistronomique bordeaux centre": {
+  "i": 2,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant bon rapport qualité prix bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant bord garonne rive droite": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant bordeaux": {
+  "i": 46,
+  "c": 3,
+  "e": 2.09
+ },
+ "restaurant bordeaux anniversaire": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant bordeaux bastide": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant bordeaux bien noté": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant bordeaux centre": {
+  "i": 10,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant bordeaux centre les mieux notes": {
+  "i": 2,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant bordeaux en famille": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant bordeaux francais": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant bordeaux huitres": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant bordeaux nouveau": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant bordeaux original": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant bordeaux ouvert actuellement": {
+  "i": 1,
+  "c": 1,
+  "e": 0.61
+ },
+ "restaurant bordeaux quai des queyries": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant bordeaux romantique": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant bordeaux sans gluten": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant bordeaux service tardif": {
+  "i": 2,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant bossa bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant bouscat": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant camarsac la bonne table": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant camille jullian": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant carioca bordeaux": {
+  "i": 1,
+  "c": 1,
+  "e": 0.6
+ },
+ "restaurant cauderan": {
+  "i": 3,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant chartrons bordeaux les mieux notés": {
+  "i": 4,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant chartrons ouvert dimanche": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant chinois bordeaux lac": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant code 23": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant comptoir cuisine bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant concept bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant copieux bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant cours de l yser bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant cours du chapeau rouge": {
+  "i": 3,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant dans bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant de part et d autre": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant de pates bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant de viande bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant deruelle bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant en amoureux bordeaux": {
+  "i": 2,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant espagnol à volonté bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant experience bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant foie gras bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant fondaudege": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant français bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant french house bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant gastronomique la brède": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant grand theatre bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant hippodrome bouscat": {
+  "i": 1,
+  "c": 2,
+  "e": 1.52
+ },
+ "restaurant homard bordeaux": {
+  "i": 1,
+  "c": 1,
+  "e": 0.45
+ },
+ "restaurant in bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant intime bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant jost bordeaux": {
+  "i": 2,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant kids friendly bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant kilika bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant l ange bleu bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant l estacade": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant latresne": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant le bouillon bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant le calixte bordeaux": {
+  "i": 2,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant le carreau bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant le carré bordeaux": {
+  "i": 2,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant le k baroque": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant le mably bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant le point rouge": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant le puy paulin": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant le saint james bouliac": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant le zinc bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant les chantiers de la garonne": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant les negociants bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant les voyageurs bordeaux": {
+  "i": 4,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant loulou bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant lucca bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant martillac 33": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant menu 25 euros bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant nansouty bordeaux": {
+  "i": 3,
+  "c": 1,
+  "e": 0.45
+ },
+ "restaurant original bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant palais gallien bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant papin bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant petit plaisir bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant pey berland": {
+  "i": 2,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant place du parlement bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant privatisable bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant proche chu pellegrin bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant proche jardin public bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant proche quinconces bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant proche stade chaban delmas": {
+  "i": 2,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant proche théâtre molière bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant puy paulin": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant quartier darwin bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant reunion bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant romantique bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant rooftop bordeaux": {
+  "i": 3,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant rue bouffard bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant rue judaique bordeaux": {
+  "i": 1,
+  "c": 1,
+  "e": 0.48
+ },
+ "restaurant rue saint remi": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant saint christoly bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant saint pierre bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant sicilien bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant sur bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant sur les quais bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant sympa bordeaux": {
+  "i": 2,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant sympa bordeaux centre ville": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant top chef bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant traditionnel bordeaux centre": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant typique bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant viande bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurant victoire bordeaux": {
+  "i": 1,
+  "c": 1,
+  "e": 0.42
+ },
+ "restaurant végétarien bordeaux soir": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurants bordeaux": {
+  "i": 2,
+  "c": 1,
+  "e": 0.65
+ },
+ "restaurants branchés bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "restaurants près de bordeaux": {
+  "i": 3,
+  "c": 0,
+  "e": 0
+ },
+ "resto ambiance bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "resto bordeaux": {
+  "i": 3,
+  "c": 2,
+  "e": 1.49
+ },
+ "resto rue du palais gallien bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "resto viande bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "rimon restaurant": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "rooftop bordeaux restaurant": {
+  "i": 2,
+  "c": 0,
+  "e": 0
+ },
+ "rue des restaurants bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "sacha sur le toit bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "salade and co bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "seafood boil bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "shasha sur le toit bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "soif bordeaux menu": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "soupe à l oignon bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "starsmash bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "symbiose bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "tasty crousty bordeaux lac": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "the fork bordeaux": {
+  "i": 2,
+  "c": 0,
+  "e": 0
+ },
+ "the french house bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "top restaurant bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "tres bon restaurant bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "trompette bar bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ },
+ "zephyr bordeaux": {
+  "i": 1,
+  "c": 0,
+  "e": 0
+ }
+}

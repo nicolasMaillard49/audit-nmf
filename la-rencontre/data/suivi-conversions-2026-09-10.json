@@ -1,0 +1,713 @@
+{
+  "meta": {
+    "customer": "4040541764",
+    "campaign": "24197703801",
+    "extraction": "2026-09-10T14:20:24.998Z"
+  },
+  "compte": [
+    {
+      "customer": {
+        "resource_name": "customers/4040541764",
+        "conversion_tracking_setting": {
+          "conversion_tracking_id": 18423377560,
+          "conversion_tracking_status": 3,
+          "google_ads_conversion_customer": "customers/4040541764"
+        },
+        "id": 4040541764,
+        "descriptive_name": "RESTAURANT LA RENCONTRE",
+        "status": 2
+      }
+    }
+  ],
+  "actions": {
+    "erreur": "Cannot select or filter on the following metrics: 'conversions'(could not support requested resources: 'CONVERSION_ACTION'), since metric is incompatible with the resource in the FROM clause or other selected segmenting resources."
+  },
+  "actionsToutes": [
+    {
+      "conversion_action": {
+        "resource_name": "customers/4040541764/conversionActions/7742783966",
+        "status": 2,
+        "type": 29,
+        "category": 13,
+        "counting_type": 2,
+        "attribution_model_settings": {
+          "attribution_model": 101
+        },
+        "id": 7742783966,
+        "name": "Lead form - Submit",
+        "include_in_conversions_metric": false,
+        "click_through_lookback_window_days": 1,
+        "origin": 3,
+        "primary_for_goal": false
+      }
+    },
+    {
+      "conversion_action": {
+        "resource_name": "customers/4040541764/conversionActions/7742954149",
+        "status": 2,
+        "type": 40,
+        "category": 13,
+        "counting_type": 3,
+        "attribution_model_settings": {
+          "attribution_model": 106
+        },
+        "id": 7742954149,
+        "name": "Formulaire",
+        "include_in_conversions_metric": false,
+        "click_through_lookback_window_days": 90,
+        "origin": 2,
+        "primary_for_goal": false
+      }
+    },
+    {
+      "conversion_action": {
+        "resource_name": "customers/4040541764/conversionActions/7742964660",
+        "status": 4,
+        "type": 41,
+        "category": 4,
+        "counting_type": 3,
+        "attribution_model_settings": {
+          "attribution_model": 106
+        },
+        "id": 7742964660,
+        "name": "restaurant la rencontre (web) purchase",
+        "include_in_conversions_metric": false,
+        "click_through_lookback_window_days": 90,
+        "origin": 2,
+        "primary_for_goal": false
+      }
+    },
+    {
+      "conversion_action": {
+        "resource_name": "customers/4040541764/conversionActions/7744687380",
+        "status": 2,
+        "type": 42,
+        "category": 13,
+        "counting_type": 2,
+        "attribution_model_settings": {
+          "attribution_model": 106
+        },
+        "id": 7744687380,
+        "name": "restaurant la rencontre (web) generate_lead",
+        "include_in_conversions_metric": true,
+        "click_through_lookback_window_days": 90,
+        "origin": 2,
+        "primary_for_goal": true
+      }
+    }
+  ],
+  "objectifsCampagne": [
+    {
+      "campaign": {
+        "resource_name": "customers/4040541764/campaigns/24197703801",
+        "id": 24197703801
+      },
+      "campaign_conversion_goal": {
+        "resource_name": "customers/4040541764/campaignConversionGoals/24197703801~SUBMIT_LEAD_FORM~WEBSITE",
+        "category": 13,
+        "origin": 2,
+        "biddable": true
+      }
+    },
+    {
+      "campaign": {
+        "resource_name": "customers/4040541764/campaigns/24197703801",
+        "id": 24197703801
+      },
+      "campaign_conversion_goal": {
+        "resource_name": "customers/4040541764/campaignConversionGoals/24197703801~SUBMIT_LEAD_FORM~GOOGLE_HOSTED",
+        "category": 13,
+        "origin": 3,
+        "biddable": true
+      }
+    }
+  ],
+  "objectifsCompte": [
+    {
+      "customer_conversion_goal": {
+        "resource_name": "customers/4040541764/customerConversionGoals/SUBMIT_LEAD_FORM~WEBSITE",
+        "category": 13,
+        "origin": 2,
+        "biddable": true
+      }
+    },
+    {
+      "customer_conversion_goal": {
+        "resource_name": "customers/4040541764/customerConversionGoals/SUBMIT_LEAD_FORM~GOOGLE_HOSTED",
+        "category": 13,
+        "origin": 3,
+        "biddable": true
+      }
+    }
+  ],
+  "campagne": {
+    "erreur": "Unrecognized field in the query: 'campaign.maximize_clicks.cpc_bid_ceiling_micros'."
+  },
+  "recommandations": [
+    {
+      "recommendation": {
+        "resource_name": "customers/4040541764/recommendations/ODUwOTU4NTEyMC0yNjMtMTc4ODc1NzQ0OTczNi0rODUwOTU4NTEyMA",
+        "type": 43,
+        "dismissed": false
+      }
+    },
+    {
+      "recommendation": {
+        "resource_name": "customers/4040541764/recommendations/ODUwOTU4NTEyMC0xMDEtMTc4ODg1ODg5OTI1MS0rMjQxOTc3MDM4MDE",
+        "type": 29,
+        "campaign": "customers/4040541764/campaigns/24197703801",
+        "dismissed": false
+      }
+    },
+    {
+      "recommendation": {
+        "resource_name": "customers/4040541764/recommendations/ODUwOTU4NTEyMC0xMTUtMTc4ODgyMTg2NDk5MS0rMjQxOTc3MDM4MDE",
+        "type": 8,
+        "campaign": "customers/4040541764/campaigns/24197703801",
+        "dismissed": false
+      }
+    }
+  ],
+  "annonces": [
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/199984037979",
+        "name": "Gastronomique"
+      },
+      "ad_group_ad": {
+        "resource_name": "customers/4040541764/adGroupAds/199984037979~822994206225",
+        "status": 2,
+        "ad": {
+          "resource_name": "customers/4040541764/ads/822994206225",
+          "id": 822994206225,
+          "final_urls": [
+            "https://restaurantlarencontre.com/"
+          ]
+        },
+        "policy_summary": {
+          "review_status": 3,
+          "approval_status": 4
+        },
+        "ad_strength": 6
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/204951119972",
+        "name": "Découverte"
+      },
+      "ad_group_ad": {
+        "resource_name": "customers/4040541764/adGroupAds/204951119972~823036870234",
+        "status": 2,
+        "ad": {
+          "resource_name": "customers/4040541764/ads/823036870234",
+          "id": 823036870234,
+          "final_urls": [
+            "https://restaurantlarencontre.com/"
+          ]
+        },
+        "policy_summary": {
+          "review_status": 3,
+          "approval_status": 4
+        },
+        "ad_strength": 6
+      }
+    },
+    {
+      "ad_group": {
+        "resource_name": "customers/4040541764/adGroups/198510564663",
+        "name": "Italien"
+      },
+      "ad_group_ad": {
+        "resource_name": "customers/4040541764/adGroupAds/198510564663~823111204463",
+        "status": 2,
+        "ad": {
+          "resource_name": "customers/4040541764/ads/823111204463",
+          "id": 823111204463,
+          "final_urls": [
+            "https://restaurantlarencontre.com/"
+          ]
+        },
+        "policy_summary": {
+          "review_status": 3,
+          "approval_status": 4
+        },
+        "ad_strength": 6
+      }
+    }
+  ],
+  "imagesEtat": [
+    {
+      "campaign": {
+        "resource_name": "customers/4040541764/campaigns/24197703801",
+        "id": 24197703801
+      },
+      "asset": {
+        "resource_name": "customers/4040541764/assets/418461981635",
+        "id": 418461981635,
+        "name": "LR — devanture (carré)"
+      },
+      "campaign_asset": {
+        "resource_name": "customers/4040541764/campaignAssets/24197703801~418461981635~AD_IMAGE",
+        "status": 2,
+        "primary_status": 2
+      }
+    },
+    {
+      "campaign": {
+        "resource_name": "customers/4040541764/campaigns/24197703801",
+        "id": 24197703801
+      },
+      "asset": {
+        "resource_name": "customers/4040541764/assets/418462009232",
+        "id": 418462009232,
+        "name": "LR — raviolo noir (carré)"
+      },
+      "campaign_asset": {
+        "resource_name": "customers/4040541764/campaignAssets/24197703801~418462009232~AD_IMAGE",
+        "status": 2,
+        "primary_status": 2
+      }
+    },
+    {
+      "campaign": {
+        "resource_name": "customers/4040541764/campaigns/24197703801",
+        "id": 24197703801
+      },
+      "asset": {
+        "resource_name": "customers/4040541764/assets/418571132638",
+        "id": 418571132638,
+        "name": "LR — tagliatelles à l'encre (carré)"
+      },
+      "campaign_asset": {
+        "resource_name": "customers/4040541764/campaignAssets/24197703801~418571132638~AD_IMAGE",
+        "status": 2,
+        "primary_status": 2
+      }
+    },
+    {
+      "campaign": {
+        "resource_name": "customers/4040541764/campaigns/24197703801",
+        "id": 24197703801
+      },
+      "asset": {
+        "resource_name": "customers/4040541764/assets/418571133040",
+        "id": 418571133040,
+        "name": "LR — dessert chocolat basilic (carré)"
+      },
+      "campaign_asset": {
+        "resource_name": "customers/4040541764/campaignAssets/24197703801~418571133040~AD_IMAGE",
+        "status": 2,
+        "primary_status": 2
+      }
+    },
+    {
+      "campaign": {
+        "resource_name": "customers/4040541764/campaigns/24197703801",
+        "id": 24197703801
+      },
+      "asset": {
+        "resource_name": "customers/4040541764/assets/418571152774",
+        "id": 418571152774,
+        "name": "LR — devanture (paysage)"
+      },
+      "campaign_asset": {
+        "resource_name": "customers/4040541764/campaignAssets/24197703801~418571152774~AD_IMAGE",
+        "status": 2,
+        "primary_status": 2
+      }
+    },
+    {
+      "campaign": {
+        "resource_name": "customers/4040541764/campaigns/24197703801",
+        "id": 24197703801
+      },
+      "asset": {
+        "resource_name": "customers/4040541764/assets/418645398636",
+        "id": 418645398636,
+        "name": "LR — Rosie et Francesco en cuisine (paysage)"
+      },
+      "campaign_asset": {
+        "resource_name": "customers/4040541764/campaignAssets/24197703801~418645398636~AD_IMAGE",
+        "status": 2,
+        "primary_status": 2
+      }
+    }
+  ],
+  "images": [
+    {
+      "campaign": {
+        "resource_name": "customers/4040541764/campaigns/24197703801",
+        "id": 24197703801
+      },
+      "metrics": {
+        "clicks": 22,
+        "cost_micros": 12730000,
+        "impressions": 621
+      },
+      "asset": {
+        "resource_name": "customers/4040541764/assets/418461981635",
+        "id": 418461981635,
+        "name": "LR — devanture (carré)"
+      },
+      "campaign_asset": {
+        "resource_name": "customers/4040541764/campaignAssets/24197703801~418461981635~AD_IMAGE",
+        "field_type": 26
+      }
+    },
+    {
+      "campaign": {
+        "resource_name": "customers/4040541764/campaigns/24197703801",
+        "id": 24197703801
+      },
+      "metrics": {
+        "clicks": 1,
+        "cost_micros": 480000,
+        "impressions": 3
+      },
+      "asset": {
+        "resource_name": "customers/4040541764/assets/418462009232",
+        "id": 418462009232,
+        "name": "LR — raviolo noir (carré)"
+      },
+      "campaign_asset": {
+        "resource_name": "customers/4040541764/campaignAssets/24197703801~418462009232~AD_IMAGE",
+        "field_type": 26
+      }
+    },
+    {
+      "campaign": {
+        "resource_name": "customers/4040541764/campaigns/24197703801",
+        "id": 24197703801
+      },
+      "metrics": {
+        "clicks": 1,
+        "cost_micros": 480000,
+        "impressions": 3
+      },
+      "asset": {
+        "resource_name": "customers/4040541764/assets/418571132638",
+        "id": 418571132638,
+        "name": "LR — tagliatelles à l'encre (carré)"
+      },
+      "campaign_asset": {
+        "resource_name": "customers/4040541764/campaignAssets/24197703801~418571132638~AD_IMAGE",
+        "field_type": 26
+      }
+    }
+  ],
+  "composantsCampagne": [
+    {
+      "campaign": {
+        "resource_name": "customers/4040541764/campaigns/24197703801",
+        "id": 24197703801
+      },
+      "asset": {
+        "resource_name": "customers/4040541764/assets/416047544700",
+        "type": 10,
+        "id": 416047544700
+      },
+      "campaign_asset": {
+        "resource_name": "customers/4040541764/campaignAssets/24197703801~416047544700~STRUCTURED_SNIPPET",
+        "field_type": 12,
+        "status": 2,
+        "primary_status": 2
+      }
+    },
+    {
+      "campaign": {
+        "resource_name": "customers/4040541764/campaigns/24197703801",
+        "id": 24197703801
+      },
+      "asset": {
+        "resource_name": "customers/4040541764/assets/415868732621",
+        "type": 11,
+        "id": 415868732621
+      },
+      "campaign_asset": {
+        "resource_name": "customers/4040541764/campaignAssets/24197703801~415868732621~SITELINK",
+        "field_type": 13,
+        "status": 2,
+        "primary_status": 2
+      }
+    },
+    {
+      "campaign": {
+        "resource_name": "customers/4040541764/campaigns/24197703801",
+        "id": 24197703801
+      },
+      "asset": {
+        "resource_name": "customers/4040541764/assets/416047534794",
+        "type": 11,
+        "id": 416047534794
+      },
+      "campaign_asset": {
+        "resource_name": "customers/4040541764/campaignAssets/24197703801~416047534794~SITELINK",
+        "field_type": 13,
+        "status": 2,
+        "primary_status": 2
+      }
+    },
+    {
+      "campaign": {
+        "resource_name": "customers/4040541764/campaigns/24197703801",
+        "id": 24197703801
+      },
+      "asset": {
+        "resource_name": "customers/4040541764/assets/416047544685",
+        "type": 11,
+        "id": 416047544685
+      },
+      "campaign_asset": {
+        "resource_name": "customers/4040541764/campaignAssets/24197703801~416047544685~SITELINK",
+        "field_type": 13,
+        "status": 2,
+        "primary_status": 2
+      }
+    },
+    {
+      "campaign": {
+        "resource_name": "customers/4040541764/campaigns/24197703801",
+        "id": 24197703801
+      },
+      "asset": {
+        "resource_name": "customers/4040541764/assets/416047544688",
+        "type": 11,
+        "id": 416047544688
+      },
+      "campaign_asset": {
+        "resource_name": "customers/4040541764/campaignAssets/24197703801~416047544688~SITELINK",
+        "field_type": 13,
+        "status": 2,
+        "primary_status": 2
+      }
+    },
+    {
+      "campaign": {
+        "resource_name": "customers/4040541764/campaigns/24197703801",
+        "id": 24197703801
+      },
+      "asset": {
+        "resource_name": "customers/4040541764/assets/415868732624",
+        "type": 9,
+        "id": 415868732624
+      },
+      "campaign_asset": {
+        "resource_name": "customers/4040541764/campaignAssets/24197703801~415868732624~CALLOUT",
+        "field_type": 11,
+        "status": 2,
+        "primary_status": 2
+      }
+    },
+    {
+      "campaign": {
+        "resource_name": "customers/4040541764/campaigns/24197703801",
+        "id": 24197703801
+      },
+      "asset": {
+        "resource_name": "customers/4040541764/assets/415868732627",
+        "type": 9,
+        "id": 415868732627
+      },
+      "campaign_asset": {
+        "resource_name": "customers/4040541764/campaignAssets/24197703801~415868732627~CALLOUT",
+        "field_type": 11,
+        "status": 2,
+        "primary_status": 2
+      }
+    },
+    {
+      "campaign": {
+        "resource_name": "customers/4040541764/campaigns/24197703801",
+        "id": 24197703801
+      },
+      "asset": {
+        "resource_name": "customers/4040541764/assets/415975019839",
+        "type": 9,
+        "id": 415975019839
+      },
+      "campaign_asset": {
+        "resource_name": "customers/4040541764/campaignAssets/24197703801~415975019839~CALLOUT",
+        "field_type": 11,
+        "status": 2,
+        "primary_status": 2
+      }
+    },
+    {
+      "campaign": {
+        "resource_name": "customers/4040541764/campaigns/24197703801",
+        "id": 24197703801
+      },
+      "asset": {
+        "resource_name": "customers/4040541764/assets/416047544691",
+        "type": 9,
+        "id": 416047544691
+      },
+      "campaign_asset": {
+        "resource_name": "customers/4040541764/campaignAssets/24197703801~416047544691~CALLOUT",
+        "field_type": 11,
+        "status": 2,
+        "primary_status": 2
+      }
+    },
+    {
+      "campaign": {
+        "resource_name": "customers/4040541764/campaigns/24197703801",
+        "id": 24197703801
+      },
+      "asset": {
+        "resource_name": "customers/4040541764/assets/416047544694",
+        "type": 9,
+        "id": 416047544694
+      },
+      "campaign_asset": {
+        "resource_name": "customers/4040541764/campaignAssets/24197703801~416047544694~CALLOUT",
+        "field_type": 11,
+        "status": 2,
+        "primary_status": 2
+      }
+    },
+    {
+      "campaign": {
+        "resource_name": "customers/4040541764/campaigns/24197703801",
+        "id": 24197703801
+      },
+      "asset": {
+        "resource_name": "customers/4040541764/assets/416047544697",
+        "type": 9,
+        "id": 416047544697
+      },
+      "campaign_asset": {
+        "resource_name": "customers/4040541764/campaignAssets/24197703801~416047544697~CALLOUT",
+        "field_type": 11,
+        "status": 2,
+        "primary_status": 2
+      }
+    },
+    {
+      "campaign": {
+        "resource_name": "customers/4040541764/campaigns/24197703801",
+        "id": 24197703801
+      },
+      "asset": {
+        "resource_name": "customers/4040541764/assets/415868732636",
+        "type": 16,
+        "id": 415868732636
+      },
+      "campaign_asset": {
+        "resource_name": "customers/4040541764/campaignAssets/24197703801~415868732636~CALL",
+        "field_type": 16,
+        "status": 2,
+        "primary_status": 2
+      }
+    },
+    {
+      "campaign": {
+        "resource_name": "customers/4040541764/campaigns/24197703801",
+        "id": 24197703801
+      },
+      "asset": {
+        "resource_name": "customers/4040541764/assets/418461981635",
+        "type": 4,
+        "id": 418461981635,
+        "name": "LR — devanture (carré)"
+      },
+      "campaign_asset": {
+        "resource_name": "customers/4040541764/campaignAssets/24197703801~418461981635~AD_IMAGE",
+        "field_type": 26,
+        "status": 2,
+        "primary_status": 2
+      }
+    },
+    {
+      "campaign": {
+        "resource_name": "customers/4040541764/campaigns/24197703801",
+        "id": 24197703801
+      },
+      "asset": {
+        "resource_name": "customers/4040541764/assets/418462009232",
+        "type": 4,
+        "id": 418462009232,
+        "name": "LR — raviolo noir (carré)"
+      },
+      "campaign_asset": {
+        "resource_name": "customers/4040541764/campaignAssets/24197703801~418462009232~AD_IMAGE",
+        "field_type": 26,
+        "status": 2,
+        "primary_status": 2
+      }
+    },
+    {
+      "campaign": {
+        "resource_name": "customers/4040541764/campaigns/24197703801",
+        "id": 24197703801
+      },
+      "asset": {
+        "resource_name": "customers/4040541764/assets/418571132638",
+        "type": 4,
+        "id": 418571132638,
+        "name": "LR — tagliatelles à l'encre (carré)"
+      },
+      "campaign_asset": {
+        "resource_name": "customers/4040541764/campaignAssets/24197703801~418571132638~AD_IMAGE",
+        "field_type": 26,
+        "status": 2,
+        "primary_status": 2
+      }
+    },
+    {
+      "campaign": {
+        "resource_name": "customers/4040541764/campaigns/24197703801",
+        "id": 24197703801
+      },
+      "asset": {
+        "resource_name": "customers/4040541764/assets/418571133040",
+        "type": 4,
+        "id": 418571133040,
+        "name": "LR — dessert chocolat basilic (carré)"
+      },
+      "campaign_asset": {
+        "resource_name": "customers/4040541764/campaignAssets/24197703801~418571133040~AD_IMAGE",
+        "field_type": 26,
+        "status": 2,
+        "primary_status": 2
+      }
+    },
+    {
+      "campaign": {
+        "resource_name": "customers/4040541764/campaigns/24197703801",
+        "id": 24197703801
+      },
+      "asset": {
+        "resource_name": "customers/4040541764/assets/418571152774",
+        "type": 4,
+        "id": 418571152774,
+        "name": "LR — devanture (paysage)"
+      },
+      "campaign_asset": {
+        "resource_name": "customers/4040541764/campaignAssets/24197703801~418571152774~AD_IMAGE",
+        "field_type": 26,
+        "status": 2,
+        "primary_status": 2
+      }
+    },
+    {
+      "campaign": {
+        "resource_name": "customers/4040541764/campaigns/24197703801",
+        "id": 24197703801
+      },
+      "asset": {
+        "resource_name": "customers/4040541764/assets/418645398636",
+        "type": 4,
+        "id": 418645398636,
+        "name": "LR — Rosie et Francesco en cuisine (paysage)"
+      },
+      "campaign_asset": {
+        "resource_name": "customers/4040541764/campaignAssets/24197703801~418645398636~AD_IMAGE",
+        "field_type": 26,
+        "status": 2,
+        "primary_status": 2
+      }
+    }
+  ]
+}

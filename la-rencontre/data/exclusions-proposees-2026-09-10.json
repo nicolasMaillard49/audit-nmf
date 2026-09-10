@@ -1,0 +1,105 @@
+{
+  "meta": {
+    "client": "Restaurant La Rencontre",
+    "customer": "4040541764",
+    "campaign": "24197703801",
+    "date": "2026-09-10",
+    "source": "termes-2026-09-05-au-10.json — 538 termes distincts declenches du 05/09 au 09/09, apres la premiere vague d'exclusions du 04/09",
+    "etat": "PROPOSITION, non appliquee. A poser avec ads/larencontre-exclusions.mjs --source <ce fichier> [--go] depuis scrapProsp.",
+    "niveau": "campagne",
+    "lecon_de_la_premiere_vague": "Trois exclusions du 04/09 ont laisse passer une variante : « le bouscat » n'a pas bloque « restaurant hippodrome bouscat » (1,52 EUR, le clic le plus cher de la semaine), « elios bordeaux » n'a pas bloque « elios restaurant bordeaux », « melodie bordeaux » n'a pas bloque « melodie restaurant » ni « le melody bordeaux », « demeter bordeaux » n'a pas bloque « demeter menu ». En correspondance d'expression, les mots de l'exclusion doivent etre CONTIGUS dans la requete. Regle retenue ici : exclure le nom de l'enseigne SEUL, sans « bordeaux » ni « restaurant » accole.",
+    "constat": "Du 05/09 au 09/09 : 20,68 EUR sur les termes visibles, dont 10,84 EUR (52 %) sur des enseignes precises ou des requetes hors offre. La premiere vague a bien tari les marques du jour 1 (tupina, talence, palatino... : zero impression depuis), mais la longue traine est sans fin — 200 enseignes nouvelles en cinq jours. Cette deuxieme vague couvre tout ce qui est passe ; la reponse de fond reste la ponderation des mots cles generiques (voir le releve J+7)."
+  },
+  "marques_concurrentes": {
+    "commentaire": "Enseignes, chefs et hotels-restaurants nommes dans les requetes du 05 au 09/09. Requetes de NAVIGATION : la personne cherche un lieu precis. Cout constate sur la periode : 8,10 EUR de clics (gordon ramsay, mina, boeuf gourmand, kedem x2, caudalie, saint james, cerey, radisson, carioca, les voyageurs, cite du vin, moelleuses et persillees). Nom seul, variantes accentuees listees.",
+    "match_type": "PHRASE",
+    "termes": [
+      "gordon ramsay", "ramsay", "joel robuchon", "robuchon", "tanguy laviale", "top chef",
+      "mina", "boeuf gourmand", "bœuf gourmand", "kedem", "caudalie", "saint james", "bouliac",
+      "le cerey", "cerey", "radisson", "carioca", "les voyageurs", "voyageurs bordeaux",
+      "cite du vin", "cité du vin", "moelleuses et persillees", "moelleuses et persillées",
+      "racines", "negociants", "négociants", "le gabriel", "gabriel bordeaux", "chapon fin",
+      "brut cuisine", "estacade", "pressoir d argent", "pressoir d'argent", "orangerie", "lorangerie",
+      "bouillon des quinconces", "bouillon saint jean", "les bouillons", "le bouillon bordeaux",
+      "comptoir d augusta", "clos d augusta", "augusta", "brique house", "brick house",
+      "calixte", "jost", "melody", "melodie", "mélodie", "la fine bouche", "fine bouche",
+      "backyard", "cantine corner", "mona bordeaux", "menu de mona", "monzu", "del arte",
+      "cacio e pepe", "big mamma", "chez gina", "gina", "da luigi", "french house",
+      "villa carnot", "villa tourny", "arcadia", "atelier des faures", "faures", "bertus",
+      "bistrot des anges", "bistrot des grands hommes", "grands hommes", "blind", "bossa",
+      "chai n 8", "chai n8", "chez les ploucs", "ploucs", "chez michel", "chez raymonde",
+      "chez dupont", "chez papi", "chez maxime", "copain comme canard", "croques et soupes",
+      "de part et d autre", "de part & d autre", "demeter", "elios", "elio's", "elio s",
+      "intercontinental", "amedee", "amédée", "l amore", "amore bordeaux", "entrecote", "entrecôte",
+      "ermitage", "delizia da bartolo", "da bartolo", "maison pavlov", "pavlov", "petite fabriek", "fabriek",
+      "table d adamah", "adamah", "la venta", "le 1925", "1925 bordeaux", "le bourbon", "bourbon bordeaux",
+      "cafe maritime", "café maritime", "le gaston", "gaston bordeaux", "k baroque", "le signature", "signature bordeaux",
+      "lume", "luna", "maison mere", "maison mère", "mako", "mama restaurant", "mama shelter",
+      "amicis", "babette", "bar frida", "frida", "bien public", "bistro du musee", "bistro du musée",
+      "bistro regent", "bistrot l unite", "bistrot l unité", "bo tannique", "botannique",
+      "cent33", "cent 33", "133 bordeaux", "restaurant 133", "c yusha", "cyusha", "yusha",
+      "cafe des arts", "café des arts", "cafe francais", "café français", "capc", "casa gaia", "casa gaïa",
+      "chantilly", "cochon volant", "code 23", "colores", "comptoir cuisine", "comptoir d etienne",
+      "comptoir de seze", "comptoir de sèze", "comptoir du palais", "crepe touch", "deruelle",
+      "duck restaurant", "echo bordeaux", "first name", "the fork", "fork bordeaux", "goombah", "gramma",
+      "ibaia", "il vicolo rosso", "vicolo rosso", "influences", "joya", "kokomo", "kressmann",
+      "autre petit bois", "embarcadere", "embarcadère", "l inedit", "l inédit", "la bodega", "bodega",
+      "cheminee royale", "cheminée royale", "grand vigne", "ligne rouge", "petite italie",
+      "table de l epicier", "table de l épicier", "taniere", "tanière", "la trattoria",
+      "le 7 restaurant", "restaurant le 7", "bar du fromager", "le bonbon", "burdigala",
+      "le carreau", "le carre bordeaux", "le carré bordeaux", "menu de le carre", "menu de le carré",
+      "le classique", "le michels", "prince noir", "puy paulin", "quatrieme mur", "quatrième mur",
+      "ronrons", "scopitone", "le segur", "le ségur", "tchanque", "tchanqué", "terminus", "lello",
+      "doux secrets", "les voutes", "voutes bordeaux", "lucca", "maison julien", "maitre kanter", "maître kanter",
+      "marlone", "mere michel", "mère michel", "mifan", "mirabella", "modjo", "murano", "nama bordeaux",
+      "osmose", "orta", "ost bordeaux", "ost restaurant", "restaurant ost", "osteria da luigi",
+      "papin", "pey la tour", "piacere", "pipo", "plana", "point rouge", "regalien", "régalien",
+      "rigoletto", "rimon", "sacha sur le toit", "shasha sur le toit", "sur le toit", "salade and co",
+      "seafood boil", "sicilia in bocca", "soif bordeaux", "son of the son", "the son", "son restaurant", "son bordeaux",
+      "starsmash", "suditalia", "symbiose", "tasty crousty", "tentazioni", "tentazione", "trompette",
+      "vivants", "yarra", "zephirine", "zéphirine", "zephyr", "zéphyr", "zoologie",
+      "hippopotamus", "madame pang", "le sobre", "flocus", "gargalou", "giulia", "belle en folie", "carmel",
+      "au 30 juin", "mets mots", "kilika", "ange bleu", "loco bordeaux", "loulou", "mably", "le zinc", "zinc bordeaux",
+      "chantiers de la garonne", "gabarre", "grand hotel", "grand hôtel", "grande maison", "bacchus",
+      "belvedere", "belvédère", "belle vue", "cul sec", "petit plaisir", "table du lavoir", "lavoir",
+      "camille jullian", "remoulade", "rémoulade", "ramon", "the french house", "cent trente trois",
+      "trattoria da bartolo", "bistrot nansouty", "le bordeaux gordon", "sicilien"
+    ]
+  },
+  "communes_hors_bordeaux": {
+    "commentaire": "Communes et lieux hors Bordeaux apparus depuis le 05/09. « bouscat » seul, car « le bouscat » n'a pas bloque « hippodrome bouscat » (2 clics, 1,52 EUR le 09/09). Le restaurant est a Bordeaux centre et ne livre pas : quelqu'un qui cherche a Martillac ne viendra pas.",
+    "match_type": "PHRASE",
+    "termes": [
+      "bouscat", "hippodrome", "cauderan", "caudéran", "martillac", "la brede", "la brède",
+      "cestas", "lormont", "latresne", "artigues", "camarsac", "rives d arcins", "arcins",
+      "autour de bordeaux", "pres de bordeaux", "près de bordeaux", "et alentours", "et environs",
+      "bordeaux lac"
+    ]
+  },
+  "hors_offre": {
+    "commentaire": "Ce que La Rencontre ne propose pas : buffet, volonte, cuisines etrangeres hors Italie, huitres et moules, rooftop, brasserie, midi et dimanche (ferme), guides et classements (etoiles, gault millau, the fork) ou la personne cherche une liste, pas une table. « buffet a volonte bordeaux centre » a coute 0,60 EUR le 06/09.",
+    "match_type": "PHRASE",
+    "termes": [
+      "buffet", "a volonte", "à volonté", "volonte", "volonté", "couscous", "moule frite", "moules frites",
+      "vietnamien", "chinois", "espagnol", "asiatique", "huitres", "huîtres", "homard", "choucroute",
+      "pizza", "crepe", "crêpe", "salade", "seafood", "foie gras", "cote de boeuf", "côte de bœuf", "viande bordeaux",
+      "rooftop", "brasserie", "bouillon", "bistrot bordeaux", "bistro bordeaux",
+      "le midi", "ouvert dimanche", "dimanche", "ouvert actuellement", "service tardif",
+      "3 etoiles", "3 étoiles", "etoile", "étoilé", "étoile", "etoilé", "gault millau", "michelin",
+      "le plus cher", "menu 25 euros", "sans gluten", "kids friendly", "en famille",
+      "photos", "menu de", "gastronomique abordable"
+    ]
+  },
+  "laisse_passer_expres": {
+    "commentaire": "Non exclus, a dessein.",
+    "termes": {
+      "la rencontre restaurant bordeaux / restaurant la rencontre bordeaux / la rencontre bordeaux": "la marque du client — 11 impressions, 2 clics, 1,18 EUR sur la periode. On ne s'exclut pas de son propre nom. Si le volume monte, groupe dedie a enchere basse.",
+      "restaurant nansouty bordeaux": "a donne LA conversion du 09/09 (0,45 EUR). Nansouty est un quartier de Bordeaux.",
+      "restaurant chartrons / saint pierre / quinconces / pey berland / palais gallien / rue judaique / victoire / quai des queyries": "quartiers et rues de Bordeaux : l'intention est locale et ouverte.",
+      "italian restaurants bordeaux / restaurant in bordeaux": "touristes anglophones, cible.",
+      "restaurant romantique / en amoureux / anniversaire / intime / cadre exceptionnel": "intention parfaitement compatible avec l'offre du soir.",
+      "restaurant vegetarien bordeaux soir": "un vegetarien peut manger a La Rencontre ; laisse passer.",
+      "maillard bordeaux": "1 impression, 0 clic — homonyme, sans enjeu."
+    }
+  }
+}
