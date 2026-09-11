@@ -257,8 +257,14 @@ n'est pas posée, c'est le restaurant qui reçoit ce mail, pas Nicolas.** Le mot
 recherche tapée ne sont pas dans l'URL : ils restent à lire dans le rapport Termes de recherche
 à la date du clic.
 
-**Prochaines actions :** poser `ADS_ALERT_EMAIL=nico39320@gmail.com` dans les variables du
-service backend sur Railway (redémarrage automatique) ; faire passer le site à « plus de 220
+**État au 11/09 à midi : le front est en ligne (cookie d'origine vérifié en production), le
+back ne l'est pas** — trente minutes après le push, l'API répond encore « property adsClickId
+should not exist » : Railway n'a pas redéployé, ou le build a échoué, à voir dans Deployments.
+Un repli est livré côté front (commit `9310892`) : si l'API refuse les champs d'origine, la
+demande repart sans eux, aucune réservation n'est perdue pendant le décalage.
+
+**Prochaines actions :** sur Railway, service backend, vérifier que `2a23bc7` est déployé
+(sinon redeploy) et poser `ADS_ALERT_EMAIL=nico39320@gmail.com` (redémarrage automatique) ; faire passer le site à « plus de 220
 avis » ; validation de l'annonceur par le titulaire ; **relever à J+14 vers le
 17/09** — QS, CTR jour contre jour, deuxième conversion, part des enseignes après la deuxième
 vague, cumul mensuel sous 150 €. Budget et enchères : ne pas toucher ; `"ou manger a bordeaux"`
