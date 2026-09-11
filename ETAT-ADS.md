@@ -109,7 +109,7 @@ Périmètre : **le service du soir**.
 | URL finale | **l'accueil** depuis le 07/09 (`/reservation` avant) |
 | Groupes | 3 : Italien, Gastronomique, Découverte — mots clés en expression **et** exact |
 | Exclusions | 147, au niveau campagne (27 au montage, 120 le 04/09) |
-| Composants | liens annexes, accroches, extrait, appel (01/09) · **6 images** plats, devanture, chefs (07/09), au niveau campagne |
+| Composants | liens annexes, accroches, extrait, appel (01/09) · **6 images** plats, devanture, chefs (07/09), au niveau campagne · accroche avis « 5,0/5, plus de 220 avis » (11/09) |
 
 **Pourquoi elle était en pause, et pourquoi elle ne l'est plus.** Le script l'avait créée
 `PAUSED` exprès : ne pas démarrer avant que `generate_lead` soit étoilée dans GA4 puis importée
@@ -236,7 +236,15 @@ Extraction en lecture seule par `ads/larencontre-perf.mjs` et
 - Découverte prend 78 % des clics ; `"ou manger a bordeaux"` seul fait 20 clics et 11,06 €
   pour 0 conversion. À trancher au J+14, pas avant : la conversion est venue de ce groupe.
 
-**Prochaines actions :** validation de l'annonceur par le titulaire ; **relever à J+14 vers le
+**Le 11/09, nombre d'avis corrigé dans les annonces.** Nicolas relève que la fiche Google
+affiche plus de 220 avis, pas 150. Les sept textes qui portaient « 150 avis » — un titre et une
+description par groupe, une accroche de campagne — sont passés à « plus de 220 » avec
+`ads/larencontre-avis-220.mjs` : annonces mises à jour en place (même id, historique et pins
+conservés), accroche remplacée. Relu chez Google : 0 texte à 150, les trois annonces toujours
+`APPROVED`. **Le site, lui, dit encore « Plus de 150 avis »** dans le bloc « Ils en parlent »
+de l'accueil : à corriger côté site, l'annonce et la page doivent dire la même chose.
+
+**Prochaines actions :** faire passer le site à « plus de 220 avis » ; validation de l'annonceur par le titulaire ; **relever à J+14 vers le
 17/09** — QS, CTR jour contre jour, deuxième conversion, part des enseignes après la deuxième
 vague, cumul mensuel sous 150 €. Budget et enchères : ne pas toucher ; `"ou manger a bordeaux"`
 à trancher au J+14.
