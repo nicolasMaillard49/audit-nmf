@@ -1,4 +1,4 @@
-# État des travaux Google Ads — 10 septembre 2026
+# État des travaux Google Ads — 11 septembre 2026
 
 Vue transverse des quatre dossiers clients. Ce fichier ne contient **aucun chiffre qui ne
 soit pas déjà dans un `data/*.json`, un script versionné ou un relevé daté** : il dit où en
@@ -10,7 +10,7 @@ Tous les comptes clients sont sous le MCC **`671-181-3801`**.
 | Client | Compte Ads | Campagne | Statut | Prochaine action |
 |---|---|---|---|---|
 | [Totowood](#totowood) | `370-246-3294` | **diffuse** depuis le 31/08 | 63/72 étapes ; images refusées par Google (compte non éligible) | débloquer les mentions légales du client, finir la validation de l'annonceur puis retenter les images |
-| [La Rencontre](#la-rencontre) | `404-054-1764` | **diffuse** depuis le 03/09 | **1re conversion le 09/09**, suivi vérifié actif ; annonces approuvées, 6 images en diffusion, CPC 0,63 € ; 147 exclusions, 382 de plus prêtes | poser la 2e vague d'exclusions sur go ; validation de l'annonceur ; relever à J+14 vers le 17/09 |
+| [La Rencontre](#la-rencontre) | `404-054-1764` | **diffuse** depuis le 03/09 | **1re conversion le 09/09**, suivi vérifié actif ; annonces approuvées, 6 images en diffusion, CPC 0,63 € ; **529 exclusions** depuis la 2e vague du 11/09 | validation de l'annonceur ; relever à J+14 vers le 17/09 |
 | [GP elec](#gp-elec) | **à créer** | — | zone et enchère tranchées, livrables périmés | réécrire les 3 PDF, créer le compte à la main |
 | [RH Patrimoine](#rh-patrimoine) | existant, au client | déjà active chez lui | audit prospect livré | aucune en cours |
 
@@ -230,15 +230,16 @@ Extraction en lecture seule par `ads/larencontre-perf.mjs` et
   **52 % de la dépense visible reste partie sur des enseignes** — 200 noms nouveaux en cinq
   jours, et quatre exclusions contournées par une variante (`le bouscat` n'a pas bloqué
   `hippodrome bouscat`, 1,52 €). Règle apprise : en expression, les mots doivent être contigus
-  — exclure le nom **seul**. **Deuxième vague prête, non posée** : 382 exclusions validées chez
-  Google dans `la-rencontre/data/exclusions-proposees-2026-09-10.json`.
+  — exclure le nom **seul**. **Deuxième vague posée le 11/09** : 382 exclusions en expression
+  (`la-rencontre/data/exclusions-proposees-2026-09-10.json`), 3 doublons écartés, campagne
+  relue à **529 exclusions** (147 avant). Effet à mesurer au J+14 sur la part des enseignes.
 - Découverte prend 78 % des clics ; `"ou manger a bordeaux"` seul fait 20 clics et 11,06 €
   pour 0 conversion. À trancher au J+14, pas avant : la conversion est venue de ce groupe.
 
-**Prochaines actions :** poser la deuxième vague sur le go de Nicolas (`larencontre-exclusions.mjs
---source … --go`) ; validation de l'annonceur par le titulaire ; **relever à J+14 vers le
-17/09** — QS, CTR jour contre jour, deuxième conversion, cumul mensuel sous 150 €. Budget et
-enchères : ne pas toucher.
+**Prochaines actions :** validation de l'annonceur par le titulaire ; **relever à J+14 vers le
+17/09** — QS, CTR jour contre jour, deuxième conversion, part des enseignes après la deuxième
+vague, cumul mensuel sous 150 €. Budget et enchères : ne pas toucher ; `"ou manger a bordeaux"`
+à trancher au J+14.
 
 **La chaîne de conversion est complète et vérifiée. Rien ne reste à brancher.**
 

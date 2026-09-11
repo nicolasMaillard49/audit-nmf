@@ -5,7 +5,7 @@
     "campaign": "24197703801",
     "date": "2026-09-10",
     "source": "termes-2026-09-05-au-10.json — 538 termes distincts declenches du 05/09 au 09/09, apres la premiere vague d'exclusions du 04/09",
-    "etat": "PROPOSITION, non appliquee. A poser avec ads/larencontre-exclusions.mjs --source <ce fichier> [--go] depuis scrapProsp.",
+    "etat": "APPLIQUEE le 11/09/2026 avec ads/larencontre-exclusions.mjs --source <ce fichier> --go : 382 posees, 3 doublons ecartes, campagne relue a 529 exclusions (147 avant), dont 502 en expression et 27 en large.",
     "niveau": "campagne",
     "lecon_de_la_premiere_vague": "Trois exclusions du 04/09 ont laisse passer une variante : « le bouscat » n'a pas bloque « restaurant hippodrome bouscat » (1,52 EUR, le clic le plus cher de la semaine), « elios bordeaux » n'a pas bloque « elios restaurant bordeaux », « melodie bordeaux » n'a pas bloque « melodie restaurant » ni « le melody bordeaux », « demeter bordeaux » n'a pas bloque « demeter menu ». En correspondance d'expression, les mots de l'exclusion doivent etre CONTIGUS dans la requete. Regle retenue ici : exclure le nom de l'enseigne SEUL, sans « bordeaux » ni « restaurant » accole.",
     "constat": "Du 05/09 au 09/09 : 20,68 EUR sur les termes visibles, dont 10,84 EUR (52 %) sur des enseignes precises ou des requetes hors offre. La premiere vague a bien tari les marques du jour 1 (tupina, talence, palatino... : zero impression depuis), mais la longue traine est sans fin — 200 enseignes nouvelles en cinq jours. Cette deuxieme vague couvre tout ce qui est passe ; la reponse de fond reste la ponderation des mots cles generiques (voir le releve J+7)."
