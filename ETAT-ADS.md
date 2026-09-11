@@ -244,7 +244,22 @@ conservés), accroche remplacée. Relu chez Google : 0 texte à 150, les trois a
 `APPROVED`. **Le site, lui, dit encore « Plus de 150 avis »** dans le bloc « Ils en parlent »
 de l'accueil : à corriger côté site, l'annonce et la page doivent dire la même chose.
 
-**Prochaines actions :** faire passer le site à « plus de 220 avis » ; validation de l'annonceur par le titulaire ; **relever à J+14 vers le
+**Le 11/09, un mail par réservation venue d'une annonce.** Google Ads compte la conversion
+mais ne dit jamais qui a réservé. Le site (commit `2a23bc7` du dépôt du site, déployé sur push)
+capte désormais l'identifiant de clic à l'arrivée — `gclid`, ou `gbraid`/`wbraid` sur iOS, plus
+`gad_source` et `gad_campaignid` ; l'autotagging est bien actif sur le compte —, le garde 90 jours
+en cookie (la fenêtre de conversion) et le renvoie avec la demande. Le back le stocke sur la
+réservation (six colonnes nullables, migration additive) et envoie un mail dédié « Réservation
+via Google Ads » avec nom, e-mail, téléphone, notes, date, couverts, statut, page d'arrivée,
+campagne et identifiant de clic. Destinataire : la variable `ADS_ALERT_EMAIL` sur Railway
+(plusieurs adresses possibles), à défaut `ADMIN_EMAIL`, donc le restaurant. **Tant que la variable
+n'est pas posée, c'est le restaurant qui reçoit ce mail, pas Nicolas.** Le mot clé et la
+recherche tapée ne sont pas dans l'URL : ils restent à lire dans le rapport Termes de recherche
+à la date du clic.
+
+**Prochaines actions :** poser `ADS_ALERT_EMAIL=nico39320@gmail.com` dans les variables du
+service backend sur Railway (redémarrage automatique) ; faire passer le site à « plus de 220
+avis » ; validation de l'annonceur par le titulaire ; **relever à J+14 vers le
 17/09** — QS, CTR jour contre jour, deuxième conversion, part des enseignes après la deuxième
 vague, cumul mensuel sous 150 €. Budget et enchères : ne pas toucher ; `"ou manger a bordeaux"`
 à trancher au J+14.
